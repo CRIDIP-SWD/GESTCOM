@@ -95,7 +95,7 @@ if(isset($_GET['action']) && $_GET['action'] == 'logoff')
     require "../app/classe.php";
     $identifiant = $_GET['identifiant'];
 
-    $update = $DB->execute("UPDATE user SET statut = 0 WHERE identifiant = :identifiant");
+    $update = $DB->execute("UPDATE user SET statut = 0 WHERE identifiant = '$identifiant'");
     $error = "Impossible de ce déconnecter car le serveur de base de donnée n'à pas pus identifier l'utilisateur.";
     var_dump($update);
     die();
