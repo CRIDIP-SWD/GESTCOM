@@ -93,10 +93,10 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
 if(isset($_GET['action']) && $_GET['action'] == 'lock')
 {
     require "../app/classe.php";
-    $account_cls->lock($_SESSION['identifiant']);
+    $account_cls->lock($_GET['identifiant']);
 }
 if(isset($_GET['action']) && $_GET['action'] == 'logoff')
 {
     require "../app/classe.php";
-    $account_cls->logoff($_SESSION['identifiant']);
+    $account_cls->logoff($_GET['identifiant']);
 }
