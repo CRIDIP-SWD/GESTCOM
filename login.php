@@ -51,7 +51,6 @@ require "app/classe.php";
                 <div class="panel-title-sign mt-xl text-right">
                     <h2 class="title text-uppercase text-weight-bold m-none"><i class="fa fa-user mr-xs"></i> CONNEXION</h2>
                 </div>
-                <?php var_dump($ip_api->get()); ?>
                 <div class="panel-body">
                     <form action="<?= $constante->getUrl(array('core/'), false, false); ?>user.php" method="post">
                         <div class="form-group mb-lg">
