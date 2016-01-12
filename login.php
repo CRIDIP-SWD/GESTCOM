@@ -51,7 +51,6 @@ require "app/classe.php";
                 <div class="panel-title-sign mt-xl text-right">
                     <h2 class="title text-uppercase text-weight-bold m-none"><i class="fa fa-user mr-xs"></i> CONNEXION</h2>
                 </div>
-                <?php var_dump($gi); ?>
                 <?php var_dump($fonction->getOs($_SERVER['HTTP_USER_AGENT'])); ?>
                 <?php var_dump($fonction->getNav()); ?>
                 <div class="panel-body">
