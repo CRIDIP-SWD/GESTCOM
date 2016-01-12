@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'font-awesome', 'css/'), true, false); ?>font-awesome.css" />
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'magnific-popup/'), true, false); ?>magnific-popup.css" />
-    <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'bootstrap-datepicker', 'css/'), true, false); ?>assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
+    <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'bootstrap-datepicker', 'css/'), true, false); ?>datepicker3.css" />
 
     <!-- Specific Page Vendor CSS -->
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'jquery-ui', 'css', 'ui-lightness/'), true, false); ?>jquery-ui-1.10.4.custom.css" />
@@ -1649,7 +1649,7 @@
 <script src="<?= $constante->getUrl(array('vendor', 'bootstrap', 'js/'), true, false); ?>bootstrap.js"></script>
 <script src="<?= $constante->getUrl(array('vendor', 'nanoscoller/'), true, false); ?>nanoscroller.js"></script>
 <script src="<?= $constante->getUrl(array('vendor', 'bootstrap-datepicker', 'js/'), true, false); ?>bootstrap-datepicker.js"></script>
-<script src="<?= $constante->getUrl(array('vendor', 'magnific-popup/'), true, false); ?>-popup.js"></script>
+<script src="<?= $constante->getUrl(array('vendor', 'magnific-popup/'), true, false); ?>magnific-popup.js"></script>
 <script src="<?= $constante->getUrl(array('vendor', 'jquery-placeholder/'), true, false); ?>jquery.placeholder.js"></script>
 
 <!-- Specific Page Vendor -->
