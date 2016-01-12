@@ -1647,7 +1647,7 @@
 <script src="<?= $constante->getUrl(array('vendor', 'jquery/'), true, false); ?>jquery.js"></script>
 <script src="<?= $constante->getUrl(array('vendor', 'jquery-browser-mobile/'), true, false); ?>jquery.browser.mobile.js"></script>
 <script src="<?= $constante->getUrl(array('vendor', 'bootstrap', 'js/'), true, false); ?>bootstrap.js"></script>
-<script src="<?= $constante->getUrl(array('vendor', 'nanoscoller/'), true, false); ?>nanoscroller.js"></script>
+<script src="<?= $constante->getUrl(array('vendor', 'nanoscroller/'), true, false); ?>nanoscroller.js"></script>
 <script src="<?= $constante->getUrl(array('vendor', 'bootstrap-datepicker', 'js/'), true, false); ?>bootstrap-datepicker.js"></script>
 <script src="<?= $constante->getUrl(array('vendor', 'magnific-popup/'), true, false); ?>magnific-popup.js"></script>
 <script src="<?= $constante->getUrl(array('vendor', 'jquery-placeholder/'), true, false); ?>jquery.placeholder.js"></script>
