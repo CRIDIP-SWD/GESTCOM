@@ -93,22 +93,11 @@ require "app/classe.php";
                             </div>
                         </div>
 
-							<span class="mt-lg mb-lg line-thru text-center text-uppercase">
-								<span>or</span>
-							</span>
-
-                        <div class="mb-xs text-center">
-                            <a class="btn btn-facebook mb-md ml-xs mr-xs">Connect with <i class="fa fa-facebook"></i></a>
-                            <a class="btn btn-twitter mb-md ml-xs mr-xs">Connect with <i class="fa fa-twitter"></i></a>
-                        </div>
-
-                        <p class="text-center">Don't have an account yet? <a href="pages-signup.html">Sign Up!</a>
-
                     </form>
                 </div>
             </div>
 
-            <p class="text-center text-muted mt-md mb-md">&copy; Copyright 2014. All Rights Reserved.</p>
+            <p class="text-center text-muted mt-md mb-md">&copy; Copyright 2016. All Rights Reserved.</p>
         </div>
     </section>
     <!-- end: page -->
