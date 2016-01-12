@@ -4,6 +4,7 @@ if(!isset($_SESSION['identifiant']))
     header("Location: ".$constante->getUrl(array(), false, false)."login.php?warning=no-connect");
 }
 ini_set('display_errors', 1);
+$info_user = $account_cls->info($_SESSION['identifiant']);
 ?>
 <!doctype html>
 <html class="fixed">
@@ -245,8 +246,8 @@ ini_set('display_errors', 1);
                         <img src="assets/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
                     </figure>
                     <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
-                        <span class="name">John Doe Junior</span>
-                        <span class="role">administrator</span>
+                        <span class="name"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></span>
+                        <span class="role"><?= $info_user[0]->poste; ?></span>
                     </div>
 
                     <i class="fa custom-caret"></i>

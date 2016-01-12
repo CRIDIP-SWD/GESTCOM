@@ -5,6 +5,7 @@ require dirname(__DIR__)."/app/autoloader.php";
 //Vendor Composer
 require dirname(__DIR__)."/vendor/autoload.php";
 
+use App\account\account;
 use App\app;
 use App\constante;
 use App\date_format;
@@ -20,9 +21,8 @@ $DB = new DB();
 $date_format = new date_format();
 $ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 $show_ip = $ip_api->get();
-
-
 //---------------------------------//
+$account_cls = new account();
 
 
 
