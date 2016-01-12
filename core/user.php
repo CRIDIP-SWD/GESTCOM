@@ -36,10 +36,9 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
                 "os"                => $os,
                 "statut"            => 1
             ));
-            var_dump($user);
-            die();
 
-            if($user[0] == 1)
+
+            if($user == 1)
             {
                 $update = $DB->execute("UPDATE user SET statut = :statut WHERE iduser = :iduser", array(
                    "statut" => 2,
