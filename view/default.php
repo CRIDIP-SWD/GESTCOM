@@ -927,5 +927,19 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
 <!-- Examples -->
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>dashboard/examples.dashboard.js"></script>
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>ui-elements/examples.notifications.js"></script>
+
+<?php if(isset($_GET['error']) && $_GET['error'] == 'critical'){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            new PNotify({
+                title: 'Erreur',
+                text: 'Erreur Critique: <?= html_entity_decode($_GET['data']); ?>',
+                addclass: 'error',
+                icon: 'fa fa-times'
+		    });
+        })
+    </script>
+<?php } ?>
+
 </body>
 </html>
