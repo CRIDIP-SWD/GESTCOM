@@ -1,5 +1,4 @@
 <?php
-session_start();
 if(!isset($_SESSION['identifiant']))
 {
     header("Location: ".$constante->getUrl(array(), false, false)."login.php?warning=no-connect");
