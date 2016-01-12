@@ -345,3 +345,24 @@ class DB extends app{
         return $req->fetchColumn();
     }
 }
+
+class IP_API
+{
+    private $ip = "";
+    private $endpoint = "http://ip-api.com/json/";
+
+    public function __construct($adresse_ip)
+    {
+        $this->ip = $adresse_ip;
+
+    }
+
+    public function get()
+    {
+        $curl = curl_init($this->endpoint.$this->ip);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        $head = curl_exec($curl);
+        $data = json_decode($head);
+        return $data;
+    }
+}

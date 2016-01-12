@@ -10,6 +10,7 @@ use App\constante;
 use App\date_format;
 use App\DB;
 use App\fonction;
+use App\IP_API;
 use \Ovh\Api;
 
 $app = new app();
@@ -17,12 +18,12 @@ $constante = new constante();
 $fonction = new fonction();
 $DB = new DB();
 $date_format = new date_format();
-
+$ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 
 
 //---------------------------------//
 
-$gi = geoip_open($constante->getUrl(array(), false, true)."GeoIP.dat", GEOIP_STANDARD);
+
 
 
 
