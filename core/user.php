@@ -100,7 +100,7 @@ if(isset($_GET['action']) && $_GET['action'] == 'logoff')
     ));
     $error = "Impossible de ce déconnecter car le serveur de base de donnée n'à pas pus identifier l'utilisateur.";
 
-    if($update === 1)
+    if($update[0] === 1)
     {
         header("Location: ../../login.php?success=disconnect");
     }else{
