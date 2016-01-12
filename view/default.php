@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="<?= $constante->getUrl(array('stylesheets/'), true, false); ?>theme-custom.css">
 
     <!-- Head Libs -->
-    <script src="<?= $constante->getUrl(array('vendor', 'modernizr/'), true, false); ?>assets/vendor/modernizr/modernizr.js"></script>
+    <script src="<?= $constante->getUrl(array('vendor', 'modernizr/'), true, false); ?>modernizr.js"></script>
 </head>
 <body>
 <section class="body">
