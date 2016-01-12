@@ -156,7 +156,7 @@ require "app/classe.php";
         $(document).ready(function(){
             new PNotify({
                 title: 'Erreur',
-                text: 'Erreur CRITIQUE: <?= html_entity_decode($_GET['data']);?>',
+                text: "Erreur CRITIQUE: <?= html_entity_decode($_GET['data']);?>",
                 addclass: 'error',
                 icon: 'fa fa-times'
 		    }); 
