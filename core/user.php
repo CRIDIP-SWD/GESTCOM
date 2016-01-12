@@ -22,7 +22,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             $_SESSION['identifiant'] = $identifiant;
             $heure_connexion = strtotime(date("H:i:s"));
             $ip_connexion = $_SERVER['REMOTE_ADDR'];
-            $emplacement = $show_ip['country'];
+            $emplacement = $show_ip->country;
             $navigateur = $fonction->getNav();
             $os = $fonction->getOs();
 
