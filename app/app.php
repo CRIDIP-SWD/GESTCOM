@@ -355,12 +355,11 @@ class DB extends app{
         }
     }
 
-    public function execute($sql, $data = null)
+    public function execute($sql)
     {
         try {
-            $req = $this->db->prepare($sql);
-            $req->execute($data);
-            return $req->rowCount();
+            $req = $this->db->exec($sql);
+            return $req;
         }catch(PDOException $e)
         {
             return $e->getCode().": ".$e->getMessage();
