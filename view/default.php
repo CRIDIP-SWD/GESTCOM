@@ -34,6 +34,7 @@ ini_set('display_errors', 1);
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'jquery-ui', 'css', 'ui-lightness/'), true, false); ?>jquery-ui-1.10.4.custom.css" />
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'bootstrap-multiselect/'), true, false); ?>bootstrap-multiselect.css" />
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'morris/'), true, false); ?>morris.css" />
+    <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'pnotify/'), true, false); ?>pnotify.custom.css" />
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="<?= $constante->getUrl(array('stylesheets/'), true, false); ?>theme.css" />
@@ -914,18 +915,16 @@ ini_set('display_errors', 1);
 <script src="<?= $constante->getUrl(array('vendor/'), true, false); ?>jqvmap/maps/continents/jquery.vmap.europe.js"></script>
 <script src="<?= $constante->getUrl(array('vendor/'), true, false); ?>jqvmap/maps/continents/jquery.vmap.north-america.js"></script>
 <script src="<?= $constante->getUrl(array('vendor/'), true, false); ?>jqvmap/maps/continents/jquery.vmap.south-america.js"></script>
+<script src="<?= $constante->getUrl(array('vendor/'), true, false); ?>pnotify/pnotify.custom.js"></script>
 
-<!-- Theme Base, Components and Settings -->
+
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>theme.js"></script>
-
-<!-- Theme Custom -->
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>theme.custom.js"></script>
-
-<!-- Theme Initialization Files -->
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>theme.init.js"></script>
 
 
 <!-- Examples -->
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>dashboard/examples.dashboard.js"></script>
+<script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>ui-elements/examples.notifications.js"></script>
 </body>
 </html>
