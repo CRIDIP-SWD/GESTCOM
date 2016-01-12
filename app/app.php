@@ -269,7 +269,7 @@ class fonction extends app
         );
         $ua = strtolower($ua);
         foreach($os_arr as $k => $v):
-            if(preg_match(strtolower($k), $ua))
+            if(ereg(strtolower($k), $ua))
             {
                 $os = $v;
                 break;
