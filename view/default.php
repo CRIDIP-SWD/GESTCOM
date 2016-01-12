@@ -243,7 +243,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
             <div id="userbox" class="userbox">
                 <a href="#" data-toggle="dropdown">
                     <figure class="profile-picture">
-                        <img src="assets/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
+                        <img src="<?= $constante->getUrl(array('avatar/'), false, true); ?><?= $info_user[0]->identifiant; ?>.jpg" alt="<?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?>" class="img-circle" data-lock-picture="<?= $constante->getUrl(array('avatar/'), false, true); ?><?= $info_user[0]->identifiant; ?>.jpg" />
                     </figure>
                     <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
                         <span class="name"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></span>
