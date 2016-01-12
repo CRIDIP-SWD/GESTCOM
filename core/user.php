@@ -90,13 +90,20 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
         header("Location: ../login.php?warning=champs");
     }
 }
-if(isset($_GET['action']) && $_GET['action'] == 'lock')
-{
-    require "../app/classe.php";
-    $account_cls->lock($_GET['identifiant']);
-}
 if(isset($_GET['action']) && $_GET['action'] == 'logoff')
 {
     require "../app/classe.php";
-    $account_cls->logoff($_GET['identifiant']);
+    $identifiant = $_GET['identifiant'];
+
+    $update = $DB->execute("UPDATE user SET statut = 0 WHERE identifiant = :identifiant", array(
+        "identifiant"   => $identifiant
+    ));
+    $error = "Impossible de ce déconnecter car le serveur de base de donnée n'à pas pus identifier l'utilisateur.";
+
+    if($update === 1)
+    {
+        header("Location: ../../login.php?success=disconnect");
+    }else{
+        header("Location: ../../index.php?view=home&error=critical&data=$error");
+    }
 }

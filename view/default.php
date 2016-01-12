@@ -260,7 +260,13 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                             <a role="menuitem" tabindex="-1" href="index.php?view=profil"><i class="fa fa-user"></i> Mon profil</a>
                         </li>
                         <li>
-                            <a role="menuitem" tabindex="-1" href="core/user.php?action=lock&identifiant=<?= $info_user[0]->identifiant; ?>" data-lock-screen="true"><i class="fa fa-lock"></i> Vérouillez</a>
+                            <a role="menuitem" tabindex="-1" href="index.php?view=calendar"><i class="fa fa-calendar"></i> Mon Calendrier</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="index.php?view=messagerie"><i class="fa fa-envelope-square"></i> Ma Boite Mail</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="index.php?view=profil"><i class="fa fa-tasks"></i> Mes Taches</a>
                         </li>
                         <li>
                             <a role="menuitem" tabindex="-1" href="core/user.php?action=logoff&identifiant=<?= $info_user[0]->identifiant; ?>"><i class="fa fa-power-off"></i> Déconnexion</a>
