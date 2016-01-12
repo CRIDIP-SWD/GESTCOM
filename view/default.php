@@ -49,8 +49,8 @@ ini_set('display_errors', 1);
     <!-- start: header -->
     <header class="header">
         <div class="logo-container">
-            <a href="../" class="logo">
-                <img src="assets/images/logo.png" height="35" alt="Porto Admin" />
+            <a href="index.php?view=home" class="logo">
+                <img src="<?= $constante->getUrl(array('images/'), true, false); ?>logo.png" height="35" alt="<?= \App\constante::NOM_SITE; ?>" />
             </a>
             <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
                 <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
