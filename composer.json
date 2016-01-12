@@ -10,6 +10,7 @@
     }
   ],
   "require": {
-    "ovh/ovh": "1.x-dev"
+    "ovh/ovh": "1.x-dev",
+    "geoip/geoip": "v1.15"
   }
 }

@@ -51,8 +51,9 @@ require "app/classe.php";
                 <div class="panel-title-sign mt-xl text-right">
                     <h2 class="title text-uppercase text-weight-bold m-none"><i class="fa fa-user mr-xs"></i> CONNEXION</h2>
                 </div>
+                <?php var_dump($_SERVER); ?>
                 <div class="panel-body">
-                    <form action="index.html" method="post">
+                    <form action="<?= $constante->getUrl(array('core/'), false, false); ?>user.php" method="post">
                         <div class="form-group mb-lg">
                             <label>Nom d'utilisateur</label>
                             <div class="input-group input-group-icon">
@@ -88,7 +89,7 @@ require "app/classe.php";
                                 </div>
                             </div>
                             <div class="col-sm-4 text-right">
-                                <button type="submit" class="btn btn-primary hidden-xs">Connexion</button>
+                                <button type="submit" class="btn btn-primary hidden-xs" name="action" value="connexion">Connexion</button>
                                 <button type="submit" class="btn btn-primary btn-block btn-lg visible-xs mt-lg">Sign In</button>
                             </div>
                         </div>

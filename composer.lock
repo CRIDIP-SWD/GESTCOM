@@ -4,9 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6624460c559e6eea492c696913477c91",
-    "content-hash": "281cd199fcff1698910e64c421d84434",
+    "hash": "9825ac9806a6330ea4d5049fc76e2168",
+    "content-hash": "f95892b962985b0f6464c93c1b125442",
     "packages": [
+        {
+            "name": "geoip/geoip",
+            "version": "v1.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxmind/geoip-api-php.git",
+                "reference": "352ab1a43124b13878e1dc58ccd16c9d607cae22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxmind/geoip-api-php/zipball/352ab1a43124b13878e1dc58ccd16c9d607cae22",
+                "reference": "352ab1a43124b13878e1dc58ccd16c9d607cae22",
+                "shasum": ""
+            },
+            "conflict": {
+                "ext-geoip": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/geoip.inc",
+                    "src/geoipcity.inc",
+                    "src/timezone.php"
+                ]
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "LGPL 2.1+"
+            ],
+            "authors": [
+                {
+                    "name": "MaxMind, Inc.",
+                    "email": "support@maxmind.com",
+                    "homepage": "http://www.maxmind.com/"
+                }
+            ],
+            "description": "MaxMind GeoIP PHP API",
+            "homepage": "http://dev.maxmind.com/geoip/legacy/downloadable",
+            "keywords": [
+                "geoip",
+                "geolocation",
+                "maxmind"
+            ],
+            "time": "2015-05-01 17:22:02"
+        },
         {
             "name": "guzzlehttp/guzzle",
             "version": "5.3.x-dev",
@@ -170,7 +219,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ovh/php-ovh/zipball/efd770390a3fe9b91c31c9f3a205f4023f75d161",
+                "url": "https://api.github.com/repos/ovh/php-ovh/zipball/84d7ff825ec5ce142d958b45e6c3b37e01371cdd",
                 "reference": "efd770390a3fe9b91c31c9f3a205f4023f75d161",
                 "shasum": ""
             },

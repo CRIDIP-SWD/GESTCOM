@@ -20,7 +20,9 @@ $date_format = new date_format();
 
 
 
+//---------------------------------//
 
+$gi = geoip_open($constante->getUrl(array(), false, true)."GeoIP.dat", GEOIP_STANDARD);
 
 
 
