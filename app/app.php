@@ -241,7 +241,9 @@ class fonction extends app
         $os = "OS Inconnu";
 
         $os_arr = array(
-            'Windows NT 6.1'       => 'Windows Seven',
+            'Windows NT 10.0'      => 'Windows 10',
+            'Windows NT 8.1'       => 'Windows 8',
+            'Windows NT 6.1'       => 'Windows 7',
             'Windows NT 6.0'       => 'Windows Vista',
             'Windows NT 5.2'       => 'Windows Server 2003',
             'Windows NT 5.1'       => 'Windows XP',
@@ -276,6 +278,27 @@ class fonction extends app
             }
         endforeach;
         return $os;
+    }
+    public function getNav()
+    {
+        $navigateur = array(
+            "firefox"   => "Mozilla Firefox",
+            "opera"     => "Opéra",
+            "safari"    => "Safari",
+            "netscape"  => "Netscape",
+            "msie"      => "Internet Explorer"
+        );
+        $erreur = "Navigateur non reconnu";
+
+        $useragent = $_SERVER['HTTP_USER_AGENT'];
+        $useragent = strtolower($useragent);
+
+        foreach($navigateur as $key => $value):
+            if(strpos($useragent, $key) !== false):
+                return $value;
+            endif;
+            return $erreur;
+        endforeach;
     }
 }
 
