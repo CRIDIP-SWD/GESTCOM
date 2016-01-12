@@ -51,11 +51,42 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
 
         }elseif($data[0] == 0)
         {
+            $heure_connexion = strtotime(date("H:i:s"));
+            $ip_connexion = $_SERVER['REMOTE_ADDR'];
+            $emplacement = $show_ip->country;
+            $navigateur = $fonction->getNav();
+            $os = $fonction->getOs();
+            $user = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
+                "id"                => NULL,
+                "identite"          => $identifiant,
+                "heure_connexion"   => $heure_connexion,
+                "ip_connexion"      => $ip_connexion,
+                "emplacement"       => $emplacement,
+                "navigateur"        => $navigateur,
+                "os"                => $os,
+                "statut"            => 0
+            ));
             header("Location: ../login.php?warning=no-compte");
         }else{
+            $heure_connexion = strtotime(date("H:i:s"));
+            $ip_connexion = $_SERVER['REMOTE_ADDR'];
+            $emplacement = $show_ip->country;
+            $navigateur = $fonction->getNav();
+            $os = $fonction->getOs();
+            $user = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
+                "id"                => NULL,
+                "identite"          => $identifiant,
+                "heure_connexion"   => $heure_connexion,
+                "ip_connexion"      => $ip_connexion,
+                "emplacement"       => $emplacement,
+                "navigateur"        => $navigateur,
+                "os"                => $os,
+                "statut"            => 0
+            ));
             header("Location: ../login.php?error=critical&data='Erreur dans la base de donnee'");
         }
     }else{
+
         header("Location: ../login.php?warning=champs");
     }
 }
