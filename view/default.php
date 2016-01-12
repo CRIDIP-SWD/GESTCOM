@@ -260,10 +260,10 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                             <a role="menuitem" tabindex="-1" href="index.php?view=profil"><i class="fa fa-user"></i> Mon profil</a>
                         </li>
                         <li>
-                            <a role="menuitem" tabindex="-1" href="<?= $account_cls->logoff($info_user[0]->identifiant); ?>" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
+                            <a role="menuitem" tabindex="-1" href="core/user.php?action=lock" data-lock-screen="true"><i class="fa fa-lock"></i> Vérouillez</a>
                         </li>
                         <li>
-                            <a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fa fa-power-off"></i> Logout</a>
+                            <a role="menuitem" tabindex="-1" href="core/user.php?action=logoff"><i class="fa fa-power-off"></i> Déconnexion</a>
                         </li>
                     </ul>
                 </div>

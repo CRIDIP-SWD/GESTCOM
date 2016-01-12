@@ -90,3 +90,13 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
         header("Location: ../login.php?warning=champs");
     }
 }
+if(isset($_GET['action']) && $_GET['action'] == 'lock')
+{
+    require "../app/classe.php";
+    $account_cls->lock($_SESSION['identifiant']);
+}
+if(isset($_GET['action']) && $_GET['action'] == 'logoff')
+{
+    require "../app/classe.php";
+    $account_cls->logoff($_SESSION['identifiant']);
+}
