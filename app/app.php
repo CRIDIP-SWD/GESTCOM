@@ -344,6 +344,14 @@ class DB extends app{
         $req->execute($data);
         return $req->fetchColumn();
     }
+
+    public function execute($sql, $data = null)
+    {
+        $req = $this->db->prepare($sql);
+        $req->execute($data);
+        return $req->rowCount();
+
+    }
 }
 
 class IP_API
