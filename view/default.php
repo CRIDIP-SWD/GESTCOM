@@ -934,7 +934,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
             new PNotify({
                 title: 'Erreur',
                 text: '<strong>Erreur Critique:</strong> <?= html_entity_decode($_GET['data']); ?>',
-                addclass: 'error',
+                type: 'error',
                 icon: 'fa fa-times'
 		    });
         })
