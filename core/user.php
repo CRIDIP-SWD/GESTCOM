@@ -2,7 +2,7 @@
 if(isset($_POST['action']) && $_POST['action'] == 'connexion')
 {
     require "../app/classe.php";
-    if((isset($_POST['email']) && !empty($_POST['email'])) && (isset($_POST['password']) && !empty($_POST['password'])))
+    if((isset($_POST['identifiant']) && !empty($_POST['identifiant'])) && (isset($_POST['password']) && !empty($_POST['password'])))
     {
         $identifiant = $_POST['identifiant'];
         $password = $_POST['password'];
