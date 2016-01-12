@@ -126,6 +126,7 @@ require "app/classe.php";
 
 <!-- SCRIPT VENDOR -->
 <script src="assets/vendor/pnotify/pnotify.custom.js"></script>
+<script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>ui-elements/examples.notifications.js"></script>
 
 <!-- NOTIF -->
 <?php if(isset($_GET['warning']) && $_GET['warning'] == 'no-compte'){ ?>
@@ -157,7 +158,7 @@ require "app/classe.php";
             new PNotify({
                 title: 'Erreur',
                 text: "Erreur CRITIQUE: <?= html_entity_decode($_GET['data']);?>",
-                addclass: 'error',
+                type: 'error',
                 icon: 'fa fa-times'
 		    }); 
         })
