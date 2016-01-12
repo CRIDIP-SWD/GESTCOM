@@ -25,6 +25,8 @@ require "app/classe.php";
     <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
     <link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
 
+    <link rel="stylesheet" href="assets/vendor/pnotify/pnotify.custom.css" />
+
     <!-- Theme CSS -->
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
 
@@ -120,6 +122,48 @@ require "app/classe.php";
 
 <!-- Theme Initialization Files -->
 <script src="assets/javascripts/theme.init.js"></script>
+
+
+<!-- SCRIPT VENDOR -->
+<script src="assets/vendor/pnotify/pnotify.custom.js"></script>
+
+<!-- NOTIF -->
+<?php if(isset($_GET['warning']) && $_GET['warning'] == 'no-compte'){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            new PNotify({
+                title: 'ATTENTION',
+                text: 'Aucun compte correspondant dans la base de donnée',
+                icon: 'fa fa-warning'
+		    }); 
+        })
+    </script>
+<?php } ?>
+<?php if(isset($_GET['warning']) && $_GET['warning'] == 'champs'){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            new PNotify({
+                title: 'ATTENTION',
+                text: 'Au moins un des champs est vide.',
+                icon: 'fa fa-warning'
+		    }); 
+        })
+    </script>
+<?php } ?>
+
+<?php if(isset($_GET['error']) && $_GET['error'] == 'critical'){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            new PNotify({
+                title: 'Erreur',
+                text: 'Erreur CRITIQUE: <?= html_entity_decode($_GET['data']);?>',
+                addclass: 'error',
+                icon: 'fa fa-times'
+		    }); 
+        })
+    </script>
+<?php } ?>
+
 
 </body>
 </html>

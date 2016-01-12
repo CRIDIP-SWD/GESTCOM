@@ -45,14 +45,14 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
                 ));
                 header("Location: ../index.php?view=home");
             }else{
-                header("Location: ../login.php?error=critical");
+                header("Location: ../login.php?error=critical&data='Erreur de mise à jour'");
             }
 
         }elseif($data[0] == 0)
         {
             header("Location: ../login.php?warning=no-compte");
         }else{
-            header("Location: ../login.php?error=critical");
+            header("Location: ../login.php?error=critical&data='Erreur dans la base de donnee'");
         }
     }else{
         header("Location: ../login.php?warning=champs");
