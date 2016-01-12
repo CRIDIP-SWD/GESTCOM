@@ -12,7 +12,7 @@ $as = "quLnpFyrJO6fiOhBgsKMeHCAhr6Krdji";
 $endpoint = "https://eu.api.ovh.com/";
 $ck = "Vtc5O30QOJtL5MoJK2iXjRCfxnXU5yLU";
 $ovh = new Api($ak, $as, $endpoint, $ck);
-var_dump($ovh);
+var_dump($ovh->get("/me"));
 
 
 
