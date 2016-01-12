@@ -333,9 +333,14 @@ class DB extends app{
 
     public function query($sql, $data = null)
     {
-        $req = $this->db->prepare($sql);
-        $req->execute($data);
-        return $req->fetchAll(PDO::FETCH_OBJ);
+        try {
+            $req = $this->db->prepare($sql);
+            $req->execute($data);
+            return $req->fetchAll(PDO::FETCH_OBJ);
+        }catch(PDOException $e)
+        {
+            return $e->getCode().": ".$e->getMessage();
+        }
     }
 
     public function count($sql, $data = null)
