@@ -939,7 +939,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
         $(document).ready(function(){
             new PNotify({
                 title: 'Erreur',
-                text: '<strong>Erreur Critique:</strong> <?= html_entity_decode($_GET['data']); ?>',
+                text: "<strong>Erreur Critique:</strong> <?= html_entity_decode($_GET['data']); ?>",
                 type: 'error',
                 icon: 'fa fa-times'
 		    });
