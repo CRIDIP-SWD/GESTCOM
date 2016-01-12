@@ -23,6 +23,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             $heure_connexion = strtotime(date("H:i:s"));
             $ip_connexion = $_SERVER['REMOTE_ADDR'];
             $emplacement = geoip_country_name_by_addr($gi, $ip_connexion);
+            $navigateur = $_SERVER['HTTP_USER_AGENT'];
+
 
         }
     }
