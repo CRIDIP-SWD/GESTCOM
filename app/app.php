@@ -235,55 +235,47 @@ class fonction extends app
         return $lenght;
     }
 
-    public function navigateur($navigateur)
+    public function getOs($ua = null)
     {
-        if (preg_match_all("#Opera (.*)(\[[a-z]{2}\];)?$#isU", $_SERVER["HTTP_USER_AGENT"], $version))
-        {
-            $navigateur = 'Opéra ' . $version[1][0];
-        }
-        elseif (preg_match_all("#MSIE (.*);#isU", $_SERVER["HTTP_USER_AGENT"], $version))
-        {
-            $navigateur = 'Internet Explorer ' . $version[1][0];
-        }
-        elseif (preg_match_all("#Firefox(.*)$#isU", $_SERVER["HTTP_USER_AGENT"], $version))
-        {
-            $version = str_replace('/', '', $version[1][0]);
-            $navigateur = 'Firefox ' . $version;
-        }
-        elseif (preg_match_all("#Chrome(.*) Safari#isU", $_SERVER["HTTP_USER_AGENT"], $version))
-        {
-            $version = str_replace('/', '', $version[1][0]);
-            $navigateur = 'Chrome ' . $version;
-        }
-        elseif (preg_match_all("#Opera(.*) \(#isU", $_SERVER["HTTP_USER_AGENT"], $version))
-        {
-            $version = str_replace('/', '', $version[1][0]);
-            $navigateur = 'Opéra ' . $version;
-        }
-        elseif (preg_match("#Nokia#", $_SERVER["HTTP_USER_AGENT"]))
-        {
-            $navigateur = 'Nokia';
-        }
-        elseif (preg_match("#Safari#", $_SERVER["HTTP_USER_AGENT"]))
-        {
-            $navigateur = 'Safari';
-        }
-        elseif (preg_match("#SeaMonkey#", $_SERVER["HTTP_USER_AGENT"]))
-        {
-            $navigateur = 'SeaMonkey';
-        }
-        elseif (preg_match("#PSP#", $_SERVER["HTTP_USER_AGENT"]))
-        {
-            $navigateur = 'PSP';
-        }
-        elseif (preg_match("#Netscape#", $_SERVER["HTTP_USER_AGENT"]))
-        {
-            $navigateur = 'Netscape';
-        }
-        else
-        {
-            $navigateur = 'Inconnu';
-        }
+        if(!$ua) $ua = $_SERVER['HTTP_USER_AGENT'];
+        $os = "OS Inconnu";
+
+        $os_arr = array(
+            'Windows NT 6.1'       => 'Windows Seven',
+            'Windows NT 6.0'       => 'Windows Vista',
+            'Windows NT 5.2'       => 'Windows Server 2003',
+            'Windows NT 5.1'       => 'Windows XP',
+            'Windows NT 5.0'       => 'Windows 2000',
+            'Windows 2000'         => 'Windows 2000',
+            'Windows CE'           => 'Windows Mobile',
+            'Win 9x 4.90'          => 'Windows Me.',
+            'Windows 98'           => 'Windows 98',
+            'Windows 95'           => 'Windows 95',
+            'Win95'                => 'Windows 95',
+            'Windows NT'           => 'Windows NT',
+            'Ubuntu'               => 'Linux Ubuntu',
+            'Fedora'               => 'Linux Fedora',
+            'Linux'                => 'Linux',
+            'Macintosh'            => 'Mac',
+            'Mac OS X'             => 'Mac OS X',
+            'Mac_PowerPC'          => 'Mac OS X',
+            'FreeBSD'              => 'FreeBSD',
+            'Unix'                 => 'Unix',
+            'Playstation portable' => 'PSP',
+            'OpenSolaris'          => 'SunOS',
+            'SunOS'                => 'SunOS',
+            'Nintendo Wii'         => 'Nintendo Wii',
+            'Mac'                  => 'Mac'
+        );
+        $ua = strtolower($ua);
+        foreach($os_arr as $k => $v):
+            if(preg_match(strtolower($k), $ua))
+            {
+                $os = $v;
+                break;
+            }
+        endforeach;
+        return $os;
     }
 }
 
