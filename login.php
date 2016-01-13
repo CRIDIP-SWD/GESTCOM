@@ -154,10 +154,7 @@ require "app/classe.php";
 <?php } ?>
 <?php if(isset($_GET['warning']) && $_GET['warning'] == 'no-connect'){ ?>
     <script type="text/javascript">
-        $(document).ready(function(){
-            var html = "<p>TEST</p>";
-            $("#info").html(this).show("slow");
-        })
+        $("#info").html("TEST").fadeIn("slow");
     </script>
 <?php } ?>
 
