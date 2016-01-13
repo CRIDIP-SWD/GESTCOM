@@ -43,59 +43,63 @@
         <mandatory>1</mandatory>
         <data-type>int(1)</data-type>
       </column>
-      <key id="12" parent="2" name="PRIMARY">
+      <column id="12" parent="2" name="commentaire">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="13" parent="2" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="13" parent="3" name="iduser">
+      <column id="14" parent="3" name="iduser">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="14" parent="3" name="identifiant">
+      <column id="15" parent="3" name="identifiant">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="15" parent="3" name="password">
+      <column id="16" parent="3" name="password">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="16" parent="3" name="nom_user">
+      <column id="17" parent="3" name="nom_user">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="17" parent="3" name="prenom_user">
+      <column id="18" parent="3" name="prenom_user">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="18" parent="3" name="poste">
+      <column id="19" parent="3" name="poste">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="19" parent="3" name="tel_support">
+      <column id="20" parent="3" name="tel_support">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="20" parent="3" name="email_support">
+      <column id="21" parent="3" name="email_support">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="21" parent="3" name="signature">
+      <column id="22" parent="3" name="signature">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="22" parent="3" name="totp">
+      <column id="23" parent="3" name="totp">
         <mandatory>1</mandatory>
         <data-type>int(1)</data-type>
       </column>
-      <column id="23" parent="3" name="totp_token">
+      <column id="24" parent="3" name="totp_token">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="24" parent="3" name="statut">
+      <column id="25" parent="3" name="statut">
         <mandatory>1</mandatory>
         <data-type>int(1)</data-type>
       </column>
-      <key id="25" parent="3" name="PRIMARY">
+      <key id="26" parent="3" name="PRIMARY">
         <columns>iduser</columns>
         <primary>1</primary>
       </key>

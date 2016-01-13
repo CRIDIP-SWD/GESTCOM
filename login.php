@@ -151,6 +151,21 @@ require "app/classe.php";
         })
     </script>
 <?php } ?>
+<?php if(isset($_GET['warning']) && $_GET['warning'] == 'no-connect'){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            new PNotify({
+                title: 'Information',
+                text: 'Vous avez été déconnecter !',
+                type: 'info',
+                addclass: 'stack-bar-top',
+                stack: stack_bar_top,
+                icon: 'fa fa-info'
+		    }); 
+        })
+    </script>
+<?php } ?>
+
 
 <?php if(isset($_GET['error']) && $_GET['error'] == 'critical'){ ?>
     <script type="text/javascript">
