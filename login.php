@@ -156,9 +156,7 @@ require "app/classe.php";
     <script type="text/javascript">
         $(document).ready(function(){
             var html = "<p>TEST</p>";
-            $("#info").ready(function(){
-                $(this).fadeIn("slow");
-            })
+            $("#info").html(this).show("slow");
         })
     </script>
 <?php } ?>
