@@ -130,6 +130,19 @@ require "app/classe.php";
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>ui-elements/examples.notifications.js"></script>
 
 <!-- NOTIF -->
+<?php if(isset($_GET['success']) && $_GET['success'] == 'disconnect'){ ?>
+    <script type="text/javascript">
+        $("#info").html("" +
+            "<div class='alert alert-success'>" +
+            "   <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>X</button>" +
+            "   <strong>Déconnection</strong><br>" +
+            "   <p>Votre déconnection c'est réaliser avec succès !</p>" +
+            "</div>" +
+            "").fadeIn("slow");
+    </script>
+<?php } ?>
+
+
 <?php if(isset($_GET['warning']) && $_GET['warning'] == 'no-compte'){ ?>
     <script type="text/javascript">
         $(document).ready(function(){
