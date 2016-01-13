@@ -159,7 +159,10 @@ require "app/classe.php";
             "<button class='close' data-dismiss='alert' aria-hidden='true'>X</button>" +
             "<strong>INFORMATION</strong><br>" +
             "<p>Vous avez été déconnecter du service !<br>Veuillez vous reconnectez afin de poursuivre votre travail.</p>"
-        ).fadeIn();
+        ).fadeIn("slow");
+        $(".close").click(function(){
+            $("#info").fadeOut("slow");
+        });
     </script>
 <?php } ?>
 
