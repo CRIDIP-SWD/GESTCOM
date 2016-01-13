@@ -24,8 +24,9 @@ class account extends DB
     public function count_event_day($iduser)
     {
         $date_jour = strtotime(date("d-m-Y"));
-        $data = $this->count("SELECT * FROM user_calendar, user_calendar_participant WHERE user_calendar_participant.ref_event = user_calendar.ref_event AND iduser = :iduser", array(
-            "iduser" => $iduser
+        $data = $this->count("SELECT * FROM user_calendar, user_calendar_participant WHERE user_calendar_participant.ref_event = user_calendar.ref_event AND iduser = :iduser AND user_calendar.date_debut = :date_debut", array(
+            "iduser" => $iduser,
+            "date_debut" => $date_jour
         ));
         return $data;
     }
