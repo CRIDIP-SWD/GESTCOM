@@ -156,7 +156,7 @@ require "app/classe.php";
         $(document).ready(function(){
             new PNotify({
                 title: 'Information',
-                text: 'Vous avez été déconnecter !',
+                text: 'Vous avez été déconnecter !<br> Veuillez vous reconnectez',
                 type: 'info',
                 addclass: 'stack-bar-top',
                 icon: 'fa fa-info'
