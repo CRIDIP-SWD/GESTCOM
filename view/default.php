@@ -5,6 +5,7 @@ if(!isset($_SESSION['identifiant']))
 }
 ini_set('display_errors', 1);
 $info_user = $account_cls->info($_SESSION['identifiant']);
+$iduser = $info_user[0]->iduser;
 ?>
 <!doctype html>
 <html class="fixed">
@@ -80,8 +81,10 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
             <ul class="notifications">
                 <li>
                     <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
-                        <i class="fa fa-tasks"></i>
-                        <span class="badge">3</span>
+                        <i class="fa fa-calendar"></i>
+                        <?php if($account_cls->count_event_day($iduser) > 0){ ?>
+                            <span class="badge"><?= $account_cls->count_event_day($iduser); ?></span>
+                        <?php } ?>
                     </a>
 
                     <div class="dropdown-menu notification-menu large">

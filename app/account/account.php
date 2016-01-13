@@ -19,4 +19,14 @@ class account extends DB
             "identifiant"   => $identifiant
         ));
     }
+
+    //COUNT ELEMENT
+    public function count_event_day($iduser)
+    {
+        $date_jour = strtotime(date("d-m-Y"));
+        $data = $this->count("SELECT * FROM user_calendar, user_calendar_participant WHERE user_calendar_participant.ref_event = user_calendar.ref_event AND iduser = :iduser", array(
+            "iduser" => $iduser
+        ));
+        return $data;
+    }
 }
