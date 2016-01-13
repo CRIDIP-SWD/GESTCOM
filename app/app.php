@@ -359,8 +359,8 @@ class DB extends app{
     {
         try {
             $req = $this->db->prepare($sql);
-            $req->execute($data);
-            return $req->rowCount();
+            $res = $req->execute($data);
+            return $res;
         }catch(PDOException $e)
         {
             return $e->getCode().": ".$e->getMessage();
