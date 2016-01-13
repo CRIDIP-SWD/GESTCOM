@@ -159,7 +159,6 @@ require "app/classe.php";
                 text: 'Vous avez été déconnecter !',
                 type: 'info',
                 addclass: 'stack-bar-top',
-                stack: stack_bar_top,
                 icon: 'fa fa-info'
 		    }); 
         })
