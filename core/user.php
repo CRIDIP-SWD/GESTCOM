@@ -100,10 +100,11 @@ if(isset($_GET['action']) && $_GET['action'] == 'logoff')
         "identifiant" => $identifiant
     ));
     $error = "Impossible de ce déconnecter car le serveur de base de donnée n'à pas pus identifier l'utilisateur.";
-    echo $update." Ligne Affectés";
-    die();
     if($update[0] == 1)
     {
+        session_start();
+        session_unset();
+        session_destroy();
         header("Location: ../../login.php?success=disconnect");
     }else{
         header("Location: ../../index.php?view=home&error=critical&data=$error");
