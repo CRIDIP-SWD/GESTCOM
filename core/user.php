@@ -41,7 +41,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             if($insert == 1)
             {
                 $update = $DB->execute("UPDATE user SET statut = :statut WHERE iduser = :iduser", array(
-                   "statut" => 2,
+                   "statut" => 1,
                    "iduser" => $user[0]->iduser
                 ));
                 header("Location: ../index.php?view=home");
