@@ -56,7 +56,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             $emplacement = $show_ip->country;
             $navigateur = $fonction->getNav();
             $os = $fonction->getOs();
-            $user = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
+            $insert = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
                 "id"                => NULL,
                 "identite"          => $identifiant,
                 "heure_connexion"   => $heure_connexion,
@@ -73,7 +73,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             $emplacement = $show_ip->country;
             $navigateur = $fonction->getNav();
             $os = $fonction->getOs();
-            $user = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
+            $insert = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
                 "id"                => NULL,
                 "identite"          => $identifiant,
                 "heure_connexion"   => $heure_connexion,
