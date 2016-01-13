@@ -56,7 +56,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             $emplacement = $show_ip->country;
             $navigateur = $fonction->getNav();
             $os = $fonction->getOs();
-            $insert = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
+            $insert = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut, commentaire) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut, :commentaire)", array(
                 "id"                => NULL,
                 "identite"          => $identifiant,
                 "heure_connexion"   => $heure_connexion,
@@ -64,7 +64,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
                 "emplacement"       => $emplacement,
                 "navigateur"        => $navigateur,
                 "os"                => $os,
-                "statut"            => 0
+                "statut"            => 0,
+                "commentaire"       => "Compte inconnue / Mauvais Pseudo ou Mot de Passe"
             ));
             header("Location: ../login.php?warning=no-compte");
         }else{
@@ -73,7 +74,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             $emplacement = $show_ip->country;
             $navigateur = $fonction->getNav();
             $os = $fonction->getOs();
-            $insert = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
+            $insert = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut, commentaire) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut, :commentaire)", array(
                 "id"                => NULL,
                 "identite"          => $identifiant,
                 "heure_connexion"   => $heure_connexion,
@@ -81,7 +82,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
                 "emplacement"       => $emplacement,
                 "navigateur"        => $navigateur,
                 "os"                => $os,
-                "statut"            => 0
+                "statut"            => 0,
+                "commentaire"       => "Double Compte (Erreur Système)"
             ));
             header("Location: ../login.php?error=critical&data='Erreur dans la base de donnee'");
         }
