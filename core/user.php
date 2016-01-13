@@ -26,7 +26,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             $navigateur = $fonction->getNav();
             $os = $fonction->getOs();
 
-            $user = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
+            $insert = $DB->execute("INSERT INTO connect_histo(id, identite, heure_connexion, ip_connexion, emplacement, navigateur, os, statut) VALUES (:id, :identite, :heure_connexion, :ip_connexion, :emplacement, :navigateur, :os, :statut)", array(
                 "id"                => NULL,
                 "identite"          => $user[0]->nom_user." ".$user[0]->prenom_user,
                 "heure_connexion"   => $heure_connexion,
@@ -38,7 +38,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
             ));
 
 
-            if($user == 1)
+            if($insert == 1)
             {
                 $update = $DB->execute("UPDATE user SET statut = :statut WHERE iduser = :iduser", array(
                    "statut" => 2,
