@@ -154,13 +154,14 @@ require "app/classe.php";
 <?php if(isset($_GET['warning']) && $_GET['warning'] == 'no-connect'){ ?>
     <script type="text/javascript">
         $(document).ready(function(){
-            new PNotify({
-                title: 'Information',
-                text: 'Vous avez été déconnecter !<br> Veuillez vous reconnectez',
-                type: 'info',
-                addclass: 'stack-bar-top',
-                icon: 'fa fa-info'
-		    }); 
+            var notice = new PNotify({
+               title: "Notification",
+               text: "Essai",
+               type: "info",
+               addclass: 'stack-bar-top',
+               stack: stack_bar_top,
+               width: "100%"
+            });
         })
     </script>
 <?php } ?>
