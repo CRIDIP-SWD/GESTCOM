@@ -54,6 +54,7 @@ require "app/classe.php";
                     <h2 class="title text-uppercase text-weight-bold m-none"><i class="fa fa-user mr-xs"></i> CONNEXION</h2>
                 </div>
                 <div class="panel-body">
+                    <div id="info"></div>
                     <form action="<?= $constante->getUrl(array('core/'), false, false); ?>user.php" method="post">
                         <div class="form-group mb-lg">
                             <label>Nom d'utilisateur</label>
@@ -153,16 +154,12 @@ require "app/classe.php";
 <?php } ?>
 <?php if(isset($_GET['warning']) && $_GET['warning'] == 'no-connect'){ ?>
     <script type="text/javascript">
-        $(document).ready(function(){
-            var notice = new PNotify({
-               title: "Notification",
-               text: "Essai",
-               type: "info",
-               addclass: 'stack-bar-top',
-               stack: stack_bar_top,
-               width: "100%"
-            });
-        })
+        $("#info").html("" +
+            "<div class='alert alert-info'>" +
+            "<button class='close' data-dismiss='alert' aria-hidden='true'>X</button>" +
+            "<strong>INFORMATION</strong><br>" +
+            "<p>Vous avez été déconnecter du service !<br>Veuillez vous reconnectez afin de poursuivre votre travail.</p>"
+        ).show();
     </script>
 <?php } ?>
 
