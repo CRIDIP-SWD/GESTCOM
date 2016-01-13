@@ -323,7 +323,7 @@ class DB extends app{
         try{
             $this->db = new PDO('mysql:host='.$this->host.';dbname='.$this->database, $this->username, $this->password, array(
                 PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES UTF8',
-                PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
+                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
             ));
         }catch(PDOException $e)
         {
