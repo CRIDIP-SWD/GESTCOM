@@ -155,13 +155,13 @@ require "app/classe.php";
 <?php if(isset($_GET['warning']) && $_GET['warning'] == 'no-connect'){ ?>
     <script type="text/javascript">
         $(document).ready(function(){
-            var html = "" +
+            var html = html("" +
                 "<div class='alert alert-info'>" +
                 "   <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>X</button>" +
                 "   <strong>Information</strong><br>" +
                 "   <p>Vous avez été déconnecter du Service !</p>" +
-                "</div>";
-            $("#info").fadeIn("slow");
+                "</div>");
+            $("#info").html.fadeIn("slow");
         })
     </script>
 <?php } ?>
