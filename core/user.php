@@ -99,7 +99,7 @@ if(isset($_GET['action']) && $_GET['action'] == 'logoff')
         "identifiant" => $identifiant
     ));
     $error = "Impossible de ce déconnecter car le serveur de base de donnée n'à pas pus identifier l'utilisateur.";
-    var_dump($update);
+    echo $update." Ligne Affectés";
     die();
     if($update[0] == 1)
     {
