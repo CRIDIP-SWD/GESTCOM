@@ -83,7 +83,7 @@ $iduser = $info_user[0]->iduser;
                     <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
                         <i class="fa fa-calendar"></i>
                         <?php if($account_cls->count_event_day($iduser) > 0){ ?>
-                            <span class="badge pulse"><?= $account_cls->count_event_day($iduser); ?></span>
+                            <span class="badge hvr-pulse"><?= $account_cls->count_event_day($iduser); ?></span>
                         <?php } ?>
                     </a>
 
