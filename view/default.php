@@ -155,7 +155,7 @@ $iduser = $info_user[0]->iduser;
                                         <figure class="image">
                                             <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $message->identifiant; ?>.jpg" alt="<?= $message->identifiant; ?>" class="img-circle img-responsive" width="32px" />
                                         </figure>
-                                        <span class="title"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></span>
+                                        <span class="title"><?= $message->nom_user; ?> <?= $message->prenom_user; ?></span>
                                         <span class="message"><?= substr(html_entity_decode($message->message), 0, 50); ?>...</span>
                                     </a>
                                 </li>
