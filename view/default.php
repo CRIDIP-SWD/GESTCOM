@@ -85,6 +85,7 @@ $iduser = $info_user[0]->iduser;
                         <?php if($account_cls->count_event_day($iduser) > 0){ ?>
                             <span class="badge"><?= $account_cls->count_event_day($iduser); ?></span>
                         <?php } ?>
+                        <?php var_dump($account_cls->count_event_day($iduser)); ?>
                     </a>
 
                     <div class="dropdown-menu notification-menu large">
