@@ -37,6 +37,7 @@ $iduser = $info_user[0]->iduser;
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'bootstrap-multiselect/'), true, false); ?>bootstrap-multiselect.css" />
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'morris/'), true, false); ?>morris.css" />
     <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'pnotify/'), true, false); ?>pnotify.custom.css" />
+    <link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'chartist/'), true, false); ?>chartist.css" />
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="<?= $constante->getUrl(array('stylesheets/'), true, false); ?>theme.css" />
