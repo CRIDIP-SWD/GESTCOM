@@ -32,4 +32,21 @@ class account extends DB
         ));
         return $data;
     }
+
+    public function count_message_nonlu($iduser)
+    {
+        $data = $this->count("SELECT COUNT(*) FROM user_inbox WHERE destinataire = :iduser AND lu = :lu", array(
+            "iduser" => $iduser,
+            "lu" => 0
+        ));
+        return $data;
+    }
+
+    public function count_message($iduser)
+    {
+        $data = $this->count("SELECT COUNT(*) FROM user_inbox WHERE destinataire = :iduser", array(
+            "iduser" => $iduser
+        ));
+        return $data;
+    }
 }

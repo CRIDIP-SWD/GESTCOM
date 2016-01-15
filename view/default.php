@@ -131,59 +131,41 @@ $iduser = $info_user[0]->iduser;
                 <li>
                     <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
                         <i class="fa fa-envelope"></i>
-                        <span class="badge">4</span>
+                        <?php if($account_cls->count_message_nonlu($iduser) > 0){ ?>
+                            <span class="badge hvr-pulse"><?= $account_cls->count_message_nonlu($iduser); ?></span>
+                        <?php } ?>
                     </a>
 
                     <div class="dropdown-menu notification-menu">
                         <div class="notification-title">
-                            <span class="pull-right label label-default">230</span>
+                            <span class="pull-right label label-default"><?= $account_cls->count_message($iduser); ?></span>
                             Messages
                         </div>
 
                         <div class="content">
                             <ul>
+                                <?php
+                                $sql = $DB->query("SELECT * FROM user_inbox, user WHERE user_inbox.expediteur = user.iduser AND destinataire = :iduser", array(
+                                    "iduser" => $iduser
+                                ));
+                                foreach($sql as $message):
+                                ?>
                                 <li>
                                     <a href="#" class="clearfix">
                                         <figure class="image">
-                                            <img src="assets/images/!sample-user.jpg" alt="Joseph Doe Junior" class="img-circle" />
+                                            <img src="<?= $constante->getUrl(array('avatar/'), false, true); ?><?= $info_user[0]->identifiant; ?>.jpg" alt="<?= $info_user[0]->identifiant; ?>" class="img-circle" />
                                         </figure>
-                                        <span class="title">Joseph Doe</span>
-                                        <span class="message">Lorem ipsum dolor sit.</span>
+                                        <span class="title"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></span>
+                                        <span class="message"><?= substr(html_entity_decode($message->message), 0, 50); ?>...</span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <figure class="image">
-                                            <img src="assets/images/!sample-user.jpg" alt="Joseph Junior" class="img-circle" />
-                                        </figure>
-                                        <span class="title">Joseph Junior</span>
-                                        <span class="message truncate">Truncated message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacinia orci. Proin vestibulum eget risus non luctus. Nunc cursus lacinia lacinia. Nulla molestie malesuada est ac tincidunt. Quisque eget convallis diam, nec venenatis risus. Vestibulum blandit faucibus est et malesuada. Sed interdum cursus dui nec venenatis. Pellentesque non nisi lobortis, rutrum eros ut, convallis nisi. Sed tellus turpis, dignissim sit amet tristique quis, pretium id est. Sed aliquam diam diam, sit amet faucibus tellus ultricies eu. Aliquam lacinia nibh a metus bibendum, eu commodo eros commodo. Sed commodo molestie elit, a molestie lacus porttitor id. Donec facilisis varius sapien, ac fringilla velit porttitor et. Nam tincidunt gravida dui, sed pharetra odio pharetra nec. Duis consectetur venenatis pharetra. Vestibulum egestas nisi quis elementum elementum.</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <figure class="image">
-                                            <img src="assets/images/!sample-user.jpg" alt="Joe Junior" class="img-circle" />
-                                        </figure>
-                                        <span class="title">Joe Junior</span>
-                                        <span class="message">Lorem ipsum dolor sit.</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <figure class="image">
-                                            <img src="assets/images/!sample-user.jpg" alt="Joseph Junior" class="img-circle" />
-                                        </figure>
-                                        <span class="title">Joseph Junior</span>
-                                        <span class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacinia orci. Proin vestibulum eget risus non luctus. Nunc cursus lacinia lacinia. Nulla molestie malesuada est ac tincidunt. Quisque eget convallis diam.</span>
-                                    </a>
-                                </li>
+                                <?php endforeach; ?>
                             </ul>
 
                             <hr />
 
                             <div class="text-right">
-                                <a href="#" class="view-more">View All</a>
+                                <a href="#" class="view-more">Voir tout</a>
                             </div>
                         </div>
                     </div>
