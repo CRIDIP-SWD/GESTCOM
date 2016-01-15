@@ -145,7 +145,7 @@ $iduser = $info_user[0]->iduser;
                         <div class="content">
                             <ul>
                                 <?php
-                                $sql = $DB->query("SELECT * FROM user_inbox, user WHERE user_inbox.expediteur = user.iduser AND destinataire = :idusercase", array(
+                                $sql = $DB->query("SELECT * FROM user_inbox, user WHERE user_inbox.expediteur = user.iduser AND destinataire = :idusercase ORDER BY date_message ASC LIMIT 5", array(
                                     "idusercase" => $iduser
                                 ));
                                 foreach($sql as $message):
