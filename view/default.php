@@ -107,13 +107,20 @@ $iduser = $info_user[0]->iduser;
                                 ?>
                                 <li>
                                     <a href="" class="clearfix">
-                                        <span class="title"><?= $data->titre; ?></span>
-                                        <span class="message">
-                                            <?php
-                                            if($data->emplacement === 0){echo "Bureau";}
-                                            if($data->emplacement === 1){echo "Extérieur<br><i>".$data->adresse."</i>";}
-                                            ?>
-                                        </span>
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <span class="title"><?= $data->titre; ?></span>
+                                                <span class="message">
+                                                    <?php
+                                                    if($data->emplacement === 0){echo "Bureau";}
+                                                    if($data->emplacement === 1){echo "Extérieur<br><i>".$data->adresse."</i>";}
+                                                    ?>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <span class="label label-default"><?= date("H:i", $data->heure_debut); ?></span>
+                                            </div>
+                                        </div>
                                     </a>
                                 </li>
                                 <?php endforeach; ?>
