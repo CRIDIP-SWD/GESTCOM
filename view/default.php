@@ -244,13 +244,13 @@ $iduser = $info_user[0]->iduser;
                             </li>
                             <li class="<?php if(isset($_GET['view']) && $view = $_GET['view']){echo 'nav-active';} ?>">
                                 <a href="index.php?view=article">
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <i class="fa fa-cubes" aria-hidden="true"></i>
                                     <span>Articles</span>
                                 </a>
                             </li>
                             <li class="nav-parent">
                                 <a>
-                                    <i class="fa fa-copy" aria-hidden="true"></i>
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                                     <span>Facturation</span>
                                 </a>
                                 <ul class="nav nav-children">
