@@ -153,7 +153,7 @@ $iduser = $info_user[0]->iduser;
                                 <li>
                                     <a href="#" class="clearfix">
                                         <figure class="image">
-                                            <img src="<?= $constante->getUrl(array('avatar/'), false, true); ?><?= $info_user[0]->identifiant; ?>.jpg" alt="<?= $info_user[0]->identifiant; ?>" class="img-circle" />
+                                            <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $info_user[0]->identifiant; ?>.jpg" alt="<?= $info_user[0]->identifiant; ?>" class="img-circle" />
                                         </figure>
                                         <span class="title"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></span>
                                         <span class="message"><?= substr(html_entity_decode($message->message), 0, 50); ?>...</span>
