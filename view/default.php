@@ -106,7 +106,7 @@ $iduser = $info_user[0]->iduser;
                                 foreach($event as $data):
                                 ?>
                                 <li>
-                                    <a href="" class="clearfix">
+                                    <a href="index.php?view=calendar&sub=event&ref_event=<?= $data->ref_event; ?>" class="clearfix">
                                         <div class="row">
                                             <div class="col-md-9">
                                                 <span class="title"><?= $data->titre; ?></span>
