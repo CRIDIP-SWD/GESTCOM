@@ -151,7 +151,7 @@ $iduser = $info_user[0]->iduser;
                                 foreach($sql as $message):
                                 ?>
                                 <li>
-                                    <a href="#" class="clearfix">
+                                    <a href="index.php?view=messagerie&sub=view-message-inbox&idmessageinbox=<?= $message->idmessageinbox; ?>" class="clearfix">
                                         <figure class="image">
                                             <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $message->identifiant; ?>.jpg" alt="<?= $message->identifiant; ?>" class="img-circle img-responsive" width="32px" />
                                         </figure>
@@ -166,57 +166,6 @@ $iduser = $info_user[0]->iduser;
 
                             <div class="text-right">
                                 <a href="#" class="view-more">Voir tout</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
-                        <i class="fa fa-bell"></i>
-                        <span class="badge">3</span>
-                    </a>
-
-                    <div class="dropdown-menu notification-menu">
-                        <div class="notification-title">
-                            <span class="pull-right label label-default">3</span>
-                            Alerts
-                        </div>
-
-                        <div class="content">
-                            <ul>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <div class="image">
-                                            <i class="fa fa-thumbs-down bg-danger"></i>
-                                        </div>
-                                        <span class="title">Server is Down!</span>
-                                        <span class="message">Just now</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <div class="image">
-                                            <i class="fa fa-lock bg-warning"></i>
-                                        </div>
-                                        <span class="title">User Locked</span>
-                                        <span class="message">15 minutes ago</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <div class="image">
-                                            <i class="fa fa-signal bg-success"></i>
-                                        </div>
-                                        <span class="title">Connection Restaured</span>
-                                        <span class="message">10/10/2014</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <hr />
-
-                            <div class="text-right">
-                                <a href="#" class="view-more">View All</a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +219,7 @@ $iduser = $info_user[0]->iduser;
 
             <div class="sidebar-header">
                 <div class="sidebar-title">
-                    Navigation
+                    <?= \App\constante::NOM_SITE; ?>
                 </div>
                 <div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
                     <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
