@@ -403,6 +403,7 @@ $iduser = $info_user[0]->iduser;
 <!-- Examples -->
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>dashboard/examples.dashboard.js"></script>
 <script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>ui-elements/examples.notifications.js"></script>
+<script src="<?= $constante->getUrl(array('javascripts/'), true, false); ?>ui-elements/examples.charts.js"></script>
 
 <?php if(isset($_GET['error']) && $_GET['error'] == 'critical'){ ?>
     <script type="text/javascript">
