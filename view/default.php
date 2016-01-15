@@ -97,35 +97,26 @@ $iduser = $info_user[0]->iduser;
 
                         <div class="content">
                             <ul>
+                                <?php
+                                $event = $DB->query("SELECT * FROM user_calendar WHERE iduser = :iduser AND date_debut >= :date_debut AND date_fin <= :date_fin ORDER BY heure_debut ASC LIMIT 3", array(
+                                    "iduser" => $iduser,
+                                    "date_debut" => strtotime(date("d-m-Y 00:00:00")),
+                                    "date_fin"  => strtotime(date("d-m-Y 23:59:59"))
+                                ));
+                                foreach($event as $data):
+                                ?>
                                 <li>
-                                    <p class="clearfix mb-xs">
-                                        <span class="message pull-left">Generating Sales Report</span>
-                                        <span class="message pull-right text-dark">60%</span>
-                                    </p>
-                                    <div class="progress progress-xs light">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                                    </div>
+                                    <a href="" class="clearfix">
+                                        <span class="title"><?= $data->titre; ?></span>
+                                        <span class="message">
+                                            <?php
+                                            if($data->emplacement === 0){echo "Bureau";}
+                                            if($data->emplacement === 1){echo "Extérieur<br><i>".$data->adresse."</i>";}
+                                            ?>
+                                        </span>
+                                    </a>
                                 </li>
-
-                                <li>
-                                    <p class="clearfix mb-xs">
-                                        <span class="message pull-left">Importing Contacts</span>
-                                        <span class="message pull-right text-dark">98%</span>
-                                    </p>
-                                    <div class="progress progress-xs light">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <p class="clearfix mb-xs">
-                                        <span class="message pull-left">Uploading something big</span>
-                                        <span class="message pull-right text-dark">33%</span>
-                                    </p>
-                                    <div class="progress progress-xs light mb-xs">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"></div>
-                                    </div>
-                                </li>
+                                <?php endforeach; ?>
                             </ul>
                         </div>
                     </div>
