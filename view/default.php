@@ -89,8 +89,10 @@ $iduser = $info_user[0]->iduser;
 
                     <div class="dropdown-menu notification-menu large">
                         <div class="notification-title">
-                            <span class="pull-right label label-default">3</span>
-                            Tasks
+                            <?php if($account_cls->count_event_day($iduser) > 0){ ?>
+                                <span class="pull-right label label-default"><?= $account_cls->count_event_day($iduser); ?> Rendez-vous Aujourd'hui</span>
+                            <?php } ?>
+                            Rendez-vous
                         </div>
 
                         <div class="content">
