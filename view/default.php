@@ -685,6 +685,14 @@ $iduser = $info_user[0]->iduser;
                                 </ul>
                             </li>
                         </ul>
+                        <ul class="nav nav-main">
+                            <li class="<?php if(isset($_GET['view']) && $view = $_GET['view']){echo 'nav-active';} ?>">
+                                <a href="index.html">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                        </ul>
                     </nav>
 
                     <hr class="separator" />
