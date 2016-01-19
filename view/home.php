@@ -50,10 +50,14 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                         </a>
                     </div>
                     <hr class="solid short"/>
-                    <ul class="list-unstyled">
-                        <li><a href="index.php?view=profil"><i class="fa fa-user"></i> Mon Profil</a></li>
-                        <li><a href="core/user.php?action=logoff&identifiant=<?= $info_user['identifiant']; ?>"><i class="fa fa-power-off"></i> Déconnexion</a></li>
-                    </ul>
+                    <div class="list-group">
+                        <a class="list-group-item" href="">
+                            <i class="fa fa-user"></i> MON PROFIL
+                        </a>
+                        <a class="list-group-item" href="">
+                            <i class="fa fa-power-off"></i> DECONNEXION
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
