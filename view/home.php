@@ -49,6 +49,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                             Taches
                         </a>
                     </div>
+                    <hr />
                 </div>
             </div>
         </div>
