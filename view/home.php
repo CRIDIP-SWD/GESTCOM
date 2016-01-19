@@ -1,3 +1,6 @@
+<?php
+$info_user = $account_cls->info($_SESSION['identifiant']);
+?>
 <section role="main" class="content-body">
     <header class="page-header">
         <h2>Tableau de Bord</h2>
