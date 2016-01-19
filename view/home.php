@@ -37,7 +37,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                 </header>
                 <div class="panel-body">
                     <div class="list-group">
-                        <a class="list-group-item active" href="index.php?view=calendar">
+                        <a class="list-group-item" href="index.php?view=calendar">
                             Calendrier
                             <span class="badge">3</span>
                         </a>
@@ -50,6 +50,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                         </a>
                     </div>
                     <hr class="solid short"/>
+
                 </div>
             </div>
         </div>
