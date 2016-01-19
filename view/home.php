@@ -23,6 +23,13 @@
                         <div class="profile-picture">
                             <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $info_user[0]->identifiant; ?>.jpg" />
                         </div>
+                        <div class="profile-info">
+                            <h4 class="name text-weight-semibold"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></h4>
+                            <h5 class="role"><?= $info_user[0]->poste; ?></h5>
+                            <div class="profile-footer">
+                                <a href="#">Editer le Profil</a>
+                            </div>
+                        </div>
                     </div>
                 </header>
             </div>
