@@ -30,11 +30,18 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                             <h4 class="name text-weight-semibold"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></h4>
                             <h5 class="role"><?= $info_user[0]->poste; ?></h5>
                             <div class="profile-footer">
-                                <a href="#">Editer le Profil <?= $info_user[0]->iduser; ?></a>
+                                <a href="#">Editer le Profil</a>
                             </div>
                         </div>
                     </div>
                 </header>
+                <div class="panel-body">
+                    <ul class="list-unstyled">
+                        <li>TEST</li>
+                        <li>TEST</li>
+                        <li>TEST</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
