@@ -14,5 +14,5 @@ ob_start();
 
 if($view === "home"){require "view/home.php";}
 
-$content = ob_get_contents();
+$content = ob_get_clean();
 require "view/default.php";
