@@ -15,5 +15,18 @@
             <a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
         </div>
     </header>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel">
+                <header class="panel-heading bg-primary">
+                    <div class="widget-profile-info">
+                        <div class="profile-picture">
+                            <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $info_user[0]->identifiant; ?>.jpg" />
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </div>
 
 </section>
