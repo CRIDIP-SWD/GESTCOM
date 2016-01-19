@@ -27,7 +27,7 @@
                             <h4 class="name text-weight-semibold"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></h4>
                             <h5 class="role"><?= $info_user[0]->poste; ?></h5>
                             <div class="profile-footer">
-                                <a href="#">Editer le Profil</a>
+                                <a href="#">Editer le Profil <?= $info_user[0]->iduser; ?></a>
                             </div>
                         </div>
                     </div>
