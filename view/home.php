@@ -50,7 +50,9 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                         </a>
                     </div>
                     <hr class="solid short"/>
-
+                    <ul class="list-unstyled">
+                        <li><a href="index.php?view=profil"><i class="fa fa-user"></i> Mon Profil</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
