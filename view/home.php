@@ -36,11 +36,19 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                     </div>
                 </header>
                 <div class="panel-body">
-                    <ul class="list-unstyled">
-                        <li>TEST</li>
-                        <li>TEST</li>
-                        <li>TEST</li>
-                    </ul>
+                    <div class="list-group">
+                        <a class="list-group-item active" href="index.php?view=calendar">
+                            Calendrier
+                            <span class="badge">3</span>
+                        </a>
+                        <a class="list-group-item active" href="index.php?view=messagerie">
+                            Messagerie
+                            <span class="badge">1</span>
+                        </a>
+                        <a class="list-group-item active" href="index.php?view=task">
+                            Taches
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
