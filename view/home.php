@@ -41,11 +41,11 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                             Calendrier
                             <span class="badge">3</span>
                         </a>
-                        <a class="list-group-item active" href="index.php?view=messagerie">
+                        <a class="list-group-item" href="index.php?view=messagerie">
                             Messagerie
                             <span class="badge">1</span>
                         </a>
-                        <a class="list-group-item active" href="index.php?view=task">
+                        <a class="list-group-item" href="index.php?view=task">
                             Taches
                         </a>
                     </div>
