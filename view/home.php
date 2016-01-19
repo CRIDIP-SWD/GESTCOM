@@ -38,15 +38,15 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                 <div class="panel-body">
                     <div class="list-group">
                         <a class="list-group-item" href="index.php?view=calendar">
-                            Calendrier
+                            MON CALENDRIER
                             <span class="badge">3</span>
                         </a>
                         <a class="list-group-item" href="index.php?view=messagerie">
-                            Messagerie
+                            MA MESSAGERIE
                             <span class="badge">1</span>
                         </a>
                         <a class="list-group-item" href="index.php?view=task">
-                            Taches
+                            MES TACHES
                         </a>
                     </div>
                     <hr class="solid short"/>
