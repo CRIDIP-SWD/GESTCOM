@@ -428,7 +428,8 @@ $iduser = $info_user[0]->iduser;
     var clock;
     $(document).ready(function(){
         clock = $('.clock').FlipClock({
-            clockFace: 'TwelveHourClock'
+            clockFace: 'TwelveHourClock',
+            defaultLanguage: 'french'
         });
     });
 </script>
