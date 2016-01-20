@@ -63,7 +63,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
         </div>
         <div class="col-md-8">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-8">
                     <div class="panel">
                         <div class="panel-body bg-primary">
                             <div class="clock"></div>
