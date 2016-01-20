@@ -71,7 +71,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                     </div>
                 </div>
             </div>
-            <?php var_dump($meteo_cls->call()); ?>
+
             <div class="row">
                 <div class="col-md-12">
                     <section class="panel-group mb-xlg">
