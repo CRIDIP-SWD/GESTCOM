@@ -419,5 +419,18 @@ $iduser = $info_user[0]->iduser;
     </script>
 <?php } ?>
 
+
+
+<!-- AUTRE -->
+<script type="text/javascript" src="<?= $constante->getUrl(array('vendor', 'flipclock', 'js/'), true, false); ?>flipclock.js"></script>
+<link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'flipclock', 'css/'), true, false); ?>flipclock.css">
+<script type="text/javascript">
+    var clock;
+    $(document).ready(function(){
+        clock = $('.clock').FlipClock({
+            clockFace: 'TwelveHourClock'
+        });
+    });
+</script>
 </body>
 </html>

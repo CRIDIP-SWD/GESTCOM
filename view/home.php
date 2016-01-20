@@ -75,13 +75,3 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
     </div>
 
 </section>
-<script type="text/javascript" src="<?= $constante->getUrl(array('vendor', 'flipclock', 'js/'), true, false); ?>flipclock.js"></script>
-<link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'flipclock', 'css/'), true, false); ?>flipclock.css">
-<script type="text/javascript">
-    var clock;
-    $(document).ready(function(){
-        clock = $('.clock').FlipClock({
-            clockFace: 'TwelveHourClock'
-        });
-    });
-</script>
