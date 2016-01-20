@@ -80,6 +80,7 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
 <script type="text/javascript">
     var clock = $('.clock').FlipClock({
        autostart: true,
-        defaultLanguage: 'french'
+        defaultLanguage: 'french',
+        clockFace: 'TwentyFourHourClock'
     });
 </script>
