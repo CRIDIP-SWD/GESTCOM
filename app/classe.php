@@ -6,6 +6,7 @@ require dirname(__DIR__)."/app/autoloader.php";
 require dirname(__DIR__)."/vendor/autoload.php";
 
 use App\account\account;
+use App\api\meteo;
 use App\app;
 use App\constante;
 use App\date_format;
