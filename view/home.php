@@ -71,6 +71,53 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                     </div>
                 </div>
             </div>
+            <?php var_dump($meteo_cls->call()); ?>
+            <div class="row">
+                <div class="col-md-12">
+                    <section class="panel-group mb-xlg">
+                        <div class="widget-twitter-profile">
+                            <div class="top-image">
+                                <img alt="" src="assets/images/widget-twitter-profile.jpg">
+                            </div>
+                            <div class="profile-info">
+                                <div class="profile-picture">
+                                    <img alt="" src="assets/images/!logged-user.jpg">
+                                </div>
+                                <div class="profile-account">
+                                    <h3 class="name text-weight-semibold">John Doe</h3>
+                                    <a class="account" href="#">@oklerthemes</a>
+                                </div>
+                                <ul class="profile-stats">
+                                    <li>
+                                        <h5 class="stat text-uppercase">Tweets</h5>
+                                        <h4 class="count">60</h4>
+                                    </li>
+                                    <li>
+                                        <h5 class="stat text-uppercase">Following</h5>
+                                        <h4 class="count">139</h4>
+                                    </li>
+                                    <li>
+                                        <h5 class="stat text-uppercase">Followers</h5>
+                                        <h4 class="count">38</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="profile-quote">
+                                <blockquote>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus consectetur aliquet. Curabitur tincidunt convallis mi, ac elementum purus bibendum vitae.
+                                    </p>
+                                </blockquote>
+                                <div class="quote-footer">
+                                    <span class="datetime">4:27 PM - 15 Jul 2014</span>
+                                    -
+                                    <a href="#">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </div>
 

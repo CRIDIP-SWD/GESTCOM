@@ -23,6 +23,7 @@ $ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 $show_ip = $ip_api->get();
 //---------------------------------//
 $account_cls = new account();
+$meteo_cls = new meteo("85100", "fr");
 
 
 
