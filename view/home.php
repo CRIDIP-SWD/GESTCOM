@@ -61,6 +61,25 @@ $info_user = $account_cls->info($_SESSION['identifiant']);
                 </div>
             </div>
         </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel">
+                        <div class="panel-body bg-primary">
+                            <div class="clock"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>
+<script type="text/javascript" src="<?= $constante->getUrl(array('vendor', 'flipclock', 'js/'), true, false); ?>flipclock.js"></script>
+<link rel="stylesheet" href="<?= $constante->getUrl(array('vendor', 'flipclock', 'css/'), true, false); ?>flipclock.css">
+<script type="text/javascript">
+    var clock = $('.clock').FlipClock({
+       autostart: true,
+        defaultLanguage: 'french'
+    });
+</script>
