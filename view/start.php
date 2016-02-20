@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Maxime
- * Date: 20/02/2016
- * Time: 16:45
- */
+$test = array(
+    "Test" => 1,
+    "Avoir" => 2
+);
+var_dump($test);
