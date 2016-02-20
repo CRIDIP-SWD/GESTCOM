@@ -7,12 +7,12 @@ if(isset($_GET['view']))
 {
     $view = $_GET['view'];
 }else{
-    $view = "home";
+    $view = "start";
 }
 
 ob_start();
 
-if($view === "home"){require "view/home.php";}
+if($view === "start"){require "view/start.php";}
 
 $content = ob_get_clean();
 require "view/default.php";
