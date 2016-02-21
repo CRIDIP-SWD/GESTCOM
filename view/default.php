@@ -1,7 +1,7 @@
 <?php
 if(!isset($_SESSION['active']))
 {
-    //header("Location: index.php?view=login");
+    header("Location: index.php?view=login");
 }
 ?>
 <!DOCTYPE html>
