@@ -9,28 +9,42 @@
                     <div class="row">
                         <div class="col-sm-6 margin-bottom-30">
                             <a class="webapp-btn" href="index.html">
-                                <h3>Application</h3>
-                                <p>Manage Applications</p>
+                                <h3>Collaborative</h3>
+                                <p>Profil, email, tache et calendrier</p>
                             </a>
                         </div>
                         <div class="col-sm-6 margin-bottom-30">
                             <a class="webapp-btn" href="dashboard_2.html">
-                                <h3>Reports</h3>
-                                <p>View Reports</p>
+                                <h3>Gestion</h3>
+                                <p>Gestion Commercial</p>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6 sm-margin-bottom-30">
                             <a class="webapp-btn" href="ecommerce_index.html">
-                                <h3>Templates</h3>
-                                <p>Add, edit templates</p>
+                                <h3>Comptabilite</h3>
+                                <p>Comptabilité de l'entreprise</p>
                             </a>
                         </div>
                         <div class="col-sm-6">
                             <a class="webapp-btn" href="dashboard_3.html">
-                                <h3>Settings</h3>
-                                <p>Manage your Projects</p>
+                                <h3>OVH</h3>
+                                <p>Panel Gestion OVH</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 sm-margin-bottom-30">
+                            <a class="webapp-btn" href="ecommerce_index.html">
+                                <h3>Projet</h3>
+                                <p>Gestion de Projet</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a class="webapp-btn" href="dashboard_3.html">
+                                <h3>Client</h3>
+                                <p>Panel Gestion Client</p>
                             </a>
                         </div>
                     </div>
