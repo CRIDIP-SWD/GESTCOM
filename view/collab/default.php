@@ -25,10 +25,10 @@ License: You must have a valid license purchased only from themeforest(the above
     <meta content="" name="description" />
     <meta content="" name="author" />
     <!-- BEGIN LAYOUT FIRST STYLES -->
-    <link href="//fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
     <!-- END LAYOUT FIRST STYLES -->
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link href="<?= $constante->getUrl(array('global/')); ?>plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= $constante->getUrl(array('global/')); ?>plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -1807,25 +1807,25 @@ License: You must have a valid license purchased only from themeforest(the above
 </div>
 <!-- END QUICK SIDEBAR -->
 <!--[if lt IE 9]>
-<script src="../assets/global/plugins/respond.min.js"></script>
-<script src="../assets/global/plugins/excanvas.min.js"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/respond.min.js"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/excanvas.min.js"></script>
 <![endif]-->
 <!-- BEGIN CORE PLUGINS -->
-<script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-<script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-<script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-<script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-<script src="../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
-<script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/jquery.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/js.cookie.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
-<script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>scripts/app.min.js" type="text/javascript"></script>
 <!-- END THEME GLOBAL SCRIPTS -->
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
-<script src="../assets/layouts/layout6/scripts/layout.min.js" type="text/javascript"></script>
-<script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('layouts/')); ?>layout6/scripts/layout.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('layouts/')); ?>global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
 <!-- END THEME LAYOUT SCRIPTS -->
 </body>
 
