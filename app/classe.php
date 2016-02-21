@@ -24,7 +24,7 @@ $show_ip = $ip_api->get();
 //---------------------------------//
 $config = new configuration();
 
-var_dump($config);
+var_dump($config->conf_annuaire_cat_client());
 die();
 
 
