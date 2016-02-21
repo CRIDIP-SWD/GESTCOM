@@ -8,13 +8,13 @@
                 <div class="center-body">
                     <div class="row">
                         <div class="col-sm-6 margin-bottom-30">
-                            <a class="webapp-btn" href="index.html">
+                            <a class="webapp-btn" href="index.php?view=collab">
                                 <h3>Collaborative</h3>
                                 <p>Profil, email, tache et calendrier</p>
                             </a>
                         </div>
                         <div class="col-sm-6 margin-bottom-30">
-                            <a class="webapp-btn" href="dashboard_2.html">
+                            <a class="webapp-btn" href="index.php?view=gestion">
                                 <h3>Gestion</h3>
                                 <p>Gestion Commercial</p>
                             </a>
@@ -22,13 +22,13 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6 sm-margin-bottom-30">
-                            <a class="webapp-btn" href="ecommerce_index.html">
+                            <a class="webapp-btn" href="index.php?view=compta">
                                 <h3>Comptabilite</h3>
                                 <p>Comptabilité de l'entreprise</p>
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a class="webapp-btn" href="dashboard_3.html">
+                            <a class="webapp-btn" href="index.php?view=ovh">
                                 <h3>OVH</h3>
                                 <p>Panel Gestion OVH</p>
                             </a>
@@ -36,13 +36,13 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6 sm-margin-bottom-30">
-                            <a class="webapp-btn" href="ecommerce_index.html">
+                            <a class="webapp-btn" href="index.php?view=projet">
                                 <h3>Projet</h3>
                                 <p>Gestion de Projet</p>
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a class="webapp-btn" href="dashboard_3.html">
+                            <a class="webapp-btn" href="index.php?view=client">
                                 <h3>Client</h3>
                                 <p>Panel Gestion Client</p>
                             </a>
