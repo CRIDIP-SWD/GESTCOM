@@ -23,9 +23,11 @@ $ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 $show_ip = $ip_api->get();
 //---------------------------------//
 $config = new configuration();
+$cat_client = $config->conf_annuaire_cat_client();
+$groupe_user = $config->conf_annuaire_groupe();
 
-var_dump($config->conf_annuaire_cat_client());
-die();
+var_dump($cat_client, $groupe_user);
+die("END");
 
 
 
