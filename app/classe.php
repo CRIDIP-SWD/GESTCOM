@@ -34,8 +34,6 @@ $ent_gen        = $config->conf_entreprise_gen();
 
 
 
-var_dump($cat_client, $groupe_user, $catalogue, $ent_activite, $ent_doc, $ent_gen);
-die("END");
 
 
 
