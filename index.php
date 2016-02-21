@@ -13,6 +13,7 @@ if(isset($_GET['view']))
 ob_start();
 
 if($view === "start"){require "view/start.php";}
+if($view === "login"){require "view/login.php";}
 if($view === "collab"){header("Location: view/collab/index.php");}
 if($view === "gestion"){header("Location: view/gestion/index.php");}
 if($view === "compta"){header("Location: view/compta/index.php");}

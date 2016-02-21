@@ -1,3 +1,9 @@
+<?php
+if(!isset($_SESSION['active']))
+{
+    //header("Location: index.php?view=login");
+}
+?>
 <!DOCTYPE html>
 <!--
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6
