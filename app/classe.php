@@ -22,11 +22,19 @@ $date_format = new date_format();
 $ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 $show_ip = $ip_api->get();
 //---------------------------------//
-$config = new configuration();
-$cat_client = $config->conf_annuaire_cat_client();
-$groupe_user = $config->conf_annuaire_groupe();
 
-var_dump($cat_client, $groupe_user);
+//----------CLASS CONFIG-----------//
+$config = new configuration();
+$cat_client     = $config->conf_annuaire_cat_client();
+$groupe_user    = $config->conf_annuaire_groupe();
+$catalogue      = $config->conf_catalogue();
+$ent_activite   = $config->conf_entreprise_activite();
+$ent_doc        = $config->conf_entreprise_doc();
+$ent_gen        = $config->conf_entreprise_gen();
+
+
+
+var_dump($cat_client, $groupe_user, $catalogue, $ent_activite, $ent_doc, $ent_gen);
 die("END");
 
 

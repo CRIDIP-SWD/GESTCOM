@@ -24,4 +24,23 @@ class configuration extends DB
         return $this->query("SELECT * FROM conf_annuaire_groupe ORDER BY idgroupe ASC");
     }
 
+    public function conf_catalogue()
+    {
+        return $this->query("SELECT * FROM conf_catalogue WHERE idconf = 1");
+    }
+
+    public function conf_entreprise_activite()
+    {
+        return $this->query("SELECT * FROM conf_entreprise_activite WHERE idconf = 1");
+    }
+
+    public function conf_entreprise_doc()
+    {
+        return $this->query("SELECT * FROM conf_entreprise_doc_general WHERE idconf = 1");
+    }
+    public function conf_entreprise_gen()
+    {
+        return $this->query("SELECT * FROM conf_entreprise_general WHERE idconf = 1");
+    }
+
 }
