@@ -53,7 +53,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="havbar-header">
                 <!-- BEGIN LOGO -->
                 <a id="index" class="navbar-brand" href="<?= $constante->getUrl(); ?>">
-                    <img src="<?= $constante->getUrl(array('layouts/'), false); ?>layout6/img/logo.png" alt="Logo"> </a>
+                    <img src="<?= $constante->getUrl(array('layouts/'), false, false); ?>layout6/img/logo.png" alt="Logo"> </a>
                 <!-- END LOGO -->
                 <!-- BEGIN TOPBAR ACTIONS -->
                 <div class="topbar-actions">
