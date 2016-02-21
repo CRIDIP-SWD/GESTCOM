@@ -5,8 +5,7 @@ require dirname(__DIR__)."/app/autoloader.php";
 //Vendor Composer
 require dirname(__DIR__)."/vendor/autoload.php";
 
-use App\account\account;
-use App\api\meteo;
+use App\administration\configuration;
 use App\app;
 use App\constante;
 use App\date_format;
@@ -23,8 +22,10 @@ $date_format = new date_format();
 $ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 $show_ip = $ip_api->get();
 //---------------------------------//
-$account_cls = new account();
-$meteo_cls = new meteo("85100", "fr");
+$config = new configuration();
+
+var_dump($config);
+die();
 
 
 

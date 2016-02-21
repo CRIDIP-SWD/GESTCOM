@@ -8,199 +8,149 @@
     <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
     <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
       <schema id="1" name="gc"/>
-      <table id="2" parent="1" name="connect_histo"/>
-      <table id="3" parent="1" name="user"/>
-      <table id="4" parent="1" name="user_calendar"/>
-      <table id="5" parent="1" name="user_inbox"/>
-      <column id="6" parent="2" name="id">
+      <table id="2" parent="1" name="conf_annuaire_cat_client"/>
+      <table id="3" parent="1" name="conf_annuaire_groupe"/>
+      <table id="4" parent="1" name="conf_catalogue"/>
+      <table id="5" parent="1" name="conf_entreprise_activite"/>
+      <table id="6" parent="1" name="conf_entreprise_doc_general"/>
+      <table id="7" parent="1" name="conf_entreprise_general"/>
+      <column id="8" parent="2" name="idcatclient">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="7" parent="2" name="identite">
+      <column id="9" parent="2" name="libelle_cat_client">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="8" parent="2" name="heure_connexion">
+      <column id="10" parent="2" name="encours">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="9" parent="2" name="ip_connexion">
+      <column id="11" parent="2" name="delai_rglt">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="10" parent="2" name="emplacement">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="11" parent="2" name="navigateur">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="12" parent="2" name="os">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="13" parent="2" name="statut">
-        <comment>0: Echec / 1: Réussi</comment>
-        <mandatory>1</mandatory>
-        <data-type>int(1)</data-type>
-      </column>
-      <column id="14" parent="2" name="commentaire">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <key id="15" parent="2" name="PRIMARY">
-        <columns>id</columns>
+      <key id="12" parent="2" name="PRIMARY">
+        <columns>idcatclient</columns>
         <primary>1</primary>
       </key>
-      <column id="16" parent="3" name="iduser">
+      <column id="13" parent="3" name="idgroupe">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="17" parent="3" name="identifiant">
+      <column id="14" parent="3" name="nom_groupe">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="18" parent="3" name="password">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="19" parent="3" name="nom_user">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="20" parent="3" name="prenom_user">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="21" parent="3" name="poste">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="22" parent="3" name="tel_support">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="23" parent="3" name="email_support">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="24" parent="3" name="signature">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="25" parent="3" name="totp">
-        <mandatory>1</mandatory>
-        <data-type>int(1)</data-type>
-      </column>
-      <column id="26" parent="3" name="totp_token">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="27" parent="3" name="statut">
-        <mandatory>1</mandatory>
-        <data-type>int(1)</data-type>
-      </column>
-      <key id="28" parent="3" name="PRIMARY">
-        <columns>iduser</columns>
+      <key id="15" parent="3" name="PRIMARY">
+        <columns>idgroupe</columns>
         <primary>1</primary>
       </key>
-      <column id="29" parent="4" name="idevent">
+      <column id="16" parent="4" name="idconf">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="30" parent="4" name="ref_event">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="31" parent="4" name="iduser">
-        <mandatory>1</mandatory>
-        <data-type>int(13)</data-type>
-      </column>
-      <column id="32" parent="4" name="titre">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="33" parent="4" name="emplacement">
-        <comment>0: Bureau / 1: Extérieur</comment>
+      <column id="17" parent="4" name="gestion_stock">
         <mandatory>1</mandatory>
         <data-type>int(1)</data-type>
       </column>
-      <column id="34" parent="4" name="adresse">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="35" parent="4" name="description">
-        <mandatory>1</mandatory>
-        <data-type>longtext</data-type>
-      </column>
-      <column id="36" parent="4" name="date_debut">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="37" parent="4" name="heure_debut">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="38" parent="4" name="date_fin">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="39" parent="4" name="heure_fin">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="40" parent="4" name="priorite">
-        <comment>0: bas / 1: moyen / 2: haute</comment>
+      <column id="18" parent="4" name="gestion_trackeur">
         <mandatory>1</mandatory>
         <data-type>int(1)</data-type>
       </column>
-      <key id="41" parent="4" name="PRIMARY">
-        <columns>idevent</columns>
+      <column id="19" parent="4" name="gestion_construct">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="20" parent="4" name="duree_garantie">
+        <comment>En mois</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="21" parent="4" name="PRIMARY">
+        <columns>idconf</columns>
         <primary>1</primary>
       </key>
-      <column id="42" parent="5" name="idmessageinbox">
+      <column id="22" parent="5" name="idconf">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="43" parent="5" name="expediteur">
-        <comment>iduser</comment>
-        <mandatory>1</mandatory>
-        <data-type>int(13)</data-type>
-      </column>
-      <column id="44" parent="5" name="destinataire">
-        <comment>iduser</comment>
-        <mandatory>1</mandatory>
-        <data-type>int(13)</data-type>
-      </column>
-      <column id="45" parent="5" name="sujet">
+      <column id="23" parent="5" name="debut_activite">
+        <comment>strtotime</comment>
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="46" parent="5" name="message">
+      <column id="24" parent="5" name="pays">
         <mandatory>1</mandatory>
-        <data-type>longtext</data-type>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;France&apos;</default-expression>
       </column>
-      <column id="47" parent="5" name="importance">
+      <key id="25" parent="5" name="PRIMARY">
+        <columns>idconf</columns>
+        <primary>1</primary>
+      </key>
+      <column id="26" parent="6" name="idconf">
         <mandatory>1</mandatory>
-        <data-type>int(1)</data-type>
+        <data-type>int(13)</data-type>
       </column>
-      <column id="48" parent="5" name="Priorite">
-        <comment>0: bas / 1: moyen / 2: haut</comment>
-        <mandatory>1</mandatory>
-        <data-type>int(1)</data-type>
-      </column>
-      <column id="49" parent="5" name="lu">
-        <comment>0: non / 1: oui</comment>
-        <mandatory>1</mandatory>
-        <data-type>int(1)</data-type>
-      </column>
-      <column id="50" parent="5" name="date_message">
+      <column id="27" parent="6" name="delai_devis_client_recent">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="51" parent="5" name="PRIMARY">
-        <columns>idmessageinbox</columns>
+      <column id="28" parent="6" name="delai_devis_client_perime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="29" parent="6" name="PRIMARY">
+        <columns>idconf</columns>
+        <primary>1</primary>
+      </key>
+      <column id="30" parent="7" name="idconf">
+        <mandatory>1</mandatory>
+        <data-type>int(13)</data-type>
+      </column>
+      <column id="31" parent="7" name="societe">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="32" parent="7" name="adresse">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="33" parent="7" name="code_postal">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="34" parent="7" name="ville">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="35" parent="7" name="telephone">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="36" parent="7" name="fax">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="37" parent="7" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="38" parent="7" name="siret">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="39" parent="7" name="num_tva">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="40" parent="7" name="capital">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="41" parent="7" name="PRIMARY">
+        <columns>idconf</columns>
         <primary>1</primary>
       </key>
     </database-model>
