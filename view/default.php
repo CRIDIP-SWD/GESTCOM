@@ -1218,31 +1218,59 @@ License: You must have a valid license purchased only from themeforest(the above
             </div>
             <!-- END SIDEBAR -->
         </div>
-        <div class="page-fixed-main-content">
-            <!-- BEGIN PAGE BASE CONTENT -->
-            <div class="note note-info">
-                <p> A black page template with a minimal dependency assets to use as a base for any custom page you create </p>
+        <div class="page-content">
+            <div class="container">
+                <!-- BEGIN PAGE BASE CONTENT -->
+                <!-- Center Wrap BEGIN -->
+                <div class="center-wrap">
+                    <div class="center-align">
+                        <div class="center-body">
+                            <div class="row">
+                                <div class="col-sm-6 margin-bottom-30">
+                                    <a class="webapp-btn" href="index.html">
+                                        <h3>Application</h3>
+                                        <p>Manage Applications</p>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 margin-bottom-30">
+                                    <a class="webapp-btn" href="dashboard_2.html">
+                                        <h3>Reports</h3>
+                                        <p>View Reports</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 sm-margin-bottom-30">
+                                    <a class="webapp-btn" href="ecommerce_index.html">
+                                        <h3>Templates</h3>
+                                        <p>Add, edit templates</p>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="webapp-btn" href="dashboard_3.html">
+                                        <h3>Settings</h3>
+                                        <p>Manage your Projects</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Center Wrap END -->
+                <!-- END PAGE BASE CONTENT -->
+                <!-- BEGIN FOOTER -->
+                <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+                <button type="button" class="quick-sidebar-toggler" data-toggle="collapse">
+                    <span class="sr-only">Toggle Quick Sidebar</span>
+                    <i class="icon-logout"></i>
+                </button>
+                <!-- END QUICK SIDEBAR TOGGLER -->
+                <p class="copyright">2015 © Metronic by keenthemes.
+                    <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase Metronic!</a>
+                </p>
+                <!-- END FOOTER -->
             </div>
-            <!-- END PAGE BASE CONTENT -->
         </div>
-        <!-- BEGIN FOOTER -->
-        <p class="copyright-v2">2015 © Metronic by keenthemes.
-            <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase Metronic!</a>
-        </p>
-        <!-- BEGIN QUICK SIDEBAR TOGGLER -->
-        <button type="button" class="quick-sidebar-toggler" data-toggle="collapse">
-            <span class="sr-only">Toggle Quick Sidebar</span>
-            <i class="icon-logout"></i>
-            <div class="quick-sidebar-notification">
-                <span class="badge badge-danger">7</span>
-            </div>
-        </button>
-        <!-- END QUICK SIDEBAR TOGGLER -->
-        <a href="#index" class="go2top">
-            <i class="icon-arrow-up"></i>
-        </a>
-        <!-- END FOOTER -->
-    </div>
 </div>
 <!-- END CONTAINER -->
 <!-- BEGIN QUICK SIDEBAR -->
