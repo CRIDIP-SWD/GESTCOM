@@ -19,7 +19,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <head>
     <meta charset="utf-8" />
-    <title>Metronic | User Login 5</title>
+    <title><?= App\constante::NOM_SITE; ?> - Connexion</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="" name="description" />
@@ -60,7 +60,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="login-content">
                 <h1>Metronic Admin Login</h1>
                 <p> Lorem ipsum dolor sit amet, coectetuer adipiscing elit sed diam nonummy et nibh euismod aliquam erat volutpat. Lorem ipsum dolor sit amet, coectetuer adipiscing. </p>
-                <form action="javascript:;" class="login-form" method="post">
+                <form action="core/general/user.php" class="login-form" method="post">
                     <div class="alert alert-danger display-hide">
                         <button class="close" data-close="alert"></button>
                         <span>Enter any username and password. </span>
@@ -83,7 +83,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="forgot-password">
                                 <a href="javascript:;" id="forget-password" class="forget-password">Forgot Password?</a>
                             </div>
-                            <button class="btn blue" type="submit">Sign In</button>
+                            <button class="btn blue" type="submit">Connexion</button>
                         </div>
                     </div>
                 </form>
@@ -156,7 +156,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
 <!-- END THEME GLOBAL SCRIPTS -->
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
-<script src="../assets/pages/scripts/login-5.min.js" type="text/javascript"></script>
+<script src="../assets/pages/scripts/login-5.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
 <!-- END THEME LAYOUT SCRIPTS -->

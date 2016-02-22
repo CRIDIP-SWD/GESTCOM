@@ -46,7 +46,16 @@ var Login = function() {
             },
 
             submitHandler: function(form) {
-                form.submit(); // form validation success, call ajax form submit
+                form.submit(function(){
+                    pseudo = $(this).find("input[name=username]").val();
+                    password = $(this).find("input[name=password]").val();
+
+                    $.post("core/general/user.php", {pseudo: pseudo, password: password}, function (data) {
+                       alert(data)
+                    });
+
+                    return false;
+                }); // form validation success, call ajax form submit
             }
         });
 
