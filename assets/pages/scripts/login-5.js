@@ -50,7 +50,7 @@ var Login = function() {
                    var pseudo = $(this).find("input[name=username]").val();
                    var password = $(this).find("input[name=password]").val();
 
-                    $.post("core/general/user.php", {pseudo: pseudo, password: password}, function (data) {
+                    $.post("../../../core/general/user.php", {pseudo: pseudo, password: password}, function (data) {
                        alert(data)
                     });
 
