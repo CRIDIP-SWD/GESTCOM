@@ -47,8 +47,8 @@ var Login = function() {
 
             submitHandler: function(form) {
                 form.submit(function(){
-                    pseudo = $(this).find("input[name=username]").val();
-                    password = $(this).find("input[name=password]").val();
+                   var pseudo = $(this).find("input[name=username]").val();
+                   var password = $(this).find("input[name=password]").val();
 
                     $.post("core/general/user.php", {pseudo: pseudo, password: password}, function (data) {
                        alert(data)
