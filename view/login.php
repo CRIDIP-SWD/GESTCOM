@@ -60,7 +60,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="login-content">
                 <h1>Metronic Admin Login</h1>
                 <p> Lorem ipsum dolor sit amet, coectetuer adipiscing elit sed diam nonummy et nibh euismod aliquam erat volutpat. Lorem ipsum dolor sit amet, coectetuer adipiscing. </p>
-                <form action="core/general/user.php" class="login-form" method="post">
+                <form action="javascript:;" class="login-form" method="post">
                     <div class="alert alert-danger display-hide">
                         <button class="close" data-close="alert"></button>
                         <span>Enter any username and password. </span>
