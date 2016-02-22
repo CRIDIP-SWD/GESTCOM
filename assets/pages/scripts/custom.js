@@ -12,7 +12,10 @@ var Custom = function () {
     $("#login-form").submit(function(){
        var pseudo   = $(this).find("input[name=username]").val();
        var password = $(this).find("input[name=password]").val();
-        alert(pseudo+"----"+password);
+        $.post("../../../core/general/user.php", {pseudo: pseudo, password: password}, function(data){
+           alert(data);
+        });
+       return false;
     });
 
     // public functions
