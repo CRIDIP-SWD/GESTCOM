@@ -12,7 +12,8 @@ var Custom = function () {
     $("#login-form").submit(function(){
        var pseudo   = $(this).find("input[name=username]").val();
        var password = $(this).find("input[name=password]").val();
-        $.post("../../../core/general/user.php", {pseudo: pseudo, password: password}, function(data){
+       var action   = $(this).find("button[name=action]").val();
+        $.post("../../../core/general/user.php", {pseudo: pseudo, password: password, action: action}, function(data){
            alert(data);
         });
        return false;
