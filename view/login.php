@@ -83,7 +83,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="forgot-password">
                                 <a href="javascript:;" id="forget-password" class="forget-password">Forgot Password?</a>
                             </div>
-                            <button class="btn blue" type="submit">Connexion</button>
+                            <button class="btn blue" type="submit" name="action" value="connexion">Connexion</button>
                         </div>
                     </div>
                 </form>
