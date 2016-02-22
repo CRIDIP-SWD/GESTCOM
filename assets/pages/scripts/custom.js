@@ -9,6 +9,12 @@ var Custom = function () {
         alert(text);
     }
 
+    $("#login-form").submit(function(){
+       var pseudo   = $(this).find("input[name=username]").val();
+       var password = $(this).find("input[name=password]").val();
+        alert(pseudo+"----"+password);
+    });
+
     // public functions
     return {
 
