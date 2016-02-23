@@ -61,7 +61,9 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="havbar-header">
                 <!-- BEGIN LOGO -->
                 <a id="index" class="navbar-brand" href="<?= $constante->getUrl(array(), false, false); ?>">
-                    <img src="<?= $constante->getUrl(array('layouts/')); ?>layout6/img/logo.png" alt="Logo"> </a>
+                    <img src="<?= $constante->getUrl(array('layouts/')); ?>layout6/img/logo.png" alt="Logo">
+                </a>
+                TEST
                 <!-- END LOGO -->
                 <!-- BEGIN TOPBAR ACTIONS -->
                 <div class="topbar-actions">
@@ -321,7 +323,6 @@ License: You must have a valid license purchased only from themeforest(the above
                             <span class="title">Taches</span>
                         </a>
                     </li>
-
                 </ul>
                 <!-- END SIDEBAR MENU -->
             </div>
