@@ -18,7 +18,7 @@ var General = function () {
 
 
     /*Breadcumb*/
-    $('#bread').onload(function(e){
+    $('#bread').on(function(){
         var bread = $(this);
         if(!empty($sector)){bread.prepend.html("<li><a href=''>"+$sector+"</a></li>");}
         if(!empty($page)){bread.prepend.html("<li><a href=''>"+$page+"</a></li>");}
