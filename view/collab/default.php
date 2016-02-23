@@ -249,20 +249,20 @@ License: You must have a valid license purchased only from themeforest(the above
                         <i class="fa fa-circle"></i>
                     </button>
                     <ul class="dropdown-menu-v2">
-                        <li>
-                            <a href="start.html">Collaborative</a>
+                        <li class="active">
+                            <a href="#">Collaborative</a>
                         </li>
                         <li>
-                            <a href="start.html">Gestion</a>
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/">Gestion</a>
                         </li>
                         <li>
-                            <a href="start.html">Comptabilité</a>
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/compta/">Comptabilité</a>
                         </li>
                         <li>
-                            <a href="start.html">OVH</a>
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/ovh/">OVH</a>
                         </li>
                         <li>
-                            <a href="start.html">Projet</a>
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/projet/">Projet</a>
                         </li>
                     </ul>
                 </div>
