@@ -69,11 +69,13 @@ License: You must have a valid license purchased only from themeforest(the above
                     <form class="search-form" action="extra_search.html" method="GET">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search here" name="query">
-                                    <span class="input-group-btn">
-                                        <a href="javascript:;" class="btn md-skip submit">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                    </span>
+                            <div class="title"></div>
+                            <div class="message"></div>
+                            <span class="input-group-btn">
+                                <a href="javascript:;" class="btn md-skip submit">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </span>
                         </div>
                     </form>
                     <!-- END HEADER SEARCH BOX -->
