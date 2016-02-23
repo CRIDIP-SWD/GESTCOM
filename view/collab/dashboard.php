@@ -11,6 +11,28 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-4">
+            <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                <h4 class="widget-thumb-heading">Boite Mail</h4>
+                <div class="widget-thumb-wrap">
+                    <i class="widget-thumb-icon bg-red icon-envelope"></i>
+                    <div class="widget-thumb-body">
+                        <span data-value="0" data-counter="counterup" class="widget-thumb-body-stat">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                <h4 class="widget-thumb-heading">Tache à Effectuer</h4>
+                <div class="widget-thumb-wrap">
+                    <i class="widget-thumb-icon bg-yellow icon-tasks"></i>
+                    <div class="widget-thumb-body">
+                        <span data-value="0" data-counter="counterup" class="widget-thumb-body-stat">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <?php include $constante->getUrl(array(''), false, false)."view/footer.php"; ?>
