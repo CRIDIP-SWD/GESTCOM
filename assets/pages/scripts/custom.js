@@ -15,7 +15,7 @@ var Custom = function () {
         $form.find('button').html("<i class='fa fa-spinner fa-spin'></i> Connexion en cours");
         $.post($form.attr('action'), $form.serializeArray())
             .done(function(jqxhr){
-
+                windows.location.href(jqxhr.responseText);
             })
             .fail(function(jqxhr){
                 toastr.error("Une erreur a eu lieu lors de la connexion", "Connexion");
