@@ -7,4 +7,4 @@ $count = $DB->count("SELECT count(idinbox) FROM collab_inbox WHERE destinataire 
 $t = array();
 $t['count'] = $count;
 
-json_encode($t);
+echo json_encode($t);
