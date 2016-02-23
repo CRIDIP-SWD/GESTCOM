@@ -48,6 +48,11 @@
                             </a>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="core/general/user.php?action=logout&iduser="
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

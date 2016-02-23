@@ -6,6 +6,7 @@ require dirname(__DIR__)."/app/autoloader.php";
 require dirname(__DIR__)."/vendor/autoload.php";
 
 use App\administration\configuration;
+use App\administration\users;
 use App\api\push;
 use App\app;
 use App\constante;
@@ -34,6 +35,14 @@ $catalogue      = $config->conf_catalogue();
 $ent_activite   = $config->conf_entreprise_activite();
 $ent_doc        = $config->conf_entreprise_doc();
 $ent_gen        = $config->conf_entreprise_gen();
+
+//----------CLASS ADMINISTRATION-----------//
+$user_cls = new users();
+
+if(isset($_SESSION['user']['connect']) && $_SESSION['user']['connect'] == 1)
+{
+    $info_user = $user_cls->info_user($_SESSION['user']['username']);
+}
 
 
 
