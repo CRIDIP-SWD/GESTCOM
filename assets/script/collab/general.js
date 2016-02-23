@@ -3,7 +3,7 @@
  **/
 var General = function () {
 
-
+    /*Inclusion AJAX */
     $.ajax("../../../core/collab/ajax/message.php?iduser="+$iduser)
         .done(function(jqxhr){
             if(jqxhr != 0)
@@ -13,7 +13,16 @@ var General = function () {
         })
         .fail(function(jqxhr){
             alert("ECHEC !!");
-        })
+        });
+
+
+
+    /*Breadcumb*/
+    $('#bread').onload(function(e){
+        var bread = $(this);
+        if(!empty($sector)){bread.prepend.html("<li><a href=''>"+$sector+"</a></li>");}
+        if(!empty($page)){bread.prepend.html("<li><a href=''>"+$page+"</a></li>");}
+    });
 
 
     // public functions

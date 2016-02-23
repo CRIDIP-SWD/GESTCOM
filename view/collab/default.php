@@ -235,20 +235,10 @@ License: You must have a valid license purchased only from themeforest(the above
     <div class="page-content page-content-popup">
         <div class="page-content-fixed-header">
             <!-- BEGIN BREADCRUMBS -->
-            <ul class="page-breadcrumb">
+            <ul class="page-breadcrumb" id="bread">
                 <li>
                     <a href=""><i class="fa fa-home"></i> <?= \App\constante::NOM_SITE; ?></a>
                 </li>
-                <?php if(isset($_GET['view'])): ?>
-                    <li>
-                        <a href=""><?= $_GET['view']; ?></a>
-                    </li>
-                <?php endif; ?>
-                <?php if(isset($_GET['sub'])): ?>
-                    <li>
-                        <a href=""><?= $_GET['sub']; ?></a>
-                    </li>
-                <?php endif; ?>
             </ul>
             <!-- END BREADCRUMBS -->
             <div class="content-header-menu">

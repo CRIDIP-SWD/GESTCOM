@@ -27,6 +27,8 @@
 <!-- VARIABLE JS -->
 <script type="text/javascript">
     var $iduser = <?= $info_user[0]->iduser; ?>;
+    var $sector = "";
+    var $page = "Mon Profil";
 </script>
 <!-- END VARIABLE JS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
