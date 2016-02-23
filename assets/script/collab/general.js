@@ -22,8 +22,8 @@ var General = function () {
         var bread = $(this);
         var sector = "<li>"+$sector+"</li>";
         var page = "<li>"+$page+"</li>";
-        if(!empty($sector)){bread.append(sector);}
-        if(!empty($page)){bread.append(page);}
+        if(!empty($sector)){}
+        if(!empty($page)){bread.html(page);}
     });
 
 
