@@ -158,6 +158,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src="../assets/pages/scripts/login-5.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
+<!-- BEGIN OTHER SCRIPT -->
+<script src="../assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
+<!-- END OTHER SCRIPT -->
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
 <script src="../assets/pages/scripts/custom.js" type="text/javascript"></script>
 <!-- END THEME LAYOUT SCRIPTS -->

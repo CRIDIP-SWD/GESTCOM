@@ -51,6 +51,9 @@ License: You must have a valid license purchased only from themeforest(the above
     <link href="../assets/layouts/layout6/css/layout.min.css" rel="stylesheet" type="text/css" />
     <link href="../assets/layouts/layout6/css/custom.min.css" rel="stylesheet" type="text/css" />
     <!-- END THEME LAYOUT STYLES -->
+    <!-- OTHER CSS -->
+    <link href="../assets/global/plugins/bootstrap-toastr/toastr.min.css" rel="stylesheet" type="text/css" />
+    <!-- END OTHER CSS -->
     <link rel="shortcut icon" href="favicon.ico" /> </head>
 <!-- END HEAD -->
 
