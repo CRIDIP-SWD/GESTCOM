@@ -43,6 +43,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <link href="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= $constante->getUrl(array('global/')); ?>plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
     <link href="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-toastr/toastr.min.css" rel="stylesheet" type="text/css" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN THEME GLOBAL STYLES -->
     <link href="<?= $constante->getUrl(array('global/')); ?>css/components-md.min.css" rel="stylesheet" id="style_components" type="text/css" />
@@ -51,6 +52,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN THEME LAYOUT STYLES -->
     <link href="<?= $constante->getUrl(array('layouts/')); ?>layout6/css/layout.min.css" rel="stylesheet" type="text/css" />
     <link href="<?= $constante->getUrl(array('layouts/')); ?>layout6/css/custom.min.css" rel="stylesheet" type="text/css" />
+
     <!-- END THEME LAYOUT STYLES -->
 <!-- END HEAD -->
 

@@ -32,6 +32,8 @@
 <script src="<?= $constante->getUrl(array('layouts/')); ?>layout6/scripts/layout.min.js" type="text/javascript"></script>
 <script src="<?= $constante->getUrl(array('layouts/')); ?>global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
 
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('pages/')); ?>scripts/ui-toastr.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="<?= $constante->getUrl(array('script/')); ?>collab/general.js"></script>
 
 
