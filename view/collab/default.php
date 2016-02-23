@@ -184,35 +184,35 @@ License: You must have a valid license purchased only from themeforest(the above
                             <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/mmockelyn.jpg" alt=""> </button>
                         <ul class="dropdown-menu-v2" role="menu">
                             <li>
-                                <a href="page_user_profile_1.html">
-                                    <i class="icon-user"></i> My Profile
+                                <a href="index.php?view=profil">
+                                    <i class="icon-user"></i> Mon Profil
                                     <span class="badge badge-danger">1</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="app_calendar.html">
-                                    <i class="icon-calendar"></i> My Calendar </a>
+                                <a href="index.php?view=calendar">
+                                    <i class="icon-calendar"></i>Mon Calendrier </a>
                             </li>
                             <li>
-                                <a href="app_inbox.html">
-                                    <i class="icon-envelope-open"></i> My Inbox
+                                <a href="index.php?view=inbox">
+                                    <i class="icon-envelope-open"></i> Mes Message
                                     <span class="badge badge-danger"> 3 </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="app_todo_2.html">
-                                    <i class="icon-rocket"></i> My Tasks
+                                <a href="index.php?view=task">
+                                    <i class="icon-rocket"></i> Mes Taches
                                     <span class="badge badge-success"> 7 </span>
                                 </a>
                             </li>
                             <li class="divider"> </li>
                             <li>
-                                <a href="page_user_lock_1.html">
-                                    <i class="icon-lock"></i> Lock Screen </a>
+                                <a href="core/general/user.php?action=lock&iduser=<?= $info_user[0]->iduser; ?>">
+                                    <i class="icon-lock"></i> Vérouillez </a>
                             </li>
                             <li>
-                                <a href="page_user_login_1.html">
-                                    <i class="icon-key"></i> Log Out </a>
+                                <a href="core/general/user.php?action=logout&iduser=<?= $info_user[0]->iduser; ?>">
+                                    <i class="icon-key"></i> Déconnexion </a>
                             </li>
                         </ul>
                     </div>

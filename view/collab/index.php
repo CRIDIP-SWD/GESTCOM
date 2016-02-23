@@ -13,6 +13,7 @@ if(isset($_GET['view']))
 ob_start();
 
 if($view === "index"){require "dashboard.php";}
+if($view === "profil"){require "profil.php";}
 
 
 $content = ob_get_clean();
