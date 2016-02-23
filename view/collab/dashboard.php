@@ -26,7 +26,7 @@
             <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
                 <h4 class="widget-thumb-heading">Tache à Effectuer</h4>
                 <div class="widget-thumb-wrap">
-                    <i class="widget-thumb-icon bg-yellow icon-tasks"></i>
+                    <i class="widget-thumb-icon bg-yellow icon-list"></i>
                     <div class="widget-thumb-body">
                         <span data-value="0" data-counter="counterup" class="widget-thumb-body-stat">0</span>
                     </div>
