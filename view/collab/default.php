@@ -85,7 +85,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     </form>
                     <!-- END HEADER SEARCH BOX -->
                     <!-- BEGIN GROUP NOTIFICATION -->
-                    <div class="btn-group-notification btn-group" id="header_notification_bar">
+                    <!--<div class="btn-group-notification btn-group" id="header_notification_bar">
                         <button type="button" class="btn md-skip dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                             <span class="badge">9</span>
                         </button>
@@ -181,7 +181,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </div>-->
                     <!-- END GROUP NOTIFICATION -->
                     <!-- BEGIN USER PROFILE -->
                     <div class="btn-group-img btn-group">
