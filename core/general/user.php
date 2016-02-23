@@ -29,16 +29,16 @@ if(!isset($_POST['username']) || empty($_POST['username']) || !isset($_POST['pas
             switch($user_db[0]->groupe)
             {
                 case 1:
-                    $t['retour'] = header("Location: ../../index.php?view=start");
+                    $t['retour'] = "../../index.php?view=start";
                     break;
                 case 2:
-                    $t['retour'] = header("Location: ../../index.php?view=start");
+                    $t['retour'] = "../../index.php?view=start";
                     break;
                 case 3:
-                    $t['retour'] = header("Location: ../../index.php?view=start");
+                    $t['retour'] = "../../index.php?view=start";
                     break;
                 case 4:
-                    $t['retour'] = header("Location: ../../view/client/index.php");
+                    $t['retour'] = "../../view/client/index.php";
                     break;
             }
 

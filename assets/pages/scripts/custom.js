@@ -14,8 +14,8 @@ var Custom = function () {
         var $form = $(this);
         $form.find('button').html("<i class='fa fa-spinner fa-spin'></i> Connexion en cours");
         $.post($form.attr('action'), $form.serializeArray(), "json")
-            .done(function(jqxhr){
-                document.location.href(jqxhr.responseText);
+            .done(function(jqxhr, data){
+                $(location).attr('href', data.retour)
             })
             .fail(function(jqxhr, data){
                 if(data.error == 'no'){
