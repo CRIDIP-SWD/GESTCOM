@@ -63,7 +63,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <form action="core/general/user.php" id="login-form" method="post">
                     <div class="alert alert-danger display-hide">
                         <button class="close" data-close="alert"></button>
-                        <span id="errorstamp">Enter any username and password. </span>
+                        <span id="errorstamp"></span>
                     </div>
                     <div class="row">
                         <div class="col-xs-6">
