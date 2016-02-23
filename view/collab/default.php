@@ -66,7 +66,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!-- BEGIN USER PROFILE -->
                     <div class="btn-group-img btn-group">
                         <button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <img src="<?= $constante->getUrl(array(''), false, true); ?>avatar/<?= $info_user[0]->username; ?>.jpg" class="img-responsive" width="40" alt=""> </button>
+                            <i class="fa fa-user"></i>
+                        </button>
                         <ul class="dropdown-menu-v2" role="menu">
                             <li>
                                 <a href="page_user_profile_1.html">
