@@ -15,6 +15,22 @@ var General = function () {
             alert("ECHEC !!");
         })
 
+
+    // public functions
+    return {
+
+        //main function
+        init: function () {
+            //initialize here something.
+        },
+
+        //some helper function
+        doSomeStuff: function () {
+            myFunc();
+        }
+
+    };
+
 }();
 
 jQuery(document).ready(function() {
