@@ -231,13 +231,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <div class="page-content-fixed-header">
             <!-- BEGIN BREADCRUMBS -->
             <ul class="page-breadcrumb">
-                <li>
-                    <a href="#">Blank Page</a>
-                </li>
-                <li>
-                    <a href="#">Page Layouts</a>
-                </li>
-                <li>Blank Page Layout</li>
+                <li>INTERFACE COLLABORATIVE</li>
             </ul>
             <!-- END BREADCRUMBS -->
             <div class="content-header-menu">
