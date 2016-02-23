@@ -1,9 +1,5 @@
 <div class="page-fixed-main-content">
-    <!-- BEGIN PAGE BASE CONTENT -->
-    <div class="note note-info">
-        <p> A black page template with a minimal dependency assets to use as a base for any custom page you create Despaire</p>
-    </div>
-    <!-- END PAGE BASE CONTENT -->
+
 </div>
 <?php include $constante->getUrl(array(''), false, false)."view/footer.php"; ?>
 </div>
@@ -24,10 +20,19 @@
 <script src="<?= $constante->getUrl(array('global/')); ?>plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
 <script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
+<!-- VARIABLE JS -->
+<script type="text/javascript">
+    var $iduser = <?= $info_user[0]->iduser; ?>;
+</script>
+<!-- END VARIABLE JS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
 <script src="<?= $constante->getUrl(array('global/')); ?>scripts/app.min.js" type="text/javascript"></script>
 <!-- END THEME GLOBAL SCRIPTS -->
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
 <script src="<?= $constante->getUrl(array('layouts/')); ?>layout6/scripts/layout.min.js" type="text/javascript"></script>
 <script src="<?= $constante->getUrl(array('layouts/')); ?>global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="<?= $constante->getUrl(array('script/')); ?>collab/general.js"></script>
+
+
 <!-- END THEME LAYOUT SCRIPTS -->
