@@ -43,6 +43,9 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN PAGE LEVEL STYLES -->
     <link href="../assets/pages/css/login-5.min.css" rel="stylesheet" type="text/css" />
     <!-- END PAGE LEVEL STYLES -->
+    <!-- OTHER CSS -->
+    <link href="../assets/global/plugins/bootstrap-toastr/toastr.min.css" rel="stylesheet" type="text/css" />
+    <!-- END OTHER CSS -->
     <!-- BEGIN THEME LAYOUT STYLES -->
     <!-- END THEME LAYOUT STYLES -->
     <link rel="shortcut icon" href="favicon.ico" /> </head>
