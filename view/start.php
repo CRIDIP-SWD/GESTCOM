@@ -50,7 +50,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <a href="core/general/user.php?action=logout&iduser="
+                            <a href="core/general/user.php?action=logout&iduser=<?= $info_user[0]->iduser; ?>" class="webapp-btn"><h3>Déconnexion</h3></a>
                         </div>
                     </div>
                 </div>

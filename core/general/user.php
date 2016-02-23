@@ -46,3 +46,9 @@ if(isset($_POST['action']) && $_POST['action'] == 'connexion')
         }
     }
 }
+if(isset($_GET['action']) && $_GET['action'] == 'logout')
+{
+    session_start();
+    require "../../app/classe.php";
+    $ = $_GET[''];
+}
