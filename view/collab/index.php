@@ -7,12 +7,12 @@ if(isset($_GET['view']))
 {
     $view = $_GET['view'];
 }else{
-    $view = "start";
+    $view = "dashboard";
 }
 
 ob_start();
 
-if($view === "index"){require "dashboard.php";}
+if($view === "dashboard"){require "dashboard.php";}
 if($view === "profil"){require "profil.php";}
 if($view === "calendar"){require "calendar.php";}
 if($view === "inbox"){require "inbox.php";}
