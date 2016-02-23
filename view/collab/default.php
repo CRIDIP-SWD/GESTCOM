@@ -191,7 +191,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             </li>
                             <li>
                                 <a href="index.php?view=calendar">
-                                    <i class="icon-calendar"></i>Mon Calendrier </a>
+                                    <i class="icon-calendar"></i> Mon Calendrier </a>
                             </li>
                             <li>
                                 <a href="index.php?view=inbox">
@@ -250,16 +250,19 @@ License: You must have a valid license purchased only from themeforest(the above
                     </button>
                     <ul class="dropdown-menu-v2">
                         <li>
-                            <a href="start.html">Application</a>
+                            <a href="start.html">Collaborative</a>
                         </li>
                         <li>
-                            <a href="start.html">Reports</a>
+                            <a href="start.html">Gestion</a>
                         </li>
                         <li>
-                            <a href="start.html">Templates</a>
+                            <a href="start.html">Comptabilité</a>
                         </li>
                         <li>
-                            <a href="start.html">Settings</a>
+                            <a href="start.html">OVH</a>
+                        </li>
+                        <li>
+                            <a href="start.html">Projet</a>
                         </li>
                     </ul>
                 </div>
