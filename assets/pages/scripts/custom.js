@@ -9,14 +9,20 @@ var Custom = function () {
         alert(text);
     }
 
-    $("#login-form").submit(function(){
-       var pseudo   = $(this).find("input[name=username]").val();
-       var password = $(this).find("input[name=password]").val();
-       var action   = $(this).find("button[name=action]").val();
-        $.post("../../../core/general/user.php", {pseudo: pseudo, password: password, action: action}, function(data){
-           alert(data);
-        });
-       return false;
+    $('#login-form').on('submit', function(e){
+        e.preventDefault();
+        var $form = $(this);
+        $form.find('button').html("<i class='fa fa-spinner fa-spin'></i> Connexion en cours");
+        $.post($form.attr('action'), $form.serializeArray())
+            .done(function(jqxhr){
+
+            })
+            .fail(function(jqxhr){
+                toastr.error("Une erreur a eu lieu lors de la connexion", "Connexion");
+            })
+            .always(function(){
+                $form.find('button').text("Connexion")
+            });
     });
 
     // public functions
