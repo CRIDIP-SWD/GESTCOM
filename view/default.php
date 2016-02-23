@@ -1,6 +1,6 @@
 <?php
 ini_set("display_errors", 1);
-if(!isset($_SESSION['account']['connect']) && $_SESSION['account']['connect'] == 0)
+if(!isset($_SESSION['user']['connect']) && $_SESSION['user']['connect'] == 0)
 {
     $text = "Vous avez été déconnecter du service.";
     header("Location: index.php?view=login&error=login&text=$text");
