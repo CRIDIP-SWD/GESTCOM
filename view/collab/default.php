@@ -300,37 +300,37 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
                 <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
                 <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
-                    <li class="nav-item start ">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'dashboard'){echo 'active';} ?>">
                         <a href="index.php?view=dashboard" class="nav-link nav-toggle">
                             <i class="fa fa-dashboard"></i>
                             <span class="title">Accueil</span>
                         </a>
                     </li>
-                    <li class="nav-item start ">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'profil'){echo 'active';} ?>">
                         <a href="index.php?view=profil" class="nav-link nav-toggle">
                             <i class="fa fa-user"></i>
                             <span class="title">Mon Profil</span>
                         </a>
                     </li>
-                    <li class="nav-item start ">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'inbox'){echo 'active';} ?>">
                         <a href="index.php?view=inbox" class="nav-link nav-toggle">
                             <i class="fa fa-envelope"></i>
                             <span class="title">Messagerie Interne</span>
                         </a>
                     </li>
-                    <li class="nav-item start ">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'exchange'){echo 'active';} ?>">
                         <a href="index.php?view=exchange" class="nav-link nav-toggle disabled">
                             <i class="fa fa-exchange"></i>
                             <span class="title">Messagerie Externe</span>
                         </a>
                     </li>
-                    <li class="nav-item start ">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'calendar'){echo 'active';} ?>">
                         <a href="index.php?view=calendar" class="nav-link nav-toggle">
                             <i class="fa fa-calendar"></i>
                             <span class="title">Calendrier</span>
                         </a>
                     </li>
-                    <li class="nav-item start ">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'task'){echo 'active';} ?>">
                         <a href="index.php?view=task" class="nav-link nav-toggle">
                             <i class="fa fa-tasks"></i>
                             <span class="title">Taches</span>
