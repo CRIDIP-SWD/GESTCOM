@@ -59,6 +59,8 @@ if(isset($_GET['action']) && $_GET['action'] == 'logout')
 
     if($user_u == 1)
     {
+        session_unset();
+        session_destroy();
         $text = "Vous avez été déconnecter du service.";
         header("Location: ../../index.php?view=login&error=login&text=$text");
     }else{
