@@ -17,16 +17,6 @@ var General = function () {
 
 
 
-    /*Breadcumb*/
-    $('#bread').on(function(){
-        var bread = $(this);
-        var sector = "<li>"+$sector+"</li>";
-        var page = "<li>"+$page+"</li>";
-        if(!empty($sector)){}
-        if(!empty($page)){bread.html(page);}
-    });
-
-
     // public functions
     return {
 
