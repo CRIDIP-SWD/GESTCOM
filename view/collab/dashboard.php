@@ -5,11 +5,11 @@
     </div>
     <!-- END PAGE BASE CONTENT -->
 </div>
-<?php include $constante->getUrl(array(), false, false)."view/footer.php"; ?>
+<?php include $constante->getUrl(array(''), false, false)."view/footer.php"; ?>
 </div>
 </div>
 <!-- END CONTAINER -->
-<?php include $constante->getUrl(array(), false, false)."view/sidebar_left.php"; ?>
+<?php include $constante->getUrl(array(''), false, false)."view/sidebar_left.php"; ?>
 <!--[if lt IE 9]>
 <script src="<?= $constante->getUrl(array('global/')); ?>plugins/respond.min.js"></script>
 <script src="<?= $constante->getUrl(array('global/')); ?>plugins/excanvas.min.js"></script>

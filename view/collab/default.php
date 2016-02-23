@@ -1,5 +1,6 @@
 <?php
 ini_set("display_errors", 1);
+ini_set("allow_url_include", 1);
 if(!isset($_SESSION['user']['connect']) && $_SESSION['user']['connect'] == 0)
 {
     $text = "Vous avez été déconnecter du service.";
