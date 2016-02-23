@@ -63,7 +63,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <a id="index" class="navbar-brand" href="<?= $constante->getUrl(array(), false, false); ?>">
                     <img src="<?= $constante->getUrl(array('layouts/')); ?>layout6/img/logo.png" alt="Logo">
                 </a>
-                TEST
+                <span style="font-size: 30px; color: white; font-weight: bold;">INTERFACE COLLABORATIVE</span>
                 <!-- END LOGO -->
                 <!-- BEGIN TOPBAR ACTIONS -->
                 <div class="topbar-actions">
