@@ -15,7 +15,7 @@ if(!isset($_POST['username']) || empty($_POST['username']) || !isset($_POST['pas
 
     if($fonction->isAjax())
     {
-        if($user[0] = 1)
+        if($user[0] == 1)
         {
             var_dump($user);
             die();
