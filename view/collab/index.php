@@ -14,6 +14,9 @@ ob_start();
 
 if($view === "index"){require "dashboard.php";}
 if($view === "profil"){require "profil.php";}
+if($view === "calendar"){require "calendar.php";}
+if($view === "inbox"){require "inbox.php";}
+if($view === "task"){require "task.php";}
 
 
 $content = ob_get_clean();
