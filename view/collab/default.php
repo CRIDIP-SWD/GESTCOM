@@ -231,50 +231,6 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN CONTAINER -->
 <div class="container-fluid">
     <div class="page-content page-content-popup">
-        <div class="page-content-fixed-header">
-            <!-- BEGIN BREADCRUMBS -->
-            <ul class="page-breadcrumb">
-                <li>INTERFACE COLLABORATIVE</li>
-            </ul>
-            <!-- END BREADCRUMBS -->
-            <div class="content-header-menu">
-                <!-- BEGIN DROPDOWN AJAX MENU -->
-                <div class="dropdown-ajax-menu btn-group">
-                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                        <i class="fa fa-circle"></i>
-                        <i class="fa fa-circle"></i>
-                        <i class="fa fa-circle"></i>
-                    </button>
-                    <ul class="dropdown-menu-v2">
-                        <li class="active">
-                            <a href="#">Collaborative</a>
-                        </li>
-                        <li>
-                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/">Gestion</a>
-                        </li>
-                        <li>
-                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/compta/">Comptabilité</a>
-                        </li>
-                        <li>
-                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/ovh/">OVH</a>
-                        </li>
-                        <li>
-                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/projet/">Projet</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- END DROPDOWN AJAX MENU -->
-                <!-- BEGIN MENU TOGGLER -->
-                <button type="button" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="toggle-icon">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </span>
-                </button>
-                <!-- END MENU TOGGLER -->
-            </div>
-        </div>
         <div class="page-sidebar-wrapper">
             <!-- BEGIN SIDEBAR -->
             <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
@@ -328,6 +284,50 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!-- END SIDEBAR MENU -->
             </div>
             <!-- END SIDEBAR -->
+        </div>
+        <div class="page-content-fixed-header">
+            <!-- BEGIN BREADCRUMBS -->
+            <ul class="page-breadcrumb">
+                <li>INTERFACE COLLABORATIVE</li>
+            </ul>
+            <!-- END BREADCRUMBS -->
+            <div class="content-header-menu">
+                <!-- BEGIN DROPDOWN AJAX MENU -->
+                <div class="dropdown-ajax-menu btn-group">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <i class="fa fa-circle"></i>
+                        <i class="fa fa-circle"></i>
+                        <i class="fa fa-circle"></i>
+                    </button>
+                    <ul class="dropdown-menu-v2">
+                        <li class="active">
+                            <a href="#">Collaborative</a>
+                        </li>
+                        <li>
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/">Gestion</a>
+                        </li>
+                        <li>
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/compta/">Comptabilité</a>
+                        </li>
+                        <li>
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/ovh/">OVH</a>
+                        </li>
+                        <li>
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>view/projet/">Projet</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END DROPDOWN AJAX MENU -->
+                <!-- BEGIN MENU TOGGLER -->
+                <button type="button" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="toggle-icon">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                </button>
+                <!-- END MENU TOGGLER -->
+            </div>
         </div>
 <?= $content; ?>
 </body>
