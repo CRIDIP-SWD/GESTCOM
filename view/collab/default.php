@@ -300,13 +300,13 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
                 <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
                 <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
-                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'dashboard'){echo 'active';} ?>">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'dashboard' || empty($_GET['view'])){echo 'active';} ?>">
                         <a href="index.php?view=dashboard" class="nav-link nav-toggle">
                             <i class="fa fa-dashboard"></i>
                             <span class="title">Accueil</span>
                         </a>
                     </li>
-                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'profil' || empty($_GET['view'])){echo 'active';} ?>">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'profil'){echo 'active';} ?>">
                         <a href="index.php?view=profil" class="nav-link nav-toggle">
                             <i class="fa fa-user"></i>
                             <span class="title">Mon Profil</span>
