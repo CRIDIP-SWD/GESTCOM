@@ -207,11 +207,11 @@ License: You must have a valid license purchased only from themeforest(the above
                             </li>
                             <li class="divider"> </li>
                             <li>
-                                <a href="core/general/user.php?action=lock&iduser=<?= $info_user[0]->iduser; ?>">
+                                <a href="../../core/general/user.php?action=lock&iduser=<?= $info_user[0]->iduser; ?>">
                                     <i class="icon-lock"></i> Vérouillez </a>
                             </li>
                             <li>
-                                <a href="core/general/user.php?action=logout&iduser=<?= $info_user[0]->iduser; ?>">
+                                <a href="../../core/general/user.php?action=logout&iduser=<?= $info_user[0]->iduser; ?>">
                                     <i class="icon-key"></i> Déconnexion </a>
                             </li>
                         </ul>
