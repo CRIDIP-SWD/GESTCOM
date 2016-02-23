@@ -1,3 +1,11 @@
+<?php
+ini_set("display_errors", 1);
+if(!isset($_SESSION['user']['connect']) && $_SESSION['user']['connect'] == 0)
+{
+    $text = "Vous avez été déconnecter du service.";
+    header("Location: index.php?view=login&error=login&text=$text");
+}
+?>
 <!DOCTYPE html>
 <!--
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6
