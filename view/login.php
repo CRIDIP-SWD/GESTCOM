@@ -160,6 +160,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- END PAGE LEVEL SCRIPTS -->
 <!-- BEGIN OTHER SCRIPT -->
 <script src="../assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
+<script src="../assets/pages/scripts/ui-toastr.min.js" type="text/javascript"></script>
 <!-- END OTHER SCRIPT -->
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
 <script src="../assets/pages/scripts/custom.js" type="text/javascript"></script>
