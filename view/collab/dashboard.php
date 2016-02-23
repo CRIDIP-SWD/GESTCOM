@@ -1,5 +1,17 @@
 <div class="page-fixed-main-content">
-
+    <div class="row">
+        <div class="col-md-4">
+            <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                <h4 class="widget-thumb-heading">Evènement du Jour</h4>
+                <div class="widget-thumb-wrap">
+                    <i class="widget-thumb-icon bg-green icon-calendar"></i>
+                    <div class="widget-thumb-body">
+                        <span data-value="0" data-counter="counterup" class="widget-thumb-body-stat">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <?php include $constante->getUrl(array(''), false, false)."view/footer.php"; ?>
 </div>
