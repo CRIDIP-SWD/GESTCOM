@@ -56,6 +56,46 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <body class="page-md">
 <?= $content; ?>
+
+<?php if(isset($_GET['success']) && $_GET['success'] == $_GET['success']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.success("<?= $_GET['text']; ?>", "SUCCES", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+<?php if(isset($_GET['warning']) && $_GET['warning'] == $_GET['warning']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.warning("<?= $_GET['text']; ?>", "ATTENTION", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+<?php if(isset($_GET['error']) && $_GET['error'] == $_GET['error']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.error("<?= $_GET['text']; ?>", "ERREUR", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+
+
+ 
 </body>
 
 </html>

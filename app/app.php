@@ -89,99 +89,121 @@ class constante extends app{
 
 class date_format extends app
 {
-    public function jour_semaine($jour)
+
+    /**
+     * @param $date // Prend en Parametre la date au format d-m-Y
+     * @return int // retourne le resultat en format entier time()
+     */
+    public function format_strt($date)
     {
-        switch($jour)
+        return strtotime($date);
+    }
+
+    /**
+     * @param $format // Prend en paramêtre la date au format choisie |ex: d-m-Y H:i ou d/m/Y
+     * @param $strtotime // Prend en paramêtre la date au format strtotime entier time()
+     * @return bool|string // Retourne la date au format choisie en paramêtre
+     */
+    public function formatage($format, $strtotime)
+    {
+        return date($format, $strtotime);
+    }
+
+    /**
+     * @param $jour // Prend le jour au format time()
+     * @param $mois // Prend le mois au format time()
+     * @param $annee // Prend l'année au format time()
+     * @return string // Retourne la date au format j d m y | ex: Lundi 04 Janvier 2016
+     */
+    public function formatage_long($strtotime)
+    {
+        $j = date("N", $strtotime);
+        $m = date("n", $strtotime);
+        $y = date("Y", $strtotime);
+
+        $dj = date("d", $strtotime);
+
+        switch($j)
         {
-            case 1: return "Lundi"; break;
-            case 2: return "Mardi"; break;
-            case 3: return "Mercredi"; break;
-            case 4: return "Jeudi"; break;
-            case 5: return "Vendredi"; break;
-            case 6: return "Samedi"; break;
-            case 7: return "Dimanche"; break;
+            case 1: $data_jour = "Lundi"; break;
+            case 2: $data_jour = "Mardi"; break;
+            case 3: $data_jour = "Mercredi"; break;
+            case 4: $data_jour = "Jeudi"; break;
+            case 5: $data_jour = "Vendredi"; break;
+            case 6: $data_jour = "Samedi"; break;
+            case 7: $data_jour = "Dimanche"; break;
         }
-    }
-    public function mois($mois)
-    {
-        switch($mois)
+
+        switch($m)
         {
-            case 1: return "Janvier"; break;
-            case 2: return "Février"; break;
-            case 3: return "Mars"; break;
-            case 4: return "Avril"; break;
-            case 5: return "Mai"; break;
-            case 6: return "Juin"; break;
-            case 7: return "Juillet"; break;
-            case 8: return "Aout"; break;
-            case 9: return "Septembre"; break;
-            case 10: return "Octobre"; break;
-            case 11: return "Novembre"; break;
-            case 12: return "Décembre"; break;
+            case 1: $data_mois = "Janvier"; break;
+            case 2: $data_mois = "Février"; break;
+            case 3: $data_mois = "Mars"; break;
+            case 4: $data_mois = "Avril"; break;
+            case 5: $data_mois = "Mai"; break;
+            case 6: $data_mois = "Juin"; break;
+            case 7: $data_mois = "Juillet"; break;
+            case 8: $data_mois = "Aout"; break;
+            case 9: $data_mois = "Septembre"; break;
+            case 10: $data_mois = "Octobre"; break;
+            case 11: $data_mois = "Novembre"; break;
+            case 12: $data_mois = "Décembre"; break;
         }
-    }
-    public function formatage($date_format)
-    {
-        $jour = date("d", $date_format);
-        $mois = date("m", $date_format);
-        $year = date("Y", $date_format);
 
-        $formatage = $jour." ".$this->mois($mois)." ".$year;
-        return $formatage;
+        return $data_jour." ".$dj." ".$data_mois." ".$y;
     }
-    public function convert_strtotime($date)
-    {
-        $formatage = strtotime($date);
-        return $formatage;
-    }
-    public function format($datetime)
-    {
-        $now = time();
-        $created = $datetime;
 
-        //Calcul de la différence
-        $diff = $now-$created;
-        $m = ($diff)/(60); // Minutes
-        $h = ($diff)/(60*60); // Heures
-        $j = ($diff)/(60*60*24); // jours
-        $s = ($diff)/(60*60*24*7);
+    public function format($date)
+    {
+        $date_a_comparer = new DateTime($date);
+        $date_actuelle = new DateTime("now");
 
-        if($diff < 60) {
-            return $diff." Secondes";
-        }elseif ($m < 60) { // "il y a x minutes"
-            $minute = (floor($m) == 1) ? 'minute' : 'minutes';
-            return floor($m).' '.$minute;
+        $intervalle = $date_a_comparer->diff($date_actuelle);
+
+        if ($date_a_comparer > $date_actuelle)
+        {
+            $prefixe = 'dans ';
         }
-        elseif ($h < 24) { // " il y a x heures, x minutes"
-            $heure = (floor($h) <= 1) ? 'heure' : 'heures';
-            $dateFormated = floor($h).' '.$heure;
-            if (floor($m-(floor($h))*60) != 0) {
-                $minute = (floor($m) == 1) ? 'minute' : 'minutes';
-                $dateFormated .= ' et '.floor($m-(floor($h))*60).' '.$minute;
-            }
-            return $dateFormated;
+        else
+        {
+            $prefixe = 'il y a ';
         }
-        elseif ($j < 7) { // " il y a x jours, x heures"
-            $jour = (floor($j) <= 1) ? 'jour' : 'jours';
-            $dateFormated = floor($j).' '.$jour;
-            if (floor($h-(floor($j))*24) != 0) {
-                $heure = (floor($h) <= 1) ? 'heure' : 'heures';
-                $dateFormated .= ' et '.floor($h-(floor($j))*24).' '.$heure;
-            }
-            return $dateFormated;
+
+        $ans = $intervalle->format('%y');
+        $mois = $intervalle->format('%m');
+        $jours = $intervalle->format('%d');
+        $heures = $intervalle->format('%h');
+        $minutes = $intervalle->format('%i');
+        $secondes = $intervalle->format('%s');
+
+        if ($ans != 0)
+        {
+            $relative_date = $prefixe . $ans . ' an' . (($ans > 1) ? 's' : '');
+            if ($mois >= 6) $relative_date .= ' et demi';
         }
-        elseif ($s < 5) { // " il y a x semaines, x jours"
-            $semaine = (floor($s) <= 1) ? 'semaine' : 'semaines';
-            $dateFormated = floor($s).' '.$semaine;
-            if (floor($j-(floor($s))*7) != 0) {
-                $jour = (floor($j) <= 1) ? 'jour' : 'jours';
-                $dateFormated .= ' et '.floor($j-(floor($s))*7).' '.$jour;
-            }
-            return $dateFormated;
+        elseif ($mois != 0)
+        {
+            $relative_date = $prefixe . $mois . ' mois';
+            if ($jours >= 15) $relative_date .= ' et demi';
         }
-        else { // on affiche la date normalement
-            return strftime("%d %B %Y à %H:%M", $created);
+        elseif ($jours != 0)
+        {
+            $relative_date = $prefixe . $jours . ' jour' . (($jours > 1) ? 's' : '');
         }
+        elseif ($heures != 0)
+        {
+            $relative_date = $prefixe . $heures . ' heure' . (($heures > 1) ? 's' : '');
+        }
+        elseif ($minutes != 0)
+        {
+            $relative_date = $prefixe . $minutes . ' minute' . (($minutes > 1) ? 's' : '');
+        }
+        else
+        {
+            $relative_date = $prefixe . ' quelques secondes';
+        }
+
+        return $relative_date;
     }
     public function week2str($annee, $no_semaine)
     {
@@ -207,6 +229,17 @@ class date_format extends app
             $retour = "du ".strftime("%d", $timeStart)." au ".strftime("%d %B %Y", $timeEnd);
         }
         return $retour;
+    }
+
+    public function date_jour_strt()
+    {
+        return strtotime(date("d-m-Y"));
+    }
+
+    public function reste($strtotime)
+    {
+        $diff = $strtotime - time();
+        return round($diff / 86400, 0);
     }
 
 

@@ -6,6 +6,7 @@ require dirname(__DIR__)."/app/autoloader.php";
 require dirname(__DIR__)."/vendor/autoload.php";
 
 use App\administration\configuration;
+use App\api\push;
 use App\app;
 use App\constante;
 use App\date_format;
@@ -22,6 +23,8 @@ $date_format = new date_format();
 $ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 $show_ip = $ip_api->get();
 //---------------------------------//
+
+$push_cls = new push();
 
 //----------CLASS CONFIG-----------//
 $config = new configuration();

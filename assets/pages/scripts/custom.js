@@ -9,22 +9,7 @@ var Custom = function () {
         alert(text);
     }
 
-    $('#login-form').on('submit', function(e){
-        e.preventDefault();
-        var $form = $(this);
-        $form.find('button').html("<i class='fa fa-spinner fa-spin'></i> Connexion en cours");
-        $.post($form.attr('action'), $form.serializeArray(), "json")
-            .done(function(jqxhr, data){
-                $(location).attr('href', data.retour)
-            })
-            .fail(function(jqxhr, data){
-                if(data.errorLoginPass){toastr.error("Erreur Login/Password")}
-                if(data.errorChamps){toastr.error("Erreur Champs")}
-            })
-            .always(function(){
-                $form.find('button').text("Connexion")
-            });
-    });
+
 
     // public functions
     return {

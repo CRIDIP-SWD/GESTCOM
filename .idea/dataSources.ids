@@ -178,7 +178,16 @@
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="49" parent="8" name="PRIMARY">
+      <column id="49" parent="8" name="connect">
+        <comment>0: offline | 1: away | 2: online</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="50" parent="8" name="last_connect">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="51" parent="8" name="PRIMARY">
         <columns>iduser</columns>
         <primary>1</primary>
       </key>
