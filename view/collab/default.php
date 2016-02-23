@@ -306,7 +306,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <span class="title">Accueil</span>
                         </a>
                     </li>
-                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'profil'){echo 'active';} ?>">
+                    <li class="nav-item <?php if(isset($_GET['view']) && $_GET['view'] == 'profil' || $_GET['view'] == ''){echo 'active';} ?>">
                         <a href="index.php?view=profil" class="nav-link nav-toggle">
                             <i class="fa fa-user"></i>
                             <span class="title">Mon Profil</span>
