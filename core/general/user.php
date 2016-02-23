@@ -17,8 +17,27 @@ if(!isset($_POST['username']) || empty($_POST['username']) || !isset($_POST['pas
     {
         if($user[0] == 1)
         {
-            var_dump($user);
-            die();
+            session_start();
+            $user_db = $DB->query("SELECT * FROM users WHERE username = :username", array("username" => $username));
+            $_SESSION['user']['connect'] = 1;
+            $_SESSION['user']['username'] = $username;
+
+            switch($user_db[0]->groupe)
+            {
+                case 1:
+                    header("Location: ../../index.php?view=start");
+                    break;
+                case 2:
+                    header("Location: ../../index.php?view=start");
+                    break;
+                case 3:
+                    header("Location: ../../index.php?view=start");
+                    break;
+                case 4:
+                    header("Location: ../../view/client/index.php");
+                    break;
+            }
+
         }else{
             echo "ERROR !!!";
         }
