@@ -18,8 +18,8 @@ var Custom = function () {
                 $(location).attr('href', data.retour)
             })
             .fail(function(jqxhr, data){
-                if(data.errorLoginPass){$('#errorstamp').html(data.errorLoginPass)}
-                if(data.errorChamps){$('#errorstamp').html(data.errorChamps)}
+                if(data.errorLoginPass){toastr.error("Erreur Login/Password")}
+                if(data.errorChamps){toastr.error("Erreur Champs")}
             })
             .always(function(){
                 $form.find('button').text("Connexion")
