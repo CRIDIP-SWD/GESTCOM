@@ -50,5 +50,19 @@ if(isset($_GET['action']) && $_GET['action'] == 'logout')
 {
     session_start();
     require "../../app/classe.php";
-    $ = $_GET[''];
+    $iduser = $_GET['iduser'];
+
+    $user_u = $DB->execute("UPDATE users SET connect = :connect WHERE iduser = :iduser", array(
+        "connect"   => 0,
+        "iduser"    => $iduser
+    ));
+
+    if($user_u == 1)
+    {
+        $text = "Vous avez été déconnecter du service.";
+        header("Location: ../../index.php?view=login&error=login&text=$text");
+    }else{
+        $text = "Impossible de vous déconnecter";
+        header("Location: ../../index.php?view=start&error=logout&text=$text");
+    }
 }
