@@ -20,8 +20,8 @@ var General = function () {
     /*Breadcumb*/
     $('#bread').on(function(){
         var bread = $(this);
-        if(!empty($sector)){bread.prepend.html("<li><a href=''>"+$sector+"</a></li>");}
-        if(!empty($page)){bread.prepend.html("<li><a href=''>"+$page+"</a></li>");}
+        if(!empty($sector)){bread.html("<li><a href=''>"+$sector+"</a></li>");}
+        if(!empty($page)){bread.html("<li><a href=''>"+$page+"</a></li>");}
     });
 
 
