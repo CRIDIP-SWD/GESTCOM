@@ -292,6 +292,12 @@ License: You must have a valid license purchased only from themeforest(the above
                         </a>
                     </li>
                     <li class="nav-item start ">
+                        <a href="index.php?view=profil" class="nav-link nav-toggle">
+                            <i class="fa fa-user"></i>
+                            <span class="title">Mon Profil</span>
+                        </a>
+                    </li>
+                    <li class="nav-item start ">
                         <a href="index.php?view=inbox" class="nav-link nav-toggle">
                             <i class="fa fa-envelope"></i>
                             <span class="title">Messagerie Interne</span>
@@ -315,12 +321,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <span class="title">Taches</span>
                         </a>
                     </li>
-                    <li class="nav-item start ">
-                        <a href="index.php?view=profil" class="nav-link nav-toggle">
-                            <i class="icon-home"></i>
-                            <span class="title">Mon Profil</span>
-                        </a>
-                    </li>
+
                 </ul>
                 <!-- END SIDEBAR MENU -->
             </div>
