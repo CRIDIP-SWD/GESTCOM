@@ -24,7 +24,6 @@ var Custom = function () {
             .always(function(){
                 $form.find('button').text("Connexion")
             });
-        return false;
     });
 
     // public functions
