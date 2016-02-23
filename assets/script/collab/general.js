@@ -6,7 +6,10 @@ var General = function () {
 
     $.ajax("../../../core/collab/ajax/message.php?iduser="+$iduser)
         .done(function(jqxhr){
-            alert(jqxhr);
+            if(jqxhr != 0)
+            {
+                toastr.info("Vous avez "+jqxhr+" Nouveaux messages", "Messagerie Interne")
+            }
         })
         .fail(function(jqxhr){
             alert("ECHEC !!");
