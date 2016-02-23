@@ -300,6 +300,11 @@ class fonction extends app
             return $erreur;
         endforeach;
     }
+
+    public function isAjax()
+    {
+        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest';
+    }
 }
 
 class DB extends app{
