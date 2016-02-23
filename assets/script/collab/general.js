@@ -6,7 +6,7 @@ var General = function () {
 
     $.ajax("../../../core/collab/ajax/message.php?iduser="+$iduser)
         .done(function(jqxhr){
-            alert(jqxhr);
+            alert(jqxhr.val());
         })
         .fail(function(jqxhr){
             alert("ECHEC !!");
