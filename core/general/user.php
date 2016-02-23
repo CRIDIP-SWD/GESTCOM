@@ -10,7 +10,7 @@ if(!isset($_POST['username']) || empty($_POST['username']) || !isset($_POST['pas
 
     $user = $DB->count("SELECT count(iduser) FROM users WHERE username = :username AND password = :password", array(
         "username"  => $username,
-        "password"  => $password
+        "password"  => $sha_pass
     ));
 
     if($fonction->isAjax())
