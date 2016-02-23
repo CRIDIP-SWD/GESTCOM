@@ -303,6 +303,24 @@ License: You must have a valid license purchased only from themeforest(the above
                             <span class="title">Messagerie Externe</span>
                         </a>
                     </li>
+                    <li class="nav-item start ">
+                        <a href="index.php?view=calendar" class="nav-link nav-toggle">
+                            <i class="fa fa-calendar"></i>
+                            <span class="title">Calendrier</span>
+                        </a>
+                    </li>
+                    <li class="nav-item start ">
+                        <a href="index.php?view=task" class="nav-link nav-toggle">
+                            <i class="fa fa-tasks"></i>
+                            <span class="title">Taches</span>
+                        </a>
+                    </li>
+                    <li class="nav-item start ">
+                        <a href="index.php?view=profil" class="nav-link nav-toggle">
+                            <i class="icon-home"></i>
+                            <span class="title">Mon Profil</span>
+                        </a>
+                    </li>
                 </ul>
                 <!-- END SIDEBAR MENU -->
             </div>
