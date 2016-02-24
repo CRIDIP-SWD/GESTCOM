@@ -26,7 +26,7 @@ $show_ip = $ip_api->get();
 
 if(constante::HTTP == "https://" )
 {
-    //header("Location: https://".constante::URL."/index.php");
+    header("Location: https://".constante::URL."/index.php");
 }
 //---------------------------------//
 
