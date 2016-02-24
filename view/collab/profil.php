@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="col-md-9">
-            <div class="well">
+            <div class="well text-right">
                 <a class="btn btn-danger">Test</a>
             </div>
         </div>
