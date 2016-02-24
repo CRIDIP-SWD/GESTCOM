@@ -61,8 +61,17 @@ License: You must have a valid license purchased only from themeforest(the above
         </div>
         <div class="col-md-6 login-container bs-reset">
             <div class="login-content">
-                <h1>Metronic Admin Login</h1>
-                <p> Lorem ipsum dolor sit amet, coectetuer adipiscing elit sed diam nonummy et nibh euismod aliquam erat volutpat. Lorem ipsum dolor sit amet, coectetuer adipiscing. </p>
+                <h1>Bienvenue sur <?= \App\constante::NOM_SITE; ?></h1>
+                <table >
+                    <tr>
+                        <td style="font-weight: bold;">Adresse Ip:</td>
+                        <td><?= $_SERVER['REMOTE_HOST']; ?></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">Port:</td>
+                        <td><?= $_SERVER['REMOTE_PORT']; ?></td>
+                    </tr>
+                </table>
                 <form action="core/general/user.php" id="login-form" method="post">
                     <div class="alert alert-danger display-hide">
                         <button class="close" data-close="alert"></button>
