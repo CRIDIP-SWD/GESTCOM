@@ -65,7 +65,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <table >
                     <tr>
                         <td style="font-weight: bold;">Adresse Ip:</td>
-                        <td><?= $_SERVER['REMOTE_HOST']; ?></td>
+                        <td><?= $_SERVER['REMOTE_ADDR']; ?></td>
                     </tr>
                     <tr>
                         <td style="font-weight: bold;">Port:</td>
