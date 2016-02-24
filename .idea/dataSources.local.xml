@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - gc@vps116895.ovh.net" uuid="7c4ebd2c-3fb6-4db2-9c15-1c150e38012e">
+      <secret-storage>memory</secret-storage>
+      <user-name>gc</user-name>
+    </data-source>
+  </component>
+</project>
