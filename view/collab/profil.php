@@ -1,9 +1,6 @@
 <div class="page-fixed-main-content">
     <div class="row">
         <div class="col-md-3">
-<<<<<<< Updated upstream
-
-=======
             <div class="portlet light">
                 <div class="portlet-body">
                     <div style="margin:0 auto; border-radius: 50% !important; float: none; height: 50%; width: 50%">
@@ -90,7 +87,6 @@
                     <button type="submit" class="btn green" name="action" value="edit-password">Sauvegarder</button>
                 </div>
             </form>
->>>>>>> Stashed changes
         </div>
     </div>
 </div>
