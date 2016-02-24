@@ -4,7 +4,7 @@ ini_set("allow_url_include", 1);
 if(!isset($_SESSION['user']['connect']) && $_SESSION['user']['connect'] == 0)
 {
     $text = "Vous avez été déconnecter du service.";
-    header("Location: index.php?view=login&error=login&text=$text");
+    header("Location: ../index.php?view=login&error=login&text=$text");
 }
 ?>
 <!DOCTYPE html>
