@@ -16,6 +16,28 @@
         </div>
     </div>
 </div>
+<div class="modal fade bs-modal-lg" id="edit-profil" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header blue">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">Edition du profil</h4>
+            </div>
+            <form id="form-edit-profil" action="core/general/user.php" method="post">
+                <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn green">Save changes</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
 <?php include $constante->getUrl(array(''), false, false)."view/footer.php"; ?>
 </div>
 </div>
