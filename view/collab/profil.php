@@ -41,7 +41,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn green">Save changes</button>
+                    <button type="button" class="btn green" name="action" value="edit-profil">Save changes</button>
                 </div>
             </form>
         </div>
