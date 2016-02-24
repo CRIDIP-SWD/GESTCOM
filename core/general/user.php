@@ -118,7 +118,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
 
     $user_q = $DB->query("SELECT * FROM users WHERE iduser = :iduser", array("iduser" => $iduser));
 
-    if($user_q[0]->password != $sha_pass){
+    if($user_q[0]->password == $sha_pass){
         if($new_pass == $confirm_new_pass){
             $text = "Le nouveau mot de passe est pareille que l'ancien.<br>Veuillez entrez un mot de passe Valide";
             header("Location: ../../view/collab/index.php?view=profil&warning=edit-password&text=$text");
