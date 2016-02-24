@@ -19,7 +19,7 @@
 <div class="modal fade bs-modal-lg" id="edit-profil" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="modal-header blue">
+            <div class="modal-header bg-blue">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
                 <h4 class="modal-title">Edition du profil</h4>
             </div>
