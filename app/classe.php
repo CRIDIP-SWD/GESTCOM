@@ -2,8 +2,6 @@
 require dirname(__DIR__)."/app/autoloader.php";
 \App\autoloader::register();
 
-//Vendor Composer
-require dirname(__DIR__)."/vendor/autoload.php";
 
 use App\administration\configuration;
 use App\administration\users;
@@ -14,7 +12,6 @@ use App\date_format;
 use App\DB;
 use App\fonction;
 use App\IP_API;
-use \Ovh\Api;
 
 $app = new app();
 $constante = new constante();
