@@ -21,7 +21,7 @@
         <div class="modal-content">
             <div class="modal-header bg-blue">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                <h4 class="modal-title">Edition du profil</h4>
+                <h4 class="modal-title"><i class="fa fa-edit"></i> Edition du profil</h4>
             </div>
             <form id="form-edit-profil" class="form-horizontal" action="core/general/user.php" method="post">
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
