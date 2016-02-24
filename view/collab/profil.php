@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-9">
             <div class="well text-right">
-                <a class="btn btn-danger">Test</a>
+                <a class="btn btn-primary btn-lg btn-circle" data-toggle="modal" href="#edit-profil"><i class="fa fa-edit"></i></a>
             </div>
         </div>
     </div>
