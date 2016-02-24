@@ -9,6 +9,11 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-9">
+            <div class="well">
+                <a class="btn btn-danger">Test</a>
+            </div>
+        </div>
     </div>
 </div>
 <?php include $constante->getUrl(array(''), false, false)."view/footer.php"; ?>
