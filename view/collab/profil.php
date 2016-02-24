@@ -121,9 +121,9 @@
 <script src="<?= $constante->getUrl(array('layouts/')); ?>global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
 
 <script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
-<script src="<?= $constante->getUrl(array('global/')); ?>plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
-<script src="<?= $constante->getUrl(array('global/')); ?>plugins/jquery-validation/js/additional-methods.min.js" type="text/javascript"></script>
-<script src="<?= $constante->getUrl(array('pages/')); ?>scripts/form-validation.min.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/jquery-validation/js/jquery.validate.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('global/')); ?>plugins/jquery-validation/js/additional-methods.js" type="text/javascript"></script>
+<script src="<?= $constante->getUrl(array('pages/')); ?>scripts/form-validation.js" type="text/javascript"></script>
 <script src="<?= $constante->getUrl(array('pages/')); ?>scripts/ui-toastr.min.js" type="text/javascript"></script>
 
 <?php if(isset($_GET['success']) && $_GET['success'] == $_GET['success']){ ?>
