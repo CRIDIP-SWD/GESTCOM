@@ -241,8 +241,8 @@ License: You must have a valid license purchased only from themeforest(the above
                 </li>
             </ul>
             <!-- END BREADCRUMBS -->
-            <h3>TEST</h3>
             <div class="content-header-menu">
+                <h3>TEST</h3>
                 <!-- BEGIN DROPDOWN AJAX MENU -->
                 <div class="dropdown-ajax-menu btn-group">
                     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
