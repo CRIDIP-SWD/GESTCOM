@@ -1,7 +1,13 @@
 <div class="page-fixed-main-content">
     <div class="row">
         <div class="col-md-3">
-
+            <div class="portlet light">
+                <div class="portlet-body">
+                    <div style="text-align: center">
+                        <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/mmockelyn.jpg" class="img-responsive img-circle" width="120" />
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -25,9 +31,7 @@
 <script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- VARIABLE JS -->
-<script type="text/javascript">
-    var $iduser = <?= $info_user[0]->iduser; ?>;
-</script>
+
 <!-- END VARIABLE JS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
 <script src="<?= $constante->getUrl(array('global/')); ?>scripts/app.min.js" type="text/javascript"></script>
@@ -38,7 +42,6 @@
 
 <script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
 <script src="<?= $constante->getUrl(array('pages/')); ?>scripts/ui-toastr.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="<?= $constante->getUrl(array('script/')); ?>collab/general.js"></script>
 
 
 <!-- END THEME LAYOUT SCRIPTS -->
