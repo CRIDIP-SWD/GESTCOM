@@ -23,7 +23,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
                 <h4 class="modal-title"><i class="fa fa-edit"></i> Edition du profil</h4>
             </div>
-            <form id="form-edit-profil" class="form-horizontal" action="core/general/user.php" method="post">
+            <form id="form-edit-profil" class="form-horizontal" action="<?= $constante->getUrl(array(), false, false); ?>core/general/user.php" method="post">
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
                 <div class="modal-body">
                     <div class="form-group">
