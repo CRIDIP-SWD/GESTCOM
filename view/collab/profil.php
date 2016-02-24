@@ -1,5 +1,8 @@
 <div class="page-fixed-main-content">
     <div class="row">
+        <div class="col-md-12" id="warn"></div>
+    </div>
+    <div class="row">
         <div class="col-md-3">
             <div class="portlet light">
                 <div class="portlet-body">
@@ -140,6 +143,20 @@
         });
     </script>
 <?php } ?>
+<?php if(isset($_GET['warning']) && $_GET['warning'] == 'edit-password'){ ?>
+    <script type="text/javascript">
+        $('#warn').ready(function(){
+            var error = $(this);
+            error.html("<div class='alert alert-warning alert-dismissable'>" +
+                "<button class='close' aria-hidden='true' data-dismiss='alert' type='button'></button>" +
+                "<strong><i class='fa fa-warning'></i> Attention</strong>" +
+                "<?= $_GET['text']; ?>" +
+                "</div>");
+            error.fadeIn();
+        });
+    </script>
+<?php } ?>
+
 <?php if(isset($_GET['warning']) && $_GET['warning'] == $_GET['warning']){ ?>
     <script type="text/javascript">
         $(document).ready(function(){
