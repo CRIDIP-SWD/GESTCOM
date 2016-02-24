@@ -26,7 +26,18 @@
             <form id="form-edit-profil" action="core/general/user.php" method="post">
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
                 <div class="modal-body">
-
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="profil">Nom</label>
+                        <div class="col-md-9">
+                            <input type="text" id="profil" class="form-control" name="nom_user" value="<?= $info_user[0]->nom_user; ?>">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="profil">Prénom</label>
+                        <div class="col-md-9">
+                            <input type="text" id="profil" class="form-control" name="prenom_user" value="<?= $info_user[0]->prenom_user; ?>">
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
@@ -69,6 +80,55 @@
 
 <script src="<?= $constante->getUrl(array('global/')); ?>plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
 <script src="<?= $constante->getUrl(array('pages/')); ?>scripts/ui-toastr.min.js" type="text/javascript"></script>
+<?php if(isset($_GET['success']) && $_GET['success'] == $_GET['success']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.success("<?= $_GET['text']; ?>", "SUCCES", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+<?php if(isset($_GET['warning']) && $_GET['warning'] == $_GET['warning']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.warning("<?= $_GET['text']; ?>", "ATTENTION", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+<?php if(isset($_GET['error']) && $_GET['error'] == $_GET['error']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.error("<?= $_GET['text']; ?>", "ERREUR", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+<?php if(isset($_GET['info']) && $_GET['info'] == $_GET['info']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.info("<?= $_GET['text']; ?>", "INFORMATION", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+
 
 
 <!-- END THEME LAYOUT SCRIPTS -->
