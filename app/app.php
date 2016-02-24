@@ -343,9 +343,9 @@ class fonction extends app
 class DB extends app{
 
     private $host = "localhost";
-    private $username = "root";
+    private $username = "gc";
     private $password = "1992maxime";
-    private $database = "gestcom";
+    private $database = "gc";
     private $db;
 
     public function __construct($host = null, $username = null, $password = null, $database = null)
