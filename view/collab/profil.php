@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Fermer</button>
                     <button type="submit" class="btn green" name="action" value="edit-profil">Save changes</button>
                 </div>
             </form>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Fermer</button>
                     <button type="submit" class="btn green" name="action" value="edit-password">Save changes</button>
                 </div>
             </form>
