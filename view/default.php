@@ -1,5 +1,11 @@
 <?php
+use App\constante;
+
 ini_set("display_errors", 1);
+if(constante::HTTP == "https://")
+{
+    header(constante::URL . "Location: https://" ."/index.php");
+}
 if(!isset($_SESSION['user']['connect']) && $_SESSION['user']['connect'] == 0)
 {
     $text = "Vous avez été déconnecter du service.";
