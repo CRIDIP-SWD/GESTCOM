@@ -1,7 +1,96 @@
 <div class="page-fixed-main-content">
     <div class="row">
         <div class="col-md-3">
+<<<<<<< Updated upstream
 
+=======
+            <div class="portlet light">
+                <div class="portlet-body">
+                    <div style="margin:0 auto; border-radius: 50% !important; float: none; height: 50%; width: 50%">
+                        <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/mmockelyn.jpg" class="img-responsive img-circle img" width="120" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="well text-right">
+                <a class="btn btn-circle btn-icon-only blue" data-toggle="modal" href="#edit-profil"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-circle btn-icon-only blue" data-toggle="modal" href="#edit-password"><i class="fa fa-key"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade bs-modal-lg" id="edit-profil" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-blue">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title"><i class="fa fa-edit"></i> Edition du profil</h4>
+            </div>
+            <form id="form-edit-profil" class="form-horizontal" action="<?= $constante->getUrl(array(), false, false); ?>core/general/user.php" method="post">
+                <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="profil">Nom</label>
+                        <div class="col-md-9">
+                            <input type="text" id="profil" class="form-control" name="nom_user" value="<?= $info_user[0]->nom_user; ?>">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="profil">Prénom</label>
+                        <div class="col-md-9">
+                            <input type="text" id="profil" class="form-control" name="prenom_user" value="<?= $info_user[0]->prenom_user; ?>">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Fermer</button>
+                    <button type="submit" class="btn green" name="action" value="edit-profil">Sauvegarder</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<div class="modal fade bs-modal-lg" id="edit-password" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-blue">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title"><i class="fa fa-key"></i> Edition du mot de Passe</h4>
+            </div>
+            <form id="form-edit-password" class="form-horizontal" action="<?= $constante->getUrl(array(), false, false); ?>core/general/user.php" method="post">
+                <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
+                <input type="hidden" name="username" value="<?= $info_user[0]->username; ?>">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="profil">Ancien Mot de Passe<span class="required"> * </span></label>
+                        <div class="col-md-9">
+                            <input type="text" id="profil" class="form-control" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="password">Nouveau Mot de Passe<span class="required"> * </span></label>
+                        <div class="col-md-9">
+                            <input type="text" id="password" class="form-control" name="new_pass">
+                            <span class="help-block"> Nouveau mot de Passe. </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="rpassword">Confirmation Mot de Passe<span class="required"> * </span></label>
+                        <div class="col-md-9">
+                            <input type="text" id="rpassword" class="form-control" name="confirm_new_pass">
+                            <span class="help-block"> Veuillez le confirmer. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Fermer</button>
+                    <button type="submit" class="btn green" name="action" value="edit-password">Sauvegarder</button>
+                </div>
+            </form>
+>>>>>>> Stashed changes
         </div>
     </div>
 </div>
