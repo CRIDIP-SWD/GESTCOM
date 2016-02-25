@@ -27,6 +27,7 @@ $show_ip = $ip_api->get();
 //---------------------------------//
 
 $push_cls = new push();
+$version = $constante::VERSION.":".$constante::BUILD;
 
 //----------CLASS CONFIG-----------//
 $config = new configuration();
