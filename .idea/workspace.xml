@@ -64,19 +64,19 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/general/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5838084">
-              <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.73888254">
+              <caret line="140" column="47" selection-start-line="140" selection-start-column="47" selection-end-line="140" selection-end-column="47" />
               <folding>
                 <element signature="e#34#2038#0#PHP" expanded="false" />
                 <element signature="e#2039#2713#0#PHP" expanded="false" />
                 <element signature="e#2750#3723#0#PHP" expanded="false" />
-                <marker date="1456441115366" expanded="true" signature="596:679" placeholder="SELECT count... users" />
-                <marker date="1456441115366" expanded="true" signature="978:1024" placeholder="SELECT * FRO... users" />
-                <marker date="1456441115366" expanded="true" signature="1117:1205" placeholder="UPDATE users... " />
-                <marker date="1456441115366" expanded="true" signature="2216:2274" placeholder="UPDATE users... " />
-                <marker date="1456441115366" expanded="true" signature="2992:3080" placeholder="UPDATE users... " />
-                <marker date="1456441115366" expanded="true" signature="4353:4395" placeholder="SELECT * FRO... users" />
-                <marker date="1456441115366" expanded="true" signature="4786:4846" placeholder="UPDATE users... " />
+                <marker date="1456441128588" expanded="true" signature="596:679" placeholder="SELECT count... users" />
+                <marker date="1456441128588" expanded="true" signature="978:1024" placeholder="SELECT * FRO... users" />
+                <marker date="1456441128588" expanded="true" signature="1117:1205" placeholder="UPDATE users... " />
+                <marker date="1456441128588" expanded="true" signature="2216:2274" placeholder="UPDATE users... " />
+                <marker date="1456441128588" expanded="true" signature="2992:3080" placeholder="UPDATE users... " />
+                <marker date="1456441128588" expanded="true" signature="4353:4395" placeholder="SELECT * FRO... users" />
+                <marker date="1456441128588" expanded="true" signature="4786:4846" placeholder="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -327,12 +327,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00081" summary="GESTCOM V1.0.0">
-      <created>1456358748179</created>
-      <option name="number" value="00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1456358748179</updated>
     </task>
     <task id="LOCAL-00082" summary="GESTCOM V1.0.0">
       <created>1456358759498</created>
@@ -622,7 +616,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456441034019</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="GESTCOM V1.0.0">
+      <created>1456441118791</created>
+      <option name="number" value="00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1456441118791</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1013,19 +1013,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/general/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5838084">
-          <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.73888254">
+          <caret line="140" column="47" selection-start-line="140" selection-start-column="47" selection-end-line="140" selection-end-column="47" />
           <folding>
             <element signature="e#34#2038#0#PHP" expanded="false" />
             <element signature="e#2039#2713#0#PHP" expanded="false" />
             <element signature="e#2750#3723#0#PHP" expanded="false" />
-            <marker date="1456441115366" expanded="true" signature="596:679" placeholder="SELECT count... users" />
-            <marker date="1456441115366" expanded="true" signature="978:1024" placeholder="SELECT * FRO... users" />
-            <marker date="1456441115366" expanded="true" signature="1117:1205" placeholder="UPDATE users... " />
-            <marker date="1456441115366" expanded="true" signature="2216:2274" placeholder="UPDATE users... " />
-            <marker date="1456441115366" expanded="true" signature="2992:3080" placeholder="UPDATE users... " />
-            <marker date="1456441115366" expanded="true" signature="4353:4395" placeholder="SELECT * FRO... users" />
-            <marker date="1456441115366" expanded="true" signature="4786:4846" placeholder="UPDATE users... " />
+            <marker date="1456441128588" expanded="true" signature="596:679" placeholder="SELECT count... users" />
+            <marker date="1456441128588" expanded="true" signature="978:1024" placeholder="SELECT * FRO... users" />
+            <marker date="1456441128588" expanded="true" signature="1117:1205" placeholder="UPDATE users... " />
+            <marker date="1456441128588" expanded="true" signature="2216:2274" placeholder="UPDATE users... " />
+            <marker date="1456441128588" expanded="true" signature="2992:3080" placeholder="UPDATE users... " />
+            <marker date="1456441128588" expanded="true" signature="4353:4395" placeholder="SELECT * FRO... users" />
+            <marker date="1456441128588" expanded="true" signature="4786:4846" placeholder="UPDATE users... " />
           </folding>
         </state>
       </provider>
