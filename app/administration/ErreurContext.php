@@ -19,7 +19,7 @@ class ErreurContext
         $DB = new DB();
         $query = $DB->query("SELECT * FROM error WHERE code = :code", array("code" => $errorCode));
         $msg = $query[0]->msg;
-        header("Location: ../../index.php?view=error&code=$errorCode&msg=msg&type=$type");
+        header("Location: ../../index.php?view=error&code=$errorCode&msg=$msg&type=$type");
     }
 
 }
