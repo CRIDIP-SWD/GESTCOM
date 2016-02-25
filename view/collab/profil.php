@@ -30,6 +30,11 @@
             <div class="well text-right">
                 <a class="btn btn-circle btn-icon-only blue" data-toggle="modal" href="#edit-profil"><i class="fa fa-edit"></i></a>
                 <a class="btn btn-circle btn-icon-only blue" data-toggle="modal" href="#edit-password"><i class="fa fa-key"></i></a>
+                <?php if($info_user[0]->totp != 0): ?>
+                    <a class="btn btn-circle btn-icon-only red" data-toggle="modal" href="#desactive-totp"><i class="icon-power"></i></a>
+                <?php else: ?>
+                    <a class="btn btn-circle btn-icon-only green" data-toggle="modal" href="#active-totp"><i class="icon-power"></i></a>
+                <?php endif; ?>
             </div>
             <div class="row">
                 <div class="col-md-4">
