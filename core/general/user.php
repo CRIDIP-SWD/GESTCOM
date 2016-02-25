@@ -125,7 +125,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
         }
     }
 
-    $user_u = $DB->execute("UPDATE userss SET password = :password WHERE iduser = :iduser", array(
+    $user_u = $DB->execute("UPDATE users SET password = :password WHERE iduser = :iduser", array(
         "iduser"    => $iduser,
         "password"  => $new_sha_pass
     ));
