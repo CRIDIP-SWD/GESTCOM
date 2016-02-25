@@ -11,9 +11,6 @@
                     </div>
                     <div class="text-center" style="font-weight: bold;color: #0b4d3f; font-size: 15px; padding-top: 5px;"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></div>
                     <div class="text-center" style="font-size: 12px;color: #3C3A3A;"><?= $info_user[0]->poste_user; ?></div>
-                    <ul class="nav">
-                        <li class="active"><a href="index.php?view=profil">Compte</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -21,6 +18,41 @@
             <div class="well text-right">
                 <a class="btn btn-circle btn-icon-only blue" data-toggle="modal" href="#edit-profil"><i class="fa fa-edit"></i></a>
                 <a class="btn btn-circle btn-icon-only blue" data-toggle="modal" href="#edit-password"><i class="fa fa-key"></i></a>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                        <h4 class="widget-thumb-heading">Evènement du Jour</h4>
+                        <div class="widget-thumb-wrap">
+                            <i class="widget-thumb-icon bg-green icon-calendar"></i>
+                            <div class="widget-thumb-body">
+                                <span data-value="0" data-counter="counterup" class="widget-thumb-body-stat">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                        <h4 class="widget-thumb-heading">Boite Mail</h4>
+                        <div class="widget-thumb-wrap">
+                            <i class="widget-thumb-icon bg-red icon-envelope"></i>
+                            <div class="widget-thumb-body">
+                                <span data-value="0" data-counter="counterup" class="widget-thumb-body-stat">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                        <h4 class="widget-thumb-heading">Tache à Effectuer</h4>
+                        <div class="widget-thumb-wrap">
+                            <i class="widget-thumb-icon bg-yellow icon-list"></i>
+                            <div class="widget-thumb-body">
+                                <span data-value="0" data-counter="counterup" class="widget-thumb-body-stat">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
