@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/view/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.05964912">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -268,12 +268,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00033" summary="GESTCOM V1.0.0">
-      <created>1456020193266</created>
-      <option name="number" value="00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1456020193266</updated>
     </task>
     <task id="LOCAL-00034" summary="GESTCOM V1.0.0">
       <created>1456020280488</created>
@@ -563,7 +557,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456358748179</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="GESTCOM V1.0.0">
+      <created>1456358759498</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1456358759498</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -877,7 +877,7 @@
     <entry file="file://$PROJECT_DIR$/view/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05964912">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
