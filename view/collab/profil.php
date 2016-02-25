@@ -160,9 +160,9 @@
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
                 <div class="modal-body">
                     <p>L'authentification à double facteur ou TOTP permet de vous connecter de manières sécuriser à votre espace par l'intermédiaire d'un code envoyer par Google Authentificator.</p>
-                    <pre>
-                        <strong>Procédure:</strong>
-                    </pre>
+                    <div class="well">
+                        <strong>Procédure</strong>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn dark btn-outline" data-dismiss="modal">Fermer</button>
