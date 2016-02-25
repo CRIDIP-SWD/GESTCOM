@@ -160,22 +160,16 @@
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
                 <div class="modal-body">
                     <p>L'authentification à double facteur ou TOTP permet de vous connecter de manières sécuriser à votre espace par l'intermédiaire d'un code envoyer par Google Authentificator.</p>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label" for="profil">Nom</label>
-                        <div class="col-md-9">
-                            <input type="text" id="profil" class="form-control" name="nom_user" value="<?= $info_user[0]->nom_user; ?>">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label" for="profil">Prénom</label>
-                        <div class="col-md-9">
-                            <input type="text" id="profil" class="form-control" name="prenom_user" value="<?= $info_user[0]->prenom_user; ?>">
-                        </div>
-                    </div>
+                    <pre>
+                        <strong>Procédure:</strong>
+                        <ul>
+                            <li>1. Télécharger l'application sur le <a href="">Play Store</a>, <a href="">App Store</a> ou <a href="">Windows Store</a> </li>
+                        </ul>
+                    </pre>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn dark btn-outline" data-dismiss="modal">Fermer</button>
-                    <button type="submit" class="btn green" name="action" value="edit-profil">Save changes</button>
+                    <button type="submit" class="btn green" name="action" value="active-totp">Activer</button>
                 </div>
             </form>
         </div>
@@ -197,7 +191,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn dark btn-outline" data-dismiss="modal">Fermer</button>
-                    <button type="submit" class="btn green" name="action" value="active-totp">Activer</button>
+                    <button type="submit" class="btn red" name="action" value="active-totp">Désactiver</button>
                 </div>
             </form>
         </div>
