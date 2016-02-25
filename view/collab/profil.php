@@ -162,9 +162,6 @@
                     <p>L'authentification à double facteur ou TOTP permet de vous connecter de manières sécuriser à votre espace par l'intermédiaire d'un code envoyer par Google Authentificator.</p>
                     <pre>
                         <strong>Procédure:</strong>
-                        <ul>
-                            <li>1. Télécharger l'application sur le <a href="">Play Store</a>, <a href="">App Store</a> ou <a href="">Windows Store</a> </li>
-                        </ul>
                     </pre>
                 </div>
                 <div class="modal-footer">
