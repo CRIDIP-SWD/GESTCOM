@@ -125,6 +125,22 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
         }
     }
 
+    $user_u = $DB->execute("UPDATE userss SET password = :password WHERE iduser = :iduser", array(
+        "iduser"    => $iduser,
+        "password"  => $new_sha_pass
+    ));
+
+    if($user_u == 1)
+    {
+        session_start();
+        session_unset();
+        session_destroy();
+        $text = "Votre mot de Passe à été modifier<br>Veuillez vous reconnecter.";
+        header("Location ../../index.php?view=login&success=edit-password&text=$text");
+    }else{
+        var_dump($error->getError("COLLAB002", "Warning"));
+    }
+
 
 
 

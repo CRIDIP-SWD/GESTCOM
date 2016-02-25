@@ -5,6 +5,7 @@ require dirname(__DIR__)."/app/autoloader.php";
 
 
 use App\administration\configuration;
+use App\administration\ErreurContext;
 use App\administration\users;
 use App\api\push;
 use App\app;
@@ -22,6 +23,8 @@ $DB = new DB();
 $date_format = new date_format();
 $ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 $show_ip = $ip_api->get();
+
+$error = new ErreurContext();
 
 
 //---------------------------------//
