@@ -193,22 +193,11 @@
             <form id="form-edit-profil" class="form-horizontal" action="<?= $constante->getUrl(array(), false, false); ?>core/general/user.php" method="post">
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
                 <div class="modal-body">
-                    <div class="form-group">
-                        <label class="col-md-3 control-label" for="profil">Nom</label>
-                        <div class="col-md-9">
-                            <input type="text" id="profil" class="form-control" name="nom_user" value="<?= $info_user[0]->nom_user; ?>">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label" for="profil">Prénom</label>
-                        <div class="col-md-9">
-                            <input type="text" id="profil" class="form-control" name="prenom_user" value="<?= $info_user[0]->prenom_user; ?>">
-                        </div>
-                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn dark btn-outline" data-dismiss="modal">Fermer</button>
-                    <button type="submit" class="btn green" name="action" value="edit-profil">Save changes</button>
+                    <button type="submit" class="btn green" name="action" value="active-totp">Activer</button>
                 </div>
             </form>
         </div>
