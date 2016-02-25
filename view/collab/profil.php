@@ -186,9 +186,9 @@
 <div class="modal fade bs-modal-lg" id="desactive-totp" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="modal-header bg-blue">
+            <div class="modal-header bg-red">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                <h4 class="modal-title"><i class="fa fa-edit"></i> Edition du profil</h4>
+                <h4 class="modal-title"><i class="fa fa-power"></i> Désactivation de l'authentificateur TOTP</h4>
             </div>
             <form id="form-edit-profil" class="form-horizontal" action="<?= $constante->getUrl(array(), false, false); ?>core/general/user.php" method="post">
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
