@@ -14,7 +14,7 @@ class ErreurContext extends ErreurCode
 
     public function getError($errorCode, $type)
     {
-        array_search($errorCode, $this->errorCode);
+        array_search($errorCode, $this->errorCode[0]);
         return $this->errorCode;
     }
 
