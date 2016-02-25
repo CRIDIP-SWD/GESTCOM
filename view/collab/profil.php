@@ -11,6 +11,18 @@
                     </div>
                     <div class="text-center" style="font-weight: bold;color: #0b4d3f; font-size: 15px; padding-top: 5px;"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></div>
                     <div class="text-center" style="font-size: 12px;color: #3C3A3A;"><?= $info_user[0]->poste_user; ?></div>
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="width: 50%; font-weight: bold;">Système TOTP</td>
+                            <td style="width: 50%; text-align: right; padding-right: 5px">
+                                <?php if($info_user[0]->totp != 0): ?>
+                                    <span class="label label-success">Activé</span>
+                                <?php else: ?>
+                                    <span class="label label-danger">Inactif</span>
+                                <?php endif; ?>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
