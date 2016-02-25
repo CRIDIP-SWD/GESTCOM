@@ -138,7 +138,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
         $text = "Votre mot de Passe à été modifier<br>Veuillez vous reconnecter.";
         header("Location ../../index.php?view=login&success=edit-password&text=$text");
     }else{
-        $error->getError("COLLAB001", "ERROR");
+        $error->getError("COLLAB002", "ERROR");
         die();
     }
 

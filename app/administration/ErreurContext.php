@@ -14,11 +14,12 @@ use App\DB;
 class ErreurContext
 {
 
-    public function getError($errorCode, $type)
+    public function getError($errorCode)
     {
         $DB = new DB();
         $query = $DB->query("SELECT * FROM error WHERE code = :code", array("code" => $errorCode));
         $msg = $query[0]->msg;
+        $type = $query[0]->type;
         header("Location: ../../index.php?view=error&code=$errorCode&msg=$msg&type=$type");
     }
 
