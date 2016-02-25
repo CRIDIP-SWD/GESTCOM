@@ -1,3 +1,7 @@
+<?php
+use App\constante;
+$version = constante::VERSION;
+?>
 <!-- BEGIN FOOTER -->
 <p class="copyright-v2">2016 © Webapp par SAS CRIDIP.</p>
 <p>Version: <?= $version; ?></p>
