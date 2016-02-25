@@ -25,7 +25,7 @@ class ErreurContext
 
     public function getError($errorCode, $type)
     {
-        $errorMessage = array_search($errorCode, $this->errorCode);
+        $errorMessage = array_search($errorCode, $this->errorCode['CODE']);
         header("Location: ../../index.php?view=error&code=$errorCode&msg=$errorMessage&type=$type");
     }
 
