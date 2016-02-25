@@ -31,11 +31,11 @@ class app
  */
 class constante extends app{
 
-    const HTTP              = "https://";
+    const HTTP              = "http://";
     const URL               = "gc.cridip.com/";
     const ASSETS            = "assets/";
     const NOM_SITE          = "GESTCOM";
-    const SOURCES           = "https://ns342142.ip-5-196-76.eu/sources/gc/";
+    const SOURCES           = "http://ns342142.ip-5-196-76.eu/sources/gc/";
     const MAINTENANCE       = 0;
     const IP_MAIN           = "109.190.224.161";
     const VERSION           = "1.0.0";
@@ -345,9 +345,9 @@ class fonction extends app
 class DB extends app{
 
     private $host = "localhost";
-    private $username = "gc";
+    private $username = "root";
     private $password = "1992maxime";
-    private $database = "gc";
+    private $database = "gestcom";
     private $db;
 
     public function __construct($host = null, $username = null, $password = null, $database = null)
