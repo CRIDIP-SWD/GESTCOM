@@ -3,7 +3,6 @@ $code = $_GET['code'];
 $msg = $_GET['msg'];
 $type = $_GET['type'];
 ?>
-<div class="page-fixed-main-content">
     <div class="row">
         <div class="col-md-12">
             <div class="text-center">
@@ -29,7 +28,6 @@ $type = $_GET['type'];
             </div>
         </div>
     </div>
-</div>
 
 <?php include $constante->getUrl(array(''), false, false)."view/footer.php"; ?>
 </div>
