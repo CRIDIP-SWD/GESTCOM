@@ -157,9 +157,9 @@
                 <h4 class="modal-title"><i class="icon-power"></i> Activation du TOTP (authentification double facteurs)</h4>
             </div>
             <form id="form-edit-profil" class="form-horizontal" action="<?= $constante->getUrl(array(), false, false); ?>core/general/user.php" method="post">
-                <p>L'authentification à double facteur ou TOTP permet de vous connecter de manières sécuriser à votre espace par l'intermédiaire d'un code envoyer par Google Authentificator.</p>
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
                 <div class="modal-body">
+                    <p>L'authentification à double facteur ou TOTP permet de vous connecter de manières sécuriser à votre espace par l'intermédiaire d'un code envoyer par Google Authentificator.</p>
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="profil">Nom</label>
                         <div class="col-md-9">
