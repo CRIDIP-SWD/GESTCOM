@@ -152,11 +152,12 @@
 <div class="modal fade bs-modal-lg" id="active-totp" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="modal-header bg-blue">
+            <div class="modal-header bg-green-haze">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                <h4 class="modal-title"><i class="fa fa-edit"></i> Edition du profil</h4>
+                <h4 class="modal-title"><i class="icon-power"></i> Activation du TOTP (authentification double facteurs)</h4>
             </div>
             <form id="form-edit-profil" class="form-horizontal" action="<?= $constante->getUrl(array(), false, false); ?>core/general/user.php" method="post">
+                <p>L'authentification à double facteur ou TOTP permet de vous connecter de manières sécuriser à votre espace par l'intermédiaire d'un code envoyer par Google Authentificator.</p>
                 <input type="hidden" name="iduser" value="<?= $info_user[0]->iduser; ?>">
                 <div class="modal-body">
                     <div class="form-group">
