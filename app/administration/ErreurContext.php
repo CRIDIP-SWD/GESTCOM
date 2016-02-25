@@ -28,12 +28,7 @@ class ErreurContext extends HttpResponse
     public function getError($errorCode, $type)
     {
         $errorMessage = array_search($errorCode, $this->errorCode);
-        HttpResponse::redirect(dirname(__DIR__)."index.php",array(
-            "view" => "error",
-            "code" => $errorCode,
-            "msg"  => $errorMessage,
-            "type" => $type
-        ));
+        header("Location: ../../index.php?view=error&code=$errorCode&msg=$errorMessage&type=$type");
     }
 
 }
