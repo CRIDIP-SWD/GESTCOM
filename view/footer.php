@@ -1,10 +1,6 @@
-<?php
-use App\constante;
-$version = constante::VERSION;
-?>
 <!-- BEGIN FOOTER -->
 <p class="copyright-v2">2016 © Webapp par SAS CRIDIP.</p>
-<p>Version: <?= $version; ?></p>
+<p>Version: 1.0.0:25022016</p>
 <!-- BEGIN QUICK SIDEBAR TOGGLER -->
 <!--<button type="button" class="quick-sidebar-toggler" data-toggle="collapse">
     <span class="sr-only">Toggle Quick Sidebar</span>
