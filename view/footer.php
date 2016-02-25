@@ -1,6 +1,6 @@
 <!-- BEGIN FOOTER -->
 <p class="copyright-v2">2016 © Webapp par SAS CRIDIP.</p>
-<p>Version: 1.0.0:25022016</p>
+<p>Version: 1.0.0:2522160105</p>
 <!-- BEGIN QUICK SIDEBAR TOGGLER -->
 <!--<button type="button" class="quick-sidebar-toggler" data-toggle="collapse">
     <span class="sr-only">Toggle Quick Sidebar</span>
