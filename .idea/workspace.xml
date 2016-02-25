@@ -115,8 +115,8 @@
       <file leaf-file-name="ErreurContext.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/administration/ErreurContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48460662">
-              <caret line="30" column="100" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.11630559">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -362,12 +362,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00071" summary="GESTCOM V1.0.0">
-      <created>1456357861461</created>
-      <option name="number" value="00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1456357861461</updated>
     </task>
     <task id="LOCAL-00072" summary="GESTCOM V1.0.0">
       <created>1456357898588</created>
@@ -657,7 +651,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456431847921</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="GESTCOM V1.0.0">
+      <created>1456432348158</created>
+      <option name="number" value="00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1456432348159</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -996,6 +996,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/classe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/general/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.576923">
@@ -1015,18 +1023,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/classe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/administration/ErreurContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48460662">
-          <caret line="30" column="100" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.11630559">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
