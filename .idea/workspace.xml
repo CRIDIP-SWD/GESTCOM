@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/administration/ErreurContext.php" afterPath="$PROJECT_DIR$/app/administration/ErreurContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/general/user.php" afterPath="$PROJECT_DIR$/core/general/user.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,14 +82,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ErreurContext.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ErreurContext.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/administration/ErreurContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3295325">
+            <state vertical-scroll-proportion="-11.115385">
               <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
               <folding>
                 <marker date="1456441179957" expanded="true" signature="258:296" placeholder="SELECT * FRO... error" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.056478404">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,13 +135,13 @@
         <option value="$PROJECT_DIR$/app/Router/RouterException.php" />
         <option value="$PROJECT_DIR$/app/Router/Router.php" />
         <option value="$PROJECT_DIR$/view/collab/profil.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/administration/ErreurCode.php" />
         <option value="$PROJECT_DIR$/app/classe.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/error.php" />
         <option value="$PROJECT_DIR$/core/general/user.php" />
         <option value="$PROJECT_DIR$/app/administration/ErreurContext.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -340,12 +349,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00083" summary="GESTCOM V1.0.0">
-      <created>1456358783651</created>
-      <option name="number" value="00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1456358783651</updated>
     </task>
     <task id="LOCAL-00084" summary="GESTCOM V1.0.0">
       <created>1456358938962</created>
@@ -635,7 +638,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456441131943</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="GESTCOM V1.0.0">
+      <created>1456441183744</created>
+      <option name="number" value="00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1456441183744</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -936,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/collab/profil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-39.576923">
@@ -1035,11 +1036,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/administration/ErreurContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3295325">
+        <state vertical-scroll-proportion="-11.115385">
           <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
           <folding>
             <marker date="1456441179957" expanded="true" signature="258:296" placeholder="SELECT * FRO... error" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056478404">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
