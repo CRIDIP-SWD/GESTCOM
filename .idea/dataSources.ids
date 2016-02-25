@@ -190,99 +190,102 @@
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="54" parent="8" name="PRIMARY">
+      <column id="54" parent="8" name="poste_user">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="55" parent="8" name="PRIMARY">
         <columns>iduser</columns>
         <primary>1</primary>
       </key>
-      <column id="55" parent="9" name="idinbox">
+      <column id="56" parent="9" name="idinbox">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="56" parent="9" name="destinataire">
+      <column id="57" parent="9" name="destinataire">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="57" parent="9" name="expediteur">
+      <column id="58" parent="9" name="expediteur">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="58" parent="9" name="sujet">
+      <column id="59" parent="9" name="sujet">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="59" parent="9" name="message">
+      <column id="60" parent="9" name="message">
         <mandatory>1</mandatory>
         <data-type>longtext</data-type>
       </column>
-      <column id="60" parent="9" name="date_message">
+      <column id="61" parent="9" name="date_message">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="61" parent="9" name="importance">
+      <column id="62" parent="9" name="importance">
         <mandatory>1</mandatory>
         <data-type>int(1)</data-type>
       </column>
-      <column id="62" parent="9" name="lu">
+      <column id="63" parent="9" name="lu">
         <mandatory>1</mandatory>
         <data-type>int(1)</data-type>
       </column>
-      <key id="63" parent="9" name="PRIMARY">
+      <key id="64" parent="9" name="PRIMARY">
         <columns>idinbox</columns>
         <primary>1</primary>
       </key>
-      <column id="64" parent="10" name="idpj">
+      <column id="65" parent="10" name="idpj">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="65" parent="10" name="idinbox">
+      <column id="66" parent="10" name="idinbox">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="66" parent="10" name="nom_pj">
+      <column id="67" parent="10" name="nom_pj">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="67" parent="10" name="type_pj">
+      <column id="68" parent="10" name="type_pj">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="68" parent="10" name="taille_pj">
+      <column id="69" parent="10" name="taille_pj">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <key id="69" parent="10" name="PRIMARY">
+      <key id="70" parent="10" name="PRIMARY">
         <columns>idpj</columns>
         <primary>1</primary>
       </key>
-      <column id="70" parent="11" name="idsentbox">
+      <column id="71" parent="11" name="idsentbox">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="71" parent="11" name="destinataire">
+      <column id="72" parent="11" name="destinataire">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="72" parent="11" name="expediteur">
+      <column id="73" parent="11" name="expediteur">
         <mandatory>1</mandatory>
         <data-type>int(13)</data-type>
       </column>
-      <column id="73" parent="11" name="sujet">
+      <column id="74" parent="11" name="sujet">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="74" parent="11" name="message">
+      <column id="75" parent="11" name="message">
         <mandatory>1</mandatory>
         <data-type>longtext</data-type>
       </column>
-      <column id="75" parent="11" name="date_message">
+      <column id="76" parent="11" name="date_message">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="76" parent="11" name="importance">
+      <column id="77" parent="11" name="importance">
         <mandatory>1</mandatory>
         <data-type>int(1)</data-type>
       </column>
-      <key id="77" parent="11" name="PRIMARY">
+      <key id="78" parent="11" name="PRIMARY">
         <columns>idsentbox</columns>
         <primary>1</primary>
       </key>

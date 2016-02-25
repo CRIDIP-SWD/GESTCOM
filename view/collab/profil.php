@@ -11,6 +11,9 @@
                     </div>
                     <div class="text-center" style="font-weight: bold;color: #0b4d3f; font-size: 15px; padding-top: 5px;"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></div>
                     <div class="text-center" style="font-size: 12px;color: #3C3A3A;"><?= $info_user[0]->poste_user; ?></div>
+                    <ul class="nav">
+                        <li class="active"><a href="index.php?view=profil">Compte</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
