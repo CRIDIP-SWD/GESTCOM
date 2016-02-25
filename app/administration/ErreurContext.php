@@ -9,7 +9,7 @@
 namespace App\administration;
 
 
-class ErreurContext
+class ErreurContext extends \HttpResponse
 {
     protected $errorCode = array(
         //collaborative

@@ -2,7 +2,8 @@
 ini_set("allow_url_include", 1);
 require dirname(__DIR__)."/app/autoloader.php";
 \App\autoloader::register();
-
+$httpResponse = new HttpResponse();
+$httpResponse->redirect()
 
 use App\administration\configuration;
 use App\administration\ErreurContext;
