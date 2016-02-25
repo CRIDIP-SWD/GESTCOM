@@ -9,7 +9,7 @@
                     <div style="margin:0 auto; border-radius: 50% !important; float: none; height: 50%; width: 50%">
                         <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/mmockelyn.jpg" class="img-responsive img-circle img" width="120" />
                     </div>
-                    <div class="text-center blue"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></div>
+                    <div class="text-center" style="font-weight: bold;color: #0b4d3f; font-size: 15px;"><?= $info_user[0]->nom_user; ?> <?= $info_user[0]->prenom_user; ?></div>
                 </div>
             </div>
         </div>
