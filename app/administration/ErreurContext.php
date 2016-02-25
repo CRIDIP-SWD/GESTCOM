@@ -9,13 +9,31 @@
 namespace App\administration;
 
 
-class ErreurContext extends ErreurCode
+use HttpResponse;
+
+class ErreurContext
 {
+    protected $errorCode = array(
+        //collaborative
+        "CODE" => array(
+            "COLLAB001",
+            "COLLAB002"
+        ),
+        "MESSAGE" => array(
+            "Impossible de modifier l'utilisateur. Problème dans la base de donnée. Consulter les logs Serveur",
+            "Impossible de Modifier le mot de passe. Problème base de donnée Execute. Consulter les logs Serveur"
+        )
+    );
 
     public function getError($errorCode, $type)
     {
-        array_search($errorCode, $this->errorCode[0]);
-        return $this->errorCode;
+        $errorMessage = array_search($errorCode, $this->errorCode);
+        HttpResponse::redirect(dirname(__DIR__)."index.php",array(
+            "view" => "error",
+            "code" => $errorCode,
+            "msg"  => $errorMessage,
+            "type" => $type
+        ));
     }
 
 }

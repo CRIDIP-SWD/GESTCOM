@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/administration/ErreurCode.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/administration/ErreurContext.php" afterPath="$PROJECT_DIR$/app/administration/ErreurContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/general/user.php" afterPath="$PROJECT_DIR$/core/general/user.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,19 +86,19 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/general/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.5">
-              <caret line="120" column="44" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="44" />
+            <state vertical-scroll-proportion="-24.576923">
+              <caret line="140" column="57" selection-start-line="140" selection-start-column="57" selection-end-line="140" selection-end-column="57" />
               <folding>
                 <element signature="e#34#2038#0#PHP" expanded="false" />
                 <element signature="e#2039#2713#0#PHP" expanded="false" />
                 <element signature="e#2750#3723#0#PHP" expanded="false" />
-                <marker date="1456430809886" expanded="true" signature="596:679" placeholder="SELECT count... users" />
-                <marker date="1456430809886" expanded="true" signature="978:1024" placeholder="SELECT * FRO... users" />
-                <marker date="1456430809886" expanded="true" signature="1117:1205" placeholder="UPDATE users... " />
-                <marker date="1456430809886" expanded="true" signature="2216:2274" placeholder="UPDATE users... " />
-                <marker date="1456430809886" expanded="true" signature="2992:3080" placeholder="UPDATE users... " />
-                <marker date="1456430809886" expanded="true" signature="4353:4395" placeholder="SELECT * FRO... users" />
-                <marker date="1456430809886" expanded="true" signature="4786:4847" placeholder="UPDATE users... " />
+                <marker date="1456431493583" expanded="true" signature="596:679" placeholder="SELECT count... users" />
+                <marker date="1456431493583" expanded="true" signature="978:1024" placeholder="SELECT * FRO... users" />
+                <marker date="1456431493583" expanded="true" signature="1117:1205" placeholder="UPDATE users... " />
+                <marker date="1456431493583" expanded="true" signature="2216:2274" placeholder="UPDATE users... " />
+                <marker date="1456431493583" expanded="true" signature="2992:3080" placeholder="UPDATE users... " />
+                <marker date="1456431493583" expanded="true" signature="4353:4395" placeholder="SELECT * FRO... users" />
+                <marker date="1456431493583" expanded="true" signature="4786:4847" placeholder="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -115,18 +117,8 @@
       <file leaf-file-name="ErreurContext.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/administration/ErreurContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21322691">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErreurCode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/administration/ErreurCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.48460662">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -177,8 +169,8 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/administration/ErreurCode.php" />
         <option value="$PROJECT_DIR$/app/classe.php" />
-        <option value="$PROJECT_DIR$/core/general/user.php" />
         <option value="$PROJECT_DIR$/app/administration/ErreurContext.php" />
+        <option value="$PROJECT_DIR$/core/general/user.php" />
       </list>
     </option>
   </component>
@@ -372,12 +364,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00065" summary="GESTCOM V1.0.0">
-      <created>1456357119448</created>
-      <option name="number" value="00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1456357119448</updated>
     </task>
     <task id="LOCAL-00066" summary="GESTCOM V1.0.0">
       <created>1456357277891</created>
@@ -667,7 +653,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456430898642</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="GESTCOM V1.0.0">
+      <created>1456430933076</created>
+      <option name="number" value="00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1456430933076</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1006,14 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/administration/ErreurCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/classe.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.230769">
@@ -1024,27 +1008,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/general/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.5">
-          <caret line="120" column="44" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="44" />
+        <state vertical-scroll-proportion="-24.576923">
+          <caret line="140" column="57" selection-start-line="140" selection-start-column="57" selection-end-line="140" selection-end-column="57" />
           <folding>
             <element signature="e#34#2038#0#PHP" expanded="false" />
             <element signature="e#2039#2713#0#PHP" expanded="false" />
             <element signature="e#2750#3723#0#PHP" expanded="false" />
-            <marker date="1456430809886" expanded="true" signature="596:679" placeholder="SELECT count... users" />
-            <marker date="1456430809886" expanded="true" signature="978:1024" placeholder="SELECT * FRO... users" />
-            <marker date="1456430809886" expanded="true" signature="1117:1205" placeholder="UPDATE users... " />
-            <marker date="1456430809886" expanded="true" signature="2216:2274" placeholder="UPDATE users... " />
-            <marker date="1456430809886" expanded="true" signature="2992:3080" placeholder="UPDATE users... " />
-            <marker date="1456430809886" expanded="true" signature="4353:4395" placeholder="SELECT * FRO... users" />
-            <marker date="1456430809886" expanded="true" signature="4786:4847" placeholder="UPDATE users... " />
+            <marker date="1456431493583" expanded="true" signature="596:679" placeholder="SELECT count... users" />
+            <marker date="1456431493583" expanded="true" signature="978:1024" placeholder="SELECT * FRO... users" />
+            <marker date="1456431493583" expanded="true" signature="1117:1205" placeholder="UPDATE users... " />
+            <marker date="1456431493583" expanded="true" signature="2216:2274" placeholder="UPDATE users... " />
+            <marker date="1456431493583" expanded="true" signature="2992:3080" placeholder="UPDATE users... " />
+            <marker date="1456431493583" expanded="true" signature="4353:4395" placeholder="SELECT * FRO... users" />
+            <marker date="1456431493583" expanded="true" signature="4786:4847" placeholder="UPDATE users... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/administration/ErreurContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21322691">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.48460662">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding />
         </state>
       </provider>
