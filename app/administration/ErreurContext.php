@@ -9,7 +9,9 @@
 namespace App\administration;
 
 
-class ErreurContext extends \HttpResponse
+use HttpResponse;
+
+class ErreurContext extends HttpResponse
 {
     protected $errorCode = array(
         //collaborative
@@ -26,7 +28,7 @@ class ErreurContext extends \HttpResponse
     public function getError($errorCode, $type)
     {
         $errorMessage = array_search($errorCode, $this->errorCode);
-        \HttpResponse::redirect(dirname(__DIR__)."index.php",array(
+        HttpResponse::redirect(dirname(__DIR__)."index.php",array(
             "view" => "error",
             "code" => $errorCode,
             "msg"  => $errorMessage,
