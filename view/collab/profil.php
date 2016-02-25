@@ -67,20 +67,20 @@
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="profil">Ancien Mot de Passe<span class="required"> * </span></label>
                         <div class="col-md-9">
-                            <input type="text" id="profil" class="form-control" name="password">
+                            <input type="password" id="profil" class="form-control" name="password">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="password">Nouveau Mot de Passe<span class="required"> * </span></label>
                         <div class="col-md-9">
-                            <input type="text" id="password" class="form-control" name="new_pass">
+                            <input type="password" id="password" class="form-control" name="new_pass">
                             <span class="help-block"> Nouveau mot de Passe. </span>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="rpassword">Confirmation Mot de Passe<span class="required"> * </span></label>
                         <div class="col-md-9">
-                            <input type="text" id="rpassword" class="form-control" name="confirm_new_pass">
+                            <input type="password" id="rpassword" class="form-control" name="confirm_new_pass">
                             <span class="help-block"> Veuillez le confirmer. </span>
                         </div>
                     </div>
