@@ -1,5 +1,4 @@
 <?php
-require "../app/classe.php";
 $code = $_GET['code'];
 $msg = $_GET['msg'];
 $type = $_GET['type'];
