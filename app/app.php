@@ -38,6 +38,8 @@ class constante extends app{
     const SOURCES           = "https://ns342142.ip-5-196-76.eu/sources/gc/";
     const MAINTENANCE       = 0;
     const IP_MAIN           = "109.190.224.161";
+    const VERSION           = "1.0.0";
+    const BUILD             = "252160101";
     /*
      * ADRESSE BUREAU = 109.190.224.161
      * ADRESSE MAISON = 109.190.65.252
