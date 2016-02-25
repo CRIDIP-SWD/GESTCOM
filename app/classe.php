@@ -22,8 +22,6 @@ $DB = new DB();
 $date_format = new date_format();
 $ip_api = new IP_API($_SERVER['REMOTE_ADDR']);
 $show_ip = $ip_api->get();
-$router = new \App\Router\Router($_GET['url']);
-$router->run();
 
 
 //---------------------------------//
