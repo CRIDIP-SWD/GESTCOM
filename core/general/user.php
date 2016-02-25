@@ -139,6 +139,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
         header("Location ../../index.php?view=login&success=edit-password&text=$text");
     }else{
         var_dump($error->getError("COLLAB002", "Warning"));
+        die();
     }
 
 
