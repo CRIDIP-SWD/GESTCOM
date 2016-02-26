@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
+    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
     </list>
@@ -64,19 +64,19 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4862932">
-              <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.66865313">
+              <caret line="51" column="97" selection-start-line="51" selection-start-column="97" selection-end-line="51" selection-end-column="97" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1456507033785" expanded="true" signature="2745:2788" placeholder="..." />
-                <marker date="1456507033785" expanded="true" signature="2847:2872" placeholder="..." />
-                <marker date="1456507033785" expanded="true" signature="51109:51319" placeholder="..." />
-                <marker date="1456507033785" expanded="true" signature="51212:51319" placeholder="..." />
-                <marker date="1456507033785" expanded="true" signature="51254:51319" placeholder="..." />
-                <marker date="1456507033785" expanded="true" signature="53444:53654" placeholder="..." />
-                <marker date="1456507033785" expanded="true" signature="53547:53654" placeholder="..." />
-                <marker date="1456507033785" expanded="true" signature="53589:53654" placeholder="..." />
+                <marker date="1456507160522" expanded="true" signature="2745:2788" placeholder="..." />
+                <marker date="1456507160522" expanded="true" signature="2847:2872" placeholder="..." />
+                <marker date="1456507160522" expanded="true" signature="51175:51385" placeholder="..." />
+                <marker date="1456507160522" expanded="true" signature="51278:51385" placeholder="..." />
+                <marker date="1456507160522" expanded="true" signature="51320:51385" placeholder="..." />
+                <marker date="1456507160522" expanded="true" signature="53510:53720" placeholder="..." />
+                <marker date="1456507160522" expanded="true" signature="53613:53720" placeholder="..." />
+                <marker date="1456507160522" expanded="true" signature="53655:53720" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -310,12 +310,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00116" summary="GESTCOM V1.0.0">
-      <created>1456431577880</created>
-      <option name="number" value="00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1456431577881</updated>
     </task>
     <task id="LOCAL-00117" summary="GESTCOM V1.0.0">
       <created>1456431814323</created>
@@ -605,7 +599,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456506949367</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="GESTCOM V1.0.0">
+      <created>1456507036782</created>
+      <option name="number" value="00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1456507036782</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -774,19 +774,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4862932">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.66865313">
+          <caret line="51" column="97" selection-start-line="51" selection-start-column="97" selection-end-line="51" selection-end-column="97" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1456507033785" expanded="true" signature="2745:2788" placeholder="..." />
-            <marker date="1456507033785" expanded="true" signature="2847:2872" placeholder="..." />
-            <marker date="1456507033785" expanded="true" signature="51109:51319" placeholder="..." />
-            <marker date="1456507033785" expanded="true" signature="51212:51319" placeholder="..." />
-            <marker date="1456507033785" expanded="true" signature="51254:51319" placeholder="..." />
-            <marker date="1456507033785" expanded="true" signature="53444:53654" placeholder="..." />
-            <marker date="1456507033785" expanded="true" signature="53547:53654" placeholder="..." />
-            <marker date="1456507033785" expanded="true" signature="53589:53654" placeholder="..." />
+            <marker date="1456507160522" expanded="true" signature="2745:2788" placeholder="..." />
+            <marker date="1456507160522" expanded="true" signature="2847:2872" placeholder="..." />
+            <marker date="1456507160522" expanded="true" signature="51175:51385" placeholder="..." />
+            <marker date="1456507160522" expanded="true" signature="51278:51385" placeholder="..." />
+            <marker date="1456507160522" expanded="true" signature="51320:51385" placeholder="..." />
+            <marker date="1456507160522" expanded="true" signature="53510:53720" placeholder="..." />
+            <marker date="1456507160522" expanded="true" signature="53613:53720" placeholder="..." />
+            <marker date="1456507160522" expanded="true" signature="53655:53720" placeholder="..." />
           </folding>
         </state>
       </provider>

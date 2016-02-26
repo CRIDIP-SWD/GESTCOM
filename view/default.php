@@ -49,7 +49,7 @@ if(!isset($_SESSION['account']['connect']) && $_SESSION['account']['connect'] ==
     <div class="sidebar">
         <div class="logopanel">
             <h1>
-                <a href=""></a>
+                <a href="<?= $constante->getUrl(array(), false); ?>index.php?view=dashboard"></a>
             </h1>
         </div>
         <div class="sidebar-inner">
