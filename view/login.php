@@ -143,7 +143,7 @@
             text        : '<div class="alert alert-success"><p><strong><?= $_GET['text']; ?></p></div>',
             layout      : 'top', //or left, right, bottom-right...
             theme       : 'made',
-            type        : 'danger',
+            type        : 'error',
             maxVisible  : 10,
             animation   : {
                 open  : 'animated bounceInLeft',
