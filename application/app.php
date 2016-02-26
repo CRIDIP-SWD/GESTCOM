@@ -72,20 +72,6 @@ class constante extends app{
 
     }
 
-    public function maintenance($ip)
-    {
-        if(static::MAINTENANCE == 1){
-            if($ip != static::IP_MAIN)
-            {
-                return true;
-            }else{
-                return false;
-            }
-        }
-    }
-
-
-
 
 }
 
@@ -155,6 +141,10 @@ class date_format extends app
         return $data_jour." ".$dj." ".$data_mois." ".$y;
     }
 
+    /**
+     * @param $date // Date au format standard de date (d-m-Y) ou autre
+     * @return string // Il retourne le moment décompter par différence (il y a...)
+     */
     public function format($date)
     {
         $date_a_comparer = new DateTime($date);
@@ -207,37 +197,19 @@ class date_format extends app
 
         return $relative_date;
     }
-    public function week2str($annee, $no_semaine)
-    {
-        // Récup jour début et fin de la semaine
-        $timeStart = strtotime("First Thursday January {$annee} + ".($no_semaine - 1)." Week");
-        $timeEnd   = strtotime("First Thursday January {$annee} + {$no_semaine} Week -1 day");
 
-        // Récup année et mois début
-        $anneeStart = date("Y", $timeStart);
-        $anneeEnd   = date("Y", $timeEnd);
-        $moisStart  = date("m", $timeStart);
-        $moisEnd    = date("m", $timeEnd);
-
-        // Gestion des différents cas de figure
-        if( $anneeStart != $anneeEnd ){
-            // à cheval entre 2 années
-            $retour = "du ".strftime("%d %B %Y", $timeStart)." au ".strftime("%d %B %Y", $timeEnd);
-        } elseif( $moisStart != $moisEnd ){
-            // à cheval entre 2 mois
-            $retour = "du ".strftime("%d %B", $timeStart)." au ".strftime("%d %B %Y", $timeEnd);
-        } else {
-            // même mois
-            $retour = "du ".strftime("%d", $timeStart)." au ".strftime("%d %B %Y", $timeEnd);
-        }
-        return $retour;
-    }
-
+    /**
+     * @return int //Cette fonction retourne la date au format strtotime (jour d'appel)
+     */
     public function date_jour_strt()
     {
         return strtotime(date("d-m-Y"));
     }
 
+    /**
+     * @param $strtotime //Date au format strtotime
+     * @return float // Retourne la valeur différentielle de jour restant en format strtotime
+     */
     public function reste($strtotime)
     {
         $diff = $strtotime - time();
@@ -249,6 +221,10 @@ class date_format extends app
 
 class fonction extends app
 {
+    /**
+     * @param $idclient // identifiant du client appeler
+     * @return string // Retourne une clé [TOKEN] permettant l'identification d'une action
+     */
     public function gen_token($idclient)
     {
         $ip_client = sha1($_SERVER['REMOTE_ADDR']);
@@ -262,6 +238,9 @@ class fonction extends app
 
     }
 
+    /**
+     * @return string // Génère un mot de passe aléatoire sur 6 caractères alphanumérique
+     */
     public function gen_password()
     {
         $caractere = "AZERTUIOPQSDFGHJLMWXCVBNazertyuiopqsdfghjklmwxcvbn0123456789";
@@ -270,11 +249,19 @@ class fonction extends app
         return $lenght;
     }
 
+    /**
+     * @param $chiffre // chiffre au format standard (0.00)
+     * @return string // Retourne le montant au formatage number_format (0,00 €)
+     */
     public function number_decimal($chiffre)
     {
         return number_format($chiffre, 2, ',', ' ')." €";
     }
 
+    /**
+     * @param $nom // Nom du fichier à télécharger
+     * @param $read_file // lien direct vers le fichier
+     */
     public function download_file($nom, $read_file)
     {
         header("Content-Type: application/octet-stream");
@@ -286,6 +273,14 @@ class fonction extends app
         exit();
     }
 
+    /**
+     * @param $view // premiere Incrémentation (view/)
+     * @param $sub // Deuxième Incrémentation (view->sub)
+     * @param $data // Troisème Incrémentation (sub->data)
+     * @param $type // Type Possible: success, warning, error, info
+     * @param $service // Service appeler exemple: add-user
+     * @param $text // Le texte renvoyer par la fonction
+     */
     public function redirect($view, $sub, $data, $type, $service, $text){
         $constante = new constante();
         if(empty($view)){
