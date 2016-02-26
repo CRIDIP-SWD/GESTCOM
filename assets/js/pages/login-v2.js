@@ -2,27 +2,6 @@ $(function() {
 
     if($('body').data('page') == 'login'){
 
-        /* Show / Hide Password Recover Form */
-        $('#password').on('click', function(e) {
-            e.preventDefault();
-            $('.form-signin').slideUp(300, function() {
-                $('.form-password').slideDown(300);
-            });
-        });
-        $('#login').on('click', function(e) {
-            e.preventDefault();
-            $('.form-password').slideUp(300, function() {
-                $('.form-signin').slideDown(300);
-            });
-        });
-        $('#submit-form, #submit-password').click(function(e) {
-            e.preventDefault();
-            var l = Ladda.create(this);
-            l.start();
-            setTimeout(function() {
-                window.location.href = "dashboard.html";
-            }, 2000);
-        });
         $.backstretch(["assets/images/gallery/login.jpg"],
         {
             fade: 600,
@@ -199,85 +178,6 @@ $(function() {
                     opacity: 1,
                     ease: Circ.easeInOut
                 });
-            }
-        });
-        $('#submit-form').click(function(e) {
-            form.validate({
-                rules: {
-                    firstname:
-                    {
-                        required: true,
-                        minlength: 3,
-                    },
-                    lastname:
-                    {
-                        required: true,
-                        minlength: 4,
-                    },
-                    email: {
-                        required: true,
-                        email: true
-                    },
-                    password: {
-                        required: true,
-                        minlength: 6,
-                        maxlength: 16
-                    },
-                    password2: {
-                        required: true,
-                        minlength: 6,
-                        maxlength: 16,
-                        equalTo: '#password'
-                    },
-                    terms: {
-                        required: true
-                    }
-                },
-                messages: {
-                    firstname: {
-                        required: 'Enter your first name',
-                        minlength: 'Enter at least 3 characters or more'
-                    },
-                    lastname: {
-                        required: 'Enter your last name',
-                        minlength: 'Enter at least 3 characters or more'
-                    },
-                    email: {
-                        required: 'Enter email address',
-                        email: 'Enter a valid email address'
-                    },
-                    password: {
-                        required: 'Write your password',
-                        minlength: 'Minimum 6 characters',
-                        maxlength: 'Maximum 16 characters'
-                    },
-                    password2: {
-                        required: 'Write your password',
-                        minlength: 'Minimum 6 characters',
-                        maxlength: 'Maximum 16 characters',
-                        equalTo: 'Password don\'t match'
-                    },
-                    terms: {
-                        required: 'You must agree with terms'
-                    }
-                },
-                errorPlacement: function(error, element) {
-                    if (element.is(":radio") || element.is(":checkbox")) {
-                        element.closest('.option-group').after(error);
-                    }
-                    else {
-                        error.insertAfter(element);
-                    }
-                }
-            });
-            e.preventDefault();
-            if (form.valid()) {
-                $(this).addClass('ladda-button');
-                var l = Ladda.create(this);
-                l.start();
-                setTimeout(function() {
-                    window.location.href = "dashboard.html";
-                }, 2000);
             }
         });
 
