@@ -292,15 +292,15 @@ class fonction extends app
             header("Location: ".$constante->getUrl(array(), false)."index.php");
         }
         if(empty($sub)){
-            header("Location: ".$constante->getUrl(array(), false)."view=".$view);
+            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view);
         }
         if(empty($data)){
-            header("Location: ".$constante->getUrl(array(), false)."view=".$view."&sub=".$sub);
+            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub);
         }
         if(empty($type)){
-            header("Location: ".$constante->getUrl(array(), false)."view=".$view."&sub=".$sub);
+            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub);
         }else{
-            header("Location: ".$constante->getUrl(array(), false)."view=".$view."&sub=".$sub."&".$type."=".$service."&text=".$text);
+            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub."&".$type."=".$service."&text=".$text);
         }
 
     }
