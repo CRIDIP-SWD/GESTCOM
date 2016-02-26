@@ -5,6 +5,7 @@ use App\date_format;
 use App\DB;
 use App\fonction;
 use App\ssh2;
+use App\Router\Router;
 
 
 require dirname(__DIR__)."/application/autoloader.php";
@@ -21,7 +22,6 @@ $date_format = new date_format();
 $fonction = new fonction();
 $DB = new DB();
 $ssh2 = new ssh2();
-
 
 
 //COMPOSER
