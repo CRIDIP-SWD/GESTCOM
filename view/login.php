@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Themes Lab - Creative Laborator</title>
+    <title><?= \App\constante::NOM_SITE; ?> - Connexion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="" name="description" />
     <meta content="themes-lab" name="author" />
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/ui.css" rel="stylesheet">
-    <link href="assets/plugins/bootstrap-loading/lada.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="<?= $constante->getUrl(array('img/')); ?>favicon.png">
+    <link href="<?= $constante->getUrl(array('css/')); ?>style.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('css/')); ?>ui.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-loading/lada.min.css" rel="stylesheet">
 </head>
 <body class="account2" data-page="login">
 <!-- BEGIN LOGIN BOX -->
@@ -124,12 +124,32 @@
 <p class="account-copyright">
     <span>Copyright © 2015 </span><span>THEMES LAB</span>.<span>All rights reserved.</span>
 </p>
-<script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
-<script src="assets/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
-<script src="assets/plugins/gsap/main-gsap.min.js"></script>
-<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/plugins/backstretch/backstretch.min.js"></script>
-<script src="assets/plugins/bootstrap-loading/lada.min.js"></script>
-<script src="assets/js/pages/login-v2.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>jquery/jquery-1.11.1.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>gsap/main-gsap.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap/js/bootstrap.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>backstretch/backstretch.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-loading/lada.min.js"></script>
+<script src="<?= $constante->getUrl(array('js/')); ?>pages/login-v2.js"></script>
+<!-- BEGIN PAGE SCRIPT -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>noty/jquery.noty.packaged.min.js"></script>  <!-- Notifications -->
+<script src="<?= $constante->getUrl(array('js/')); ?>pages/notifications.js"></script>
+<!-- END PAGE SCRIPT -->
 </body>
 </html>
+<?php if(isset($_GET['error']) && $_GET['error'] == $_GET['error']): ?>
+    <script type="text/javascript">
+        var n = noty({
+            text        : '<div class="alert alert-success"><p><strong><?= $_GET['text']; ?></p></div>',
+            layout      : 'top', //or left, right, bottom-right...
+            theme       : 'made',
+            type        : 'danger',
+            maxVisible  : 10,
+            animation   : {
+                open  : 'animated bounceInLeft',
+                close : 'animated bounceOutLeft'
+            },
+            timeout: 3000
+        });
+    </script>
+<?php endif; ?>
