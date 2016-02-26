@@ -5,7 +5,6 @@ use App\date_format;
 use App\DB;
 use App\fonction;
 use App\ssh2;
-use App\Router\Router;
 
 
 require dirname(__DIR__)."/application/autoloader.php";

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="admin-themes-lab">
     <meta name="author" content="themes-lab">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="<?= $constante->getUrl(array('images/')); ?>favicon.png" type="image/png">
     <title>Make Admin Template &amp; Builder</title>
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/theme.css" rel="stylesheet">
-    <link href="assets/css/ui.css" rel="stylesheet">
-    <script src="assets/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <link href="<?= $constante->getUrl(array('css/')); ?>style.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('css/')); ?>theme.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('css/')); ?>ui.css" rel="stylesheet">
+    <script src="<?= $constante->getUrl(array('plugins', 'modernizr/')); ?>modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <!-- LAYOUT: Apply "submenu-hover" class to body element to have sidebar submenu show on mouse hover -->
 <!-- LAYOUT: Apply "sidebar-collapsed" class to body element to have collapsed sidebar -->
@@ -36,9 +36,6 @@
 <!-- THEME COLOR: Apply "color-blue" for blue color: #4A89DC -->
 <!-- BEGIN BODY -->
 <body class="fixed-topbar fixed-sidebar theme-sdtl color-blue">
-<!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
 <section>
     <!-- BEGIN SIDEBAR -->
     <div class="sidebar">
