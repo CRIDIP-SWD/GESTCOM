@@ -49,7 +49,7 @@ if(!isset($_SESSION['account']['connect']) && $_SESSION['account']['connect'] ==
     <div class="sidebar">
         <div class="logopanel">
             <h1>
-                <a href="<?= $fonction->redirect(); ?>"></a>
+                <a href="<?= $fonction->redirect('dashboard'); ?>"></a>
             </h1>
         </div>
         <div class="sidebar-inner">

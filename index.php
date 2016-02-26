@@ -11,7 +11,7 @@ if(isset($_GET['view']))
 }
 
 ob_start();
-if($view === 'starter'){include "view/index.php";}
+if($view === 'dashboard'){include "view/index.php";}
 
 $content = ob_get_clean();
 if($view === 'login'){
