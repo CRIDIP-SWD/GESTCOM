@@ -59,7 +59,7 @@ class constante extends app{
      * @param bool $sources Renvoie les informations vers le fichiers DataSources de CRIDIP
      * @return string Suivant le bool $assets, il retourne la redirection sous format de lien(string)
      */
-    public static function getUrl($dos = array(), $assets = true, $sources = true)
+    public static function getUrl($dos = array(), $assets = true, $sources = false)
     {
         if($assets === true)
         {
@@ -285,6 +285,25 @@ class fonction extends app
         readfile($read_file);
         exit();
     }
+
+    public function redirect($view, $sub, $data, $type, $service, $text){
+        $constante = new constante();
+        if(empty($view)){
+            header("Location: ".$constante->getUrl(array(), false)."index.php");
+        }
+        if(empty($sub)){
+            header("Location: ".$constante->getUrl(array(), false)."view=".$view);
+        }
+        if(empty($data)){
+            header("Location: ".$constante->getUrl(array(), false)."view=".$view."&sub=".$sub);
+        }
+        if(empty($type)){
+            header("Location: ".$constante->getUrl(array(), false)."view=".$view."&sub=".$sub);
+        }else{
+            header("Location: ".$constante->getUrl(array(), false)."view=".$view."&sub=".$sub."&".$type."=".$service."&text=".$text);
+        }
+
+    }
 }
 
 class DB extends app{
@@ -363,7 +382,6 @@ class DB extends app{
 
     }
 }
-
 
 class ssh2 extends app
 {
