@@ -138,6 +138,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             toastr.warning("<?= $_GET['text']; ?>", "ATTENTION", {
+                positionClass: "toast-top-full-width",
                 showDuration: 1000,
                 hideDuration: 1000,
                 timeOut: 5000,
@@ -150,6 +151,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             toastr.error("<?= $_GET['text']; ?>", "ERREUR", {
+                positionClass: "toast-top-full-width",
                 showDuration: 1000,
                 hideDuration: 1000,
                 timeOut: 5000,
