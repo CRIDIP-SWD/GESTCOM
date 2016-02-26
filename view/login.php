@@ -132,24 +132,32 @@
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-loading/lada.min.js"></script>
 <script src="<?= $constante->getUrl(array('js/')); ?>pages/login-v2.js"></script>
 <!-- BEGIN PAGE SCRIPT -->
-<script src="<?= $constante->getUrl(array('plugins/')); ?>noty/jquery.noty.packaged.min.js"></script>  <!-- Notifications -->
-<script src="<?= $constante->getUrl(array('js/')); ?>pages/notifications.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>toastr/toastr.js"></script>
 <!-- END PAGE SCRIPT -->
-</body>
-</html>
-<?php if(isset($_GET['error']) && $_GET['error'] == $_GET['error']): ?>
+<?php if(isset($_GET['warning']) && $_GET['warning'] == $_GET['warning']){ ?>
     <script type="text/javascript">
-        var n = noty({
-            text        : '<div class="alert alert-success"><p><strong><?= $_GET['text']; ?></p></div>',
-            layout      : 'top', //or left, right, bottom-right...
-            theme       : 'made',
-            type        : 'error',
-            maxVisible  : 10,
-            animation   : {
-                open  : 'animated bounceInLeft',
-                close : 'animated bounceOutLeft'
-            },
-            timeout: 3000
+        $(document).ready(function(){
+            toastr.warning("<?= $_GET['text']; ?>", "ATTENTION", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
         });
     </script>
-<?php endif; ?>
+<?php } ?>
+<?php if(isset($_GET['error']) && $_GET['error'] == $_GET['error']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.error("<?= $_GET['text']; ?>", "ERREUR", {
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 5000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+</body>
+</html>
+

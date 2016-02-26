@@ -18,6 +18,7 @@
 @import "../plugins/bootstrap-tags-input/bootstrap-tagsinput.css";
 @import "../plugins/bootstrap-editable/css/bootstrap-editable.css";
 @import "../plugins/prettify/prettify.css";
+@import "../plugins/toastr/toastr.css";
 /**** SIDEBAR  ****/
 /**** TOPBAR ****/
 /**** QUICKVIEW SIDEBAR ****/

@@ -16,6 +16,7 @@
 <script src="<?= $constante->getUrl(array('plugins/')); ?>backstretch/backstretch.min.js"></script> <!-- Background Image -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-progressbar/bootstrap-progressbar.min.js"></script> <!-- Animated Progress Bar -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-chartjs/Chart.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>toastr/toastr.js"></script>
 <script src="<?= $constante->getUrl(array('js/')); ?>builder.js"></script> <!-- Theme Builder -->
 <script src="<?= $constante->getUrl(array('js/')); ?>sidebar_hover.js"></script> <!-- Sidebar on Hover -->
 <script src="<?= $constante->getUrl(array('js/')); ?>widgets/notes.js"></script> <!-- Notes Widget -->
