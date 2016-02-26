@@ -3,6 +3,7 @@ use App\app;
 use App\constante;
 use App\date_format;
 use App\DB;
+use App\ErrorContext;
 use App\fonction;
 use App\ssh2;
 
@@ -21,6 +22,7 @@ $date_format = new date_format();
 $fonction = new fonction();
 $DB = new DB();
 $ssh2 = new ssh2();
+$errorContext = new ErrorContext();
 
 
 //COMPOSER
