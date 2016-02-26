@@ -32,11 +32,11 @@ class app
  */
 class constante extends app{
 
-    const HTTP              = "http://";
+    const HTTP              = "https://";
     const URL               = "gestcom.cridip.com/";
     const ASSETS            = "assets/";
     const NOM_SITE          = "GESTCOM";
-    const SOURCES           = "http://ns342142.ip-5-196-76.eu/sources/gc/";
+    const SOURCES           = "https://ns342142.ip-5-196-76.eu/sources/gc/";
     const MAINTENANCE       = 0;
     const IP_MAIN           = "109.190.224.161";
     const IP_SRC            = "ns342142.ip-5-196-76.eu";
