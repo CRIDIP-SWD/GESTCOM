@@ -50,7 +50,7 @@
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap/js/bootstrap.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>backstretch/backstretch.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-loading/lada.min.js"></script>
-<script src="<?= $constante->getUrl(array('js/')); ?>pages/login-v2.js"></script>
+<!--<script src="<?= $constante->getUrl(array('js/')); ?>pages/login-v2.js"></script>-->
 <!-- BEGIN PAGE SCRIPT -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>toastr/toastr.js"></script>
 <!-- END PAGE SCRIPT -->
