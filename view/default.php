@@ -6,8 +6,6 @@ if(!isset($_SESSION['account']['connect']) && $_SESSION['account']['connect'] ==
     $fonction->redirect("login","", "", "error", "login", $text);
 }
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +14,7 @@ if(!isset($_SESSION['account']['connect']) && $_SESSION['account']['connect'] ==
     <meta name="description" content="admin-themes-lab">
     <meta name="author" content="themes-lab">
     <link rel="shortcut icon" href="<?= $constante->getUrl(array('images/')); ?>favicon.png" type="image/png">
-    <title>Make Admin Template &amp; Builder</title>
+    <title><?= \App\constante::NOM_SITE; ?></title>
     <link href="<?= $constante->getUrl(array('css/')); ?>style.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('css/')); ?>theme.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('css/')); ?>ui.css" rel="stylesheet">
@@ -51,7 +49,7 @@ if(!isset($_SESSION['account']['connect']) && $_SESSION['account']['connect'] ==
     <div class="sidebar">
         <div class="logopanel">
             <h1>
-                <a href="dashboard.html"></a>
+                <a href="<?= $fonction->redirect(); ?>"></a>
             </h1>
         </div>
         <div class="sidebar-inner">

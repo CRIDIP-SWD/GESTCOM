@@ -281,7 +281,7 @@ class fonction extends app
      * @param $service // Service appeler exemple: add-user
      * @param $text // Le texte renvoyer par la fonction
      */
-    public function redirect($view, $sub, $data, $type, $service, $text){
+    public function redirect($view = null, $sub = null, $data = null, $type = null, $service = null, $text = null){
         $constante = new constante();
         if(empty($view)){
             header("Location: ".$constante->getUrl(array(), false)."index.php");
