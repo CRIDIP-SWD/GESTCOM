@@ -1,5 +1,7 @@
 <?php
 
+use App\Router\Router;
+
 require "application/classe.php";
 
 $router = new Router($_GET['url']);
