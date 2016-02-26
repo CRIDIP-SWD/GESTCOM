@@ -26,7 +26,7 @@
         </ul>
     </div>
     <div class="account-form">
-        <form class="form-signin" role="form">
+        <form class="form-signin" role="form" action="controller/user.php" method="post">
             <h3><strong>Connectez-vous</strong> à votre compte</h3>
             <div class="append-icon">
                 <input type="text" name="username" id="name" class="form-control form-white username" placeholder="Nom d'utilisateur" required>
@@ -36,7 +36,7 @@
                 <input type="password" name="password" class="form-control form-white password" placeholder="Mot de Passe" required>
                 <i class="icon-lock"></i>
             </div>
-            <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left">Connexion</button>
+            <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left" name="action" value="login">Connexion</button>
         </form>
     </div>
 </div>
