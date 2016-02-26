@@ -141,7 +141,7 @@
                 positionClass: "toast-top-full-width",
                 showDuration: 1000,
                 hideDuration: 1000,
-                timeOut: 5000,
+                timeOut: 500000,
                 closeButton: true
             });
         });
@@ -154,7 +154,7 @@
                 positionClass: "toast-top-full-width",
                 showDuration: 1000,
                 hideDuration: 1000,
-                timeOut: 5000,
+                timeOut: 500000,
                 closeButton: true
             });
         });

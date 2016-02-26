@@ -64,8 +64,9 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67580456">
-              <caret line="153" column="54" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.47318235">
+              <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
+              <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -348,12 +349,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00121" summary="GESTCOM V1.0.0">
-      <created>1456432379930</created>
-      <option name="number" value="00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1456432379930</updated>
     </task>
     <task id="LOCAL-00122" summary="GESTCOM V1.0.0">
       <created>1456439904155</created>
@@ -643,7 +638,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456509263857</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="GESTCOM V1.0.0">
+      <created>1456509385203</created>
+      <option name="number" value="00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1456509385203</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -888,8 +889,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67580456">
-          <caret line="153" column="54" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.47318235">
+          <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
+          <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
           <folding />
         </state>
       </provider>
