@@ -5,6 +5,7 @@ function is_ajax(){
 if(is_ajax()){
     if(isset($_GET['action']) && $_GET['action'] == 'connector')
     {
+        session_start();
         require "../application/classe.php";
         $connect = $_GET['connect'];
         $username = $user->username;
