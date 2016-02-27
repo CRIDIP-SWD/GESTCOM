@@ -15,15 +15,15 @@
             <div class="timeline-block">
                 <?php if($notif->type == 1): ?>
                     <div class="timeline-icon bg-success">
-                        <i class="icon-plus-sign"></i>
+                        <i class="fa fa-plus"></i>
                     </div>
                 <?php elseif($notif->type == 2): ?>
                     <div class="timeline-icon bg-orange">
-                        <i class="icon-edit"></i>
+                        <i class="fa fa-edit"></i>
                     </div>
                 <?php else: ?>
                     <div class="timeline-icon bg-red">
-                        <i class="icon-remove"></i>
+                        <i class="fa fa-remove"></i>
                     </div>
                 <?php endif; ?>
                 <div class="timeline-content">
