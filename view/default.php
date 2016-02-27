@@ -69,9 +69,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                                 <?php endif; ?>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a href=""><i class="busy"></i><span>Busy</span></a></li>
-                                <li><a href="#"><i class="turquoise"></i><span>Invisible</span></a></li>
-                                <li><a href="#"><i class="away"></i><span>Away</span></a></li>
                                 <?php if($user->connect == 0): ?>
                                     <li><a href=""><i class="away"></i><span>Absent</span></a></li>
                                     <li><a href=""><i class="online"></i><span>En Ligne</span></a></li>
