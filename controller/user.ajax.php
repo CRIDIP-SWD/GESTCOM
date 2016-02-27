@@ -11,11 +11,7 @@ if($fonction->is_ajax()){
             "connect"   => $connect
         ));
 
-        if($sql_update == 0){
-            $fonction->redirect("error", "","","code","USRJX1","");
-        }
-
-        echo json_encode($connect);
+        echo json_encode($connect, $sql_update);
     }
 }
 ?>
