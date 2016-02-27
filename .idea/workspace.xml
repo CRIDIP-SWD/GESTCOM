@@ -78,7 +78,7 @@
               <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
-                <element signature="e#77#1563#0" expanded="false" />
+                <element signature="e#93#1579#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -418,12 +418,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00234" summary="GESTCOM V1.0.0">
-      <created>1456538931103</created>
-      <option name="number" value="00234" />
-      <option name="project" value="LOCAL" />
-      <updated>1456538931103</updated>
-    </task>
     <task id="LOCAL-00235" summary="GESTCOM V1.0.0">
       <created>1456539038561</created>
       <option name="number" value="00235" />
@@ -712,7 +706,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456596364631</updated>
     </task>
-    <option name="localTasksCounter" value="283" />
+    <task id="LOCAL-00283" summary="GESTCOM V1.0.0">
+      <created>1456596718456</created>
+      <option name="number" value="00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1456596718457</updated>
+    </task>
+    <option name="localTasksCounter" value="284" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1207,7 +1207,7 @@
           <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
-            <element signature="e#77#1563#0" expanded="false" />
+            <element signature="e#93#1579#0" expanded="false" />
           </folding>
         </state>
       </provider>

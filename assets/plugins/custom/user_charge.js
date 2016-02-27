@@ -1,7 +1,7 @@
 /**
  * Created by Maxime on 27/02/2016.
  */
-(function($){
+$(document).ready(function(){
     function ajax(){
         /** VERIFICATION A LA CONNEXION DE L'UTILISATEUR **/
         $.ajax({
@@ -40,6 +40,4 @@
         });
     }
     setInterval(ajax(), 4000);
-
-
 })(jQuery);
