@@ -19,8 +19,10 @@
         dataType: "json",
         type: "GET",
         success: function(data){
-            $('#count_notif').replaceWith('<span id="count_notif" class="badge badge-danger badge-header">'+data+'</span>');
-            toastr.info("Vous avez une nouvelle notification !");
+            if(data >= 1){
+                $('#count_notif').replaceWith('<span id="count_notif" class="badge badge-danger badge-header">'+data+'</span>');
+                toastr.info("Vous avez une nouvelle notification !");
+            }
         },
         error: function(jqxhr){
             console.log(jqxhr.responseText);
