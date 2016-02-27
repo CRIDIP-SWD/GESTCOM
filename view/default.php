@@ -415,20 +415,26 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     <li class="dropdown" id="user-header">
                         <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                             <img src="assets/images/avatars/user1.png" alt="user image">
-                            <span class="username">Hi, John Doe</span>
+                            <span class="username"><?= $user->nom_user; ?> <?= $user->prenom_user; ?></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#"><i class="icon-user"></i><span>My Profile</span></a>
+                                <a href="index.php?view=profil"><i class="icon-user"></i><span>Mon Profil</span></a>
                             </li>
                             <li>
-                                <a href="#"><i class="icon-calendar"></i><span>My Calendar</span></a>
+                                <a href="index.php?view=calendar"><i class="icon-calendar"></i><span>Mon Calendrier</span></a>
                             </li>
                             <li>
-                                <a href="#"><i class="icon-settings"></i><span>Account Settings</span></a>
+                                <a href="index.php?view=mailbox"><i class="icon-envelope"></i><span>Mes Messages</span></a>
                             </li>
                             <li>
-                                <a href="#"><i class="icon-logout"></i><span>Logout</span></a>
+                                <a href="index.php?view=tasks"><i class="icon-tasks"></i><span>Mes Taches</span></a>
+                            </li>
+                            <li>
+                                <a href="controller/user.php?action=lock"><i class="icon-locked"></i><span>Verrouiller l'application</span></a>
+                            </li>
+                            <li>
+                                <a href="controller/user.php?action=logout"><i class="icon-logout"></i><span>Déconnexion</span></a>
                             </li>
                         </ul>
                     </li>
@@ -447,131 +453,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
         <!-- END PAGE CONTENT -->
     </div>
     <!-- END MAIN CONTENT -->
-    <!-- BEGIN BUILDER -->
-    <div class="builder hidden-sm hidden-xs" id="builder">
-        <a class="builder-toggle"><i class="icon-wrench"></i></a>
-        <div class="inner">
-            <div class="builder-container">
-                <a href="#" class="btn btn-sm btn-default" id="reset-style">reset default style</a>
-                <h4>Layout options</h4>
-                <div class="layout-option">
-                    <span> RTL</span>
-                    <label class="switch pull-right">
-                        <input data-layout="rtl" id="switch-rtl" type="checkbox" class="switch-input">
-                        <span class="switch-label" data-on="On" data-off="Off"></span>
-                        <span class="switch-handle"></span>
-                    </label>
-                </div>
-                <div class="layout-option">
-                    <span> Fixed Sidebar</span>
-                    <label class="switch pull-right">
-                        <input data-layout="sidebar" id="switch-sidebar" type="checkbox" class="switch-input" checked>
-                        <span class="switch-label" data-on="On" data-off="Off"></span>
-                        <span class="switch-handle"></span>
-                    </label>
-                </div>
-                <div class="layout-option">
-                    <span> Sidebar on Hover</span>
-                    <label class="switch pull-right">
-                        <input data-layout="sidebar-hover" id="switch-sidebar-hover" type="checkbox" class="switch-input">
-                        <span class="switch-label" data-on="On" data-off="Off"></span>
-                        <span class="switch-handle"></span>
-                    </label>
-                </div>
-                <div class="layout-option">
-                    <span> Submenu on Hover</span>
-                    <label class="switch pull-right">
-                        <input data-layout="submenu-hover" id="switch-submenu-hover" type="checkbox" class="switch-input">
-                        <span class="switch-label" data-on="On" data-off="Off"></span>
-                        <span class="switch-handle"></span>
-                    </label>
-                </div>
-                <div class="layout-option">
-                    <span> Sidebar on Top</span>
-                    <label class="switch pull-right">
-                        <input data-layout="sidebar-top" id="switch-sidebar-top" type="checkbox" class="switch-input">
-                        <span class="switch-label" data-on="On" data-off="Off"></span>
-                        <span class="switch-handle"></span>
-                    </label>
-                </div>
-                <div class="layout-option">
-                    <span>Fixed Topbar</span>
-                    <label class="switch pull-right">
-                        <input data-layout="topbar" id="switch-topbar" type="checkbox" class="switch-input" checked>
-                        <span class="switch-label" data-on="On" data-off="Off"></span>
-                        <span class="switch-handle"></span>
-                    </label>
-                </div>
-                <div class="layout-option">
-                    <span>Boxed Layout</span>
-                    <label class="switch pull-right">
-                        <input data-layout="boxed" id="switch-boxed" type="checkbox" class="switch-input">
-                        <span class="switch-label" data-on="On" data-off="Off"></span>
-                        <span class="switch-handle"></span>
-                    </label>
-                </div>
-                <h4 class="border-top">Color</h4>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="theme-color bg-dark" data-main="default" data-color="#2B2E33"></div>
-                        <div class="theme-color background-primary" data-main="primary" data-color="#319DB5"></div>
-                        <div class="theme-color bg-red" data-main="red" data-color="#C75757"></div>
-                        <div class="theme-color bg-green" data-main="green" data-color="#1DA079"></div>
-                        <div class="theme-color bg-orange" data-main="orange" data-color="#D28857"></div>
-                        <div class="theme-color bg-purple" data-main="purple" data-color="#B179D7"></div>
-                        <div class="theme-color bg-blue" data-main="blue" data-color="#4A89DC"></div>
-                    </div>
-                </div>
-                <h4 class="border-top">Theme</h4>
-                <div class="row row-sm">
-                    <div class="col-xs-6">
-                        <div class="theme clearfix sdtl" data-theme="sdtl">
-                            <div class="header theme-left"></div>
-                            <div class="header theme-right-light"></div>
-                            <div class="theme-sidebar-dark"></div>
-                            <div class="bg-light"></div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="theme clearfix sltd" data-theme="sltd">
-                            <div class="header theme-left"></div>
-                            <div class="header theme-right-dark"></div>
-                            <div class="theme-sidebar-light"></div>
-                            <div class="bg-light"></div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="theme clearfix sdtd" data-theme="sdtd">
-                            <div class="header theme-left"></div>
-                            <div class="header theme-right-dark"></div>
-                            <div class="theme-sidebar-dark"></div>
-                            <div class="bg-light"></div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="theme clearfix sltl" data-theme="sltl">
-                            <div class="header theme-left"></div>
-                            <div class="header theme-right-light"></div>
-                            <div class="theme-sidebar-light"></div>
-                            <div class="bg-light"></div>
-                        </div>
-                    </div>
-                </div>
-                <h4 class="border-top">Background</h4>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="bg-color bg-clean" data-bg="clean" data-color="#F8F8F8"></div>
-                        <div class="bg-color bg-lighter" data-bg="lighter" data-color="#EFEFEF"></div>
-                        <div class="bg-color bg-light-default" data-bg="light-default" data-color="#E9E9E9"></div>
-                        <div class="bg-color bg-light-blue" data-bg="light-blue" data-color="#E2EBEF"></div>
-                        <div class="bg-color bg-light-purple" data-bg="light-purple" data-color="#E9ECF5"></div>
-                        <div class="bg-color bg-light-dark" data-bg="light-dark" data-color="#DCE1E4"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END BUILDER -->
 </section>
 <!-- BEGIN QUICKVIEW SIDEBAR -->
 <div id="quickview-sidebar">
@@ -947,99 +828,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
             </div>
         </div>
     </div>
-</div>
-<!-- END QUICKVIEW SIDEBAR -->
-<!-- BEGIN SEARCH -->
-<div id="morphsearch" class="morphsearch">
-    <form class="morphsearch-form">
-        <input class="morphsearch-input" type="search" placeholder="Search..."/>
-        <button class="morphsearch-submit" type="submit">Search</button>
-    </form>
-    <div class="morphsearch-content withScroll">
-        <div class="dummy-column user-column">
-            <h2>Users</h2>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/avatars/avatar1_big.png" alt="Avatar 1"/>
-                <h3>John Smith</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/avatars/avatar2_big.png" alt="Avatar 2"/>
-                <h3>Bod Dylan</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/avatars/avatar3_big.png" alt="Avatar 3"/>
-                <h3>Jenny Finlan</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/avatars/avatar4_big.png" alt="Avatar 4"/>
-                <h3>Harold Fox</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/avatars/avatar5_big.png" alt="Avatar 5"/>
-                <h3>Martin Hendrix</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/avatars/avatar6_big.png" alt="Avatar 6"/>
-                <h3>Paul Ferguson</h3>
-            </a>
-        </div>
-        <div class="dummy-column">
-            <h2>Articles</h2>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/1.jpg" alt="1"/>
-                <h3>How to change webdesign?</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/2.jpg" alt="2"/>
-                <h3>News From the sky</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/3.jpg" alt="3"/>
-                <h3>Where is the cat?</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/4.jpg" alt="4"/>
-                <h3>Just another funny story</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/5.jpg" alt="5"/>
-                <h3>How many water we drink every day?</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/6.jpg" alt="6"/>
-                <h3>Drag and drop tutorials</h3>
-            </a>
-        </div>
-        <div class="dummy-column">
-            <h2>Recent</h2>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/7.jpg" alt="7"/>
-                <h3>Design Inspiration</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/8.jpg" alt="8"/>
-                <h3>Animals drawing</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/9.jpg" alt="9"/>
-                <h3>Cup of tea please</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/10.jpg" alt="10"/>
-                <h3>New application arrive</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/11.jpg" alt="11"/>
-                <h3>Notification prettify</h3>
-            </a>
-            <a class="dummy-media-object" href="#">
-                <img src="assets/images/gallery/12.jpg" alt="12"/>
-                <h3>My article is the last recent</h3>
-            </a>
-        </div>
-    </div>
-    <!-- /morphsearch-content -->
-    <span class="morphsearch-close"></span>
 </div>
 <!-- END QUICKVIEW SIDEBAR -->
 <!-- BEGIN PRELOADER -->
