@@ -377,14 +377,6 @@ class DB extends app{
 
     }
 
-    /**
-     * @param $value_sql //Requete SQL exécuter
-     * @return mixed // Retourne un parsage [0] si un seul résultat
-     */
-    public function parse_one($value_sql)
-    {
-        if($value_sql == 1){return $value_sql[0];}else{return $value_sql;}
-    }
 }
 
 class ssh2 extends app
