@@ -77,7 +77,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     </div>
                 </div>
             </div>
-            <div class="menu-title">
+            <!--<div class="menu-title">
                 Navigation
                 <div class="pull-right menu-settings">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" data-delay="300">
@@ -218,9 +218,9 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         <li><a href="maps-vector.html"> Vector Maps</a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul>-->
             <!-- SIDEBAR WIDGET FOLDERS -->
-            <div class="sidebar-widgets">
+            <!--<div class="sidebar-widgets">
                 <p class="menu-title widget-title">Folders <span class="pull-right"><a href="#" class="new-folder"> <i class="icon-plus"></i></a></span></p>
                 <ul class="folders">
                     <li>
@@ -235,7 +235,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         <input type="text" placeholder="Folder's name..." class="form-control input-sm">
                     </li>
                 </ul>
-            </div>
+            </div>-->
             <div class="sidebar-footer clearfix">
                 <a class="pull-left footer-settings" href="#" data-rel="tooltip" data-placement="top" data-original-title="Settings">
                     <i class="icon-settings"></i></a>
