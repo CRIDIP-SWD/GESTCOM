@@ -3,6 +3,7 @@ require "../application/classe.php";
 if($fonction->is_ajax()){
     if(isset($_GET['action']) && $_GET['action'] == 'connector')
     {
+        require "../application/classe.php";
         $connect = $_GET['connect'];
         $username = $user->username;
 
