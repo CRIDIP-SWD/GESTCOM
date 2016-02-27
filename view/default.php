@@ -293,70 +293,34 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         </a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-header clearfix">
-                                <p class="pull-left">12 Pending Notifications</p>
+                                <p class="pull-left" id="count_notif_title">12 Pending Notifications</p>
                             </li>
                             <li>
                                 <ul class="dropdown-menu-list withScroll" data-height="220">
+                                    <?php
+                                    $sql_notif = $DB->query("SELECT * FROM notif WHERE iduser = :iduser AND vu = 0", array(
+                                        "iduser" => $user->iduser
+                                    ));
+                                    foreach($sql_notif as $notif):
+                                    ?>
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-star p-r-10 f-18 c-orange"></i>
-                                            Steve have rated your photo
-                                            <span class="dropdown-time">Just now</span>
+                                            <?php if($notif->type == 1): ?>
+                                                <i class="fa fa-plus p-r-10 f-18 c-green"></i>
+                                            <?php elseif($notif->type == 2): ?>
+                                                <i class="fa fa-edit p-r-10 f-18 c-orange"></i>
+                                            <?php else: ?>
+                                                <i class="fa fa-remove p-r-10 f-18 c-red"></i>
+                                            <?php endif; ?>
+                                            <?= substr(html_entity_decode($notif->notification), 0, 15); ?>
+                                            <span class="dropdown-time"><?= $date_format->format(date("d-m-Y h:i", $notif->date_notification)); ?></span>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-heart p-r-10 f-18 c-red"></i>
-                                            John added you to his favs
-                                            <span class="dropdown-time">15 mins</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-file-text p-r-10 f-18"></i>
-                                            New document available
-                                            <span class="dropdown-time">22 mins</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-picture-o p-r-10 f-18 c-blue"></i>
-                                            New picture added
-                                            <span class="dropdown-time">40 mins</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-bell p-r-10 f-18 c-orange"></i>
-                                            Meeting in 1 hour
-                                            <span class="dropdown-time">1 hour</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-bell p-r-10 f-18"></i>
-                                            Server 5 overloaded
-                                            <span class="dropdown-time">2 hours</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-comment p-r-10 f-18 c-gray"></i>
-                                            Bill comment your post
-                                            <span class="dropdown-time">3 hours</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-picture-o p-r-10 f-18 c-blue"></i>
-                                            New picture added
-                                            <span class="dropdown-time">2 days</span>
-                                        </a>
-                                    </li>
+                                    <?php endforeach; ?>
                                 </ul>
                             </li>
                             <li class="dropdown-footer clearfix">
-                                <a href="#" class="pull-left">See all notifications</a>
+                                <a href="#" class="pull-left">Voir toutes les notifications</a>
                                 <a href="#" class="pull-right">
                                     <i class="icon-settings"></i>
                                 </a>

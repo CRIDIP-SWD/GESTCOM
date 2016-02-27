@@ -21,9 +21,11 @@
         success: function(data){
             if(data >= 1){
                 $('#count_notif').replaceWith('<span id="count_notif" class="badge badge-danger badge-header">'+data+'</span>');
+                $('#count_notif_title').replaceWith('<p class="pull-left" id="count_notif_title">'+data+' Notification en attente</p>');
                 toastr.info("Vous avez une nouvelle notification !");
             }else{
                 $('#count_notif').remove();
+                $('#count_notif_title').replaceWith('<p class="pull-left" id="count_notif_title">'+data+' Notification en attente</p>');
             }
         },
         error: function(jqxhr){
