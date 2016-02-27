@@ -256,10 +256,10 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                 <div class="topnav">
                     <a class="menutoggle" href="#" data-toggle="sidebar-collapsed"><span class="menu__handle"><span>Menu</span></span></a>
                     <ul class="nav nav-horizontal">
-                        <li<?php if($view === 'collab'){echo 'active';} ?>><a href="index.php?view=collab"><i class="icon-user"></i><span>Collaborative</span></a></li>
-                        <li<?php if($view === 'gestion'){echo 'active';} ?>><a href="index.php?view=gestion"><i class="icon-cube"></i><span>Gestion</span></a></li>
-                        <li<?php if($view === 'compta'){echo 'active';} ?>><a href="index.php?view=compta"><i class="icon-euro"></i><span>Comptabilité</span></a></li>
-                        <li<?php if($view === 'ovh'){echo 'active';} ?>><a href="index.php?view=ovh"><i class="icon-globe"></i><span>OVH</span></a></li>
+                        <li<?php if($view === 'collab'){echo 'active';} ?>><a href="index.php?view=collab"><i class="fa fa-user"></i><span>Collaborative</span></a></li>
+                        <li<?php if($view === 'gestion'){echo 'active';} ?>><a href="index.php?view=gestion"><i class="fa fa-cube"></i><span>Gestion</span></a></li>
+                        <li<?php if($view === 'compta'){echo 'active';} ?>><a href="index.php?view=compta"><i class="fa fa-euro"></i><span>Comptabilité</span></a></li>
+                        <li<?php if($view === 'ovh'){echo 'active';} ?>><a href="index.php?view=ovh"><i class="fa fa-globe"></i><span>OVH</span></a></li>
                         <li<?php if($view === 'projet'){echo 'active';} ?>><a href="index.php?view=projet"><i class="fa fa-code-fork"></i><span>Projet</span></a></li>
                     </ul>
                 </div>
