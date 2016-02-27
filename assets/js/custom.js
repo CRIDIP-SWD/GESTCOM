@@ -12,8 +12,8 @@
             dataType: "json",
             url: url,
             data: data,
-            success: function(data){
-                alert(data);
+            success: function(data, jqxhr){
+                alert(jqxhr);
             },
             error: function(jqxhr){
                 alert(jqxhr);
