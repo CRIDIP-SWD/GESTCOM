@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,10 +64,10 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52397263">
-              <caret line="298" column="91" selection-start-line="298" selection-start-column="91" selection-end-line="298" selection-end-column="91" />
+            <state vertical-scroll-proportion="0.64041096">
+              <caret line="325" column="36" selection-start-line="325" selection-start-column="36" selection-end-line="326" selection-end-column="33" />
               <folding>
-                <marker date="1456593508911" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+                <marker date="1456593926440" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
               </folding>
             </state>
           </provider>
@@ -201,9 +200,10 @@
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/assets/plugins/translate/application-fr.json" />
         <option value="$PROJECT_DIR$/controller/user.ajax.php" />
-        <option value="$PROJECT_DIR$/view/default.php" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
+        <option value="dbtable:/46629d73/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.notif" />
+        <option value="$PROJECT_DIR$/view/default.php" />
       </list>
     </option>
   </component>
@@ -413,12 +413,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00224" summary="GESTCOM V1.0.0">
-      <created>1456537871847</created>
-      <option name="number" value="00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1456537871847</updated>
     </task>
     <task id="LOCAL-00225" summary="GESTCOM V1.0.0">
       <created>1456538059395</created>
@@ -708,7 +702,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456593512584</updated>
     </task>
-    <option name="localTasksCounter" value="273" />
+    <task id="LOCAL-00273" summary="GESTCOM V1.0.0">
+      <created>1456593634650</created>
+      <option name="number" value="00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1456593634650</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1127,19 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/46629d73/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.notif">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.192308">
@@ -1192,12 +1179,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/46629d73/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.notif">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52397263">
-          <caret line="298" column="91" selection-start-line="298" selection-start-column="91" selection-end-line="298" selection-end-column="91" />
+        <state vertical-scroll-proportion="0.64041096">
+          <caret line="325" column="36" selection-start-line="325" selection-start-column="36" selection-end-line="326" selection-end-column="33" />
           <folding>
-            <marker date="1456593508911" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+            <marker date="1456593926440" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
           </folding>
         </state>
       </provider>
