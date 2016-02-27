@@ -14,4 +14,16 @@
             console.log(jqxhr.responseText);
         }
     });
+    $.ajax({
+        url: "../../../controller/user.ajax.php?action=check-notif",
+        dataType: "json",
+        type: "GET",
+        success: function(data){
+            $('#count_notif').replaceWith(data);
+            toastr.info("Vous avez une nouvelle notification !");
+        },
+        error: function(jqxhr){
+            console.log(jqxhr.responseText);
+        }
+    })
 })(jQuery);

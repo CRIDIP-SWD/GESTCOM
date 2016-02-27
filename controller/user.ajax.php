@@ -27,6 +27,16 @@ if(is_ajax()){
 
         echo json_encode($nb_message);
     }
+    if(isset($_GET['action']) && $_GET['action'] == 'check-notif')
+    {
+        session_start();
+        require "../application/classe.php";
+        $iduser = $user->iduser;
+
+        $nb_notif = $DB->count("SELECT COUNT(idnotif) FROM notif WHERE iduser = :iduser AND vu = 0", array("iduser" => $iduser));
+
+        echo json_encode($nb_notif);
+    }
 }
 ?>
 

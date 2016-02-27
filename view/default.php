@@ -289,7 +289,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     <li class="dropdown" id="notifications-header">
                         <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                             <i class="icon-bell"></i>
-                            <span class="badge badge-danger badge-header">6</span>
+                            <span id="count_notif" class="badge badge-danger badge-header">6</span>
                         </a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-header clearfix">
