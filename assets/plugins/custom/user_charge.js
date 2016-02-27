@@ -8,7 +8,11 @@
         dataType: "json",
         type: "GET",
         success:function(data){
-            toastr.info("Vous avez "+data+" Message non lu !", "MESSAGERIE");
+            if(data >= 1){
+                toastr.info("Vous avez "+data+" Message non lu !", "MESSAGERIE");
+            }else{
+                return false;
+            }
         },
         error:function(jqxhr){
             console.log(jqxhr.responseText);
