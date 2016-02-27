@@ -7,7 +7,7 @@ if(isset($_GET['view']))
 {
     $view = $_GET['view'];
 }else{
-    $view = "index";
+    $view = "dashboard";
 }
 
 ob_start();
