@@ -22,6 +22,8 @@
             if(data >= 1){
                 $('#count_notif').replaceWith('<span id="count_notif" class="badge badge-danger badge-header">'+data+'</span>');
                 toastr.info("Vous avez une nouvelle notification !");
+            }else{
+                $('#count_notif').remove();
             }
         },
         error: function(jqxhr){
