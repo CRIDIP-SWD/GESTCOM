@@ -61,10 +61,10 @@
         <entry file="file://$PROJECT_DIR$/controller/user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.46575344">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
-                <marker date="1456533242422" expanded="true" signature="383:466" placeholder="SELECT COUNT... users" />
-                <marker date="1456533242422" expanded="true" signature="764:850" placeholder="UPDATE users... " />
+                <marker date="1456533274869" expanded="true" signature="383:466" placeholder="SELECT COUNT... users" />
+                <marker date="1456533274869" expanded="true" signature="764:849" placeholder="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -336,12 +336,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00140" summary="GESTCOM V1.0.0">
-      <created>1456499948719</created>
-      <option name="number" value="00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1456499948719</updated>
     </task>
     <task id="LOCAL-00141" summary="GESTCOM V1.0.0">
       <created>1456502986738</created>
@@ -631,7 +625,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456533041714</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="GESTCOM V1.0.0">
+      <created>1456533246013</created>
+      <option name="number" value="00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1456533246013</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1049,10 +1049,10 @@
     <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46575344">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <marker date="1456533242422" expanded="true" signature="383:466" placeholder="SELECT COUNT... users" />
-            <marker date="1456533242422" expanded="true" signature="764:850" placeholder="UPDATE users... " />
+            <marker date="1456533274869" expanded="true" signature="383:466" placeholder="SELECT COUNT... users" />
+            <marker date="1456533274869" expanded="true" signature="764:849" placeholder="UPDATE users... " />
           </folding>
         </state>
       </provider>
