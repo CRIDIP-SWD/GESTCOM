@@ -35,6 +35,27 @@
         })
     });
 
-    /** Control **/
+    /** AJAX NOTIF **/
+    $('#notif-suppression').on('click', function(e){
+        e.preventDefault();
+        var a = $(this);
+        var url = a.attr('href');
+        var data = url;
+        data = $(this).serializeArray(data);
+
+        $.ajax({
+            type: "GET",
+            dataType: "json",
+            url: url,
+            data: data,
+            success: function(data){
+              $('#timeline').fadeOut();
+              toastr.success("Les notification ont bien été supprimer !","Suppression des Notifications");
+            },
+            fail: function (jqxhr) {
+
+            }
+        })
+    })
 
 })(jQuery);

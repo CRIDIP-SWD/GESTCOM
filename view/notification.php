@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="well text-right">
-            <a href="" class="btn btn-primary"><i class="fa fa-remove"></i> Supprimer les logs</a>
+            <a href="controller/notif.ajax.php?action=supp-notif" id="notif-suppression" class="btn btn-primary"><i class="fa fa-remove"></i> Supprimer les logs</a>
         </div>
         <!-- BEGIN TIMELINE CONTENT -->
         <div class="timeline-btn-day"> <i class="icon-custom-left"></i>

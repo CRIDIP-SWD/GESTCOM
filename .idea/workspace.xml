@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/notification.php" afterPath="$PROJECT_DIR$/view/notification.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -71,13 +72,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notification.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notification.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/notification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4851598">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
               <folding>
-                <marker date="1456594999285" expanded="true" signature="473:532" placeholder="SELECT * FRO... notif" />
+                <marker date="1456595315623" expanded="true" signature="539:598" placeholder="SELECT * FRO... notif" />
               </folding>
             </state>
           </provider>
@@ -108,6 +109,16 @@
               <folding>
                 <marker date="1456594089292" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81152993">
+              <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,13 +186,13 @@
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/assets/plugins/translate/application-fr.json" />
         <option value="$PROJECT_DIR$/controller/user.ajax.php" />
-        <option value="$PROJECT_DIR$/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
         <option value="dbtable:/46629d73/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.notif" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/default.php" />
         <option value="$PROJECT_DIR$/application/app.php" />
         <option value="$PROJECT_DIR$/view/notification.php" />
+        <option value="$PROJECT_DIR$/assets/js/custom.js" />
       </list>
     </option>
   </component>
@@ -295,6 +306,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -391,12 +416,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00228" summary="GESTCOM V1.0.0">
-      <created>1456538338363</created>
-      <option name="number" value="00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1456538338363</updated>
     </task>
     <task id="LOCAL-00229" summary="GESTCOM V1.0.0">
       <created>1456538410890</created>
@@ -686,7 +705,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456594939965</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="GESTCOM V1.0.0">
+      <created>1456595003321</created>
+      <option name="number" value="00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1456595003321</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1110,14 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7161862">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49002218">
@@ -1175,11 +1192,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/notification.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4851598">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
           <folding>
-            <marker date="1456594999285" expanded="true" signature="473:532" placeholder="SELECT * FRO... notif" />
+            <marker date="1456595315623" expanded="true" signature="539:598" placeholder="SELECT * FRO... notif" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81152993">
+          <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+          <folding />
         </state>
       </provider>
     </entry>
