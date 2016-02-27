@@ -28,7 +28,7 @@ $errorContext = new ErrorContext();
 /*
  * APP\GENERAL
  */
-if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 1)
+if(isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 1)
 {
     $user_info = new users($_SESSION['account']['username']);
     var_dump($user_info);

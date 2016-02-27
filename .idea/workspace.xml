@@ -107,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/application/classe.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.58219177">
-              <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding>
                 <element signature="e#6#18#0#PHP" expanded="true" />
               </folding>
@@ -350,12 +350,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00155" summary="GESTCOM V1.0.0">
-      <created>1456504784756</created>
-      <option name="number" value="00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1456504784756</updated>
     </task>
     <task id="LOCAL-00156" summary="GESTCOM V1.0.0">
       <created>1456505630695</created>
@@ -645,7 +639,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456534426105</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="GESTCOM V1.0.0">
+      <created>1456534444158</created>
+      <option name="number" value="00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1456534444158</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1114,7 +1114,7 @@
     <entry file="file://$PROJECT_DIR$/application/classe.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58219177">
-          <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
           <folding>
             <element signature="e#6#18#0#PHP" expanded="true" />
           </folding>
