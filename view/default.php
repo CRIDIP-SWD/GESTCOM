@@ -70,14 +70,14 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                             </button>
                             <ul class="dropdown-menu">
                                 <?php if($user->connect == 0): ?>
-                                    <li><a href=""><i class="away"></i><span>Absent</span></a></li>
-                                    <li><a href=""><i class="online"></i><span>En Ligne</span></a></li>
+                                    <li><a href="controller/user.ajax.php?action=connector&connect=1" id="connector"><i class="away"></i><span>Absent</span></a></li>
+                                    <li><a href="controller/user.ajax.php?action=connector&connect=2" id="connector"><i class="online"></i><span>En Ligne</span></a></li>
                                 <?php elseif($user->connect == 1): ?>
-                                    <li><a href=""><i class="busy"></i><span>Hors Ligne</span></a></li>
-                                    <li><a href=""><i class="online"></i><span>En Ligne</span></a></li>
+                                    <li><a href="controller/user.ajax.php?action=connector&connect=0" id="connector"><i class="busy"></i><span>Hors Ligne</span></a></li>
+                                    <li><a href="controller/user.ajax.php?action=connector&connect=2" id="connector"><i class="online"></i><span>En Ligne</span></a></li>
                                 <?php else: ?>
-                                    <li><a href=""><i class="away"></i><span>Absent</span></a></li>
-                                    <li><a href=""><i class="busy"></i><span>Hors Ligne</span></a></li>
+                                    <li><a href="controller/user.ajax.php?action=connector&connect=1" id="connector"><i class="away"></i><span>Absent</span></a></li>
+                                    <li><a href="controller/user.ajax.php?action=connector&connect=0" id="connector"><i class="busy"></i><span>Hors Ligne</span></a></li>
                                 <?php endif; ?>
                             </ul>
                         </div>

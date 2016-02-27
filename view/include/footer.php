@@ -24,3 +24,4 @@
 <script src="<?= $constante->getUrl(array('js/')); ?>pages/search.js"></script> <!-- Search Script -->
 <script src="<?= $constante->getUrl(array('js/')); ?>plugins.js"></script> <!-- Main Plugin Initialization Script -->
 <script src="<?= $constante->getUrl(array('js/')); ?>application.js"></script> <!-- Main Application Script -->
+<script src="<?= $constante->getUrl(array('js/')); ?>custom.js"></script>
