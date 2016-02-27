@@ -12,8 +12,8 @@ if(isset($_GET['action']) && $_GET['action'] == 'connector')
     ));
     if($fonction->is_ajax()){
         $return = $connect;
-
-        return json_encode($return);
+        $return["json"] =json_encode($return);
+        echo json_encode($return);
     }else{
         $fonction->redirect("dashboard", "","", "info", "connector", "Changement du Statut !");
     }
