@@ -5,7 +5,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
     $username = $_GET['username'];
     $password = $_GET['password'];
 
-    if(isset($_POST['pseudo']) && !empty($_POST['pseudo']) && isset($_POST['password']) && !empty($_POST['password'])){
+    if(isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
         $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username", array("username" => $username));
 
         if($user_co == 1){
