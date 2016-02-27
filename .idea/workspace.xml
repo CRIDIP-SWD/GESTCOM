@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/buttons.css" afterPath="$PROJECT_DIR$/assets/plugins/custom/buttons.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/index.php" afterPath="$PROJECT_DIR$/view/index.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -78,11 +77,9 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07762557">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.05821918">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -417,12 +414,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00206" summary="GESTCOM V1.0.0">
-      <created>1456534519213</created>
-      <option name="number" value="00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1456534519213</updated>
-    </task>
     <task id="LOCAL-00207" summary="GESTCOM V1.0.0">
       <created>1456534529338</created>
       <option name="number" value="00207" />
@@ -711,7 +702,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456541893188</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="GESTCOM V1.0.0">
+      <created>1456542404352</created>
+      <option name="number" value="00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1456542404352</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1164,6 +1161,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.735849">
@@ -1183,21 +1188,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/buttons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07762557">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.05821918">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
