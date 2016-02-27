@@ -1053,5 +1053,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
 <!-- END PRELOADER -->
 <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
 <?php include ("include/footer.php"); ?>
+<script src="<?= $constante->getUrl(array('js/')); ?>pages/timeline.js"></script>
 </body>
 </html>

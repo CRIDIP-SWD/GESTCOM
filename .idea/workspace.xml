@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/notification.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/app.php" afterPath="$PROJECT_DIR$/application/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -61,13 +64,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/default.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58219177">
-              <caret line="322" column="68" selection-start-line="322" selection-start-column="68" selection-end-line="322" selection-end-column="68" />
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notification.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/notification.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.05821918">
+              <caret line="3" column="98" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
               <folding>
-                <marker date="1456593965369" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+                <marker date="1456594936370" expanded="true" signature="473:532" placeholder="SELECT * FRO... notif" />
               </folding>
             </state>
           </provider>
@@ -76,61 +89,28 @@
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-59.384617">
-              <caret line="221" column="26" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
+            <state vertical-scroll-proportion="-20.615385">
+              <caret line="146" column="67" selection-start-line="146" selection-start-column="67" selection-end-line="146" selection-end-column="67" />
               <folding>
                 <element signature="e#352#1931#0#PHP" expanded="false" />
-                <element signature="e#6342#9991#0#PHP" expanded="false" />
-                <element signature="e#11122#11293#0#PHP" expanded="false" />
-                <element signature="e#11554#11848#0#PHP" expanded="false" />
-                <element signature="e#12107#12401#0#PHP" expanded="false" />
+                <element signature="e#6003#7527#0#PHP" expanded="false" />
+                <element signature="e#8018#11667#0#PHP" expanded="false" />
+                <element signature="e#12798#12969#0#PHP" expanded="false" />
+                <element signature="e#13230#13524#0#PHP" expanded="false" />
+                <element signature="e#13783#14077#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.192308">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            <state vertical-scroll-proportion="-28.461538">
+              <caret line="1055" column="81" selection-start-line="1055" selection-start-column="81" selection-end-line="1055" selection-end-column="81" />
               <folding>
-                <marker date="1456592729573" expanded="true" signature="417:479" placeholder="UPDATE users... " />
-                <marker date="1456592729573" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
-                <marker date="1456592729573" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
+                <marker date="1456594089292" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_charge.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -189,21 +169,22 @@
         <option value="$PROJECT_DIR$/view/error.php" />
         <option value="$PROJECT_DIR$/application/general/users.php" />
         <option value="$PROJECT_DIR$/application/classe.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/collab/index.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/buttons.css" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/chech_login.js" />
         <option value="$PROJECT_DIR$/view/include/footer.php" />
         <option value="$PROJECT_DIR$/controller/user.php" />
-        <option value="$PROJECT_DIR$/application/app.php" />
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/assets/plugins/translate/application-fr.json" />
         <option value="$PROJECT_DIR$/controller/user.ajax.php" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
         <option value="dbtable:/46629d73/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.notif" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/default.php" />
+        <option value="$PROJECT_DIR$/application/app.php" />
+        <option value="$PROJECT_DIR$/view/notification.php" />
       </list>
     </option>
   </component>
@@ -413,12 +394,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00226" summary="GESTCOM V1.0.0">
-      <created>1456538231109</created>
-      <option name="number" value="00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1456538231110</updated>
     </task>
     <task id="LOCAL-00227" summary="GESTCOM V1.0.0">
       <created>1456538289909</created>
@@ -708,7 +683,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456593931386</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <task id="LOCAL-00275" summary="GESTCOM V1.0.0">
+      <created>1456593969087</created>
+      <option name="number" value="00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1456593969087</updated>
+    </task>
+    <option name="localTasksCounter" value="276" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -760,14 +741,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/include/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1111,71 +1084,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/translate/application-fr.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.943397">
           <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.192308">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <marker date="1456592729573" expanded="true" signature="417:479" placeholder="UPDATE users... " />
-            <marker date="1456592729573" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
-            <marker date="1456592729573" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-59.384617">
-          <caret line="221" column="26" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
-          <folding>
-            <element signature="e#352#1931#0#PHP" expanded="false" />
-            <element signature="e#6342#9991#0#PHP" expanded="false" />
-            <element signature="e#11122#11293#0#PHP" expanded="false" />
-            <element signature="e#11554#11848#0#PHP" expanded="false" />
-            <element signature="e#12107#12401#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,12 +1105,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7161862">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49002218">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71803653">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <marker date="1456592729573" expanded="true" signature="417:479" placeholder="UPDATE users... " />
+            <marker date="1456592729573" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
+            <marker date="1456592729573" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58219177">
-          <caret line="322" column="68" selection-start-line="322" selection-start-column="68" selection-end-line="322" selection-end-column="68" />
+        <state vertical-scroll-proportion="-28.461538">
+          <caret line="1055" column="81" selection-start-line="1055" selection-start-column="81" selection-end-line="1055" selection-end-column="81" />
           <folding>
-            <marker date="1456593965369" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+            <marker date="1456594089292" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.615385">
+          <caret line="146" column="67" selection-start-line="146" selection-start-column="67" selection-end-line="146" selection-end-column="67" />
+          <folding>
+            <element signature="e#352#1931#0#PHP" expanded="false" />
+            <element signature="e#6003#7527#0#PHP" expanded="false" />
+            <element signature="e#8018#11667#0#PHP" expanded="false" />
+            <element signature="e#12798#12969#0#PHP" expanded="false" />
+            <element signature="e#13230#13524#0#PHP" expanded="false" />
+            <element signature="e#13783#14077#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/notification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05821918">
+          <caret line="3" column="98" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
+          <folding>
+            <marker date="1456594936370" expanded="true" signature="473:532" placeholder="SELECT * FRO... notif" />
           </folding>
         </state>
       </provider>

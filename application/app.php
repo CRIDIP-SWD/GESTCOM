@@ -142,6 +142,49 @@ class date_format extends app
     }
 
     /**
+     * @param $format // Formatage de la date au format soouhaiter| d ou m
+     * @param $strtotime // Date au format strtotime
+     * @return bool|string // Retourne la date au formatage général
+     */
+    public function formatage_sequenciel($format, $strtotime)
+    {
+        if($format == "d"){
+            $d = date("N", $strtotime);
+            switch($d)
+            {
+                case 1: $data_jour = "Lundi"; break;
+                case 2: $data_jour = "Mardi"; break;
+                case 3: $data_jour = "Mercredi"; break;
+                case 4: $data_jour = "Jeudi"; break;
+                case 5: $data_jour = "Vendredi"; break;
+                case 6: $data_jour = "Samedi"; break;
+                case 7: $data_jour = "Dimanche"; break;
+            }
+            return $data_jour;
+        }elseif($format == "m"){
+            $m = date("n", $strtotime);
+            switch($m)
+            {
+                case 1: $data_mois = "Janvier"; break;
+                case 2: $data_mois = "Février"; break;
+                case 3: $data_mois = "Mars"; break;
+                case 4: $data_mois = "Avril"; break;
+                case 5: $data_mois = "Mai"; break;
+                case 6: $data_mois = "Juin"; break;
+                case 7: $data_mois = "Juillet"; break;
+                case 8: $data_mois = "Aout"; break;
+                case 9: $data_mois = "Septembre"; break;
+                case 10: $data_mois = "Octobre"; break;
+                case 11: $data_mois = "Novembre"; break;
+                case 12: $data_mois = "Décembre"; break;
+            }
+            return $data_mois;
+        }else{
+            return false;
+        }
+    }
+
+    /**
      * @param $date // Date au format standard de date (d-m-Y) ou autre
      * @return string // Il retourne le moment décompter par différence (il y a...)
      */
