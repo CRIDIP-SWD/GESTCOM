@@ -303,10 +303,10 @@ class fonction extends app
 
 class DB extends app{
 
-    public $host = "localhost";
-    public $username = "gc";
-    public $password = "1992maxime";
-    public $database = "gc";
+    protected $host = "localhost";
+    protected $username = "gc";
+    protected $password = "1992maxime";
+    protected $database = "gc";
     private $db;
 
     public function __construct($host = null, $username = null, $password = null, $database = null)
@@ -375,6 +375,11 @@ class DB extends app{
             return $e->getCode().": ".$e->getMessage();
         }
 
+    }
+
+    public function parse_one($value_sql)
+    {
+        if($value_sql == 1){return $value_sql[0];}else{return $value_sql;}
     }
 }
 

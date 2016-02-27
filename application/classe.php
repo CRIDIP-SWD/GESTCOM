@@ -5,6 +5,7 @@ use App\date_format;
 use App\DB;
 use App\ErrorContext;
 use App\fonction;
+use App\general\users;
 use App\ssh2;
 
 
@@ -23,6 +24,16 @@ $fonction = new fonction();
 $DB = new DB();
 $ssh2 = new ssh2();
 $errorContext = new ErrorContext();
+
+/*
+ * APP\GENERAL
+ */
+if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0)
+{
+    $user_info = new users($_SESSION['account']['username']);
+    var_dump($user_info);
+    die();
+}
 
 
 //COMPOSER

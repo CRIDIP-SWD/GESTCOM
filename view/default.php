@@ -54,9 +54,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
         </div>
         <div class="sidebar-inner">
             <div class="sidebar-top">
-                <form action="search-result.html" method="post" class="searchform" id="search-results">
-                    <input type="text" class="form-control" name="keyword" placeholder="Search...">
-                </form>
                 <div class="userlogged clearfix">
                     <i class="icon icons-faces-users-01"></i>
                     <div class="user-details">
