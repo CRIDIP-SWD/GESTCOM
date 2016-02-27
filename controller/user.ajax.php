@@ -1,6 +1,8 @@
 <?php
-$fonction = new \App\fonction();
-if($fonction->is_ajax()){
+function is_ajax(){
+    return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
+}
+if(is_ajax()){
     if(isset($_GET['action']) && $_GET['action'] == 'connector')
     {
         require "../application/classe.php";
