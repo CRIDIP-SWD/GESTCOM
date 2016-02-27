@@ -26,7 +26,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
             ));
 
             if($user_u == 1){
-                $fonction->redirect("dashboard", "", "","", "","");
+                $fonction->redirect("dashboard");
             }
         }elseif($user_co == 0){
             $text = "Aucun couple Nom d'utilisateur / Mot de Passe correspondant.";
