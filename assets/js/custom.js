@@ -13,7 +13,7 @@
             url: url,
             data: data,
             success: function(data, jqxhr){
-                alert(jqxhr);
+                alert(jqxhr.responseText);
             },
             error: function(jqxhr){
                 alert(jqxhr);
