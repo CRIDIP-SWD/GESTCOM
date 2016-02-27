@@ -2,23 +2,25 @@
  * Created by Maxime on 27/02/2016.
  */
 (function($){
-    /** VERIFICATION A LA CONNEXION DE L'UTILISATEUR **/
-    $.ajax({
-        url: "../../../controller/user.ajax.php?action=check-message",
-        dataType: "json",
-        type: "GET",
-        success:function(data){
-            if(data >= 1){
-                toastr.info("Vous avez "+data+" Message non lu !", "MESSAGERIE");
-            }else{
-                return false;
+    setInterval(
+        /** VERIFICATION A LA CONNEXION DE L'UTILISATEUR **/
+        $.ajax({
+            url: "../../../controller/user.ajax.php?action=check-message",
+            dataType: "json",
+            type: "GET",
+            success:function(data){
+                if(data >= 1){
+                    toastr.info("Vous avez "+data+" Message non lu !", "MESSAGERIE");
+                }else{
+                    return false;
+                }
+            },
+            error:function(jqxhr){
+                console.log(jqxhr.responseText);
             }
-        },
-        error:function(jqxhr){
-            console.log(jqxhr.responseText);
-        }
-    });
-    $.ajax({
+        }),
+        1000);
+    setInterval($.ajax({
         url: "../../../controller/user.ajax.php?action=check-notif",
         dataType: "json",
         type: "GET",
@@ -36,6 +38,6 @@
         error: function(jqxhr){
             console.log(jqxhr.responseText);
         }
-    });
+    }), 1000);
 
 })(jQuery);
