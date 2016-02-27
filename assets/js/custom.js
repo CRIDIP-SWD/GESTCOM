@@ -29,7 +29,7 @@
 
             },
             error: function(jqxhr){
-                alert(jqxhr);
+                console.log(jqxhr);
             }
         })
     })
