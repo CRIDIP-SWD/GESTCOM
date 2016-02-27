@@ -64,10 +64,10 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64041096">
-              <caret line="325" column="36" selection-start-line="325" selection-start-column="36" selection-end-line="326" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.58219177">
+              <caret line="322" column="68" selection-start-line="322" selection-start-column="68" selection-end-line="322" selection-end-column="68" />
               <folding>
-                <marker date="1456593926440" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+                <marker date="1456593965369" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
               </folding>
             </state>
           </provider>
@@ -414,12 +414,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00225" summary="GESTCOM V1.0.0">
-      <created>1456538059395</created>
-      <option name="number" value="00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1456538059395</updated>
-    </task>
     <task id="LOCAL-00226" summary="GESTCOM V1.0.0">
       <created>1456538231109</created>
       <option name="number" value="00226" />
@@ -708,7 +702,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456593634650</updated>
     </task>
-    <option name="localTasksCounter" value="274" />
+    <task id="LOCAL-00274" summary="GESTCOM V1.0.0">
+      <created>1456593931386</created>
+      <option name="number" value="00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1456593931386</updated>
+    </task>
+    <option name="localTasksCounter" value="275" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1194,10 +1194,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64041096">
-          <caret line="325" column="36" selection-start-line="325" selection-start-column="36" selection-end-line="326" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.58219177">
+          <caret line="322" column="68" selection-start-line="322" selection-start-column="68" selection-end-line="322" selection-end-column="68" />
           <folding>
-            <marker date="1456593926440" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+            <marker date="1456593965369" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
           </folding>
         </state>
       </provider>

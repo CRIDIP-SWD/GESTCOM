@@ -320,7 +320,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                                 </ul>
                             </li>
                             <li class="dropdown-footer clearfix">
-                                <a href="<?= $fonction->redirect('notif'); ?>" class="pull-left">Voir toutes les notifications</a>
+                                <a href="index.php?view=notification" class="pull-left">Voir toutes les notifications</a>
                                 <a href="#" class="pull-right">
                                     <i class="icon-settings"></i>
                                 </a>
