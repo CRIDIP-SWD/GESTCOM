@@ -5,7 +5,6 @@
         e.preventDefault();
         var a = $(this);
         var url = a.attr('href');
-        var data = $(this).serialize() + $.param(data);
         $.ajax({
             type: "GET",
             dataType: "json",
