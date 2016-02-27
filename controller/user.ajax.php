@@ -17,6 +17,16 @@ if(is_ajax()){
 
         echo json_encode($connect, $sql_update);
     }
+    if(isset($_GET['action']) && $_GET['action'] == 'check-message')
+    {
+        session_start();
+        require "../application/classe.php";
+        $username = $user->username;
+
+        $nb_message = $DB->count("SELECT COUNT() FROM collab_inbox WHERE destinataire = :destinataire AND lu = 0", array("destinataire" => $username));
+
+        echo json_encode($nb_message);
+    }
 }
 ?>
 

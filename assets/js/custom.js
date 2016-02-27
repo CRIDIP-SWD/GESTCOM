@@ -1,6 +1,7 @@
 //****************** YOUR CUSTOMIZED JAVASCRIPT **********************//
 
 (function($){
+    /** AJAX USER */
     $('#connector').on('click', function(e){
         e.preventDefault();
         var a = $(this);
