@@ -61,9 +61,9 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         <div class="dropdown user-login">
                             <button class="btn btn-xs dropdown-toggle btn-rounded" type="button" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" data-delay="300">
                                 <?php if($user->connect == 0): ?>
-                                    <i id="stap" class="busy"></i><span>Hors Ligne</span><i class="fa fa-angle-down"></i>
+                                    <span id="stap"><i class="busy"></i><span>Hors Ligne</span><i class="fa fa-angle-down"></i></span>
                                 <?php else: ?>
-                                    <i id="stap" class="online"></i><span>En Ligne</span><i class="fa fa-angle-down"></i>
+                                    <span id="stap"><i class="online"></i><span>En Ligne</span><i class="fa fa-angle-down"></i></span>
                                 <?php endif; ?>
                             </button>
                             <ul class="dropdown-menu">

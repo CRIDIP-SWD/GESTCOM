@@ -4,6 +4,7 @@
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,18 +65,19 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
-              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="169" />
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="63" column="134" selection-start-line="63" selection-start-column="134" selection-end-line="63" selection-end-column="134" />
+              <caret line="65" column="134" selection-start-line="65" selection-start-column="134" selection-end-line="65" selection-end-column="134" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1456539098683" expanded="true" signature="51485:51695" placeholder="..." />
-                <marker date="1456539098683" expanded="true" signature="51588:51695" placeholder="..." />
-                <marker date="1456539098683" expanded="true" signature="51630:51695" placeholder="..." />
-                <marker date="1456539098683" expanded="true" signature="53820:54030" placeholder="..." />
-                <marker date="1456539098683" expanded="true" signature="53923:54030" placeholder="..." />
-                <marker date="1456539098683" expanded="true" signature="53965:54030" placeholder="..." />
-                <marker date="1456539098683" expanded="true" signature="64391:64398" placeholder="..." />
+                <marker date="1456539859097" expanded="true" signature="51511:51721" placeholder="..." />
+                <marker date="1456539859097" expanded="true" signature="51614:51721" placeholder="..." />
+                <marker date="1456539859097" expanded="true" signature="51656:51721" placeholder="..." />
+                <marker date="1456539859097" expanded="true" signature="53846:54056" placeholder="..." />
+                <marker date="1456539859097" expanded="true" signature="53949:54056" placeholder="..." />
+                <marker date="1456539859097" expanded="true" signature="53991:54056" placeholder="..." />
+                <marker date="1456539859097" expanded="true" signature="64417:64424" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -111,8 +113,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43348116">
-              <caret line="23" column="171" selection-start-line="23" selection-start-column="171" selection-end-line="23" selection-end-column="171" />
+            <state vertical-scroll-proportion="0.39578715">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -406,12 +408,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00189" summary="GESTCOM V1.0.0">
-      <created>1456533246013</created>
-      <option name="number" value="00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1456533246013</updated>
-    </task>
     <task id="LOCAL-00190" summary="GESTCOM V1.0.0">
       <created>1456533278371</created>
       <option name="number" value="00190" />
@@ -700,7 +696,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456539404140</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="GESTCOM V1.0.0">
+      <created>1456539691358</created>
+      <option name="number" value="00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1456539691358</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -807,13 +809,13 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1456539098683" expanded="true" signature="51485:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="51588:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="51630:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53820:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53923:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53965:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="64391:64398" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51511:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51614:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51656:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53846:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53949:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53991:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="64417:64424" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -889,13 +891,13 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1456539098683" expanded="true" signature="51485:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="51588:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="51630:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53820:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53923:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53965:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="64391:64398" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51511:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51614:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51656:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53846:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53949:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53991:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="64417:64424" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1181,26 +1183,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="169" />
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="63" column="134" selection-start-line="63" selection-start-column="134" selection-end-line="63" selection-end-column="134" />
+          <caret line="65" column="134" selection-start-line="65" selection-start-column="134" selection-end-line="65" selection-end-column="134" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1456539098683" expanded="true" signature="51485:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="51588:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="51630:51695" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53820:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53923:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="53965:54030" placeholder="..." />
-            <marker date="1456539098683" expanded="true" signature="64391:64398" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51511:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51614:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="51656:51721" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53846:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53949:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="53991:54056" placeholder="..." />
+            <marker date="1456539859097" expanded="true" signature="64417:64424" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43348116">
-          <caret line="23" column="171" selection-start-line="23" selection-start-column="171" selection-end-line="23" selection-end-column="171" />
+        <state vertical-scroll-proportion="0.39578715">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding />
         </state>
       </provider>
