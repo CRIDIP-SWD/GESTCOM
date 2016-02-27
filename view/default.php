@@ -84,9 +84,9 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         <i class="icon-settings"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#" id="reorder-menu" class="reorder-menu">Reorder menu</a></li>
-                        <li><a href="#" id="remove-menu" class="remove-menu">Remove elements</a></li>
-                        <li><a href="#" id="hide-top-sidebar" class="hide-top-sidebar">Hide user &amp; search</a></li>
+                        <li><a href="#" id="reorder-menu" data-translate="reorder-menu" class="reorder-menu">Reorder menu</a></li>
+                        <li><a href="#" id="remove-menu" data-translate="remove-menu" class="remove-menu">Remove elements</a></li>
+                        <li><a href="#" id="hide-top-sidebar" data-translate="hide-top-sidebar" class="hide-top-sidebar">Hide user &amp; search</a></li>
                     </ul>
                 </div>
             </div>

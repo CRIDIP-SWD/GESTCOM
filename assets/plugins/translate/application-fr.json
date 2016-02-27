@@ -25,6 +25,9 @@
 	"My Documents": "Mes Documents",
 	"My images": "Mes images",
 	"Secure data": "Données sécurisées",
-	"Language": "Langues"
+	"Language": "Langues",
+	"hide-top-sidebar": "Cacher Info Utilisateur",
+	"remove-menu": "Supprimer des Menus",
+	"reorder-menu": "Réorganiser les menus"
 
 }
