@@ -86,10 +86,10 @@
       <file leaf-file-name="user.ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36872146">
-              <caret line="19" column="95" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+            <state vertical-scroll-proportion="0.42694065">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
               <folding>
-                <marker date="1456537491113" expanded="true" signature="226:288" placeholder="UPDATE users... " />
+                <marker date="1456537499952" expanded="true" signature="226:288" placeholder="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -410,12 +410,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00169" summary="GESTCOM V1.0.0">
-      <created>1456509263857</created>
-      <option name="number" value="00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1456509263857</updated>
-    </task>
     <task id="LOCAL-00170" summary="GESTCOM V1.0.0">
       <created>1456509385203</created>
       <option name="number" value="00170" />
@@ -704,7 +698,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456536050616</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="GESTCOM V1.0.0">
+      <created>1456537495093</created>
+      <option name="number" value="00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1456537495093</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1203,10 +1203,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36872146">
-          <caret line="19" column="95" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+        <state vertical-scroll-proportion="0.42694065">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
           <folding>
-            <marker date="1456537491113" expanded="true" signature="226:288" placeholder="UPDATE users... " />
+            <marker date="1456537499952" expanded="true" signature="226:288" placeholder="UPDATE users... " />
           </folding>
         </state>
       </provider>
