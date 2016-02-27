@@ -2,8 +2,8 @@
 if(isset($_POST['action']) && $_POST['action'] == 'login')
 {
     require "../application/classe.php";
-    $username = $_GET['username'];
-    $password = $_GET['password'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
     if(isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
         $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username", array("username" => $username));
