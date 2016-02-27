@@ -23,7 +23,7 @@ if(is_ajax()){
         require "../application/classe.php";
         $username = $user->username;
 
-        $nb_message = $DB->count("SELECT COUNT() FROM collab_inbox WHERE destinataire = :destinataire AND lu = 0", array("destinataire" => $username));
+        $nb_message = $DB->count("SELECT COUNT(idinbox) FROM collab_inbox WHERE destinataire = :destinataire AND lu = 0", array("destinataire" => $username));
 
         echo json_encode($nb_message);
     }
