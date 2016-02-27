@@ -69,9 +69,16 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                                 <?php endif; ?>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a href="controller/user.ajax.php?action=connector&connect=" ><i class="busy"></i><span>Busy</span></a></li>
-                                <li><a  href="#"><i class="turquoise"></i><span>Invisible</span></a></li>
-                                <li><a href="#"><i class="away"></i><span>Away</span></a></li>
+                                <?php if($user->connect == 0): ?>
+                                    <li><a href=""></a><i class="away"></i><span>Absent</span></li>
+                                    <li><a href=""></a><i class="online"></i><span>En Ligne</span></li>
+                                <?php elseif($user->connect == 1): ?>
+                                    <li><a href=""></a><i class="busy"></i><span>Hors Ligne</span></li>
+                                    <li><a href=""></a><i class="online"></i><span>En Ligne</span></li>
+                                <?php else: ?>
+                                    <li><a href=""></a><i class="away"></i><span>Absent</span></li>
+                                    <li><a href=""></a><i class="busy"></i><span>Hors Ligne</span></li>
+                                <?php endif; ?>
                             </ul>
                         </div>
                     </div>
