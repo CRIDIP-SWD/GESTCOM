@@ -30,7 +30,8 @@ $errorContext = new ErrorContext();
  */
 if(isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 1)
 {
-    $user_info = new users($_SESSION['account']['username']);
+    $user_cls = new users($_SESSION['account']['username']);
+    $user = $user_cls->info_user();
     var_dump($user_info);
     die();
 }

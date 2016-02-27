@@ -25,6 +25,6 @@ class users
     {
         $DB = new DB();
         $sql = $DB->query("SELECT * FROM users WHERE username = :username", array("username" => $this->username));
-        $DB->parse_one($sql);
+        return $DB->parse_one($sql);
     }
 }
