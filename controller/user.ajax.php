@@ -1,5 +1,5 @@
 <?php
-require "../application/classe.php";
+$fonction = new \App\fonction();
 if($fonction->is_ajax()){
     if(isset($_GET['action']) && $_GET['action'] == 'connector')
     {
