@@ -270,16 +270,7 @@ $data = $errorContext->getError($code);
         <!-- BEGIN PAGE CONTENT -->
         <div class="page-content">
             <div class="header">
-                <h2><strong>Blank</strong> Page</h2>
-                <div class="breadcrumb-wrapper">
-                    <ol class="breadcrumb">
-                        <li><a href="dashboard.html">Make</a>
-                        </li>
-                        <li><a href="#">Pages</a>
-                        </li>
-                        <li class="active">Dashboard</li>
-                    </ol>
-                </div>
+                <h2><strong><?= $data[0]->type; ?></strong> <?= $code; ?></h2>
             </div>
             <div class="row">
                 <div class="col-lg-12" style="height:720px">
