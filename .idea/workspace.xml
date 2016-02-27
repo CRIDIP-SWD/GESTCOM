@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/user.php" afterPath="$PROJECT_DIR$/controller/user.php" />
     </list>
@@ -58,14 +57,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.29109588">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
-                <marker date="1456532914854" expanded="true" signature="330:388" placeholder="SELECT COUNT... users" />
-                <marker date="1456532914854" expanded="true" signature="624:709" placeholder="UPDATE users... " />
+                <marker date="1456532924733" expanded="true" signature="330:388" placeholder="SELECT COUNT... users" />
+                <marker date="1456532924733" expanded="true" signature="624:710" placeholder="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -81,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="error.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/error.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08561644">
+            <state vertical-scroll-proportion="-2.8846154">
               <caret line="271" column="14" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -337,12 +336,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00136" summary="GESTCOM V1.0.0">
-      <created>1456496033800</created>
-      <option name="number" value="00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1456496033801</updated>
     </task>
     <task id="LOCAL-00137" summary="GESTCOM V1.0.0">
       <created>1456496209312</created>
@@ -632,7 +625,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456532069848</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="GESTCOM V1.0.0">
+      <created>1456532918883</created>
+      <option name="number" value="00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1456532918883</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1037,23 +1036,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/user.php">
+    <entry file="file://$PROJECT_DIR$/view/error.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        <state vertical-scroll-proportion="-2.8846154">
+          <caret line="271" column="14" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
           <folding>
-            <marker date="1456532914854" expanded="true" signature="330:388" placeholder="SELECT COUNT... users" />
-            <marker date="1456532914854" expanded="true" signature="624:709" placeholder="UPDATE users... " />
+            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/error.php">
+    <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08561644">
-          <caret line="271" column="14" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.29109588">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1456532924733" expanded="true" signature="330:388" placeholder="SELECT COUNT... users" />
+            <marker date="1456532924733" expanded="true" signature="624:710" placeholder="UPDATE users... " />
           </folding>
         </state>
       </provider>
