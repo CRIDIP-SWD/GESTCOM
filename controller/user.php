@@ -4,11 +4,15 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
     require "../application/classe.php";
     $username = $_POST['username'];
     $password = $_POST['password'];
+    $sha_pass = sha1($username."_".$password);
 
     if(isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
-        $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username", array("username" => $username));
+        $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username AND password = :password", array(
+            "username" => $username,
+            "password" => $sha_pass
+        ));
 
-        if($user_co == 1){
+        if($user_co[0] == 1){
             session_start();
             $_SESSION['account']['active'] = 1;
             $_SESSION['account']['username'] = $username;
@@ -18,7 +22,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
                 "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
             ));
 
-            if($user_u == 1){
+            if($user_u[0] == 1){
                 $fonction->redirect("dashboard", "", "","", "","");
             }elseif($user_u == 0){
                 $text = "Aucun couple Nom d'utilisateur / Mot de Passe correspondant.";
