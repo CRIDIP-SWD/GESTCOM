@@ -74,8 +74,8 @@
       <file leaf-file-name="user_charge.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05654102">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.09423503">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
                 <element signature="e#93#1579#0" expanded="false" />
@@ -418,12 +418,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00235" summary="GESTCOM V1.0.0">
-      <created>1456539038561</created>
-      <option name="number" value="00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1456539038561</updated>
-    </task>
     <task id="LOCAL-00236" summary="GESTCOM V1.0.0">
       <created>1456539119142</created>
       <option name="number" value="00236" />
@@ -712,7 +706,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456596718457</updated>
     </task>
-    <option name="localTasksCounter" value="284" />
+    <task id="LOCAL-00284" summary="GESTCOM V1.0.0">
+      <created>1456596849346</created>
+      <option name="number" value="00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1456596849346</updated>
+    </task>
+    <option name="localTasksCounter" value="285" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1203,8 +1203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05654102">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.09423503">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
             <element signature="e#93#1579#0" expanded="false" />

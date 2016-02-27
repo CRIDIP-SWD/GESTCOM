@@ -39,5 +39,7 @@ $(document).ready(function(){
             }
         });
     }
-    setInterval(ajax(), 4000);
+    setInterval(function(){
+        ajax()
+    }, 1000);
 })(jQuery);
