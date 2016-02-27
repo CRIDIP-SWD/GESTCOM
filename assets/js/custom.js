@@ -53,7 +53,7 @@
               toastr.success("Les notification ont bien été supprimer !","Suppression des Notifications");
             },
             fail: function (jqxhr) {
-
+                console.log(jqxhr);
             }
         })
     })
