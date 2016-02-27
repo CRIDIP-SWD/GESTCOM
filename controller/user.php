@@ -14,7 +14,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
             "password" => $sha_pass
         ));
 
-        if($user_co[0] == 1){
+        if($user_co == 1){
             session_start();
             $_SESSION['account']['active'] = 1;
             $_SESSION['account']['username'] = $username;
@@ -27,7 +27,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
             if($user_u == 1){
                 $fonction->redirect("dashboard", "", "","", "","");
             }
-        }elseif($user_co[0] == 0){
+        }elseif($user_co == 0){
             $text = "Aucun couple Nom d'utilisateur / Mot de Passe correspondant.";
             $fonction->redirect("login", "","","error", "login", $text);
         }else{
