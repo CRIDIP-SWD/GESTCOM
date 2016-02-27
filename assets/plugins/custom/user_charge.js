@@ -26,10 +26,12 @@
             }else{
                 $('#count_notif').remove();
                 $('#count_notif_title').replaceWith('<p class="pull-left" id="count_notif_title">'+data+' Notification en attente</p>');
+
             }
         },
         error: function(jqxhr){
             console.log(jqxhr.responseText);
         }
-    })
+    });
+
 })(jQuery);

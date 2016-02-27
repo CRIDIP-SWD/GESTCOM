@@ -33,5 +33,8 @@
                 console.log(jqxhr);
             }
         })
-    })
+    });
+
+    /** Control **/
+
 })(jQuery);
