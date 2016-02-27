@@ -19,7 +19,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
             $_SESSION['account']['active'] = 1;
             $_SESSION['account']['username'] = $username;
 
-            $user_u = $DB->execute("UPDATE users SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
+            $user_u = $DB->execute("UPDATE usersd SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
                 "username"      => $username,
                 "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
             ));
