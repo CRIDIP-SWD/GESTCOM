@@ -9,7 +9,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
         $password = $_POST['password'];
         $sha_pass = sha1($username."_".$password);
 
-        $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username AND password = :password", array(
+        $user_co = $DB->count("SELECT COUNT(iduser) FROM userss WHERE username = :username AND password = :password", array(
             "username" => $username,
             "password" => $sha_pass
         ));
@@ -19,19 +19,19 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
             $_SESSION['account']['active'] = 1;
             $_SESSION['account']['username'] = $username;
 
-            $user_u = $DB->execute("UPDATE usersd SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
+            $user_u = $DB->execute("UPDATE users SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
                 "username"      => $username,
                 "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
             ));
 
-            if($user_u[0] == 1){
+            if($user_u == 1){
                 $fonction->redirect("dashboard", "", "","", "","");
-            }elseif($user_u == 0){
-                $text = "Aucun couple Nom d'utilisateur / Mot de Passe correspondant.";
-                $fonction->redirect("login", "","","error", "login", $text);
-            }else{
-                $fonction->redirect("error", "","","code", "USR1", "");
             }
+        }elseif($user_co[0] == 0){
+            $text = "Aucun couple Nom d'utilisateur / Mot de Passe correspondant.";
+            $fonction->redirect("login", "","","error", "login", $text);
+        }else{
+            $fonction->redirect("error", "","","code", "USR1", "");
         }
     }else{
         $text = "Au moins un des champs requis n'est pas remplie !";
