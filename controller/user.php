@@ -5,7 +5,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
     $username = $_GET['username'];
     $password = $_GET['password'];
 
-    if(!isset($username) || empty($username) && !isset($password) || empty($password)){
+    if(!isset($username) && empty($username) && !isset($password) && empty($password)){
         $text = "Au moins un des champs requis n'est pas remplie !";
         $fonction->redirect("login", "", "", "warning", "login", "$text");
     }else{
