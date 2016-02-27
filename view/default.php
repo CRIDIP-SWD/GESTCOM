@@ -270,7 +270,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     <li class="dropdown" id="language-header">
                         <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                             <i class="icon-globe"></i>
-                            <span>Language</span>
+                            <span data-translate="language">Language</span>
                         </a>
                         <ul class="dropdown-menu">
                             <li>
