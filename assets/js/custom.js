@@ -10,7 +10,7 @@
             dataType: "json",
             url: url,
             success: function(data){
-                alert(data);
+                alert(data["connect"]);
             },
             error: function(jqxhr){
                 alert(jqxhr);
