@@ -49,7 +49,9 @@
             url: url,
             data: data,
             success: function(data){
-              $('#timeline').fadeOut();
+              while(data){
+                  $('#timeline').fadeOut();
+              }
               toastr.success("Les notification ont bien été supprimer !","Suppression des Notifications");
             },
             fail: function (jqxhr) {
