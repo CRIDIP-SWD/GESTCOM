@@ -14,6 +14,9 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
             "password" => $sha_pass
         ));
 
+        var_dump($user_co);
+        die();
+
         if($user_co == 1){
             session_start();
             $_SESSION['account']['active'] = 1;
