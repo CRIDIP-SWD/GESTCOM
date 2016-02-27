@@ -2,11 +2,13 @@
 if(isset($_POST['action']) && $_POST['action'] == 'login')
 {
     require "../application/classe.php";
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    $sha_pass = sha1($username."_".$password);
+
 
     if(isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        $sha_pass = sha1($username."_".$password);
+
         $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username AND password = :password", array(
             "username" => $username,
             "password" => $sha_pass
