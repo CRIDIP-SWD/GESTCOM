@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/user.ajax.php" afterPath="$PROJECT_DIR$/controller/user.ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/include/footer.php" afterPath="$PROJECT_DIR$/view/include/footer.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +85,8 @@
       <file leaf-file-name="user.ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15525115">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.05821918">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -318,6 +315,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -378,12 +389,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00167" summary="GESTCOM V1.0.0">
-      <created>1456508208468</created>
-      <option name="number" value="00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1456508208468</updated>
     </task>
     <task id="LOCAL-00168" summary="GESTCOM V1.0.0">
       <created>1456508423508</created>
@@ -673,7 +678,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456535294875</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="GESTCOM V1.0.0">
+      <created>1456535939911</created>
+      <option name="number" value="00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1456535939911</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1129,16 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/classe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="e#6#18#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/include/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.0">
@@ -1166,6 +1167,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/classe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4851598">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1176,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15525115">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.05821918">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
