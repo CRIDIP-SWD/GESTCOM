@@ -4,6 +4,13 @@ if($fonction->is_ajax()){
     if(isset($_GET['action']) && $_GET['action'] == 'connector')
     {
         $connect = $_GET['connect'];
+        $username = $user->username;
+
+        $sql_update = $DB->execute("UPDATE users SET connect = :connect WHERE username = :username", array(
+            "username"  => $username,
+            "connect"   => $connect
+        ));
+
         echo json_encode($connect);
     }
 }

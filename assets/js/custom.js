@@ -18,10 +18,12 @@
                 if(data == 0){
                     stap.replaceWith('<i class="busy"></i><span>Hors Ligne</span><i class="fa fa-angle-down"></i>');
                     a.replaceWith('<a href="controller/user.ajax.php?action=connector&connect=2" id="connector"><i class="online"></i><span>En Ligne</span></a>');
+                    toastr.info("Vous êtes maintenant Hors Ligne !");
                 }
                 if(data == 2){
                     stap.replaceWith('<i class="online"></i><span>En Ligne</span><i class="fa fa-angle-down"></i>');
                     a.replaceWith('<a href="controller/user.ajax.php?action=connector&connect=0" id="connector"><i class="busy"></i><span>Hors Ligne</span></a>');
+                    toastr.info("Vous êtes maintenant En Ligne !");
                 }
 
             },
