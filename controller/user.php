@@ -9,7 +9,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
         $password = $_POST['password'];
         $sha_pass = sha1($username."_".$password);
 
-        $user_co = $DB->count("SELECT COUNT(iduser) FROM userss WHERE username = :username AND password = :password", array(
+        $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username AND password = :password", array(
             "username" => $username,
             "password" => $sha_pass
         ));
