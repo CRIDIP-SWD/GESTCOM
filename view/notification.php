@@ -1,3 +1,6 @@
+<?php
+$sql_notif = $DB->execute("UPDATE notif SET vu = 1");
+?>
 <div class="row">
     <div class="col-lg-12">
         <div class="well text-right">
