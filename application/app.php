@@ -299,6 +299,10 @@ class fonction extends app
         }
 
     }
+
+    public function is_ajax(){
+        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
+    }
 }
 
 class DB extends app{
