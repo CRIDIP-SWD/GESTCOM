@@ -75,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.09423503">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
                 <element signature="e#93#1579#0" expanded="false" />
@@ -418,12 +418,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00236" summary="GESTCOM V1.0.0">
-      <created>1456539119142</created>
-      <option name="number" value="00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1456539119142</updated>
-    </task>
     <task id="LOCAL-00237" summary="GESTCOM V1.0.0">
       <created>1456539404140</created>
       <option name="number" value="00237" />
@@ -712,7 +706,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456596849346</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="GESTCOM V1.0.0">
+      <created>1456596965762</created>
+      <option name="number" value="00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1456596965762</updated>
+    </task>
+    <option name="localTasksCounter" value="286" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1204,7 +1204,7 @@
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09423503">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
             <element signature="e#93#1579#0" expanded="false" />
