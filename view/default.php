@@ -57,7 +57,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                 <div class="userlogged clearfix">
                     <i class="icon icons-faces-users-01"></i>
                     <div class="user-details">
-                        <h4>Mike Mayers</h4>
+                        <h4><?= $user->nom_user; ?> <?= $user->prenom_user; ?></h4>
                         <div class="dropdown user-login">
                             <button class="btn btn-xs dropdown-toggle btn-rounded" type="button" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" data-delay="300">
                                 <i class="online"></i><span>Available</span><i class="fa fa-angle-down"></i>
