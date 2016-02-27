@@ -6,6 +6,7 @@
         var a = $(this);
         var url = a.attr('href');
         var data = url;
+        data = $(this).serializeArray() + "&" + $.param(data);
         $.ajax({
             type: "GET",
             dataType: "json",
