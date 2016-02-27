@@ -74,10 +74,11 @@
       <file leaf-file-name="user_charge.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7161862">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.05654102">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
+                <element signature="e#77#1563#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -417,12 +418,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00233" summary="GESTCOM V1.0.0">
-      <created>1456538855857</created>
-      <option name="number" value="00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1456538855857</updated>
-    </task>
     <task id="LOCAL-00234" summary="GESTCOM V1.0.0">
       <created>1456538931103</created>
       <option name="number" value="00234" />
@@ -711,7 +706,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456595899084</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="GESTCOM V1.0.0">
+      <created>1456596364631</created>
+      <option name="number" value="00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1456596364631</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1202,10 +1203,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7161862">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.05654102">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
+            <element signature="e#77#1563#0" expanded="false" />
           </folding>
         </state>
       </provider>
