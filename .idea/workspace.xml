@@ -114,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.22616407">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -408,12 +408,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00175" summary="GESTCOM V1.0.0">
-      <created>1456510367210</created>
-      <option name="number" value="00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1456510367210</updated>
-    </task>
     <task id="LOCAL-00176" summary="GESTCOM V1.0.0">
       <created>1456510436134</created>
       <option name="number" value="00176" />
@@ -702,7 +696,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456537818371</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="GESTCOM V1.0.0">
+      <created>1456537871847</created>
+      <option name="number" value="00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1456537871847</updated>
+    </task>
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1204,7 +1204,7 @@
     <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22616407">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
