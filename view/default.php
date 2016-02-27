@@ -60,10 +60,16 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         <h4><?= $user->nom_user; ?> <?= $user->prenom_user; ?></h4>
                         <div class="dropdown user-login">
                             <button class="btn btn-xs dropdown-toggle btn-rounded" type="button" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" data-delay="300">
-                                <i class="online"></i><span>Available</span><i class="fa fa-angle-down"></i>
+                                <?php if($user->connect == 0): ?>
+                                    <i class="busy"></i><span>Hors Ligne</span><i class="fa fa-angle-down"></i>
+                                <?php elseif($user->connect == 1): ?>
+                                    <i class="away"></i><span>Absent</span><i class="fa fa-angle-down"></i>
+                                <?php else: ?>
+                                    <i class="online"></i><span>En Ligne</span><i class="fa fa-angle-down"></i>
+                                <?php endif; ?>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a href="#"><i class="busy"></i><span>Busy</span></a></li>
+                                <li><a href="controller/user.ajax.php?action=connector&connect=" ><i class="busy"></i><span>Busy</span></a></li>
                                 <li><a  href="#"><i class="turquoise"></i><span>Invisible</span></a></li>
                                 <li><a href="#"><i class="away"></i><span>Away</span></a></li>
                             </ul>

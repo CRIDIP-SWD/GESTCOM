@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/user.ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classe.php" afterPath="$PROJECT_DIR$/application/classe.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -65,19 +65,29 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32990867">
-              <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.58219177">
+              <caret line="72" column="71" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1456534801327" expanded="true" signature="50984:51194" placeholder="..." />
-                <marker date="1456534801327" expanded="true" signature="51087:51194" placeholder="..." />
-                <marker date="1456534801327" expanded="true" signature="51129:51194" placeholder="..." />
-                <marker date="1456534801327" expanded="true" signature="53319:53529" placeholder="..." />
-                <marker date="1456534801327" expanded="true" signature="53422:53529" placeholder="..." />
-                <marker date="1456534801327" expanded="true" signature="53464:53529" placeholder="..." />
-                <marker date="1456534801327" expanded="true" signature="63890:63897" placeholder="..." />
+                <marker date="1456535062708" expanded="true" signature="51488:51698" placeholder="..." />
+                <marker date="1456535062708" expanded="true" signature="51591:51698" placeholder="..." />
+                <marker date="1456535062708" expanded="true" signature="51633:51698" placeholder="..." />
+                <marker date="1456535062708" expanded="true" signature="53823:54033" placeholder="..." />
+                <marker date="1456535062708" expanded="true" signature="53926:54033" placeholder="..." />
+                <marker date="1456535062708" expanded="true" signature="53968:54033" placeholder="..." />
+                <marker date="1456535062708" expanded="true" signature="64394:64401" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -259,6 +269,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -341,12 +365,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00162" summary="GESTCOM V1.0.0">
-      <created>1456506752709</created>
-      <option name="number" value="00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1456506752709</updated>
     </task>
     <task id="LOCAL-00163" summary="GESTCOM V1.0.0">
       <created>1456506873962</created>
@@ -636,7 +654,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456534721641</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="GESTCOM V1.0.0">
+      <created>1456534804655</created>
+      <option name="number" value="00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1456534804655</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -751,13 +775,13 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1456534801327" expanded="true" signature="50984:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="51087:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="51129:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53319:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53422:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53464:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="63890:63897" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51488:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51591:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51633:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53823:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53926:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53968:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="64394:64401" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -833,13 +857,13 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1456534801327" expanded="true" signature="50984:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="51087:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="51129:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53319:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53422:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53464:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="63890:63897" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51488:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51591:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51633:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53823:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53926:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53968:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="64394:64401" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1118,20 +1142,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32990867">
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.58219177">
+          <caret line="72" column="71" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1456534801327" expanded="true" signature="50984:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="51087:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="51129:51194" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53319:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53422:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="53464:53529" placeholder="..." />
-            <marker date="1456534801327" expanded="true" signature="63890:63897" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51488:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51591:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="51633:51698" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53823:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53926:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="53968:54033" placeholder="..." />
+            <marker date="1456535062708" expanded="true" signature="64394:64401" placeholder="..." />
           </folding>
         </state>
       </provider>
