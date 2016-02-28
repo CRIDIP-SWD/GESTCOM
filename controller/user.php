@@ -39,3 +39,23 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
         $fonction->redirect("login", "", "", "warning", "login", $text);
     }
 }
+if(isset($_GET['action']) && $_GET['action'] == 'lock')
+{
+    session_start();
+    require "../application/classe.php";
+    $iduser = $user->iduser;
+
+    $user_u = $DB->execute("UPDATE users SET connect = 1 WHERE iduser = :iduser", array("iduser" => $iduser));
+    $_SESSION['account']['connect'] = 1;
+
+    $_SESSION['account']['away']['username'] = $user->username;
+    $_SESSION['account']['away']['prenom_user'] = $user->prenom_user;
+
+    if($user_u == 1){
+        $fonction->redirect("lockscreen");
+    }else{
+        $fonction->redirect("error", "", "", "code", "USR2", "");
+    }
+
+
+}

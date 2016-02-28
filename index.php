@@ -20,6 +20,8 @@ if($view === 'collab'){require "view/collab/index.php";}
 $content = ob_get_clean();
 if($view === 'login'){
     require "view/login.php";
+}elseif($view === 'lockscreen'){
+    require "view/lockscreen.php";
 }else{
     require "view/default.php";
 }

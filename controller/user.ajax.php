@@ -37,6 +37,25 @@ if(is_ajax()){
 
         echo json_encode($nb_notif);
     }
+    if(isset($_POST['action']) && $_POST['action'] == 'deverrouille')
+    {
+        session_start();
+        require "../application/classe.php";
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        $sha_pass = sha1($username."_".$password);
+
+        $user_qu = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username AND password = :sha_pass", array(
+            "username"      => $username,
+            "sha_pass"      => $sha_pass
+        ));
+
+        if($user_qu == 1){
+            echo json_encode("1");
+        }else{
+            echo json_encode("0");
+        }
+    }
 }
 ?>
 
