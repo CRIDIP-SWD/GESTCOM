@@ -24,7 +24,7 @@
                 <div class="user-image">
                     <img src="assets/images/profil_page/friend8.jpg" class="img-responsive img-circle" alt="friend 8">
                     <div id="loader"></div>
-                    <div id="probleme" style=""><i class="fa fa-warning fa-5x"></i></div>
+                    <div id="probleme" style="position: relative; left: 150px;"></div>
                 </div>
                 <form class="form-signin" action="controller/user.ajax.php" role="form">
                     <h2>Vous êtes de retour, <strong><?= $_SESSION['account']['away']['prenom_user']; ?></strong> ?</h2>

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/pages/lockscreen.js" afterPath="$PROJECT_DIR$/assets/js/pages/lockscreen.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/lockscreen.php" afterPath="$PROJECT_DIR$/view/lockscreen.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -61,6 +62,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.423077">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,12 +110,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lockscreen.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lockscreen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/lockscreen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39840183">
-              <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
-              <folding />
+            <state vertical-scroll-proportion="-13.423077">
+              <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,12 +137,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lockscreen.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lockscreen.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/pages/lockscreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.7738359">
+              <caret line="58" column="117" selection-start-line="58" selection-start-column="117" selection-end-line="58" selection-end-column="117" />
+              <folding>
+                <marker date="1456618791299" expanded="true" signature="2155:2171" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,8 +227,8 @@
         <option value="$PROJECT_DIR$/controller/user.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controller/user.ajax.php" />
-        <option value="$PROJECT_DIR$/assets/js/pages/lockscreen.js" />
         <option value="$PROJECT_DIR$/view/lockscreen.php" />
+        <option value="$PROJECT_DIR$/assets/js/pages/lockscreen.js" />
       </list>
     </option>
   </component>
@@ -459,12 +474,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00243" summary="GESTCOM V1.0.0">
-      <created>1456540335390</created>
-      <option name="number" value="00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1456540335390</updated>
     </task>
     <task id="LOCAL-00244" summary="GESTCOM V1.0.0">
       <created>1456540382469</created>
@@ -754,7 +763,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456618318993</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="GESTCOM V1.0.0">
+      <created>1456618346678</created>
+      <option name="number" value="00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1456618346681</updated>
+    </task>
+    <option name="localTasksCounter" value="293" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1030,14 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3105023">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/general/users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615">
@@ -1232,14 +1239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-28.115385">
@@ -1253,19 +1252,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/pages/lockscreen.js">
+    <entry file="file://$PROJECT_DIR$/view/lockscreen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.423077">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/lockscreen.php">
+    <entry file="file://$PROJECT_DIR$/view/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39840183">
-          <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+        <state vertical-scroll-proportion="-13.423077">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/pages/lockscreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7738359">
+          <caret line="58" column="117" selection-start-line="58" selection-start-column="117" selection-end-line="58" selection-end-column="117" />
+          <folding>
+            <marker date="1456618791299" expanded="true" signature="2155:2171" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
