@@ -26,6 +26,17 @@ $(function() {
         }
     });
 
+    /*$('.btn-primary').click(function (e) {
+        e.preventDefault();
+        circle.animate(1);
+        setTimeout(function () {
+            $('.loader-overlay').removeClass('loaded').fadeIn(150);
+            setTimeout(function () {
+                window.location = "dashboard.html";
+            }, 1000);
+        }, 2000);
+    });*/
+
     $('.form-signin').on('submit', function(e){
         e.preventDefault();
         var form = $(this);
