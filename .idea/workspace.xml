@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/lockscreen.php" afterPath="$PROJECT_DIR$/view/lockscreen.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/user.ajax.php" afterPath="$PROJECT_DIR$/controller/user.ajax.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lockscreen.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lockscreen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/lockscreen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4372146">
+            <state vertical-scroll-proportion="-14.730769">
               <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -121,16 +121,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.ajax.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.846153">
-              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.7671233">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
               <folding>
-                <marker date="1456618924238" expanded="true" signature="417:479" placeholder="UPDATE users... " />
-                <marker date="1456618924238" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
-                <marker date="1456618924238" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
-                <marker date="1456618924238" expanded="true" signature="1679:1762" placeholder="SELECT COUNT... users" />
+                <marker date="1456619055572" expanded="true" signature="417:479" placeholder="UPDATE users... " />
+                <marker date="1456619055572" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
+                <marker date="1456619055572" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
+                <marker date="1456619055572" expanded="true" signature="1679:1762" placeholder="SELECT COUNT... users" />
               </folding>
             </state>
           </provider>
@@ -226,8 +226,8 @@
         <option value="$PROJECT_DIR$/controller/user.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/js/pages/lockscreen.js" />
-        <option value="$PROJECT_DIR$/controller/user.ajax.php" />
         <option value="$PROJECT_DIR$/view/lockscreen.php" />
+        <option value="$PROJECT_DIR$/controller/user.ajax.php" />
       </list>
     </option>
   </component>
@@ -473,12 +473,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00248" summary="GESTCOM V1.0.0">
-      <created>1456540606702</created>
-      <option name="number" value="00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1456540606702</updated>
     </task>
     <task id="LOCAL-00249" summary="GESTCOM V1.0.0">
       <created>1456540658866</created>
@@ -768,7 +762,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456618927900</updated>
     </task>
-    <option name="localTasksCounter" value="297" />
+    <task id="LOCAL-00297" summary="GESTCOM V1.0.0">
+      <created>1456618974916</created>
+      <option name="number" value="00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1456618974916</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1264,25 +1264,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
+    <entry file="file://$PROJECT_DIR$/view/lockscreen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.846153">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        <state vertical-scroll-proportion="-14.730769">
+          <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
           <folding>
-            <marker date="1456618924238" expanded="true" signature="417:479" placeholder="UPDATE users... " />
-            <marker date="1456618924238" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
-            <marker date="1456618924238" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
-            <marker date="1456618924238" expanded="true" signature="1679:1762" placeholder="SELECT COUNT... users" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/lockscreen.php">
+    <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4372146">
-          <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.7671233">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1456619055572" expanded="true" signature="417:479" placeholder="UPDATE users... " />
+            <marker date="1456619055572" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
+            <marker date="1456619055572" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
+            <marker date="1456619055572" expanded="true" signature="1679:1762" placeholder="SELECT COUNT... users" />
           </folding>
         </state>
       </provider>

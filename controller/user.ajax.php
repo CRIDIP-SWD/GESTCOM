@@ -51,9 +51,9 @@ if(is_ajax()){
         ));
 
         if($user_qu == 1){
-            echo json_encode(1);
+            echo json_encode($user_qu);
         }else{
-            echo json_encode(0);
+            echo json_encode($user_qu);
         }
     }
 }
