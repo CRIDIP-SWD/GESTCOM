@@ -40,31 +40,17 @@ $(function() {
     $('.form-signin').on('submit', function(e){
         e.preventDefault();
         var form = $(this);
-        form.find('.btn-primary').html("<i class=''></i> Chargement...");
-        $.post(form.attr('action'), form.serializeArray())
-            .done(function(data){
-                if(data == 1){
-                    circle.animate(1);
-                    setTimeout(function(){
-                        $('.loader-overlay').removeClass('loaded').fadeIn(150);
-                        setTimeout(function(){
-                            window.location = "index.php?view=dashboard";
-                        }, 1000)
-                    }, 2000)
-                }else{
-                    var img = $('.user-image');
-                    img.find('.img-circle').addStyle("opacity: 0.20");
-                    var probleme = $('#probleme');
-                    probleme.replaceWith('<i class="fa fa-warning text-warning" style="font-size: 100px"></i>');
-                    toastr.warning("Mauvais Mot de Passe", "Déverrouillage",{positionClass: "toast-top-full-width"});
-                }
-            })
-            .fail(function(jqxhr){
-                console.log(jqxhr.responseText);
-            })
-            .always(function(){
-                form.find('button').text("Connexion");
-            })
+        var url = form.attr("action");
+        data = form.serializeArray();
+        form.find('button').html("Chargement...");
+
+        $.ajax({
+            url: url,
+            type: "POST",
+            data: data,
+            dataType: "json"
+        })
+
     })
 });
 

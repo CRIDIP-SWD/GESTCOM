@@ -1,7 +1,6 @@
 <?php
 session_start();
 require "application/classe.php";
-App\autoloader::register();
 
 if(isset($_GET['view']))
 {
