@@ -336,6 +336,7 @@
         <data-type>int(11)</data-type>
       </column>
       <column id="94" parent="13" name="type">
+        <comment>1: Ajout | 2: Modification | 3: Suppression</comment>
         <data-type>int(11)</data-type>
       </column>
       <column id="95" parent="13" name="notification">

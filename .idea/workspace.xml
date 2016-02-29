@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/general/constante.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/general/date.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/general/db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/general/fonction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/general/ssh.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/app.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/ErrorContext.php" afterPath="$PROJECT_DIR$/application/general/ErrorContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classe.php" afterPath="$PROJECT_DIR$/application/classe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/user.php" afterPath="$PROJECT_DIR$/controller/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/profil.php" afterPath="$PROJECT_DIR$/view/profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/general/date.php" afterPath="$PROJECT_DIR$/application/general/date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/general/db.php" afterPath="$PROJECT_DIR$/application/general/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/general/users.php" afterPath="$PROJECT_DIR$/application/general/users.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,23 +64,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/user.php">
+      <file leaf-file-name="ErrorContext.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/general/ErrorContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84474885">
-              <caret line="151" column="65" selection-start-line="151" selection-start-column="65" selection-end-line="151" selection-end-column="65" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
-                <element signature="e#6#1722#0#PHP" expanded="false" />
-                <element signature="e#1723#2312#0#PHP" expanded="false" />
-                <element signature="e#2313#3671#0#PHP" expanded="false" />
-                <marker date="1456786189606" expanded="true" signature="568:651" placeholder="SELECT COUNT... users" />
-                <marker date="1456786189606" expanded="true" signature="946:1031" placeholder="UPDATE users... " />
-                <marker date="1456786189606" expanded="true" signature="1901:1952" placeholder="UPDATE users... " />
-                <marker date="1456786189606" expanded="true" signature="2751:2834" placeholder="SELECT COUNT... users" />
-                <marker date="1456786189606" expanded="true" signature="3090:3175" placeholder="UPDATE users... " />
-                <marker date="1456786189606" expanded="true" signature="3852:3903" placeholder="UPDATE users... " />
-                <marker date="1456786189606" expanded="true" signature="4601:4781" placeholder="UPDATE users... " />
-                <marker date="1456786189606" expanded="true" signature="5205:5353" placeholder="INSERT INTO notif... " />
+                <marker date="1456784827208" expanded="true" signature="225:263" placeholder="SELECT * FRO... error" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.115385">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ssh.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/general/ssh.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.115385">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/general/users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34931508">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <marker date="1456786322579" expanded="true" signature="336:382" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -122,7 +137,6 @@
         <option value="$PROJECT_DIR$/view/login.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/view/error.php" />
-        <option value="$PROJECT_DIR$/application/general/users.php" />
         <option value="$PROJECT_DIR$/view/collab/index.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/buttons.css" />
@@ -155,14 +169,15 @@
         <option value="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" />
         <option value="$PROJECT_DIR$/view/profil.php" />
         <option value="$PROJECT_DIR$/application/general/constante.php" />
-        <option value="$PROJECT_DIR$/application/general/date.php" />
         <option value="$PROJECT_DIR$/application/general/fonction.php" />
         <option value="$PROJECT_DIR$/application/general/ssh.php" />
         <option value="$PROJECT_DIR$/application/app.php" />
         <option value="$PROJECT_DIR$/application/ErrorContext.php" />
         <option value="$PROJECT_DIR$/application/classe.php" />
-        <option value="$PROJECT_DIR$/application/general/db.php" />
         <option value="$PROJECT_DIR$/controller/user.php" />
+        <option value="$PROJECT_DIR$/application/general/date.php" />
+        <option value="$PROJECT_DIR$/application/general/db.php" />
+        <option value="$PROJECT_DIR$/application/general/users.php" />
       </list>
     </option>
   </component>
@@ -359,12 +374,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00328" summary="GESTCOM V1.0.0">
-      <created>1456758701033</created>
-      <option name="number" value="00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1456758701033</updated>
     </task>
     <task id="LOCAL-00329" summary="GESTCOM V1.0.0">
       <created>1456758847413</created>
@@ -654,7 +663,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456767850315</updated>
     </task>
-    <option name="localTasksCounter" value="377" />
+    <task id="LOCAL-00377" summary="GESTCOM V1.0.0">
+      <created>1456786196537</created>
+      <option name="number" value="00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1456786196537</updated>
+    </task>
+    <option name="localTasksCounter" value="378" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -663,6 +678,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.272293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="832" height="840" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22346072" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -671,7 +687,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32760474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -795,13 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44576877">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -998,68 +1006,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/constante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-88.92308">
-          <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
-          <folding>
-            <element signature="e#4165#5689#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.384617">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/ssh.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.384617">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7716895">
           <caret line="66" column="168" selection-start-line="66" selection-start-column="168" selection-end-line="66" selection-end-column="168" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/ErrorContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <marker date="1456784827208" expanded="true" signature="225:263" placeholder="SELECT * FRO... error" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.807692">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="e#287#983#0#PHP" expanded="false" />
-            <element signature="e#1232#1403#0#PHP" expanded="false" />
-            <element signature="e#1664#1958#0#PHP" expanded="false" />
-            <element signature="e#2217#2511#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,12 +1037,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84474885">
-          <caret line="151" column="65" selection-start-line="151" selection-start-column="65" selection-end-line="151" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.11643836">
+          <caret line="120" column="64" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
           <folding>
             <element signature="e#6#1722#0#PHP" expanded="false" />
             <element signature="e#1723#2312#0#PHP" expanded="false" />
             <element signature="e#2313#3671#0#PHP" expanded="false" />
+            <element signature="e#3672#4173#0#PHP" expanded="false" />
+            <element signature="e#4175#5892#0#PHP" expanded="false" />
             <marker date="1456786189606" expanded="true" signature="568:651" placeholder="SELECT COUNT... users" />
             <marker date="1456786189606" expanded="true" signature="946:1031" placeholder="UPDATE users... " />
             <marker date="1456786189606" expanded="true" signature="1901:1952" placeholder="UPDATE users... " />
@@ -1100,6 +1053,71 @@
             <marker date="1456786189606" expanded="true" signature="3852:3903" placeholder="UPDATE users... " />
             <marker date="1456786189606" expanded="true" signature="4601:4781" placeholder="UPDATE users... " />
             <marker date="1456786189606" expanded="true" signature="5205:5353" placeholder="INSERT INTO notif... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/constante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17465754">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67009133">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5627854">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="e#115#123#0#PHP" expanded="true" />
+            <element signature="e#1260#1431#0#PHP" expanded="false" />
+            <element signature="e#1692#1986#0#PHP" expanded="false" />
+            <element signature="e#2245#2539#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/ErrorContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1456784827208" expanded="true" signature="225:263" placeholder="SELECT * FRO... error" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.115385">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/ssh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.115385">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34931508">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <marker date="1456786322579" expanded="true" signature="336:382" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

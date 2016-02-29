@@ -9,6 +9,9 @@
 namespace App\general;
 
 
+use PDO;
+use PDOException;
+
 class db
 {
     protected $host = "localhost";

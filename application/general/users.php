@@ -9,8 +9,6 @@
 namespace App\general;
 
 
-use App\DB;
-
 class users
 {
 
