@@ -3,7 +3,7 @@ ini_set("display_errors", 1);
 if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0)
 {
     $text = "Vous avez été déconnecter du service.";
-    $fonction->redirect("login","", "", "error", "login", $text);
+    $fonction->redirect("login");
 }
 ?>
 <!DOCTYPE html>
