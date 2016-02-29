@@ -67,7 +67,7 @@
                                         <input id="num_tel_poste" data-mask="+0033 9 99 99 99 99" type="text" name="num_tel_poste" class="form-control" value="<?= $user->num_tel_poste; ?>">
                                     </div>
                                     <div class="form-actions">
-                                        <button type="submit" class="btn btn-success btn-embossed pull-right" name="action" value="edit-profil"><i class="fa fa-check"></i> Valider</button>
+                                        <button type="submit" class="btn btn-success btn-embossed" name="action" value="edit-profil"><i class="fa fa-check"></i> Valider</button>
                                     </div>
                                 </form>
                             </div>

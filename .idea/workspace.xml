@@ -75,17 +75,17 @@
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7271605">
-              <caret line="69" column="188" selection-start-line="69" selection-start-column="188" selection-end-line="69" selection-end-column="188" />
+              <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
               <folding>
-                <marker date="1456767818354" expanded="true" signature="5381:6173" placeholder="..." />
-                <marker date="1456767818354" expanded="true" signature="5422:5538" placeholder="..." />
-                <marker date="1456767818354" expanded="true" signature="5586:6054" placeholder="..." />
-                <marker date="1456767818354" expanded="true" signature="6087:6097" placeholder="..." />
-                <marker date="1456767818354" expanded="true" signature="6098:6166" placeholder="..." />
-                <marker date="1456767818354" expanded="true" signature="6194:6678" placeholder="..." />
-                <marker date="1456767818354" expanded="true" signature="6222:6671" placeholder="..." />
-                <marker date="1456767818354" expanded="true" signature="6266:6437" placeholder="..." />
-                <marker date="1456767818354" expanded="true" signature="6482:6660" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="5370:6162" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="5411:5527" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="5575:6043" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="6076:6086" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="6087:6155" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="6183:6667" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="6211:6660" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="6255:6426" placeholder="..." />
+                <marker date="1456767845697" expanded="true" signature="6471:6649" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -445,12 +445,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00326" summary="GESTCOM V1.0.0">
-      <created>1456758140107</created>
-      <option name="number" value="00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1456758140107</updated>
-    </task>
     <task id="LOCAL-00327" summary="GESTCOM V1.0.0">
       <created>1456758225808</created>
       <option name="number" value="00327" />
@@ -739,7 +733,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456767798978</updated>
     </task>
-    <option name="localTasksCounter" value="375" />
+    <task id="LOCAL-00375" summary="GESTCOM V1.0.0">
+      <created>1456767822704</created>
+      <option name="number" value="00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1456767822704</updated>
+    </task>
+    <option name="localTasksCounter" value="376" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1220,17 +1220,17 @@
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7271605">
-          <caret line="69" column="188" selection-start-line="69" selection-start-column="188" selection-end-line="69" selection-end-column="188" />
+          <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
           <folding>
-            <marker date="1456767818354" expanded="true" signature="5381:6173" placeholder="..." />
-            <marker date="1456767818354" expanded="true" signature="5422:5538" placeholder="..." />
-            <marker date="1456767818354" expanded="true" signature="5586:6054" placeholder="..." />
-            <marker date="1456767818354" expanded="true" signature="6087:6097" placeholder="..." />
-            <marker date="1456767818354" expanded="true" signature="6098:6166" placeholder="..." />
-            <marker date="1456767818354" expanded="true" signature="6194:6678" placeholder="..." />
-            <marker date="1456767818354" expanded="true" signature="6222:6671" placeholder="..." />
-            <marker date="1456767818354" expanded="true" signature="6266:6437" placeholder="..." />
-            <marker date="1456767818354" expanded="true" signature="6482:6660" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="5370:6162" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="5411:5527" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="5575:6043" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="6076:6086" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="6087:6155" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="6183:6667" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="6211:6660" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="6255:6426" placeholder="..." />
+            <marker date="1456767845697" expanded="true" signature="6471:6649" placeholder="..." />
           </folding>
         </state>
       </provider>
