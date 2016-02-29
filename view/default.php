@@ -807,5 +807,33 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
 <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
 <?php include ("include/footer.php"); ?>
 <script src="<?= $constante->getUrl(array('js/')); ?>pages/timeline.js"></script>
+<?php if(isset($_GET['success']) && $_GET['success'] == $_GET['success']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.success(<?= $_GET['text']; ?>, "SUCCES");
+        });
+    </script>
+<?php } ?>
+<?php if(isset($_GET['warning']) && $_GET['warning'] == $_GET['warning']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.warning(<?= $_GET['text']; ?>, "ATTENTION");
+        })
+    </script>
+<?php } ?>
+<?php if(isset($_GET['error']) && $_GET['error'] == $_GET['error']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.error(<?= $_GET['text']; ?>, "ERREUR");
+        })
+    </script>
+<?php } ?>
+<?php if(isset($_GET['info']) && $_GET['info'] == $_GET['info']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.error(<?= $_GET['text']; ?>, "INFORMATION");
+        })
+    </script>
+<?php } ?>
 </body>
 </html>
