@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/pages/profil.js" afterPath="$PROJECT_DIR$/assets/js/pages/profil.js" />
     </list>
@@ -105,8 +104,8 @@
       <file leaf-file-name="profil.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/pages/profil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41028708">
-              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.83732057">
+              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -484,12 +483,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00302" summary="GESTCOM V1.0.0">
-      <created>1456741287567</created>
-      <option name="number" value="00302" />
-      <option name="project" value="LOCAL" />
-      <updated>1456741287567</updated>
-    </task>
     <task id="LOCAL-00303" summary="GESTCOM V1.0.0">
       <created>1456741361488</created>
       <option name="number" value="00303" />
@@ -778,7 +771,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456763941328</updated>
     </task>
-    <option name="localTasksCounter" value="351" />
+    <task id="LOCAL-00351" summary="GESTCOM V1.0.0">
+      <created>1456764006638</created>
+      <option name="number" value="00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1456764006638</updated>
+    </task>
+    <option name="localTasksCounter" value="352" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1255,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/pages/profil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41028708">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.83732057">
+          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
           <folding />
         </state>
       </provider>

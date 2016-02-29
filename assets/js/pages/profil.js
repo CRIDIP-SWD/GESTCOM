@@ -70,8 +70,7 @@ $(function() {
         type: "GET",
         success: function(data)
         {
-            alert(data['nouritture']);
-            /*var radarChartData = {
+            var radarChartData = {
                 labels: ["Nourriture", "Boisson", "Sommeil", "Design", "Codeur", "Vélo", "Course"],
                 datasets: [
                     {
@@ -92,7 +91,7 @@ $(function() {
                     tooltipCornerRadius: 0,
                     animationSteps: 60
                 });
-            }, 1500);*/
+            }, 1500);
         }
     });
     var radarChartData = {
