@@ -140,7 +140,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-profil')
 
     if($user_u == 1){
         $text = "L'utilisateur <strong>".$nom_user." ".$prenom_user."</strong> à été modifier avec succès";
-        $addNotif = $db->execute("INSERT INTO notif(idnotif, iduser, type, notification, date_notification, vu) VALUES (NULL , :iduser, :type, :notification, :date_notification, :vu)", array(
+        $addNotif = $DB->execute("INSERT INTO notif(idnotif, iduser, type, notification, date_notification, vu) VALUES (NULL , :iduser, :type, :notification, :date_notification, :vu)", array(
             "iduser"                => $iduser,
             "type"                  => 2,
             "notification"          => $user->prenom_user." à modifier le profil de <strong>".$nom_user." ".$prenom_user."</strong>.",
