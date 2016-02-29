@@ -74,7 +74,7 @@ class fonction
     public function redirect($view = null, $sub = null, $data = null, $type = null, $service = null, $text = null){
         $constante = new constante();
 
-        if(!empty($view)){$redirect = "?view=".$view;}
+        if(!empty($view)){$redirect = "index.php?view=".$view;}
         if(!empty($sub)){$redirect = "&sub=".$sub;}
         if(!empty($data)){$redirect = "&data=".$data;}
         if(!empty($type)){$redirect = "&".$type."=".$service."&text".$text;}
