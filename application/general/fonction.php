@@ -77,7 +77,7 @@ class fonction
         if(!empty($view)){$redirect = "index.php?view=".$view;}
         if(!empty($sub)){$redirect .= "&sub=".$sub;}
         if(!empty($data)){$redirect .= "&data=".$data;}
-        if(!empty($type)){$redirect .= "&".$type."=".$service."&text".$text;}
+        if(!empty($type)){$redirect .= "&".$type."=".$service."&text=".$text;}
 
         header("Location: ".$constante->getUrl(array(), false).$redirect);
 

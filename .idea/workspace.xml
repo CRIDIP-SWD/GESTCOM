@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/general/fonction.php" afterPath="$PROJECT_DIR$/application/general/fonction.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,20 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonction.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fonction.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.538462">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7089041">
+              <caret line="79" column="69" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90296805">
+            <state vertical-scroll-proportion="-30.423077">
               <caret line="833" column="60" selection-start-line="833" selection-start-column="60" selection-end-line="833" selection-end-column="60" />
               <folding>
                 <marker date="1456787455552" expanded="true" signature="21590:21643" placeholder="SELECT * FRO... notif" />
@@ -197,8 +197,8 @@
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/profil.js" />
         <option value="$PROJECT_DIR$/view/profil.php" />
         <option value="$PROJECT_DIR$/controller/user.php" />
-        <option value="$PROJECT_DIR$/application/general/fonction.php" />
         <option value="$PROJECT_DIR$/view/default.php" />
+        <option value="$PROJECT_DIR$/application/general/fonction.php" />
       </list>
     </option>
   </component>
@@ -349,12 +349,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00336" summary="GESTCOM V1.0.0">
-      <created>1456760252767</created>
-      <option name="number" value="00336" />
-      <option name="project" value="LOCAL" />
-      <updated>1456760252767</updated>
     </task>
     <task id="LOCAL-00337" summary="GESTCOM V1.0.0">
       <created>1456760355153</created>
@@ -644,7 +638,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456787199304</updated>
     </task>
-    <option name="localTasksCounter" value="385" />
+    <task id="LOCAL-00385" summary="GESTCOM V1.0.0">
+      <created>1456787459167</created>
+      <option name="number" value="00385" />
+      <option name="project" value="LOCAL" />
+      <updated>1456787459167</updated>
+    </task>
+    <option name="localTasksCounter" value="386" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1092,22 +1092,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.538462">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90296805">
+        <state vertical-scroll-proportion="-30.423077">
           <caret line="833" column="60" selection-start-line="833" selection-start-column="60" selection-end-line="833" selection-end-column="60" />
           <folding>
             <marker date="1456787455552" expanded="true" signature="21590:21643" placeholder="SELECT * FRO... notif" />
             <marker date="1456787455552" expanded="true" signature="24312:24434" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7089041">
+          <caret line="79" column="69" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
