@@ -42,9 +42,13 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="timeline-btn-day"> <i class="icon-custom-left"></i>
-                                            <button type="button" class="btn btn-primary f-16"><strong>Tomorrow</strong></button>
+                                            <button type="button" class="btn btn-primary f-16"><strong>TimeLine</strong></button>
                                         </div>
                                         <section id="timeline">
+                                            <?php
+                                            $sql_notif = $DB->query("SELECT * FROM notif WHERE iduser = :iduser ORDER BY date_notification ASC LIMIT 10", array("iduser" => $user->iduser));
+                                            foreach($sql_notif as $notif):
+                                            ?>
                                             <div class="timeline-block">
                                                 <div class="timeline-icon bg-primary">
                                                     <i class="icon-picture"></i>
@@ -93,122 +97,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="timeline-block">
-                                                <div class="timeline-icon bg-dark">
-                                                    <i class="icon-camera"></i>
-                                                </div>
-                                                <div class="timeline-content">
-                                                    <div class="timeline-heading clearfix">
-                                                        <h2 class="pull-left"><strong>Video</strong> player</h2>
-                                                        <div class="pull-right">
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day-number">03</div>
-                                                            </div>
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day">saturday</div>
-                                                                <div class="timeline-month c-gray">March 2015</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-                                                    <div class="video-player">
-                                                        <video id="my_video_1" class="video-js vjs-default-skin" controls preload="none" height="280" data-setup="{}" poster="assets/images/various/video.jpg">
-                                                            <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
-                                                            <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm" />
-                                                        </video>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="timeline-icon bg-primary">
-                                                    <i class="icon-picture"></i>
-                                                </div>
-                                                <div class="timeline-content">
-                                                    <div class="timeline-heading clearfix">
-                                                        <h2 class="pull-left">Simple <strong>Image</strong></h2>
-                                                        <div class="pull-right">
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day-number">04</div>
-                                                            </div>
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day">sunday</div>
-                                                                <div class="timeline-month c-gray">March 2015</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quae eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-                                                    <img src="assets/images/gallery/2.jpg" alt="2">
-                                                </div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="timeline-icon  bg-yellow">
-                                                    <i class="icon-pointer"></i>
-                                                </div>
-                                                <div class="timeline-content">
-                                                    <div class="timeline-heading clearfix">
-                                                        <h2 class="pull-left"><strong>Location</strong> of next event</h2>
-                                                        <div class="pull-right">
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day-number">6</div>
-                                                            </div>
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day">tuesday</div>
-                                                                <div class="timeline-month c-gray">March 2015</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-                                                    <div class="col-map">
-                                                        <div class="map" id="timeline-map"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="timeline-icon bg-purple">
-                                                    <i class="icon-calendar"></i>
-                                                </div>
-                                                <div class="timeline-content">
-                                                    <div class="timeline-heading clearfix">
-                                                        <h2 class="pull-left"><strong>Calendar</strong> reminder</h2>
-                                                        <div class="pull-right">
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day-number">01</div>
-                                                            </div>
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day">thursday</div>
-                                                                <div class="timeline-month c-gray">April 2014</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p>Meet John and his collaborators at Central Perk at 6pm. Don't forget to bring project illustrations and quotation.</p>
-                                                    <a href="#" class="btn btn-white btn-embossed read-more">Cancel</a>
-                                                    <a href="#" class="btn btn-default btn-embossed read-more">Confirm</a>
-                                                </div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="timeline-icon bg-dark">
-                                                    <i class="icon-pencil"></i>
-                                                </div>
-                                                <div class="timeline-content">
-                                                    <div class="timeline-heading clearfix">
-                                                        <h2 class="pull-left"><strong>Article</strong> Extract</h2>
-                                                        <div class="pull-right">
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day-number">7</div>
-                                                            </div>
-                                                            <div class="pull-left">
-                                                                <div class="timeline-day">wednesday</div>
-                                                                <div class="timeline-month c-gray">March 2015</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="article-extract">
-                                                        <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-                                                        <i class="fa fa-quote-right"></i>
-                                                    </p>
-                                                    <a href="#" class="btn btn-default btn-embossed read-more">Read more</a>
-                                                </div>
-                                            </div>
+                                            <?php endforeach; ?>
                                         </section>
                                     </div>
                                 </div>
