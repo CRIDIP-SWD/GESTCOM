@@ -64,6 +64,37 @@ $(function() {
     });
 
     /* Radar Chart */
+    $.ajax({
+        url: "../../../../controller/profil.ajax.php?action=get_chart",
+        dataType: "json",
+        type: "GET",
+        success: function(data)
+        {
+            alert(data);
+            /*var radarChartData = {
+                labels: ["Nourriture", "Boisson", "Sommeil", "Design", "Codeur", "Vélo", "Course"],
+                datasets: [
+                    {
+                        label: "My Second dataset",
+                        fillColor: "rgba(151,187,205,0.2)",
+                        strokeColor: "rgba(151,187,205,1)",
+                        pointColor: "rgba(151,187,205,1)",
+                        pointStrokeColor: "#fff",
+                        pointHighlightFill: "#fff",
+                        pointHighlightStroke: "rgba(151,187,205,1)",
+                        data: [data['nourriture'], data['boisson'], data['sommeil'], data['designing'], data['codeur'], data['velo'], data['course']]
+                    }
+                ]
+            };
+            setTimeout(function() {
+                window.myRadar = new Chart(document.getElementById("profil-chart").getContext("2d")).Radar(radarChartData, {
+                    responsive: true,
+                    tooltipCornerRadius: 0,
+                    animationSteps: 60
+                });
+            }, 1500);*/
+        }
+    });
     var radarChartData = {
         labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
         datasets: [
