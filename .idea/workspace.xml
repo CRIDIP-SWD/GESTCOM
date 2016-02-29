@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/dashboard.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plugins/custom/user.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/user/user.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/user/user_charge.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plugins/custom/user_count.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/user/user_count.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plugins/custom/user_time.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/user/user_time.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/include/footer.php" afterPath="$PROJECT_DIR$/view/include/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/index.php" afterPath="$PROJECT_DIR$/view/index.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -72,8 +65,20 @@
         <entry file="file://$PROJECT_DIR$/view/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.040524434">
-              <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
+              <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -424,12 +429,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00286" summary="GESTCOM V1.0.0">
-      <created>1456597028538</created>
-      <option name="number" value="00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1456597028539</updated>
-    </task>
     <task id="LOCAL-00287" summary="GESTCOM V1.0.0">
       <created>1456597232602</created>
       <option name="number" value="00287" />
@@ -718,7 +717,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456759880642</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <task id="LOCAL-00335" summary="GESTCOM V1.0.0">
+      <created>1456760213852</created>
+      <option name="number" value="00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1456760213852</updated>
+    </task>
+    <option name="localTasksCounter" value="336" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1119,16 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.098265894">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74970204">
@@ -1179,10 +1174,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.040524434">
-          <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
           <folding />
         </state>
       </provider>
