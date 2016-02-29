@@ -44,24 +44,6 @@
         <?php else: ?>
         <p class="c-gray m-t-0"><i class="online"></i> En Ligne</p>
         <?php endif; ?>
-        <h3><strong>AVERAGE RATING</strong></h3>
-        <div id="stars" class="stars pull-left">
-            <span class="fa fa-star c-primary"></span>
-            <span class="fa fa-star c-primary"></span>
-            <span class="fa fa-star c-primary"></span>
-            <span class="fa fa-star c-primary"></span>
-            <span class="fa fa-star-o c-primary"></span>
-        </div>
-        <div class="sidebar-number pull-right">4/5</div>
-        <div class="clearfix"></div>
-        <h3><strong>MY SHARING</strong></h3>
-        <p class="m-t-0"><span class="c-primary"><strong>15</strong></span> Replies</p>
-        <p class="m-t-0"><span class="c-primary"><strong>8</strong></span> Messages</p>
-        <p class="m-t-0"><span class="c-primary"><strong>24</strong></span> Questions</p>
-    </div>
-    <div class="m-t-20">
-        <p>You and Bryan are not friend yet</p>
-        <button type="button" class="btn btn-block btn-primary bd-0 no-bd"><i class="icon-user"></i> Add to my friends</button>
     </div>
     <div class="m-t-60" style="width:100%">
         <canvas id="profil-chart" height="450"></canvas>
