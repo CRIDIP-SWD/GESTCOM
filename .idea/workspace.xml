@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/error.php" afterPath="$PROJECT_DIR$/view/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/login.php" afterPath="$PROJECT_DIR$/view/login.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,15 +84,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state vertical-scroll-proportion="-22.884615">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
               <folding>
                 <marker date="1456786532512" expanded="true" signature="21590:21643" placeholder="SELECT * FRO... notif" />
                 <marker date="1456786532512" expanded="true" signature="24312:24434" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.038812786">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/error.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,9 +143,7 @@
         <option value="$PROJECT_DIR$/assets/plugins/toastr/toastr.js" />
         <option value="$PROJECT_DIR$/assets/plugins/toastr/toastr.css" />
         <option value="$PROJECT_DIR$/assets/js/pages/login-v2.js" />
-        <option value="$PROJECT_DIR$/view/login.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/view/error.php" />
         <option value="$PROJECT_DIR$/view/collab/index.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/buttons.css" />
@@ -166,6 +185,8 @@
         <option value="$PROJECT_DIR$/application/general/db.php" />
         <option value="$PROJECT_DIR$/application/general/users.php" />
         <option value="$PROJECT_DIR$/view/default.php" />
+        <option value="$PROJECT_DIR$/view/login.php" />
+        <option value="$PROJECT_DIR$/view/error.php" />
       </list>
     </option>
   </component>
@@ -362,12 +383,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00330" summary="GESTCOM V1.0.0">
-      <created>1456759253246</created>
-      <option name="number" value="00330" />
-      <option name="project" value="LOCAL" />
-      <updated>1456759253246</updated>
     </task>
     <task id="LOCAL-00331" summary="GESTCOM V1.0.0">
       <created>1456759283845</created>
@@ -657,7 +672,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456786326688</updated>
     </task>
-    <option name="localTasksCounter" value="379" />
+    <task id="LOCAL-00379" summary="GESTCOM V1.0.0">
+      <created>1456786536497</created>
+      <option name="number" value="00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1456786536497</updated>
+    </task>
+    <option name="localTasksCounter" value="380" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -721,13 +742,6 @@
         <state vertical-scroll-proportion="-11.538462">
           <caret line="188" column="9" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9703196">
-          <caret line="272" column="78" selection-start-line="272" selection-start-column="78" selection-end-line="272" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -821,13 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93921334">
           <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7973778">
-          <caret line="81" column="10" selection-start-line="56" selection-start-column="0" selection-end-line="81" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1102,12 +1109,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state vertical-scroll-proportion="-22.884615">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding>
             <marker date="1456786532512" expanded="true" signature="21590:21643" placeholder="SELECT * FRO... notif" />
             <marker date="1456786532512" expanded="true" signature="24312:24434" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.038812786">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

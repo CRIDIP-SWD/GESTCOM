@@ -1,4 +1,6 @@
 <?php
+use App\general\constante;
+
 $code = $_GET['code'];
 $data = $errorContext->getError($code);
 ?>
@@ -10,7 +12,7 @@ $data = $errorContext->getError($code);
     <meta name="description" content="admin-themes-lab">
     <meta name="author" content="themes-lab">
     <link rel="shortcut icon" href="<?= $constante->getUrl(array('images/')); ?>favicon.png" type="image/png">
-    <title><?= \App\constante::NOM_SITE; ?> - ERREUR</title>
+    <title><?= constante::NOM_SITE; ?> - ERREUR</title>
     <link href="<?= $constante->getUrl(array('css/')); ?>style.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('css/')); ?>theme.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('css/')); ?>ui.css" rel="stylesheet">
