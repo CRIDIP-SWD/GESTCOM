@@ -42,7 +42,3 @@ function check_notif() {
         }
     });
 }
-$(document).ready(function(){
-    check_message();
-    check_notif();
-})(jQuery);

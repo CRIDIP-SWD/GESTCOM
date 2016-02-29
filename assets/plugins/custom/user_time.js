@@ -66,8 +66,3 @@ function ajax(){
         }
     });
 }
-$(document).ready(function(){
-    setInterval(function(){
-        ajax()
-    }, 30000);
-})(jQuery);
