@@ -30,9 +30,6 @@
         <div class="row">
             <div class="col-md-12 portlets">
                 <div class="panel">
-                    <div class="panel-header panel-controls">
-                        <h3>Colored  <strong>version</strong></h3>
-                    </div>
                     <div class="panel-content">
                         <ul class="nav nav-tabs nav-primary">
                             <li class=""><a href="#tab2_1" data-toggle="tab"><i class="icon-home"></i> Home</a></li>
