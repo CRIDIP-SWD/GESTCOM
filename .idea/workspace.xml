@@ -74,18 +74,18 @@
       <file leaf-file-name="profil.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31108463">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.81764007">
+              <caret line="48" column="145" selection-start-line="48" selection-start-column="145" selection-end-line="48" selection-end-column="145" />
               <folding>
-                <marker date="1456764836062" expanded="true" signature="4324:5116" placeholder="..." />
-                <marker date="1456764836062" expanded="true" signature="4365:4481" placeholder="..." />
-                <marker date="1456764836062" expanded="true" signature="4529:4997" placeholder="..." />
-                <marker date="1456764836062" expanded="true" signature="5030:5040" placeholder="..." />
-                <marker date="1456764836062" expanded="true" signature="5041:5109" placeholder="..." />
-                <marker date="1456764836062" expanded="true" signature="5137:5621" placeholder="..." />
-                <marker date="1456764836062" expanded="true" signature="5165:5614" placeholder="..." />
-                <marker date="1456764836062" expanded="true" signature="5209:5380" placeholder="..." />
-                <marker date="1456764836062" expanded="true" signature="5425:5603" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="3769:4561" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="3810:3926" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="3974:4442" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="4475:4485" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="4486:4554" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="4582:5066" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="4610:5059" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="4654:4825" placeholder="..." />
+                <marker date="1456765528900" expanded="true" signature="4870:5048" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -483,12 +483,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00309" summary="GESTCOM V1.0.0">
-      <created>1456754252405</created>
-      <option name="number" value="00309" />
-      <option name="project" value="LOCAL" />
-      <updated>1456754252405</updated>
-    </task>
     <task id="LOCAL-00310" summary="GESTCOM V1.0.0">
       <created>1456754937826</created>
       <option name="number" value="00310" />
@@ -777,7 +771,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456764777226</updated>
     </task>
-    <option name="localTasksCounter" value="358" />
+    <task id="LOCAL-00358" summary="GESTCOM V1.0.0">
+      <created>1456764842489</created>
+      <option name="number" value="00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1456764842489</updated>
+    </task>
+    <option name="localTasksCounter" value="359" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1244,18 +1244,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31108463">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.81764007">
+          <caret line="48" column="145" selection-start-line="48" selection-start-column="145" selection-end-line="48" selection-end-column="145" />
           <folding>
-            <marker date="1456764836062" expanded="true" signature="4324:5116" placeholder="..." />
-            <marker date="1456764836062" expanded="true" signature="4365:4481" placeholder="..." />
-            <marker date="1456764836062" expanded="true" signature="4529:4997" placeholder="..." />
-            <marker date="1456764836062" expanded="true" signature="5030:5040" placeholder="..." />
-            <marker date="1456764836062" expanded="true" signature="5041:5109" placeholder="..." />
-            <marker date="1456764836062" expanded="true" signature="5137:5621" placeholder="..." />
-            <marker date="1456764836062" expanded="true" signature="5165:5614" placeholder="..." />
-            <marker date="1456764836062" expanded="true" signature="5209:5380" placeholder="..." />
-            <marker date="1456764836062" expanded="true" signature="5425:5603" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="3769:4561" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="3810:3926" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="3974:4442" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="4475:4485" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="4486:4554" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="4582:5066" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="4610:5059" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="4654:4825" placeholder="..." />
+            <marker date="1456765528900" expanded="true" signature="4870:5048" placeholder="..." />
           </folding>
         </state>
       </provider>

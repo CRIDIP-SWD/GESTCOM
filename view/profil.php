@@ -32,28 +32,32 @@
                 <div class="panel">
                     <div class="panel-content">
                         <ul class="nav nav-tabs nav-primary">
-                            <li class=""><a href="#tab2_1" data-toggle="tab"><i class="icon-home"></i> Home</a></li>
-                            <li class="active"><a href="#tab2_2" data-toggle="tab"><i class="icon-user"></i> Profile</a></li>
-                            <li><a href="#tab2_3" data-toggle="tab"><i class="icon-cloud-download"></i> Other Tab</a></li>
+                            <li class="active"><a href="#timeline" data-toggle="tab"><i class="fa fa-clock-o"></i> Ma TimeLine</a></li>
+                            <li><a href="#info" data-toggle="tab"><i class="fa fa-user"></i> Changer mes informations</a></li>
+                            <li><a href="#password" data-toggle="tab"><i class="fa fa-key"></i> Changer mon mot de passe</a></li>
+                            <li><a href="#plugins" data-toggle="tab"><i class="fa fa-cogs"></i> Plugins</a></li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane fade" id="tab2_1">
-                                <div class="row column-seperation">
-                                    <div class="col-md-6 line-separator">
-                                        <h3><strong>Big</strong> Title for your tab</h3>
-                                        <h4>Customize your tab as you want easily</h4>
+                            <div class="tab-pane fade active in" id="timeline">
+                                <form class="form-validation" action="controller/user.php" method="post" role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="nom_user">Votre nom</label>
+                                        <input id="nom_user" type="text" name="nom_user" class="form-control" value="<?= $user->nom_user; ?>" required>
                                     </div>
-                                    <div class="col-md-6">
-                                        <p class="light">default, the textarea element comes with a vertical scrollbar (and maybe even a horizontal scrollbar). This vertical scrollbar enables the user to continue entering and reviewing their text (by scrolling up and down).</p>
+                                    <div class="form-group">
+                                        <label class="control-label" for="prenom_user">Votre Prénom</label>
+                                        <input id="prenom_user" type="text" name="prenom_user" class="form-control" value="<?= $user->prenom_user; ?>" required>
                                     </div>
-                                </div>
+                                </form>
                             </div>
-                            <div class="tab-pane fade active in" id="tab2_2">
-                                <h3>"Sooner or later, those who win are those who think they <strong>can</strong>."</h3>
-                                <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial.</p>
+                            <div class="tab-pane fade" id="info">
+
                             </div>
-                            <div class="tab-pane fade" id="tab2_3">
-                                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                            <div class="tab-pane fade" id="password">
+
+                            </div>
+                            <div class="tab-pane fade" id="plugins">
+
                             </div>
                         </div>
                     </div>
@@ -104,4 +108,6 @@
 <script src="assets/js/pages/profil.js"></script>
 
 <script src="assets/plugins/custom/js/pages/profil.js"></script>
+<script src="assets/plugins/jquery-validation/jquery.validate.js"></script> <!-- Form Validation -->
+<script src="assets/plugins/jquery-validation/additional-methods.min.js"></script> <!-- Form Validation Additional Methods - OPTIONAL -->
 <!-- END PAGE SCRIPT -->
