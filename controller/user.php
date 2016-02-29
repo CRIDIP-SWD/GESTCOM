@@ -73,6 +73,9 @@ if(isset($_POST['action']) && $_POST['action'] == 'deverrouille')
     $decrypt = new \App\noctus\decrypt($pass_en, $username, $password);
     $pass_de = $decrypt->decrypt();
 
+    var_dump($pass_en, $pass_de);
+    die();
+
 
     $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username AND password = :password", array(
         "username" => $username,
