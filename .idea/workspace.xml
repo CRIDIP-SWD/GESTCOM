@@ -64,12 +64,12 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5303933">
-              <caret line="356" column="87" selection-start-line="356" selection-start-column="87" selection-end-line="356" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.33253872">
+              <caret line="353" column="61" selection-start-line="353" selection-start-column="61" selection-end-line="353" selection-end-column="61" />
               <folding>
-                <marker date="1456757267463" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
-                <marker date="1456757267463" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
-                <marker date="1456757267463" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1456757287457" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
+                <marker date="1456757287457" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1456757287457" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -329,12 +329,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00273" summary="GESTCOM V1.0.0">
-      <created>1456593634650</created>
-      <option name="number" value="00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1456593634650</updated>
     </task>
     <task id="LOCAL-00274" summary="GESTCOM V1.0.0">
       <created>1456593931386</created>
@@ -624,7 +618,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456756638137</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <task id="LOCAL-00322" summary="GESTCOM V1.0.0">
+      <created>1456757273642</created>
+      <option name="number" value="00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1456757273642</updated>
+    </task>
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -705,9 +705,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1114" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="1116" selection-end-column="7" />
           <folding>
-            <marker date="1456757267463" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
-            <marker date="1456757267463" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1456757267463" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1456757287457" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
+            <marker date="1456757287457" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1456757287457" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>
@@ -1079,12 +1079,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5303933">
-          <caret line="356" column="87" selection-start-line="356" selection-start-column="87" selection-end-line="356" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.33253872">
+          <caret line="353" column="61" selection-start-line="353" selection-start-column="61" selection-end-line="353" selection-end-column="61" />
           <folding>
-            <marker date="1456757267463" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
-            <marker date="1456757267463" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1456757267463" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1456757287457" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
+            <marker date="1456757287457" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1456757287457" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>

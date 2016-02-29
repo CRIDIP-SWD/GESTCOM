@@ -357,7 +357,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                                             <p><?= html_entity_decode($mail->sujet); ?></p>
                                         </div>
                                     </li>
-                                    <?php endif; ?>
+                                    <?php endforeach; ?>
                                 </ul>
                             </li>
                             <li class="dropdown-footer clearfix">
