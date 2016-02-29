@@ -1503,7 +1503,7 @@
 		forceParse: true,
 		format: 'dd-mm-yyyy',
 		keyboardNavigation: true,
-		language: 'en',
+		language: 'fr',
 		minViewMode: 0,
 		multidate: false,
 		multidateSeparator: ',',

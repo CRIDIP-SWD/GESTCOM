@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
+    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -94,8 +95,8 @@
       <file leaf-file-name="bootstrap-datepicker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.896552">
-              <caret line="1506" column="23" selection-start-line="1506" selection-start-column="23" selection-end-line="1506" selection-end-column="23" />
+            <state vertical-scroll-proportion="-8.310345">
+              <caret line="1505" column="21" selection-start-line="1505" selection-start-column="21" selection-end-line="1505" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -107,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -501,12 +502,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00320" summary="GESTCOM V1.0.0">
-      <created>1456756575262</created>
-      <option name="number" value="00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1456756575262</updated>
-    </task>
     <task id="LOCAL-00321" summary="GESTCOM V1.0.0">
       <created>1456756638137</created>
       <option name="number" value="00321" />
@@ -795,7 +790,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456767038559</updated>
     </task>
-    <option name="localTasksCounter" value="369" />
+    <task id="LOCAL-00369" summary="GESTCOM V1.0.0">
+      <created>1456767114906</created>
+      <option name="number" value="00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1456767114906</updated>
+    </task>
+    <option name="localTasksCounter" value="370" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1257,16 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.896552">
-          <caret line="1506" column="23" selection-start-line="1506" selection-start-column="23" selection-end-line="1506" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1283,10 +1274,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.310345">
+          <caret line="1505" column="21" selection-start-line="1505" selection-start-column="21" selection-end-line="1505" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
