@@ -109,8 +109,8 @@
       <file leaf-file-name="fonction.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65068495">
-              <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.7283105">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -493,12 +493,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00334" summary="GESTCOM V1.0.0">
-      <created>1456759880642</created>
-      <option name="number" value="00334" />
-      <option name="project" value="LOCAL" />
-      <updated>1456759880642</updated>
-    </task>
     <task id="LOCAL-00335" summary="GESTCOM V1.0.0">
       <created>1456760213852</created>
       <option name="number" value="00335" />
@@ -787,7 +781,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456787017254</updated>
     </task>
-    <option name="localTasksCounter" value="383" />
+    <task id="LOCAL-00383" summary="GESTCOM V1.0.0">
+      <created>1456787055795</created>
+      <option name="number" value="00383" />
+      <option name="project" value="LOCAL" />
+      <updated>1456787055795</updated>
+    </task>
+    <option name="localTasksCounter" value="384" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1242,8 +1242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65068495">
-          <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.7283105">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>
