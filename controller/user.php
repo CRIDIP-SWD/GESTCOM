@@ -14,7 +14,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
 
         $user_co = $DB->count("SELECT COUNT(iduser) FROM users WHERE username = :username AND password = :password", array(
             "username" => $username,
-            "password" => $pass_de
+            "password" => $pass_en
         ));
 
 
