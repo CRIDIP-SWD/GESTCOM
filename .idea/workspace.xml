@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/profil.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/profil.php" afterPath="$PROJECT_DIR$/view/profil.php" />
     </list>
@@ -75,10 +74,21 @@
       <file leaf-file-name="profil.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8986889">
-              <caret line="562" column="53" selection-start-line="562" selection-start-column="53" selection-end-line="562" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.14302741">
+              <caret line="31" column="125" selection-start-line="31" selection-start-column="125" selection-end-line="31" selection-end-column="125" />
               <folding>
-                <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+                <marker date="1456762700431" expanded="true" signature="1141:2682" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="1182:1298" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="1346:2351" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="1435:1545" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="1643:1935" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="2376:2563" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="2596:2606" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="2607:2675" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="2703:3187" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="2731:3180" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="2775:2946" placeholder="..." />
+                <marker date="1456762700431" expanded="true" signature="2991:3169" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -452,12 +462,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00296" summary="GESTCOM V1.0.0">
-      <created>1456618927900</created>
-      <option name="number" value="00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1456618927900</updated>
-    </task>
     <task id="LOCAL-00297" summary="GESTCOM V1.0.0">
       <created>1456618974916</created>
       <option name="number" value="00297" />
@@ -746,7 +750,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456761393337</updated>
     </task>
-    <option name="localTasksCounter" value="345" />
+    <task id="LOCAL-00345" summary="GESTCOM V1.0.0">
+      <created>1456761576320</created>
+      <option name="number" value="00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1456761576320</updated>
+    </task>
+    <option name="localTasksCounter" value="346" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1208,10 +1218,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8986889">
-          <caret line="562" column="53" selection-start-line="562" selection-start-column="53" selection-end-line="562" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.14302741">
+          <caret line="31" column="125" selection-start-line="31" selection-start-column="125" selection-end-line="31" selection-end-column="125" />
           <folding>
-            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+            <marker date="1456762700431" expanded="true" signature="1141:2682" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="1182:1298" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="1346:2351" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="1435:1545" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="1643:1935" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="2376:2563" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="2596:2606" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="2607:2675" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="2703:3187" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="2731:3180" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="2775:2946" placeholder="..." />
+            <marker date="1456762700431" expanded="true" signature="2991:3169" placeholder="..." />
           </folding>
         </state>
       </provider>
