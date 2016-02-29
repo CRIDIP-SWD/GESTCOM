@@ -1,6 +1,4 @@
-<script src="<?= $constante->getUrl(array('plugins/')); ?>jquery/jquery-1.11.1.min.js"></script>
-<script src="<?= $constante->getUrl(array('plugins/')); ?>jquery/jquery-migrate-1.2.1.min.js"></script>
-<script src="<?= $constante->getUrl(array('plugins/')); ?>jquery-ui/jquery-ui-1.11.2.min.js"></script>
+
 <script src="<?= $constante->getUrl(array('plugins/')); ?>gsap/main-gsap.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap/js/bootstrap.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>jquery-cookies/jquery.cookies.min.js"></script> <!-- Jquery Cookies, for theme -->
@@ -17,10 +15,6 @@
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-progressbar/bootstrap-progressbar.min.js"></script> <!-- Animated Progress Bar -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-chartjs/Chart.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>toastr/toastr.js"></script>
-<script src="<?= $constante->getUrl(array('plugins/')); ?>custom/user_charge.js"></script>
-<script src="<?= $constante->getUrl(array('plugins/')); ?>custom/user_count.js"></script>
-<script src="<?= $constante->getUrl(array('plugins/')); ?>custom/user_time.js"></script>
-<script src="<?= $constante->getUrl(array('plugins/')); ?>custom/user.js"></script>
 <script src="<?= $constante->getUrl(array('js/')); ?>builder.js"></script> <!-- Theme Builder -->
 <script src="<?= $constante->getUrl(array('js/')); ?>sidebar_hover.js"></script> <!-- Sidebar on Hover -->
 <script src="<?= $constante->getUrl(array('js/')); ?>widgets/notes.js"></script> <!-- Notes Widget -->
@@ -28,4 +22,3 @@
 <script src="<?= $constante->getUrl(array('js/')); ?>pages/search.js"></script> <!-- Search Script -->
 <script src="<?= $constante->getUrl(array('js/')); ?>plugins.js"></script> <!-- Main Plugin Initialization Script -->
 <script src="<?= $constante->getUrl(array('js/')); ?>application.js"></script> <!-- Main Application Script -->
-<script src="<?= $constante->getUrl(array('js/')); ?>custom.js"></script>

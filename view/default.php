@@ -19,6 +19,11 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
     <link href="<?= $constante->getUrl(array('css/')); ?>theme.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('css/')); ?>ui.css" rel="stylesheet">
     <script src="<?= $constante->getUrl(array('plugins', 'modernizr/')); ?>modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- SCRIPT JS -->
+    <script src="<?= $constante->getUrl(array('plugins/')); ?>jquery/jquery-1.11.1.min.js"></script>
+    <script src="<?= $constante->getUrl(array('plugins/')); ?>jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="<?= $constante->getUrl(array('plugins/')); ?>jquery-ui/jquery-ui-1.11.2.min.js"></script>
 </head>
 <!-- LAYOUT: Apply "submenu-hover" class to body element to have sidebar submenu show on mouse hover -->
 <!-- LAYOUT: Apply "sidebar-collapsed" class to body element to have collapsed sidebar -->
