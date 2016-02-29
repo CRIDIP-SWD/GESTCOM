@@ -64,7 +64,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label class="control-label" for="num_tel_poste">Votre Numéro de Poste</label>
-                                        <input id="num_tel_poste" data-mask="+0033 9 99 99 99 99" type="text" name="num_tel_poste" class="form-control" value="<?= $user->num_tel_poste; ?>">
+                                        <input id="num_tel_poste" data-mask="+0033999999999" type="text" name="num_tel_poste" class="form-control" value="<?= $user->num_tel_poste; ?>">
                                     </div>
                                     <div class="form-actions">
                                         <button type="submit" class="btn btn-success btn-embossed" name="action" value="edit-profil"><i class="fa fa-check"></i> Valider</button>

@@ -6,7 +6,7 @@
  * Time: 19:17
  */
 
-namespace App;
+namespace App\general;
 
 
 class ErrorContext

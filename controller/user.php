@@ -117,3 +117,38 @@ if(isset($_GET['action']) && $_GET['action'] == 'logout')
         $fonction->redirect("error", "", "", "code", "USR2", "");
     }
 }
+
+if(isset($_POST['action']) && $_POST['action'] == 'edit-profil')
+{
+    session_start();
+    require "../application/classe.php";
+    $iduser = $user->iduser;
+    $nom_user = $_POST['nom_user'];
+    $prenom_user = $_POST['prenom_user'];
+    $poste_user = $_POST['poste_user'];
+    $date_naissance = $date_format->format_strt($_POST['date_naissance']);
+    $num_tel_poste = $_POST['num_tel_poste'];
+
+    $user_u = $DB->execute("UPDATE users SET nom_user = :nom_user, prenom_user = :prenom_user, poste_user = :poste_user, date_naissance = :date_naissance, num_tel_poste = :num_tel_poste WHERE iduser = :iduser", array(
+        "nom_user"      => $nom_user,
+        "prenom_user"   => $prenom_user,
+        "poste_user"    => $poste_user,
+        "date_naissance"=> $date_naissance,
+        "num_tel_poste" => $num_tel_poste,
+        "iduser"        => $iduser
+    ));
+
+    if($user_u == 1){
+        $text = "L'utilisateur <strong>".$nom_user." ".$prenom_user."</strong> à été modifier avec succès";
+        $addNotif = $db->execute("INSERT INTO notif(idnotif, iduser, type, notification, date_notification, vu) VALUES (NULL , :iduser, :type, :notification, :date_notification, :vu)", array(
+            "iduser"                => $iduser,
+            "type"                  => 2,
+            "notification"          => $user->prenom_user." à modifier le profil de <strong>".$nom_user." ".$prenom_user."</strong>.",
+            "date_notification"     => $date_format->format_strt(date("d-m-Y H:i:s")),
+            "vu"                    => 0
+        ));
+        $fonction->redirect("profil", "", "", "success", "edit-profil", $text);
+    }else{
+        $fonction->redirect("error", "", "", "code", "USR3", "");
+    }
+}

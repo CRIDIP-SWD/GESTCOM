@@ -1,12 +1,11 @@
 <?php
-use App\app;
-use App\constante;
-use App\date_format;
-use App\DB;
-use App\ErrorContext;
-use App\fonction;
+use App\general\constante;
+use App\general\date;
+use App\general\db;
+use App\general\ErrorContext;
+use App\general\fonction;
+use App\general\ssh;
 use App\general\users;
-use App\ssh2;
 
 
 require dirname(__DIR__)."/application/autoloader.php";
@@ -17,12 +16,11 @@ require dirname(__DIR__)."/application/autoloader.php";
 
 
 //NAMESPACE APP
-$app = new app();
 $constante = new constante();
-$date_format = new date_format();
+$date_format = new date();
 $fonction = new fonction();
-$DB = new DB();
-$ssh2 = new ssh2();
+$DB = new db();
+$ssh2 = new ssh();
 $errorContext = new ErrorContext();
 
 /*
