@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/noctus/decrypt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/noctus/encrypt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/pages/lockscreen.js" afterPath="$PROJECT_DIR$/assets/js/pages/lockscreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/user.ajax.php" afterPath="$PROJECT_DIR$/controller/user.ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/user.php" afterPath="$PROJECT_DIR$/controller/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/lockscreen.php" afterPath="$PROJECT_DIR$/view/lockscreen.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/test.php" afterPath="$PROJECT_DIR$/view/test.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,8 +120,8 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08104887">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.020262217">
+              <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -428,12 +421,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00257" summary="GESTCOM V1.0.0">
-      <created>1456542538589</created>
-      <option name="number" value="00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1456542538589</updated>
-    </task>
     <task id="LOCAL-00258" summary="GESTCOM V1.0.0">
       <created>1456542560775</created>
       <option name="number" value="00258" />
@@ -722,7 +709,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456741476816</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="GESTCOM V1.0.0">
+      <created>1456753697074</created>
+      <option name="number" value="00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1456753697074</updated>
+    </task>
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1165,8 +1158,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08104887">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.020262217">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
           <folding />
         </state>
       </provider>
