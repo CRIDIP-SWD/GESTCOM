@@ -70,6 +70,14 @@ $(function() {
         type: "GET",
         success: function(data)
         {
+            var nouritture = data['nouritture'];
+            var boisson = data['boisson'];
+            var sommeil = data['sommeil'];
+            var designing = data['designing'];
+            var codeur = data['codeur'];
+            var velo = data['velo'];
+            var course = data['course'];
+
             var radarChartData = {
                 labels: ["Nourriture", "Boisson", "Sommeil", "Design", "Codeur", "Vélo", "Course"],
                 datasets: [
@@ -81,7 +89,7 @@ $(function() {
                         pointStrokeColor: "#fff",
                         pointHighlightFill: "#fff",
                         pointHighlightStroke: "rgba(151,187,205,1)",
-                        data: [data]
+                        data: [nouritture, boisson, sommeil, designing, codeur, velo, course]
                     }
                 ]
             };
