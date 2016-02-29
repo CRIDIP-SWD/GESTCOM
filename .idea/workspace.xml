@@ -94,13 +94,13 @@
       <file leaf-file-name="user.ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7568534">
+            <state vertical-scroll-proportion="0.77711564">
               <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
               <folding>
-                <marker date="1456741448435" expanded="true" signature="417:479" placeholder="UPDATE users... " />
-                <marker date="1456741448435" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
-                <marker date="1456741448435" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
-                <marker date="1456741448435" expanded="true" signature="1679:1762" placeholder="SELECT COUNT... users" />
+                <marker date="1456741473655" expanded="true" signature="417:479" placeholder="UPDATE users... " />
+                <marker date="1456741473655" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
+                <marker date="1456741473655" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
+                <marker date="1456741473655" expanded="true" signature="1679:1762" placeholder="SELECT COUNT... users" />
               </folding>
             </state>
           </provider>
@@ -369,12 +369,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00255" summary="GESTCOM V1.0.0">
-      <created>1456542404352</created>
-      <option name="number" value="00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1456542404352</updated>
     </task>
     <task id="LOCAL-00256" summary="GESTCOM V1.0.0">
       <created>1456542485104</created>
@@ -664,7 +658,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456741361488</updated>
     </task>
-    <option name="localTasksCounter" value="304" />
+    <task id="LOCAL-00304" summary="GESTCOM V1.0.0">
+      <created>1456741452167</created>
+      <option name="number" value="00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1456741452167</updated>
+    </task>
+    <option name="localTasksCounter" value="305" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1082,13 +1082,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7568534">
+        <state vertical-scroll-proportion="0.77711564">
           <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
           <folding>
-            <marker date="1456741448435" expanded="true" signature="417:479" placeholder="UPDATE users... " />
-            <marker date="1456741448435" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
-            <marker date="1456741448435" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
-            <marker date="1456741448435" expanded="true" signature="1679:1762" placeholder="SELECT COUNT... users" />
+            <marker date="1456741473655" expanded="true" signature="417:479" placeholder="UPDATE users... " />
+            <marker date="1456741473655" expanded="true" signature="848:933" placeholder="SELECT COUNT... collab_inbox" />
+            <marker date="1456741473655" expanded="true" signature="1228:1294" placeholder="SELECT COUNT... notif" />
+            <marker date="1456741473655" expanded="true" signature="1679:1762" placeholder="SELECT COUNT... users" />
           </folding>
         </state>
       </provider>

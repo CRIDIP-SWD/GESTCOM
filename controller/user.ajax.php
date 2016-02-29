@@ -50,8 +50,6 @@ if(is_ajax()){
             "sha_pass"      => $sha_pass
         ));
         var_dump($user_qu);
-
-        echo json_encode($user_qu);
     }
 }
 ?>
