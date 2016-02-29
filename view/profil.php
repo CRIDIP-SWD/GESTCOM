@@ -42,7 +42,7 @@
 
                             </div>
                             <div class="tab-pane fade" id="info">
-                                <form class="form-validation" action="controller/user.php" method="post" role="form">
+                                <form id="edit-profil" action="controller/user.php" method="post" role="form">
                                     <div class="form-group">
                                         <label class="control-label" for="nom_user">Votre nom</label>
                                         <input id="nom_user" type="text" name="nom_user" class="form-control" value="<?= $user->nom_user; ?>" required>

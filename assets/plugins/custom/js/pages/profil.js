@@ -3,4 +3,10 @@
  */
 $(document).ready(function(){
     $('.page-content').addClass("page-app page-profil");
+    $('#edit-profil').validate({
+        rules:{
+            nom_user: "required",
+            prenom_user: "required"
+        }
+    });
 })(jQuery);
