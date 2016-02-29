@@ -16,7 +16,7 @@ function ajax(){
              $('#count_mail').remove();
              $('#count_mail_title').replaceWith('<p class="pull-left" id="count_mail_title">Aucun nouveau mail</p>');
              }*/
-            if(check_message().data != data){
+            if(count_message() != data){
                 if(data >= 1){
                     $('#count_mail').replaceWith('<span id="count_mail" class="badge badge-primary badge-header">'+data+'</span>');
                     $('#count_mail_title').replaceWith('<p class="pull-left" id="count_mail_title">Vous avez '+data+' messages non lu</p>');
@@ -47,7 +47,7 @@ function ajax(){
                 $('#count_notif_title').replaceWith('<p class="pull-left" id="count_notif_title">'+data+' Notification en attente</p>');
 
             }*/
-            if(check_notif().data != data){
+            if(count_notif() != data){
                 if(data >= 1){
                     $('#count_notif').replaceWith('<span id="count_notif" class="badge badge-danger badge-header">'+data+'</span>');
                     $('#count_notif_title').replaceWith('<p class="pull-left" id="count_notif_title">'+data+' Notification en attente</p>');
