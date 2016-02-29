@@ -28,7 +28,7 @@
     </div>
     <div class="profil-content">
         <div class="row">
-            <div class="col-md-6 portlets">
+            <div class="col-md-12 portlets">
                 <div class="panel">
                     <div class="panel-header panel-controls">
                         <h3>Colored  <strong>version</strong></h3>
