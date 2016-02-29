@@ -64,11 +64,36 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10131109">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.5303933">
+              <caret line="356" column="87" selection-start-line="356" selection-start-column="87" selection-end-line="356" selection-end-column="87" />
               <folding>
-                <marker date="1456756632662" expanded="true" signature="21065:21118" placeholder="SELECT * FRO... notif" />
+                <marker date="1456757267463" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
+                <marker date="1456757267463" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1456757267463" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="54.923077">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <element signature="e#352#1931#0#PHP" expanded="false" />
+                <element signature="e#6003#7527#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classe.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/classe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -240,65 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,12 +329,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00272" summary="GESTCOM V1.0.0">
-      <created>1456593512584</created>
-      <option name="number" value="00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1456593512584</updated>
     </task>
     <task id="LOCAL-00273" summary="GESTCOM V1.0.0">
       <created>1456593634650</created>
@@ -657,7 +618,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456756575262</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="GESTCOM V1.0.0">
+      <created>1456756638137</created>
+      <option name="number" value="00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1456756638137</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -704,7 +671,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -738,7 +705,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1114" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="1116" selection-end-column="7" />
           <folding>
-            <marker date="1456756632662" expanded="true" signature="21065:21118" placeholder="SELECT * FRO... notif" />
+            <marker date="1456757267463" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
+            <marker date="1456757267463" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1456757267463" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>
@@ -1020,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/classe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5268176">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/lockscreen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93921334">
@@ -1041,19 +1002,6 @@
         <state vertical-scroll-proportion="0.7973778">
           <caret line="81" column="10" selection-start-line="56" selection-start-column="0" selection-end-line="81" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17997617">
-          <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-          <folding>
-            <element signature="e#102#115#0#PHP" expanded="false" />
-            <element signature="e#352#1931#0#PHP" expanded="false" />
-            <element signature="e#1933#8016#0#PHP" expanded="false" />
-            <element signature="e#6003#7527#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,12 +1058,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/classe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="54.923077">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#352#1931#0#PHP" expanded="false" />
+            <element signature="e#6003#7527#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10131109">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.5303933">
+          <caret line="356" column="87" selection-start-line="356" selection-start-column="87" selection-end-line="356" selection-end-column="87" />
           <folding>
-            <marker date="1456756632662" expanded="true" signature="21065:21118" placeholder="SELECT * FRO... notif" />
+            <marker date="1456757267463" expanded="true" signature="21068:21121" placeholder="SELECT * FRO... notif" />
+            <marker date="1456757267463" expanded="true" signature="23790:23816" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1456757267463" expanded="true" signature="23790:23912" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>

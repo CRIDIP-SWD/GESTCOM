@@ -289,11 +289,11 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     <li class="dropdown" id="notifications-header">
                         <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                             <i class="icon-bell"></i>
-                            <span id="count_notif" class="badge badge-danger badge-header">6</span>
+                            <span id="count_notif" class="badge badge-danger badge-header"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-header clearfix">
-                                <p class="pull-left" id="count_notif_title">12 Pending Notifications</p>
+                                <p class="pull-left" id="count_notif_title">Aucune nouvelle notification</p>
                             </li>
                             <li>
                                 <ul class="dropdown-menu-list withScroll" data-height="220">
@@ -321,9 +321,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                             </li>
                             <li class="dropdown-footer clearfix">
                                 <a href="index.php?view=notification" class="pull-left">Voir toutes les notifications</a>
-                                <a href="#" class="pull-right">
-                                    <i class="icon-settings"></i>
-                                </a>
                             </li>
                         </ul>
                     </li>
@@ -332,81 +329,39 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     <li class="dropdown" id="messages-header">
                         <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                             <i class="icon-paper-plane"></i>
-                <span class="badge badge-primary badge-header">
-                8
-                </span>
+                            <span id="count_mail" class="badge badge-primary badge-header"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-header clearfix">
-                                <p class="pull-left">
-                                    You have 8 Messages
+                                <p class="pull-left" id="count_mail_title">
+                                    Aucun nouveau mail
                                 </p>
                             </li>
                             <li class="dropdown-body">
                                 <ul class="dropdown-menu-list withScroll" data-height="220">
+                                    <?php
+                                    $sql_mail = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :destinataire AND lu = 0", array("destinataire" => $user->iduser));
+                                    foreach($sql_mail as $mail):
+                                    ?>
                                     <li class="clearfix">
-                        <span class="pull-left p-r-5">
-                        <img src="assets/images/avatars/avatar3.png" alt="avatar 3">
-                        </span>
+                                        <span class="pull-left p-r-5">
+                                        <img src="assets/images/avatars/avatar3.png" alt="avatar 3">
+                                        </span>
                                         <div class="clearfix">
                                             <div>
-                                                <strong>Alexa Johnson</strong>
+                                                <strong><?= $mail->prenom_user; ?> <?= $mail->nom_user; ?></strong>
                                                 <small class="pull-right text-muted">
-                                                    <span class="glyphicon glyphicon-time p-r-5"></span>12 mins ago
+                                                    <span class="glyphicon glyphicon-time p-r-5"></span><?= $date_format->format(date("d-m-Y H:i:s", $mail->date_message)); ?>
                                                 </small>
                                             </div>
-                                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                            <p><?= html_entity_decode($mail->sujet); ?></p>
                                         </div>
                                     </li>
-                                    <li class="clearfix">
-                        <span class="pull-left p-r-5">
-                        <img src="assets/images/avatars/avatar4.png" alt="avatar 4">
-                        </span>
-                                        <div class="clearfix">
-                                            <div>
-                                                <strong>John Smith</strong>
-                                                <small class="pull-right text-muted">
-                                                    <span class="glyphicon glyphicon-time p-r-5"></span>47 mins ago
-                                                </small>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                        </div>
-                                    </li>
-                                    <li class="clearfix">
-                        <span class="pull-left p-r-5">
-                        <img src="assets/images/avatars/avatar5.png" alt="avatar 5">
-                        </span>
-                                        <div class="clearfix">
-                                            <div>
-                                                <strong>Bobby Brown</strong>
-                                                <small class="pull-right text-muted">
-                                                    <span class="glyphicon glyphicon-time p-r-5"></span>1 hour ago
-                                                </small>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                        </div>
-                                    </li>
-                                    <li class="clearfix">
-                        <span class="pull-left p-r-5">
-                        <img src="assets/images/avatars/avatar6.png" alt="avatar 6">
-                        </span>
-                                        <div class="clearfix">
-                                            <div>
-                                                <strong>James Miller</strong>
-                                                <small class="pull-right text-muted">
-                                                    <span class="glyphicon glyphicon-time p-r-5"></span>2 days ago
-                                                </small>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                        </div>
-                                    </li>
+                                    <?php endif; ?>
                                 </ul>
                             </li>
                             <li class="dropdown-footer clearfix">
-                                <a href="mailbox.html" class="pull-left">See all messages</a>
-                                <a href="#" class="pull-right">
-                                    <i class="icon-settings"></i>
-                                </a>
+                                <a href="index.php?view=mailbox" class="pull-left">Voir tous vos messages</a>
                             </li>
                         </ul>
                     </li>
