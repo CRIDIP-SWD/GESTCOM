@@ -11,7 +11,15 @@
             </div>
             <div class="row header-name">
                 <div class="col-xs-12">
-                    <div class="name"><?= $user->nom_user; ?> <?= $user->prenom_user; ?> <i class="fa fa-check-circle"></i></div>
+                    <div class="name"><?= $user->nom_user; ?> <?= $user->prenom_user; ?>
+                        <?php if($user->connect == 0): ?>
+                            <i class="fa fa-circle text-danger"></i>
+                        <?php elseif($user->connect == 1): ?>
+                            <i class="fa fa-circle text-warning"></i>
+                        <?php else: ?>
+                            <i class="fa fa-circle text-success"></i>
+                        <?php endif; ?>
+                    </div>
                     <div class="profil-info"><i class="icon-present"></i><?= $date_format->formatage_long($user->date_naissance); ?></div>
                     <div class="profil-info"><i class="icon-call-end"></i><?= $user->num_tel_poste; ?></div>
                 </div>
