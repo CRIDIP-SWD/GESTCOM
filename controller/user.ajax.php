@@ -49,6 +49,7 @@ if(is_ajax()){
             "username"      => $username,
             "sha_pass"      => $sha_pass
         ));
+        var_dump($user_qu);
 
         echo json_encode($user_qu);
     }
