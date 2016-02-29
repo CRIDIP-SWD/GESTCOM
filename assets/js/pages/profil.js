@@ -70,7 +70,7 @@ $(function() {
         type: "GET",
         success: function(data)
         {
-            alert(data);
+            alert(data['nouritture']);
             /*var radarChartData = {
                 labels: ["Nourriture", "Boisson", "Sommeil", "Design", "Codeur", "Vélo", "Course"],
                 datasets: [
