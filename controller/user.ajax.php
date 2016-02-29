@@ -50,11 +50,7 @@ if(is_ajax()){
             "sha_pass"      => $sha_pass
         ));
 
-        if($user_qu == 1){
-            echo json_encode($user_qu);
-        }else{
-            echo json_encode($user_qu);
-        }
+        echo json_encode($user_qu);
     }
 }
 ?>
