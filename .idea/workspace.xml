@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/user_time.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/user_time.js" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -113,8 +112,8 @@
       <file leaf-file-name="user_time.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_time.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.449711">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.45202312">
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding>
                 <element signature="n#!!doc;n#ajax#0" expanded="false" />
               </folding>
@@ -385,12 +384,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00279" summary="GESTCOM V1.0.0">
-      <created>1456595555823</created>
-      <option name="number" value="00279" />
-      <option name="project" value="LOCAL" />
-      <updated>1456595555823</updated>
     </task>
     <task id="LOCAL-00280" summary="GESTCOM V1.0.0">
       <created>1456595667003</created>
@@ -680,7 +673,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456758225808</updated>
     </task>
-    <option name="localTasksCounter" value="328" />
+    <task id="LOCAL-00328" summary="GESTCOM V1.0.0">
+      <created>1456758701033</created>
+      <option name="number" value="00328" />
+      <option name="project" value="LOCAL" />
+      <updated>1456758701033</updated>
+    </task>
+    <option name="localTasksCounter" value="329" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1137,8 +1136,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_time.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.449711">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.45202312">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="n#!!doc;n#ajax#0" expanded="false" />
           </folding>
