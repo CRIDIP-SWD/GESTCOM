@@ -58,7 +58,7 @@
                                     <div class="form-group">
                                         <label class="form-label">Votre date de naissance</label>
                                         <div class="prepend-icon">
-                                            <input type="text" name="date_naissance" class="b-datepicker form-control" placeholder="Select a date...">
+                                            <input type="text" name="date_naissance" class="b-datepicker form-control" value="<?= $date_format->formatage("d-m-Y", $user->date_naissance); ?>">
                                             <i class="icon-calendar"></i>
                                         </div>
                                     </div>

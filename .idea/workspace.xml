@@ -74,18 +74,18 @@
       <file leaf-file-name="profil.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7271605">
-              <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
+            <state vertical-scroll-proportion="0.5382716">
+              <caret line="60" column="189" selection-start-line="60" selection-start-column="189" selection-end-line="60" selection-end-column="189" />
               <folding>
-                <marker date="1456767845697" expanded="true" signature="5370:6162" placeholder="..." />
-                <marker date="1456767845697" expanded="true" signature="5411:5527" placeholder="..." />
-                <marker date="1456767845697" expanded="true" signature="5575:6043" placeholder="..." />
-                <marker date="1456767845697" expanded="true" signature="6076:6086" placeholder="..." />
-                <marker date="1456767845697" expanded="true" signature="6087:6155" placeholder="..." />
-                <marker date="1456767845697" expanded="true" signature="6183:6667" placeholder="..." />
-                <marker date="1456767845697" expanded="true" signature="6211:6660" placeholder="..." />
-                <marker date="1456767845697" expanded="true" signature="6255:6426" placeholder="..." />
-                <marker date="1456767845697" expanded="true" signature="6471:6649" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="5411:6203" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="5452:5568" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="5616:6084" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="6117:6127" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="6128:6196" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="6224:6708" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="6252:6701" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="6296:6467" placeholder="..." />
+                <marker date="1456767975130" expanded="true" signature="6512:6690" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -445,12 +445,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00327" summary="GESTCOM V1.0.0">
-      <created>1456758225808</created>
-      <option name="number" value="00327" />
-      <option name="project" value="LOCAL" />
-      <updated>1456758225808</updated>
-    </task>
     <task id="LOCAL-00328" summary="GESTCOM V1.0.0">
       <created>1456758701033</created>
       <option name="number" value="00328" />
@@ -739,7 +733,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456767822704</updated>
     </task>
-    <option name="localTasksCounter" value="376" />
+    <task id="LOCAL-00376" summary="GESTCOM V1.0.0">
+      <created>1456767850315</created>
+      <option name="number" value="00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1456767850315</updated>
+    </task>
+    <option name="localTasksCounter" value="377" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1219,18 +1219,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7271605">
-          <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.5382716">
+          <caret line="60" column="189" selection-start-line="60" selection-start-column="189" selection-end-line="60" selection-end-column="189" />
           <folding>
-            <marker date="1456767845697" expanded="true" signature="5370:6162" placeholder="..." />
-            <marker date="1456767845697" expanded="true" signature="5411:5527" placeholder="..." />
-            <marker date="1456767845697" expanded="true" signature="5575:6043" placeholder="..." />
-            <marker date="1456767845697" expanded="true" signature="6076:6086" placeholder="..." />
-            <marker date="1456767845697" expanded="true" signature="6087:6155" placeholder="..." />
-            <marker date="1456767845697" expanded="true" signature="6183:6667" placeholder="..." />
-            <marker date="1456767845697" expanded="true" signature="6211:6660" placeholder="..." />
-            <marker date="1456767845697" expanded="true" signature="6255:6426" placeholder="..." />
-            <marker date="1456767845697" expanded="true" signature="6471:6649" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="5411:6203" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="5452:5568" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="5616:6084" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="6117:6127" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="6128:6196" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="6224:6708" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="6252:6701" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="6296:6467" placeholder="..." />
+            <marker date="1456767975130" expanded="true" signature="6512:6690" placeholder="..." />
           </folding>
         </state>
       </provider>
