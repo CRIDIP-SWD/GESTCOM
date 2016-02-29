@@ -54,5 +54,34 @@
 <script src="assets/plugins/bootstrap-loading/lada.min.js"></script>
 <script src="assets/plugins/progressbar/progressbar.min.js"></script>
 <script src="assets/js/pages/lockscreen.js"></script>
+<!-- BEGIN PAGE SCRIPT -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>toastr/toastr.js"></script>
+<!-- END PAGE SCRIPT -->
+<?php if(isset($_GET['warning']) && $_GET['warning'] == $_GET['warning']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.warning("<?= $_GET['text']; ?>", "ATTENTION", {
+                positionClass: "toast-top-full-width",
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 50000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
+<?php if(isset($_GET['error']) && $_GET['error'] == $_GET['error']){ ?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            toastr.error("<?= $_GET['text']; ?>", "ERREUR", {
+                positionClass: "toast-top-full-width",
+                showDuration: 1000,
+                hideDuration: 1000,
+                timeOut: 50000,
+                closeButton: true
+            });
+        });
+    </script>
+<?php } ?>
 </body>
 </html>
