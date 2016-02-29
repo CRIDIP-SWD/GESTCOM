@@ -81,7 +81,7 @@ $(function() {
                         pointStrokeColor: "#fff",
                         pointHighlightFill: "#fff",
                         pointHighlightStroke: "rgba(151,187,205,1)",
-                        data: [data['nourriture'], data['boisson'], data['sommeil'], data['designing'], data['codeur'], data['velo'], data['course']]
+                        data: [data]
                     }
                 ]
             };
