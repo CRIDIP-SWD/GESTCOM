@@ -32,13 +32,16 @@
                 <div class="panel">
                     <div class="panel-content">
                         <ul class="nav nav-tabs nav-primary">
-                            <li class="active"><a href="#timeline" data-toggle="tab"><i class="fa fa-clock-o"></i> Ma TimeLine</a></li>
+                            <li class="active"><a href="#mytimeline" data-toggle="tab"><i class="fa fa-clock-o"></i> Ma TimeLine</a></li>
                             <li><a href="#info" data-toggle="tab"><i class="fa fa-user"></i> Changer mes informations</a></li>
                             <li><a href="#password" data-toggle="tab"><i class="fa fa-key"></i> Changer mon mot de passe</a></li>
                             <li><a href="#plugins" data-toggle="tab"><i class="fa fa-cogs"></i> Plugins</a></li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane fade active in" id="timeline">
+                            <div class="tab-pane fade active in" id="mytimeline">
+
+                            </div>
+                            <div class="tab-pane fade" id="info">
                                 <form class="form-validation" action="controller/user.php" method="post" role="form">
                                     <div class="form-group">
                                         <label class="control-label" for="nom_user">Votre nom</label>
@@ -49,9 +52,6 @@
                                         <input id="prenom_user" type="text" name="prenom_user" class="form-control" value="<?= $user->prenom_user; ?>" required>
                                     </div>
                                 </form>
-                            </div>
-                            <div class="tab-pane fade" id="info">
-
                             </div>
                             <div class="tab-pane fade" id="password">
 
