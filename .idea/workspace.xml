@@ -65,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/pages/lockscreen.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6473988">
-              <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -327,12 +327,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00253" summary="GESTCOM V1.0.0">
-      <created>1456541762825</created>
-      <option name="number" value="00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1456541762825</updated>
     </task>
     <task id="LOCAL-00254" summary="GESTCOM V1.0.0">
       <created>1456541893188</created>
@@ -622,7 +616,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456741235159</updated>
     </task>
-    <option name="localTasksCounter" value="302" />
+    <task id="LOCAL-00302" summary="GESTCOM V1.0.0">
+      <created>1456741287567</created>
+      <option name="number" value="00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1456741287567</updated>
+    </task>
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1045,7 +1045,7 @@
     <entry file="file://$PROJECT_DIR$/assets/js/pages/lockscreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6473988">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding />
         </state>
       </provider>
