@@ -26,7 +26,7 @@
                     <div id="loader"></div>
                     <div id="probleme" style="position: relative; left: 150px;"></div>
                 </div>
-                <form class="form-signin" action="controller/user.ajax.php" role="form" method="post">
+                <form class="form-signin" action="controller/user.php" role="form" method="post">
                     <h2>Vous êtes de retour, <strong><?= $_SESSION['account']['away']['prenom_user']; ?></strong> ?</h2>
                     <p>Entrez votre Mot de Passe afin d'accedez au interface.</p>
                     <input type="hidden" name="username" value="<?= $_SESSION['account']['away']['username']; ?>">

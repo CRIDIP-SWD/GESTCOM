@@ -59,3 +59,10 @@ if(isset($_GET['action']) && $_GET['action'] == 'lock')
 
 
 }
+if(isset($_POST['action']) && $_POST['action'] == 'deverrouille')
+{
+    session_start();
+    require "../application/classe.php";
+    $username = $_POST['username'];
+
+}

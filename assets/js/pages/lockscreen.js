@@ -37,38 +37,7 @@ $(function() {
         }, 2000);
     });*/
 
-    $('.form-signin').on('submit', function(e){
-        e.preventDefault();
-        var form = $(this);
-        var url = form.attr("action");
-        data = form.serializeArray();
-        form.find('button').html("Chargement...");
 
-        $.ajax({
-            url: url,
-            type: "POST",
-            data: data,
-            dataType: "json",
-            success: function(jqxhr){
-                console.log(jqxhr);
-                /*if(data == 1){
-                    circle.animate(1);
-                    setTimeout(function(){
-                        $('.loader-overlay').removeClass('loaded').fadeIn(150);
-                        setTimeout(function(){
-                            window.location = "index.php?view=dashboard";
-                        }, 1000)
-                    }, 2000)
-                }else{
-                    $('#probleme').replaceWith('<i class="fa fa-warning fa-5x text-warning"></i>');
-                }*/
-            },
-            error: function(jqxhr){
-                console.log(jqxhr.responseText);
-            }
-        })
-
-    })
 });
 
 
