@@ -81,8 +81,8 @@
       <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15971394">
-              <caret line="337" column="9" selection-start-line="337" selection-start-column="9" selection-end-line="337" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.17997617">
+              <caret line="328" column="8" selection-start-line="328" selection-start-column="8" selection-end-line="328" selection-end-column="8" />
               <folding>
                 <element signature="e#102#115#0#PHP" expanded="true" />
                 <element signature="e#352#1931#0#PHP" expanded="false" />
@@ -324,12 +324,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00266" summary="GESTCOM V1.0.0">
-      <created>1456588205967</created>
-      <option name="number" value="00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1456588205967</updated>
     </task>
     <task id="LOCAL-00267" summary="GESTCOM V1.0.0">
       <created>1456592057166</created>
@@ -619,7 +613,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456755276000</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="GESTCOM V1.0.0">
+      <created>1456755937091</created>
+      <option name="number" value="00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1456755937091</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1054,8 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15971394">
-          <caret line="337" column="9" selection-start-line="337" selection-start-column="9" selection-end-line="337" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.17997617">
+          <caret line="328" column="8" selection-start-line="328" selection-start-column="8" selection-end-line="328" selection-end-column="8" />
           <folding>
             <element signature="e#102#115#0#PHP" expanded="true" />
             <element signature="e#352#1931#0#PHP" expanded="false" />

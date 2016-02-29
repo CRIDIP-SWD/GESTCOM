@@ -327,31 +327,6 @@ class fonction extends app
     public function redirect($view = null, $sub = null, $data = null, $type = null, $service = null, $text = null){
         $constante = new constante();
 
-        /*if(empty($view)){
-            header("Location: ".$constante->getUrl(array(), false)."index.php");
-        }
-        if(!empty($view)){
-            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view);
-        }
-        if(empty($sub)){
-            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view);
-        }
-        if(!empty($sub)){
-            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub);
-        }
-        if(empty($data)){
-            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub);
-        }
-        if(!empty($data)){
-            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub."&data=".$data);
-        }
-        if(empty($type)){
-            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub."&data=".$data);
-        }
-        if(!empty($type)){
-            header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub."&data=".$data."&".$type."=".$service."&text=".$text);
-        }*/
-
         if(!empty($view)){$redirect = "?view=".$view;}
         if(!empty($sub)){$redirect = "&sub=".$sub;}
         if(!empty($data)){$redirect = "&data=".$data;}
