@@ -8,5 +8,5 @@ $(document).ready(function(){
     check_notif();
     setInterval(function(){
         ajax()
-    }, 30000);
+    }, 300000);
 })(jQuery);
