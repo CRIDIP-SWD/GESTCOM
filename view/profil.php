@@ -56,11 +56,15 @@
                                         <input id="poste_user" type="text" name="poste_user" class="form-control" value="<?= $user->poste_user; ?>">
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">Basic Example</label>
+                                        <label class="form-label">Votre date de naissance</label>
                                         <div class="prepend-icon">
                                             <input type="text" name="date_naissance" class="b-datepicker form-control" placeholder="Select a date...">
                                             <i class="icon-calendar"></i>
                                         </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label" for="num_tel_poste">Votre Numéro de Poste</label>
+                                        <input id="num_tel_poste" data-mask="+0033 9 99 99 99 99" type="text" name="num_tel_poste" class="form-control" value="<?= $user->num_tel_poste; ?>" required>
                                     </div>
                                 </form>
                             </div>
@@ -130,4 +134,6 @@
 <script src="assets/plugins/colorpicker/spectrum.min.js"></script> <!-- Color Picker -->
 <script src="assets/plugins/rateit/jquery.rateit.min.js"></script> <!-- Rating star plugin -->
 <script src="assets/js/pages/form_plugins.js"></script>
+
+<script src="assets/plugins/bootstrap/js/jasny-bootstrap.min.js"></script>
 <!-- END PAGE SCRIPT -->

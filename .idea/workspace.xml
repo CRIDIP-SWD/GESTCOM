@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
+    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/profil.php" afterPath="$PROJECT_DIR$/view/profil.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,21 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profil.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profil.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.636364">
-              <caret line="128" column="64" selection-start-line="128" selection-start-column="64" selection-end-line="128" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.6641975">
+              <caret line="66" column="198" selection-start-line="66" selection-start-column="198" selection-end-line="66" selection-end-column="198" />
               <folding>
-                <marker date="1456766536675" expanded="true" signature="4663:5455" placeholder="..." />
-                <marker date="1456766536675" expanded="true" signature="4704:4820" placeholder="..." />
-                <marker date="1456766536675" expanded="true" signature="4868:5336" placeholder="..." />
-                <marker date="1456766536675" expanded="true" signature="5369:5379" placeholder="..." />
-                <marker date="1456766536675" expanded="true" signature="5380:5448" placeholder="..." />
-                <marker date="1456766536675" expanded="true" signature="5476:5960" placeholder="..." />
-                <marker date="1456766536675" expanded="true" signature="5504:5953" placeholder="..." />
-                <marker date="1456766536675" expanded="true" signature="5548:5719" placeholder="..." />
-                <marker date="1456766536675" expanded="true" signature="5764:5942" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="5095:5887" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="5136:5252" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="5300:5768" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="5801:5811" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="5812:5880" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="5908:6392" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="5936:6385" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="5980:6151" placeholder="..." />
+                <marker date="1456767352264" expanded="true" signature="6196:6374" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -99,62 +98,6 @@
               <caret line="1505" column="21" selection-start-line="1505" selection-start-column="21" selection-end-line="1505" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-datepicker.fr.min.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-datepicker.es.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-datepicker.en-GB.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profil.ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/profil.ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <marker date="1456763937558" expanded="true" signature="188:237" placeholder="SELECT * FRO... user_average" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-45.423077">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <marker date="1456765955650" expanded="true" signature="21567:21620" placeholder="SELECT * FRO... notif" />
-                <marker date="1456765955650" expanded="true" signature="24289:24315" placeholder="SELECT * FRO... collab_inbox" />
-                <marker date="1456765955650" expanded="true" signature="24289:24411" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -227,9 +170,9 @@
         <option value="$PROJECT_DIR$/assets/js/pages/profil.js" />
         <option value="$PROJECT_DIR$/assets/plugins/jquery-validation/jquery.validate.js" />
         <option value="$PROJECT_DIR$/view/default.php" />
-        <option value="$PROJECT_DIR$/view/profil.php" />
         <option value="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" />
         <option value="$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" />
+        <option value="$PROJECT_DIR$/view/profil.php" />
       </list>
     </option>
   </component>
@@ -501,12 +444,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00321" summary="GESTCOM V1.0.0">
-      <created>1456756638137</created>
-      <option name="number" value="00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1456756638137</updated>
     </task>
     <task id="LOCAL-00322" summary="GESTCOM V1.0.0">
       <created>1456757273642</created>
@@ -796,7 +733,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456767114906</updated>
     </task>
-    <option name="localTasksCounter" value="370" />
+    <task id="LOCAL-00370" summary="GESTCOM V1.0.0">
+      <created>1456767156574</created>
+      <option name="number" value="00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1456767156574</updated>
+    </task>
+    <option name="localTasksCounter" value="371" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1240,24 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/profil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.636364">
-          <caret line="128" column="64" selection-start-line="128" selection-start-column="64" selection-end-line="128" selection-end-column="64" />
-          <folding>
-            <marker date="1456766536675" expanded="true" signature="4663:5455" placeholder="..." />
-            <marker date="1456766536675" expanded="true" signature="4704:4820" placeholder="..." />
-            <marker date="1456766536675" expanded="true" signature="4868:5336" placeholder="..." />
-            <marker date="1456766536675" expanded="true" signature="5369:5379" placeholder="..." />
-            <marker date="1456766536675" expanded="true" signature="5380:5448" placeholder="..." />
-            <marker date="1456766536675" expanded="true" signature="5476:5960" placeholder="..." />
-            <marker date="1456766536675" expanded="true" signature="5504:5953" placeholder="..." />
-            <marker date="1456766536675" expanded="true" signature="5548:5719" placeholder="..." />
-            <marker date="1456766536675" expanded="true" signature="5764:5942" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1274,6 +1199,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.310345">
@@ -1284,11 +1217,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js">
+    <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.6641975">
+          <caret line="66" column="198" selection-start-line="66" selection-start-column="198" selection-end-line="66" selection-end-column="198" />
+          <folding>
+            <marker date="1456767352264" expanded="true" signature="5095:5887" placeholder="..." />
+            <marker date="1456767352264" expanded="true" signature="5136:5252" placeholder="..." />
+            <marker date="1456767352264" expanded="true" signature="5300:5768" placeholder="..." />
+            <marker date="1456767352264" expanded="true" signature="5801:5811" placeholder="..." />
+            <marker date="1456767352264" expanded="true" signature="5812:5880" placeholder="..." />
+            <marker date="1456767352264" expanded="true" signature="5908:6392" placeholder="..." />
+            <marker date="1456767352264" expanded="true" signature="5936:6385" placeholder="..." />
+            <marker date="1456767352264" expanded="true" signature="5980:6151" placeholder="..." />
+            <marker date="1456767352264" expanded="true" signature="6196:6374" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
