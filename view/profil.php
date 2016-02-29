@@ -1,12 +1,10 @@
  <div class="header">
-     <h2><strong>Blank</strong> Page</h2>
+     <h2>Votre <strong>Profil</strong></h2>
      <div class="breadcrumb-wrapper">
          <ol class="breadcrumb">
-             <li><a href="dashboard.html">Make</a>
+             <li><a href="dashboard.html"><?=\App\constante::NOM_SITE; ?></a>
              </li>
-             <li><a href="#">Pages</a>
-             </li>
-             <li class="active">Dashboard</li>
+             <li class="active">Profil de <strong><?= $user->prenom_user; ?> <?= $user->nom_user; ?></strong></li>
          </ol>
      </div>
  </div>
