@@ -20,8 +20,8 @@ $(function() {
     if ($("#profil-map").length) {
         simple_map = new GMaps({
             el: '#profil-map',
-            lat: 37.775,
-            lng: -122.41833,
+            lat: 46.49892819999999,
+            lng: -1.7844781999999668,
             zoomControl: false,
             zoomControlOpt: {
                 style: 'SMALL',
@@ -33,8 +33,8 @@ $(function() {
             overviewMapControl: false
         });
         simple_map.addMarker({
-            lat: 37.776,
-            lng: -122.41833,
+            lat: 46.49892819999999,
+            lng: -1.7844781999999668,
             title: 'Marker with InfoWindow',
             icon: 'assets/images/profil_page/marker.png'
         });
