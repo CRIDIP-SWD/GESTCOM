@@ -327,7 +327,7 @@ class fonction extends app
     public function redirect($view = null, $sub = null, $data = null, $type = null, $service = null, $text = null){
         $constante = new constante();
 
-        if(empty($view)){
+        /*if(empty($view)){
             header("Location: ".$constante->getUrl(array(), false)."index.php");
         }
         if(!empty($view)){
@@ -350,9 +350,14 @@ class fonction extends app
         }
         if(!empty($type)){
             header("Location: ".$constante->getUrl(array(), false)."index.php?view=".$view."&sub=".$sub."&data=".$data."&".$type."=".$service."&text=".$text);
-        }
+        }*/
 
+        if(!empty($view)){$redirect = "?view=".$view;}
+        if(!empty($sub)){$redirect = "&sub=".$sub;}
+        if(!empty($data)){$redirect = "&data=".$data;}
+        if(!empty($type)){$redirect = "&".$type."=".$service."&text".$text;}
 
+        header("Location: ".$constante->getUrl(array(), false).$redirect);
 
     }
 
