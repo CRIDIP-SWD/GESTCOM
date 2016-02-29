@@ -18,6 +18,7 @@
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-chartjs/Chart.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>toastr/toastr.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>custom/user_charge.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>custom/user_time.js"></script>
 <script src="<?= $constante->getUrl(array('js/')); ?>builder.js"></script> <!-- Theme Builder -->
 <script src="<?= $constante->getUrl(array('js/')); ?>sidebar_hover.js"></script> <!-- Sidebar on Hover -->
 <script src="<?= $constante->getUrl(array('js/')); ?>widgets/notes.js"></script> <!-- Notes Widget -->

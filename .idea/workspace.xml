@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/custom/user_time.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/include/footer.php" afterPath="$PROJECT_DIR$/view/include/footer.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,14 +73,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_charge.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_charge.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68786126">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-27.038462">
+              <caret line="843" column="81" selection-start-line="843" selection-start-column="81" selection-end-line="843" selection-end-column="81" />
+              <folding>
+                <marker date="1456739280154" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/include/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44576877">
+              <caret line="22" column="106" selection-start-line="22" selection-start-column="106" selection-end-line="22" selection-end-column="106" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +157,6 @@
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/buttons.css" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/chech_login.js" />
-        <option value="$PROJECT_DIR$/view/include/footer.php" />
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/assets/plugins/translate/application-fr.json" />
         <option value="dbtable:/46629d73/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.notif" />
@@ -156,6 +176,7 @@
         <option value="$PROJECT_DIR$/controller/user.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_time.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
+        <option value="$PROJECT_DIR$/view/include/footer.php" />
       </list>
     </option>
   </component>
@@ -240,6 +261,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,12 +396,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00270" summary="GESTCOM V1.0.0">
-      <created>1456592860989</created>
-      <option name="number" value="00270" />
-      <option name="project" value="LOCAL" />
-      <updated>1456592860989</updated>
     </task>
     <task id="LOCAL-00271" summary="GESTCOM V1.0.0">
       <created>1456592913245</created>
@@ -652,7 +685,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456756382640</updated>
     </task>
-    <option name="localTasksCounter" value="319" />
+    <task id="LOCAL-00319" summary="GESTCOM V1.0.0">
+      <created>1456756527157</created>
+      <option name="number" value="00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1456756527157</updated>
+    </task>
+    <option name="localTasksCounter" value="320" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,6 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,13 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/include/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36872146">
-          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/translate/application-fr.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.943397">
@@ -1066,16 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10131109">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="55" />
-          <folding>
-            <marker date="1456739280154" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6889154">
@@ -1105,11 +1128,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/user_charge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68786126">
+        <state vertical-scroll-proportion="0.0">
           <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.038462">
+          <caret line="843" column="81" selection-start-line="843" selection-start-column="81" selection-end-line="843" selection-end-column="81" />
+          <folding>
+            <marker date="1456739280154" expanded="true" signature="21097:21150" placeholder="SELECT * FRO... notif" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/include/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44576877">
+          <caret line="22" column="106" selection-start-line="22" selection-start-column="106" selection-end-line="22" selection-end-column="106" />
+          <folding />
         </state>
       </provider>
     </entry>
