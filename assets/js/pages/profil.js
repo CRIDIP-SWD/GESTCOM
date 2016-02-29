@@ -92,9 +92,13 @@ $(function() {
                     animationSteps: 60
                 });
             }, 1500);
+        },
+        error: function(jqxhr)
+        {
+            console.log(jqxhr.responseText);
         }
     });
-    var radarChartData = {
+    /*var radarChartData = {
         labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
         datasets: [
             {
@@ -115,7 +119,7 @@ $(function() {
             tooltipCornerRadius: 0,
             animationSteps: 60,
         });
-    }, 1500);
+    }, 1500);*/
     
     /* Item Map */
     var miami = new google.maps.LatLng(25.7738889, -80.1938889);
