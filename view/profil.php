@@ -119,7 +119,12 @@
 <script src="assets/plugins/jquery-validation/jquery.validate.js"></script> <!-- Form Validation -->
 <script src="assets/plugins/jquery-validation/additional-methods.min.js"></script> <!-- Form Validation Additional Methods - OPTIONAL -->
 
-<script src="assets/plugins/timepicker/jquery-ui-timepicker-addon.min.js"></script>
-<script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="assets/plugins/touchspin/jquery.bootstrap-touchspin.min.js"></script> <!-- A mobile and touch friendly input spinner component for Bootstrap -->
+<script src="assets/plugins/timepicker/jquery-ui-timepicker-addon.min.js"></script> <!-- Time Picker -->
+<script src="assets/plugins/multidatepicker/multidatespicker.min.js"></script> <!-- Multi dates Picker -->
+<script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script> <!-- >Bootstrap Date Picker -->
+<script src="assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js"></script> <!-- >Bootstrap Date Picker in Spanish (can be removed if not use) -->
+<script src="assets/plugins/colorpicker/spectrum.min.js"></script> <!-- Color Picker -->
+<script src="assets/plugins/rateit/jquery.rateit.min.js"></script> <!-- Rating star plugin -->
 <script src="assets/js/pages/form_plugins.js"></script>
 <!-- END PAGE SCRIPT -->
