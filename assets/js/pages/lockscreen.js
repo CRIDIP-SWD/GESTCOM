@@ -49,8 +49,8 @@ $(function() {
             type: "POST",
             data: data,
             dataType: "json",
-            success: function(jqxhr){
-                console.log(jqxhr.responseText);
+            success: function(data){
+                console.log(data);
                 /*if(data == 1){
                     circle.animate(1);
                     setTimeout(function(){
