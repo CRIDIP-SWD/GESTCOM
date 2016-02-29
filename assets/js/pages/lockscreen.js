@@ -49,8 +49,9 @@ $(function() {
             type: "POST",
             data: data,
             dataType: "json",
-            success: function(data){
-                if(data == 1){
+            success: function(jqxhr){
+                console.log(jqxhr.responseText);
+                /*if(data == 1){
                     circle.animate(1);
                     setTimeout(function(){
                         $('.loader-overlay').removeClass('loaded').fadeIn(150);
@@ -60,7 +61,7 @@ $(function() {
                     }, 2000)
                 }else{
                     $('#probleme').replaceWith('<i class="fa fa-warning fa-5x text-warning"></i>');
-                }
+                }*/
             },
             error: function(jqxhr){
                 console.log(jqxhr.responseText);
