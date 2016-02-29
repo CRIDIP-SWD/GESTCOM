@@ -552,3 +552,11 @@
         </div>
     </div>
 </div>
+
+<script src="assets/plugins/gsap/main-gsap.min.js"></script> <!-- HTML Animations -->
+<script src="assets/plugins/slick/slick.min.js"></script> <!-- Slider -->
+<script src="assets/plugins/countup/countUp.min.js"></script> <!-- Animated Counter Number -->
+<script src="assets/plugins/autosize/autosize.min.js"></script> <!-- Textarea autoresize -->
+<script src="//maps.google.com/maps/api/js?sensor=true"></script> <!-- Google Maps -->
+<script src="assets/plugins/google-maps/gmaps.min.js"></script>  <!-- Google Maps Easy -->
+<script src="assets/js/pages/profil.js"></script>

@@ -74,7 +74,7 @@
       <file leaf-file-name="profil.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9594756">
+            <state vertical-scroll-proportion="0.97973776">
               <caret line="553" column="6" selection-start-line="553" selection-start-column="6" selection-end-line="553" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -516,12 +516,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00292" summary="GESTCOM V1.0.0">
-      <created>1456618346678</created>
-      <option name="number" value="00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1456618346681</updated>
-    </task>
     <task id="LOCAL-00293" summary="GESTCOM V1.0.0">
       <created>1456618795077</created>
       <option name="number" value="00293" />
@@ -810,7 +804,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456760699943</updated>
     </task>
-    <option name="localTasksCounter" value="341" />
+    <task id="LOCAL-00341" summary="GESTCOM V1.0.0">
+      <created>1456760823591</created>
+      <option name="number" value="00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1456760823591</updated>
+    </task>
+    <option name="localTasksCounter" value="342" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1271,7 +1271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9594756">
+        <state vertical-scroll-proportion="0.97973776">
           <caret line="553" column="6" selection-start-line="553" selection-start-column="6" selection-end-line="553" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
