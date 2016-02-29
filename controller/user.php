@@ -100,3 +100,20 @@ if(isset($_POST['action']) && $_POST['action'] == 'deverrouille')
     }
 
 }
+if(isset($_GET['action']) && $_GET['action'] == 'logout')
+{
+    session_start();
+    require "../application/classe.php";
+    $iduser = $user->iduser;
+
+    $user_u = $DB->execute("UPDATE users SET connect = 1 WHERE iduser = :iduser", array("iduser" => $iduser));
+    $_SESSION['account']['connect'] = 0;
+
+    if($user_u == 1){
+        session_unset();
+        session_destroy();
+        $fonction->redirect("login");
+    }else{
+        $fonction->redirect("error", "", "", "code", "USR2", "");
+    }
+}

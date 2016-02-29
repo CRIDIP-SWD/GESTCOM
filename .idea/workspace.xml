@@ -64,15 +64,17 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20262218">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.6889154">
+              <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
               <folding>
-                <element signature="e#1723#2312#0#PHP" expanded="false" />
-                <marker date="1456756237488" expanded="true" signature="568:651" placeholder="SELECT COUNT... users" />
-                <marker date="1456756237488" expanded="true" signature="946:1031" placeholder="UPDATE users... " />
-                <marker date="1456756237488" expanded="true" signature="1901:1952" placeholder="UPDATE users... " />
-                <marker date="1456756237488" expanded="true" signature="2751:2834" placeholder="SELECT COUNT... users" />
-                <marker date="1456756237488" expanded="true" signature="3090:3175" placeholder="UPDATE users... " />
+                <element signature="e#6#1722#0#PHP" expanded="false" />
+                <element signature="e#2313#3671#0#PHP" expanded="false" />
+                <marker date="1456756376790" expanded="true" signature="568:651" placeholder="SELECT COUNT... users" />
+                <marker date="1456756376790" expanded="true" signature="946:1031" placeholder="UPDATE users... " />
+                <marker date="1456756376790" expanded="true" signature="1901:1952" placeholder="UPDATE users... " />
+                <marker date="1456756376790" expanded="true" signature="2751:2834" placeholder="SELECT COUNT... users" />
+                <marker date="1456756376790" expanded="true" signature="3090:3175" placeholder="UPDATE users... " />
+                <marker date="1456756376790" expanded="true" signature="3852:3903" placeholder="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -323,12 +325,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00268" summary="GESTCOM V1.0.0">
-      <created>1456592737413</created>
-      <option name="number" value="00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1456592737413</updated>
     </task>
     <task id="LOCAL-00269" summary="GESTCOM V1.0.0">
       <created>1456592830876</created>
@@ -618,7 +614,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456755997533</updated>
     </task>
-    <option name="localTasksCounter" value="317" />
+    <task id="LOCAL-00317" summary="GESTCOM V1.0.0">
+      <created>1456756240142</created>
+      <option name="number" value="00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1456756240142</updated>
+    </task>
+    <option name="localTasksCounter" value="318" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -674,6 +676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,6 +845,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9703196">
           <caret line="272" column="78" selection-start-line="272" selection-start-column="78" selection-end-line="272" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,6 +860,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2522831">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,15 +1064,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20262218">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6889154">
+          <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
           <folding>
-            <element signature="e#1723#2312#0#PHP" expanded="false" />
-            <marker date="1456756237488" expanded="true" signature="568:651" placeholder="SELECT COUNT... users" />
-            <marker date="1456756237488" expanded="true" signature="946:1031" placeholder="UPDATE users... " />
-            <marker date="1456756237488" expanded="true" signature="1901:1952" placeholder="UPDATE users... " />
-            <marker date="1456756237488" expanded="true" signature="2751:2834" placeholder="SELECT COUNT... users" />
-            <marker date="1456756237488" expanded="true" signature="3090:3175" placeholder="UPDATE users... " />
+            <element signature="e#6#1722#0#PHP" expanded="false" />
+            <element signature="e#2313#3671#0#PHP" expanded="false" />
+            <marker date="1456756376790" expanded="true" signature="568:651" placeholder="SELECT COUNT... users" />
+            <marker date="1456756376790" expanded="true" signature="946:1031" placeholder="UPDATE users... " />
+            <marker date="1456756376790" expanded="true" signature="1901:1952" placeholder="UPDATE users... " />
+            <marker date="1456756376790" expanded="true" signature="2751:2834" placeholder="SELECT COUNT... users" />
+            <marker date="1456756376790" expanded="true" signature="3090:3175" placeholder="UPDATE users... " />
+            <marker date="1456756376790" expanded="true" signature="3852:3903" placeholder="UPDATE users... " />
           </folding>
         </state>
       </provider>
