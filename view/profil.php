@@ -56,8 +56,11 @@
                                         <input id="poste_user" type="text" name="poste_user" class="form-control" value="<?= $user->poste_user; ?>">
                                     </div>
                                     <div class="form-group">
-                                        <label class="control-label" for="date_naissance">Votre Date de naissance</label>
-                                        <input id="date_naissance" type="text" name="date_naissance" class="date-picker form-control" value="<?= $date_format->formatage('d-m-Y', $user->date_naissance); ?>">
+                                        <label class="form-label">Basic Example</label>
+                                        <div class="prepend-icon">
+                                            <input type="text" name="date_naissance" class="b-datepicker form-control" placeholder="Select a date...">
+                                            <i class="icon-calendar"></i>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
@@ -123,7 +126,7 @@
 <script src="assets/plugins/timepicker/jquery-ui-timepicker-addon.min.js"></script> <!-- Time Picker -->
 <script src="assets/plugins/multidatepicker/multidatespicker.min.js"></script> <!-- Multi dates Picker -->
 <script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script> <!-- >Bootstrap Date Picker -->
-<script src="assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js"></script> <!-- >Bootstrap Date Picker in Spanish (can be removed if not use) -->
+<script src="assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js"></script> <!-- >Bootstrap Date Picker in Spanish (can be removed if not use) -->
 <script src="assets/plugins/colorpicker/spectrum.min.js"></script> <!-- Color Picker -->
 <script src="assets/plugins/rateit/jquery.rateit.min.js"></script> <!-- Rating star plugin -->
 <script src="assets/js/pages/form_plugins.js"></script>
