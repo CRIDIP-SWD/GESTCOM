@@ -810,28 +810,28 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
 <?php if(isset($_GET['success']) && $_GET['success'] == $_GET['success']){ ?>
     <script type="text/javascript">
         $(document).ready(function(){
-            toastr.success(<?= $_GET['text']; ?>, "SUCCES");
+            toastr.success("<?= $_GET['text']; ?>", "SUCCES");
         });
     </script>
 <?php } ?>
 <?php if(isset($_GET['warning']) && $_GET['warning'] == $_GET['warning']){ ?>
     <script type="text/javascript">
         $(document).ready(function(){
-            toastr.warning(<?= $_GET['text']; ?>, "ATTENTION");
+            toastr.warning("<?= $_GET['text']; ?>", "ATTENTION");
         })
     </script>
 <?php } ?>
 <?php if(isset($_GET['error']) && $_GET['error'] == $_GET['error']){ ?>
     <script type="text/javascript">
         $(document).ready(function(){
-            toastr.error(<?= $_GET['text']; ?>, "ERREUR");
+            toastr.error("<?= $_GET['text']; ?>", "ERREUR");
         })
     </script>
 <?php } ?>
 <?php if(isset($_GET['info']) && $_GET['info'] == $_GET['info']){ ?>
     <script type="text/javascript">
         $(document).ready(function(){
-            toastr.error(<?= $_GET['text']; ?>, "INFORMATION");
+            toastr.error("<?= $_GET['text']; ?>", "INFORMATION");
         })
     </script>
 <?php } ?>
