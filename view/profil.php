@@ -51,6 +51,14 @@
                                         <label class="control-label" for="prenom_user">Votre Prénom</label>
                                         <input id="prenom_user" type="text" name="prenom_user" class="form-control" value="<?= $user->prenom_user; ?>" required>
                                     </div>
+                                    <div class="form-group">
+                                        <label class="control-label" for="poste_user">Votre poste</label>
+                                        <input id="poste_user" type="text" name="poste_user" class="form-control" value="<?= $user->poste_user; ?>">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label" for="date_naissance">Votre Date de naissance</label>
+                                        <input id="date_naissance" type="text" name="date_naissance" class="date-picker form-control" value="<?= $date_format->formatage('d-m-Y', $user->date_naissance); ?>">
+                                    </div>
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="password">
@@ -110,4 +118,8 @@
 <script src="assets/plugins/custom/js/pages/profil.js"></script>
 <script src="assets/plugins/jquery-validation/jquery.validate.js"></script> <!-- Form Validation -->
 <script src="assets/plugins/jquery-validation/additional-methods.min.js"></script> <!-- Form Validation Additional Methods - OPTIONAL -->
+
+<script src="assets/plugins/timepicker/jquery-ui-timepicker-addon.min.js"></script>
+<script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="assets/js/pages/form_plugins.js"></script>
 <!-- END PAGE SCRIPT -->

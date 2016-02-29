@@ -24,6 +24,9 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
     <script src="<?= $constante->getUrl(array('plugins/')); ?>jquery/jquery-1.11.1.min.js"></script>
     <script src="<?= $constante->getUrl(array('plugins/')); ?>jquery/jquery-migrate-1.2.1.min.js"></script>
     <script src="<?= $constante->getUrl(array('plugins/')); ?>jquery-ui/jquery-ui-1.11.2.min.js"></script>
+
+    <!-- AUTRE CSS -->
+    <link href="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet">
 </head>
 <!-- LAYOUT: Apply "submenu-hover" class to body element to have sidebar submenu show on mouse hover -->
 <!-- LAYOUT: Apply "sidebar-collapsed" class to body element to have collapsed sidebar -->

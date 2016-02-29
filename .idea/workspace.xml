@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/jquery-validation/jquery.validate.js" afterPath="$PROJECT_DIR$/assets/plugins/jquery-validation/jquery.validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default.php" afterPath="$PROJECT_DIR$/view/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/profil.php" afterPath="$PROJECT_DIR$/view/profil.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,18 +75,30 @@
       <file leaf-file-name="profil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.153847">
-              <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+            <state vertical-scroll-proportion="7.2181816">
+              <caret line="59" column="108" selection-start-line="59" selection-start-column="108" selection-end-line="59" selection-end-column="119" />
               <folding>
-                <marker date="1456765575815" expanded="true" signature="3773:4565" placeholder="..." />
-                <marker date="1456765575815" expanded="true" signature="3814:3930" placeholder="..." />
-                <marker date="1456765575815" expanded="true" signature="3978:4446" placeholder="..." />
-                <marker date="1456765575815" expanded="true" signature="4479:4489" placeholder="..." />
-                <marker date="1456765575815" expanded="true" signature="4490:4558" placeholder="..." />
-                <marker date="1456765575815" expanded="true" signature="4586:5070" placeholder="..." />
-                <marker date="1456765575815" expanded="true" signature="4614:5063" placeholder="..." />
-                <marker date="1456765575815" expanded="true" signature="4658:4829" placeholder="..." />
-                <marker date="1456765575815" expanded="true" signature="4874:5052" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="4565:5357" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="4606:4722" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="4770:5238" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="5271:5281" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="5282:5350" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="5378:5862" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="5406:5855" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="5450:5621" placeholder="..." />
+                <marker date="1456766122108" expanded="true" signature="5666:5844" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-datepicker.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4952153">
+              <caret line="1196" column="0" selection-start-line="1196" selection-start-column="0" selection-end-line="1196" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.validate.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jquery.validate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plugins/jquery-validation/jquery.validate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3325359">
+            <state vertical-scroll-proportion="-9.586206">
               <caret line="312" column="39" selection-start-line="312" selection-start-column="39" selection-end-line="312" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -150,12 +163,12 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="251.07692">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-45.423077">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <marker date="1456760107520" expanded="true" signature="21408:21461" placeholder="SELECT * FRO... notif" />
-                <marker date="1456760107520" expanded="true" signature="24130:24156" placeholder="SELECT * FRO... collab_inbox" />
-                <marker date="1456760107520" expanded="true" signature="24130:24252" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1456765955650" expanded="true" signature="21567:21620" placeholder="SELECT * FRO... notif" />
+                <marker date="1456765955650" expanded="true" signature="24289:24315" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1456765955650" expanded="true" signature="24289:24411" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -222,15 +235,15 @@
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/pages/dashboard.js" />
-        <option value="$PROJECT_DIR$/view/default.php" />
         <option value="$PROJECT_DIR$/view/include/footer.php" />
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/profil.js" />
         <option value="$PROJECT_DIR$/controller/profil.ajax.php" />
         <option value="$PROJECT_DIR$/assets/js/pages/profil.js" />
-        <option value="$PROJECT_DIR$/view/profil.php" />
         <option value="$PROJECT_DIR$/assets/plugins/jquery-validation/jquery.validate.js" />
+        <option value="$PROJECT_DIR$/view/default.php" />
+        <option value="$PROJECT_DIR$/view/profil.php" />
       </list>
     </option>
   </component>
@@ -368,7 +381,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-validation" />
+              <option name="myItemId" value="bootstrap-datepicker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-datepicker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,12 +489,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00312" summary="GESTCOM V1.0.0">
-      <created>1456755161374</created>
-      <option name="number" value="00312" />
-      <option name="project" value="LOCAL" />
-      <updated>1456755161374</updated>
     </task>
     <task id="LOCAL-00313" summary="GESTCOM V1.0.0">
       <created>1456755214519</created>
@@ -745,7 +778,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456765579208</updated>
     </task>
-    <option name="localTasksCounter" value="361" />
+    <task id="LOCAL-00361" summary="GESTCOM V1.0.0">
+      <created>1456765710151</created>
+      <option name="number" value="00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1456765710151</updated>
+    </task>
+    <option name="localTasksCounter" value="362" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -797,20 +836,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.06078665">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/noty/jquery.noty.packaged.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/noty/jquery.noty.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1148,18 +1173,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="251.07692">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1456760107520" expanded="true" signature="21408:21461" placeholder="SELECT * FRO... notif" />
-            <marker date="1456760107520" expanded="true" signature="24130:24156" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1456760107520" expanded="true" signature="24130:24252" placeholder="SELECT * FRO... collab_inbox" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/profil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.058959536">
@@ -1196,20 +1209,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/profil.php">
+    <entry file="file://$PROJECT_DIR$/assets/plugins/jquery-validation/jquery.validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.153847">
-          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+        <state vertical-scroll-proportion="-9.586206">
+          <caret line="312" column="39" selection-start-line="312" selection-start-column="39" selection-end-line="312" selection-end-column="39" />
           <folding>
-            <marker date="1456765575815" expanded="true" signature="3773:4565" placeholder="..." />
-            <marker date="1456765575815" expanded="true" signature="3814:3930" placeholder="..." />
-            <marker date="1456765575815" expanded="true" signature="3978:4446" placeholder="..." />
-            <marker date="1456765575815" expanded="true" signature="4479:4489" placeholder="..." />
-            <marker date="1456765575815" expanded="true" signature="4490:4558" placeholder="..." />
-            <marker date="1456765575815" expanded="true" signature="4586:5070" placeholder="..." />
-            <marker date="1456765575815" expanded="true" signature="4614:5063" placeholder="..." />
-            <marker date="1456765575815" expanded="true" signature="4658:4829" placeholder="..." />
-            <marker date="1456765575815" expanded="true" signature="4874:5052" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1224,10 +1229,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/jquery-validation/jquery.validate.js">
+    <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325359">
-          <caret line="312" column="39" selection-start-line="312" selection-start-column="39" selection-end-line="312" selection-end-column="39" />
+        <state vertical-scroll-proportion="-45.423077">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <marker date="1456765955650" expanded="true" signature="21567:21620" placeholder="SELECT * FRO... notif" />
+            <marker date="1456765955650" expanded="true" signature="24289:24315" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1456765955650" expanded="true" signature="24289:24411" placeholder="SELECT * FRO... collab_inbox" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/pages/form_plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.2181816">
+          <caret line="59" column="108" selection-start-line="59" selection-start-column="108" selection-end-line="59" selection-end-column="119" />
+          <folding>
+            <marker date="1456766122108" expanded="true" signature="4565:5357" placeholder="..." />
+            <marker date="1456766122108" expanded="true" signature="4606:4722" placeholder="..." />
+            <marker date="1456766122108" expanded="true" signature="4770:5238" placeholder="..." />
+            <marker date="1456766122108" expanded="true" signature="5271:5281" placeholder="..." />
+            <marker date="1456766122108" expanded="true" signature="5282:5350" placeholder="..." />
+            <marker date="1456766122108" expanded="true" signature="5378:5862" placeholder="..." />
+            <marker date="1456766122108" expanded="true" signature="5406:5855" placeholder="..." />
+            <marker date="1456766122108" expanded="true" signature="5450:5621" placeholder="..." />
+            <marker date="1456766122108" expanded="true" signature="5666:5844" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4952153">
+          <caret line="1196" column="0" selection-start-line="1196" selection-start-column="0" selection-end-line="1196" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
