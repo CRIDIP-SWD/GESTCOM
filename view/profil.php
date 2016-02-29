@@ -29,8 +29,13 @@
     </div>
     <div class="profil-sidebar-element m-t-20">
         <h3><strong>Statistique Personnel</strong></h3>
-        <p class="c-gray m-t-0"><i>Dernière Connexion: <?= $date_format->format(date("d-m-Y H:i:s", $user->last_connect)); ?></i>
-        </p>
+        <?php if($user->connect == 0): ?>
+        <p class="c-gray m-t-0"><i>Dernière Connexion: <?= $date_format->format(date("d-m-Y H:i:s", $user->last_connect)); ?></i></p>
+        <?php elseif($user->connect == 1): ?>
+        <p class="c-gray m-t-0"><i class="away"></i> Absent</p>
+        <?php else: ?>
+        <p class="c-gray m-t-0"><i class="online"></i> En Ligne</p>
+        <?php endif; ?>
         <h3><strong>AVERAGE RATING</strong></h3>
         <div id="stars" class="stars pull-left">
             <span class="fa fa-star c-primary"></span>
