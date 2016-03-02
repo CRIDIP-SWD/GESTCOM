@@ -81,67 +81,7 @@
 
                     </div>
                 </div>
-                <div class="chat-conversation">
-                    <div class="conversation-header">
-                        <div class="user clearfix">
-                            <div class="chat-back">
-                                <i class="icon-action-undo"></i>
-                            </div>
-                            <div class="user-details">
-                                <div class="user-name">James Miller</div>
-                                <div class="user-txt">On the road again...</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="conversation-body">
-                        <ul>
-                            <li class="img">
-                                <div class="chat-detail">
-                                    <span class="chat-date">today, 10:38pm</span>
-                                    <div class="conversation-img">
-                                        <img src="assets/images/avatars/avatar4.png" alt="avatar 4"/>
-                                    </div>
-                                    <div class="chat-bubble">
-                                        <span>Hi you!</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="img">
-                                <div class="chat-detail">
-                                    <span class="chat-date">today, 10:45pm</span>
-                                    <div class="conversation-img">
-                                        <img src="assets/images/avatars/avatar4.png" alt="avatar 4"/>
-                                    </div>
-                                    <div class="chat-bubble">
-                                        <span>Are you there?</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="img">
-                                <div class="chat-detail">
-                                    <span class="chat-date">today, 10:51pm</span>
-                                    <div class="conversation-img">
-                                        <img src="assets/images/avatars/avatar4.png" alt="avatar 4"/>
-                                    </div>
-                                    <div class="chat-bubble">
-                                        <span>Send me a message when you come back.</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="conversation-message">
-                        <input type="text" placeholder="Your message..." class="form-control form-white send-message" />
-                        <div class="item-footer clearfix">
-                            <div class="footer-actions">
-                                <i class="icon-rounded-marker"></i>
-                                <i class="icon-rounded-camera"></i>
-                                <i class="icon-rounded-paperclip-oblique"></i>
-                                <i class="icon-rounded-alarm-clock"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
             <!--<div class="tab-pane fade" id="notes">
                 <div class="list-notes current withScroll">

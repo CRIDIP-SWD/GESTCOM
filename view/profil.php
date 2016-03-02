@@ -53,45 +53,29 @@
                                                 <div class="timeline-icon bg-primary">
                                                     <i class="icon-picture"></i>
                                                 </div>
+                                                <?php if($notif->type == 1): ?>
+                                                    <div class="timeline-icon bg-success">
+                                                        <i class="fa fa-plus-circle"></i>
+                                                    </div>
+                                                <?php elseif($notif->type == 2): ?>
+                                                    <div class="timeline-icon bg-primary">
+                                                        <i class="fa fa-edit"></i>
+                                                    </div>
+                                                <?php else: ?>
+                                                    <div class="timeline-icon bg-danger">
+                                                        <i class="fa fa-times-circle"></i>
+                                                    </div>
+                                                <?php endif; ?>
                                                 <div class="timeline-content">
                                                     <div class="timeline-heading clearfix">
-                                                        <h2 class="pull-left">Images <strong>SlideShow</strong></h2>
+                                                        <h2 class="pull-left"><?= html_entity_decode($notif->notification); ?></h2>
                                                         <div class="pull-right">
                                                             <div class="pull-left">
-                                                                <div class="timeline-day-number">01</div>
+                                                                <div class="timeline-day-number"><?= date("d", $notif->date_notification); ?></div>
                                                             </div>
                                                             <div class="pull-left">
-                                                                <div class="timeline-day">thursday</div>
-                                                                <div class="timeline-month c-gray">March 2015</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-                                                    <div class="widget-slider-img">
-                                                        <div class="slick" data-fade="true" data-dots="false">
-                                                            <div class="slide opacity-70">
-                                                                <img src="assets/images/gallery/4.jpg" alt="1">
-                                                                <div class="text">
-                                                                    <p>Sun shining</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="slide opacity-70">
-                                                                <img src="assets/images/gallery/8.jpg" alt="1">
-                                                                <div class="text">
-                                                                    <p>At the beach</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="slide opacity-70">
-                                                                <img src="assets/images/gallery/3.jpg" alt="3">
-                                                                <div class="text">
-                                                                    <p>Field blee</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="slide opacity-70">
-                                                                <img src="assets/images/gallery/7.jpg" alt="7">
-                                                                <div class="text">
-                                                                    <p>When we took the boat</p>
-                                                                </div>
+                                                                <div class="timeline-day"><?= $date_format->formatage_sequenciel("d", $notif->date_notification); ?></div>
+                                                                <div class="timeline-month c-gray"><?= $date_format->formatage_sequenciel("m", $notif->date_notification) ?> <?= date("Y", $notif->date_notification); ?></div>
                                                             </div>
                                                         </div>
                                                     </div>
