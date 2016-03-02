@@ -52,7 +52,31 @@
                             </li>
                         </ul>
                         <div class="title">Collaborateur</div>
-
+                        <ul>
+                            <?php
+                            $sql_user_c = $DB->query("SELECT * FROM users WHERE groupe = 1 OR groupe = 2 OR groupe = 3 AND username != :username", array("username" => $user->username));
+                            foreach($sql_user_c as $user_c):
+                            ?>
+                                <li class="clearfix">
+                                    <div class="user-img">
+                                        <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user_c->username; ?>.jpg" alt="avatar" />
+                                    </div>
+                                    <div class="user-details">
+                                        <div class="user-name"><?= $user_c->nom_user; ?> <?= $user_c->prenom_user; ?></div>
+                                        <div class="user-txt"><?= $user_c->poste_user; ?></div>
+                                    </div>
+                                    <div class="user-status">
+                                        <?php if($user_c->connect == 0): ?>
+                                            <i class="busy"></i>
+                                        <?php elseif($user_c->connect == 1): ?>
+                                            <i class="away"></i>
+                                        <?php else: ?>
+                                            <i class="online"></i>
+                                        <?php endif; ?>
+                                    </div>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
                         <div class="title">Client</div>
 
                     </div>
