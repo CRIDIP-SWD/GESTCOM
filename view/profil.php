@@ -117,7 +117,29 @@
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="password">
-
+                                <form action="controller/user.php" method="post" role="form">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="user">Mot de passe Actuel</label>
+                                        <div class="col-md-9">
+                                            <input id="user" type="password" name="actual_password" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="user">Nouveau Mot de Passe</label>
+                                        <div class="col-md-9">
+                                            <input id="user" type="password" name="new_password" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="user">Confirmer Le nouveau mot de passe</label>
+                                        <div class="col-md-9">
+                                            <input id="user" type="password" name="confirm_new_password" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="form-actions">
+                                        <button type="submit" class="btn btn-success" name="action" value="edit-password"><i class="fa fa-check"></i> Valider</button>
+                                    </div>
+                                </form>
                             </div>
                             <div class="tab-pane fade" id="plugins">
 
