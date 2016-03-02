@@ -77,10 +77,10 @@
       <file leaf-file-name="right_bar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/include/right_bar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5673421">
-              <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.3849821">
+              <caret line="61" column="179" selection-start-line="61" selection-start-column="179" selection-end-line="61" selection-end-column="179" />
               <folding>
-                <marker date="1456943859367" expanded="true" signature="3029:3119" placeholder="SELECT * FRO... users" />
+                <marker date="1456943983624" expanded="true" signature="3029:3119" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -340,12 +340,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00341" summary="GESTCOM V1.0.0">
-      <created>1456760823591</created>
-      <option name="number" value="00341" />
-      <option name="project" value="LOCAL" />
-      <updated>1456760823591</updated>
     </task>
     <task id="LOCAL-00342" summary="GESTCOM V1.0.0">
       <created>1456760906573</created>
@@ -635,7 +629,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456943428454</updated>
     </task>
-    <option name="localTasksCounter" value="390" />
+    <task id="LOCAL-00390" summary="GESTCOM V1.0.0">
+      <created>1456943865010</created>
+      <option name="number" value="00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1456943865011</updated>
+    </task>
+    <option name="localTasksCounter" value="391" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1050,10 +1050,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/include/right_bar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5673421">
-          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.3849821">
+          <caret line="61" column="179" selection-start-line="61" selection-start-column="179" selection-end-line="61" selection-end-column="179" />
           <folding>
-            <marker date="1456943859367" expanded="true" signature="3029:3119" placeholder="SELECT * FRO... users" />
+            <marker date="1456943983624" expanded="true" signature="3029:3119" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
