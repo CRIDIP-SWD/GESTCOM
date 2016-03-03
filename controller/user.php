@@ -56,6 +56,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'login_totp')
     session_start();
     require "../application/classe.php";
     $iduser = $_SESSION['user']['user_id'];
+    var_dump($_SESSION);
+    die();
     $user_q = $DB->query("SELECT * FROM users WHERE iduser = :iduser", array("iduser" => $iduser));
 
     $otp = new Otp();
