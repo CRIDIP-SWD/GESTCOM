@@ -136,8 +136,12 @@
                                             <input id="user" type="password" name="confirm_new_password" class="form-control" />
                                         </div>
                                     </div>
-                                    <div class="form-actions">
-                                        <button type="submit" class="btn btn-success" name="action" value="edit-password"><i class="fa fa-check"></i> Valider</button>
+                                    <div class="row">
+                                        <div class="col-sm-9 col-sm-offset-3">
+                                            <div class="pull-right">
+                                                <button type="submit" class="btn btn-success" name="action" value="edit-password">Modifier le mot de passe</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
