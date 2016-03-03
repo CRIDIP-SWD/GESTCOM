@@ -16,6 +16,10 @@
         },
         lang: 'fr',
         timeFormat: 'h:mm',
-        hiddenDays: [0,6]
+        hiddenDays: [0,6],
+        slotDuration: '00:15:00',
+        editable: true,
+        droppable: true,
+        eventLimit: true
     })
 })(jQuery);
