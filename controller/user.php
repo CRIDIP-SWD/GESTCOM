@@ -56,12 +56,10 @@ if(isset($_POST['action']) && $_POST['action'] == 'login_totp')
     session_start();
     require "../application/classe.php";
     $iduser = $_SESSION['user']['user_id'];
-    var_dump($_SESSION);
-    die();
     $user_q = $DB->query("SELECT * FROM users WHERE iduser = :iduser", array("iduser" => $iduser));
 
     $otp = new Otp();
-    if($otp->checkTotp($user_q[0]->totp_token, $_POST['code'])){
+    if($otp->checkTotp(Base32::decode($user_q[0]->totp_token), $_POST['code'])){
         $_SESSION['account']['active'] = 1;
         $_SESSION['account']['username'] = $user_q[0]->username;
         $user_u = $DB->execute("UPDATE users SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
