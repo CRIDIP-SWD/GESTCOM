@@ -212,40 +212,28 @@
     </div>
 </div>
 <div class="modal fade" id="active-totp" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
                 <h4 class="modal-title">Activation du TOTP</h4>
             </div>
-            <div class="modal-body">
-                <div class="container" id="login-block">
-                    <i class="user-img fa fa-key fa-3x"></i>
-                    <div class="account-info">
-                        <a href="" class="logo"></a>
-                        <h3>Veuillez scanner le QRCODE:</h3>
-                        <img src="<?= $user_cls->totp(); ?>" alt="TOTP_ACTIVE_SCANN">
-                    </div>
-                    <div class="account-form">
-                        <p>Afin d'utiliser cette authentification vous devez télécharger l'application <strong>Google Authentificator</strong> et entrer le code obtenue dans le champ suivant:</p>
-                        <form action="controller/user.php" method="post" class="form-horizontal">
-                            <div class="form-group">
-                                <label for="totp" class="col-md-3 control-label">Code:</label>
-                                <div class="col-md-9">
-                                    <input type="text" id="totp" class="form-control" name="code">
-                                </div>
+            <form class="form-horizontal" action="controller/user.php" method="post">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Veuillez scanner le QR CODE:</p>
+                            <div class="text-center">
+                                <img src="<?= $user_cls->totp(); ?>" alt="TOTP" class="img-responsive" width="100" />
                             </div>
-                            <div class="row">
-                                <div class="col-sm-9 col-sm-offset-3">
-                                    <div class="pull-right">
-                                        <button type="submit" class="btn btn-success" name="action" value="active_totp">Activer l'authentificateur</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                        </div>
+                        <div class="col-md-6"></div>
                     </div>
                 </div>
-            </div>
+                <div class="modal-footer">
+
+                </div>
+            </form>
         </div>
     </div>
 </div>
