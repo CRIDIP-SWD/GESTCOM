@@ -63,7 +63,7 @@ use App\general\constante;
                 <h3>Connexion <strong>TOTP</strong></h3>
                 <p>Ce compte est dépositaire d'un TOKEN TOTP (Authentificateur 2 Facteur), <br>Veuillez saisir le code obtenue grace à l'authentificateur</p>
                 <div class="append-icon">
-                    <input type="text" name="code" id="name" class="form-control form-white username" placeholder="Code de l'authentificateur" required>
+                    <input type="text" name="code" autocomplete="off" id="name" class="form-control form-white username" placeholder="Code de l'authentificateur" required>
                     <i class="icon-key"></i>
                 </div>
                 <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left" name="action" value="login">Connexion</button>
