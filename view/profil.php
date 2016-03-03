@@ -136,7 +136,7 @@
                                             <input id="user" type="password" name="confirm_new_password" class="form-control" />
                                         </div>
                                     </div>
-                                    <div class="form-actions pull-right">
+                                    <div class="form-actions">
                                         <button type="submit" class="btn btn-success" name="action" value="edit-password"><i class="fa fa-check"></i> Valider</button>
                                     </div>
                                 </form>
