@@ -33,7 +33,7 @@ class users
         $secret = GoogleAuthenticator::generateRandom();
         $_SESSION['user']['totp_secret'] = $secret;
         $username = $this->username;
-        $qrCode = GoogleAuthenticator::getQrCodeUrl('totp', 'GESTCOM CRIDIP $username', $secret);
+        $qrCode = GoogleAuthenticator::getQrCodeUrl('totp', 'GESTCOM CRIDIP '.$username, $secret);
         return $qrCode;
     }
 }
