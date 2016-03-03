@@ -56,8 +56,8 @@
       <file leaf-file-name="calendar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2827051">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.30155212">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -404,12 +404,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00387" summary="GESTCOM V1.0.0">
-      <created>1456787567234</created>
-      <option name="number" value="00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1456787567234</updated>
-    </task>
     <task id="LOCAL-00388" summary="GESTCOM V1.0.0">
       <created>1456787757328</created>
       <option name="number" value="00388" />
@@ -698,7 +692,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457036873067</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="GESTCOM V1.0.0">
+      <created>1457046364835</created>
+      <option name="number" value="00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1457046364835</updated>
+    </task>
+    <option name="localTasksCounter" value="437" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1181,8 +1181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2827051">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.30155212">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>

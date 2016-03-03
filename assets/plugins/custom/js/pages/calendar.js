@@ -15,6 +15,7 @@
             end: '19:00'
         },
         lang: 'fr',
-        timeFormat: 'h:mm'
+        timeFormat: 'h:mm',
+        hiddenDays: [0,6]
     })
 })(jQuery);
