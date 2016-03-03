@@ -9,6 +9,10 @@
             left: 'title',
             center: '',
             right: 'today prev,next'
+        },
+        businessHours: {
+            start: '09:00',
+            end: '19:00'
         }
     })
 })(jQuery);
