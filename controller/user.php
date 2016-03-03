@@ -1,4 +1,6 @@
 <?php
+use App\noctus\encrypt;
+
 if(isset($_POST['action']) && $_POST['action'] == 'login')
 {
     require "../application/classe.php";
@@ -7,7 +9,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
     if(isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
         $username = $_POST['username'];
         $password = $_POST['password'];
-        $encrypt = new \App\noctus\encrypt($username, $password);
+        $encrypt = new encrypt($username, $password);
         $pass_en = $encrypt->encrypt();
         $decrypt = new \App\noctus\decrypt($pass_en, $username, $password);
         $pass_de = $decrypt->decrypt();
@@ -68,7 +70,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'deverrouille')
     require "../application/classe.php";
     $username = $_POST['username'];
     $password = $_POST['password'];
-    $encrypt = new \App\noctus\encrypt($username, $password);
+    $encrypt = new encrypt($username, $password);
     $pass_en = $encrypt->encrypt();
     $decrypt = new \App\noctus\decrypt($pass_en, $username, $password);
     $pass_de = $decrypt->decrypt();
@@ -151,4 +153,18 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-profil')
     }else{
         $fonction->redirect("error", "", "", "code", "USR3", "");
     }
+}
+if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
+{
+    session_start();
+    require "../application/classe.php";
+    $actual_password = $_POST['actual_password'];
+    $new_password = $_POST['new_password'];
+    $confirm_new_password = $_POST['confirm_new_password'];
+
+    //Import des informations utilisateurs
+    $iduser = $user->iduser;
+    $username = $user->username;
+    
+    
 }

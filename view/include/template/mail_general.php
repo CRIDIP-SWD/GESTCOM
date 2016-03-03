@@ -90,13 +90,13 @@
                                             <tr>
                                                 <td style="font-size:26px; font-weight: 600; color: #121212; text-align:center;" class="mobile-spacing">
                                                     <div class="mobile-br">&nbsp;</div>
-                                                    <span319db5>Account update!</span>
+                                                    <span319db5>Nouveau mot de passe!</span>
                                                         <br>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style="font-size:18px; text-align:center; padding: 10px 75px 0; color:#6E6E6E;" class="w320 mobile-spacing mobile-padding">
-                                                    <span319db5>Your account settings have been updated.</span>
+                                                    <span319db5>Votre mot de passe à été réinitialiser !</span>
                                                 </td>
                                             </tr>
                                         </table>
@@ -119,11 +119,10 @@
                                                     <tr>
                                                         <td style="text-align:left; color: #6f6f6f;">
                                                             <br>
-                                                            <p319db5>
-                                                                Hi John,<br><br>
-                                                                Your account settings have been updated. If you did not update your settings, please <a href="#" style="color:#646ea8">contact support</a>. <br><br>
-                                                                Thanks for being a customer!<br>
-                                                                Your dedicated team</p><br>
+                                                            <p>
+                                                                Bonjour,<br><br>
+
+                                                                </p><br>
                                                     </tr>
                                                 </table>
                                             </center>
