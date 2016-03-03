@@ -212,9 +212,28 @@ if(isset($_POST['action']) && $_POST['action'] == 'active_totp')
     session_start();
     require "../application/classe.php";
     $iduser = $user->iduser;
+    $username = $user->username;
     $otp = new Otp();
     if($otp->checkTotp(Base32::decode($_SESSION['user']['totp_secret']), $_POST['code'])){
+        $user_u = $DB->execute("UPDATE users SET totp = 1, totp_token = :totp_token WHERE iduser = :iduser", array(
+            "totp_token" => $_SESSION['user']['totp_secret'],
+            "iduser"     => $iduser
+        ));
+        $_SESSION['user']['totp_secret'] = "";
 
+        if($user_u == 1){
+            $text = "L'authentificateur 2 Facteur à été activé pour l'utilisateur <strong>".$username."</strong>.";
+            $addNotif = $DB->execute("INSERT INTO notif(idnotif, iduser, type, notification, date_notification, vu) VALUES (NULL , :iduser, :type, :notification, :date_notification, :vu)", array(
+                "iduser"                => $iduser,
+                "type"                  => 1,
+                "notification"          => $user->prenom_user." à activé l'authentification à 2 facteur.",
+                "date_notification"     => $date_format->format_strt(date("d-m-Y H:i:s")),
+                "vu"                    => 0
+            ));
+            $fonction->redirect("profil", "", "", "success", "active_totp", $text);
+        }else{
+            $fonction->redirect("error", "", "", "code", "USR5", "");
+        }
     }else{
         $fonction->redirect("profil", "", "", "error", "active_totp", "Ce code ne correspond pas !!!");
     }
