@@ -179,6 +179,29 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
         $fonction->redirect("profil", "", "", "warning", "edit-password", "Veuillez saisir le même mot de passe dans le champs de confirmation de mot de passe !");
     }
 
+    //Encrypter
+    $encrypt = new encrypt($username, $new_password);
+    $en_pass = $encrypt->encrypt();
+
+    $user_u = $DB->execute("UPDATE users SET password = :password WHERE iduser = :iduser", array(
+        "iduser"    => $iduser,
+        "password"  => $en_pass
+    ));
+
+    if($user_u == 1){
+        $text = "Le mot de passe de l'utilisateur <strong>".$username."</strong> à été changer avec succès !";
+        $addNotif = $DB->execute("INSERT INTO notif(idnotif, iduser, type, notification, date_notification, vu) VALUES (NULL , :iduser, :type, :notification, :date_notification, :vu)", array(
+            "iduser"                => $iduser,
+            "type"                  => 2,
+            "notification"          => $user->prenom_user." à modifier le mot de passe de sont Espace.",
+            "date_notification"     => $date_format->format_strt(date("d-m-Y H:i:s")),
+            "vu"                    => 0
+        ));
+        $fonction->redirect("profil", "", "", "success", "edit-password", $text);
+    }else{
+        $fonction->redirect("error", "", "", "code", "USR4", "");
+    }
+
 
     
 }
