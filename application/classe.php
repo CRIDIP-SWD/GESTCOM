@@ -12,7 +12,7 @@ require dirname(__DIR__)."/application/autoloader.php";
 \App\autoloader::register();
 
 //VENDOR COMPOSER
-//include dirname(__DIR__)."/vendor/autoload.php";
+include dirname(__DIR__)."/vendor/autoload.php";
 
 
 //NAMESPACE APP
