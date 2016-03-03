@@ -161,7 +161,7 @@
                                                     <td>Authentification double facteur (TOTP)</td>
                                                     <?php if($user->totp == 0): ?>
                                                     <td><span class="label label-danger">Désactiver</span></td>
-                                                    <td><a href="" class="btn btn-primary">Activer</a></td>
+                                                    <td><a data-toggle="modal" data-targer="#active-totp" class="btn btn-primary">Activer</a></td>
                                                     <?php else: ?>
                                                     <td><span class="label label-success">Activer</span></td>
                                                     <td><a href="" class="btn btn-primary">Désactiver</a></td>
@@ -211,7 +211,23 @@
         </p>
     </div>
 </div>
+<div class="modal fade" id="active-totp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
+                <h4 class="modal-title">Activation du TOTP</h4>
+            </div>
+            <div class="modal-body">
 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary btn-embossed" data-dismiss="modal">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- BEGIN PAGE SCRIPT -->
 <script src="assets/plugins/gsap/main-gsap.min.js"></script> <!-- HTML Animations -->
 <script src="assets/plugins/slick/slick.min.js"></script> <!-- Slider -->

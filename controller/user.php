@@ -205,3 +205,11 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
 
     
 }
+if(isset($_GET['action']) && $_GET['action'] == 'active-totp')
+{
+    session_start();
+    require "../application/classe.php";
+    $iduser = $user->iduser;
+
+
+}

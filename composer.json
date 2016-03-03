@@ -1,5 +1,5 @@
 {
-  "name": "CRIDIP/GESTCOM",
+  "name": "vendor_name/package_name",
   "description": "description_text",
   "minimum-stability": "dev",
   "license": "proprietary",
@@ -10,7 +10,6 @@
     }
   ],
   "require": {
-    "ovh/ovh": "1.x-dev",
-    "geoip/geoip": "v1.15"
+    "christian-riesen/otp": "1.4.3"
   }
 }

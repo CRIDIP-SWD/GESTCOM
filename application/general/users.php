@@ -9,6 +9,8 @@
 namespace App\general;
 
 
+use Otp\GoogleAuthenticator;
+
 class users
 {
 
@@ -24,5 +26,13 @@ class users
         $DB = new DB();
         $sql = $DB->query("SELECT * FROM users WHERE username = :username", array("username" => $this->username));
         return $sql[0];
+    }
+
+    public function totp()
+    {
+        $secret = GoogleAuthenticator::generateRandom();
+        $username = $this->username;
+        $qrCode = GoogleAuthenticator::getQrCodeUrl('totp', 'GESTCOM CRIDIP $username', $secret);
+        return $qrCode;
     }
 }
