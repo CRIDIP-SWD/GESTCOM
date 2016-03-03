@@ -224,7 +224,7 @@
                         <div class="col-md-6">
                             <p>Veuillez scanner le QR CODE:</p>
                             <div class="text-center">
-                                <img src="<?= $user_cls->totp(); ?>" alt="TOTP" class="img-responsive" width="100" />
+                                <img src="<?= $user_cls->totp(); ?>" alt="TOTP" class="img-responsive"/>
                             </div>
                         </div>
                         <div class="col-md-6"></div>
