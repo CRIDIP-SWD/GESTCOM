@@ -51,6 +51,28 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
         $fonction->redirect("login", "", "", "warning", "login", $text);
     }
 }
+if(isset($_POST['action']) && $_POST['action'] == 'login_totp')
+{
+    session_start();
+    require "../application/classe.php";
+    $iduser = $_SESSION['user']['user_id'];
+    $user_q = $DB->query("SELECT * FROM users WHERE iduser = :iduser", array("iduser" => $iduser));
+
+    $otp = new Otp();
+    if($otp->checkTotp($user_q[0]->totp_token, $_POST['code'])){
+        $_SESSION['account']['active'] = 1;
+        $_SESSION['account']['username'] = $user_q[0]->username;
+        $user_u = $DB->execute("UPDATE users SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
+            "username"      => $user_q[0]->username,
+            "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
+        ));
+        if($user_u == 1){
+            $fonction->redirect("dashboard");
+        }
+    }else{
+        $fonction->redirect("login", "totp", "", "error", "active_totp", "Ce code ne correspond pas !!!");
+    }
+}
 if(isset($_GET['action']) && $_GET['action'] == 'lock')
 {
     session_start();
