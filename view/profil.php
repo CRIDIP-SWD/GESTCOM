@@ -219,11 +219,32 @@
                 <h4 class="modal-title">Activation du TOTP</h4>
             </div>
             <div class="modal-body">
-                <img src="<?= $user_cls->totp(); ?>" alt="TOTP">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary btn-embossed" data-dismiss="modal">Save changes</button>
+                <div class="container" id="login-block">
+                    <i class="user-img fa fa-key fa-3x"></i>
+                    <div class="account-info">
+                        <a href="" class="logo"></a>
+                        <h3>Veuillez scanner le QRCODE:</h3>
+                        <img src="<?= $user_cls->totp(); ?>" alt="TOTP_ACTIVE_SCANN">
+                    </div>
+                    <div class="account-form">
+                        <p>Afin d'utiliser cette authentification vous devez télécharger l'application <strong>Google Authentificator</strong> et entrer le code obtenue dans le champ suivant:</p>
+                        <form action="controller/user.php" method="post" class="form-horizontal">
+                            <div class="form-group">
+                                <label for="totp" class="col-md-3 control-label">Code:</label>
+                                <div class="col-md-9">
+                                    <input type="text" id="totp" class="form-control" name="code">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9 col-sm-offset-3">
+                                    <div class="pull-right">
+                                        <button type="submit" class="btn btn-success" name="action" value="active_totp">Activer l'authentificateur</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
