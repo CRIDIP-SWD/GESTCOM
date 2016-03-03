@@ -164,7 +164,7 @@
                                                     <td><a data-toggle="modal" data-target="#active-totp" class="btn btn-primary">Activer</a></td>
                                                     <?php else: ?>
                                                     <td><span class="label label-success">Activer</span></td>
-                                                    <td><a href="" class="btn btn-primary">Désactiver</a></td>
+                                                    <td><a href="controller/user.php?action=desactive_totp" class="btn btn-primary">Désactiver</a></td>
                                                     <?php endif; ?>
 
                                                 </tr>

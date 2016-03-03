@@ -239,3 +239,26 @@ if(isset($_POST['action']) && $_POST['action'] == 'active_totp')
     }
 
 }
+if(isset($_GET['action']) && $_GET['action'] == 'desactive_totp')
+{
+    session_start();
+    require "../application/classe.php";
+    $iduser = $user->iduser;
+    $username = $user->username;
+
+    $user_u = $DB->execute("UPDATE users SET totp = 0 WHERE iduser = :iduser", array("iduser" => $iduser));
+
+    if($user_u == 1){
+        $text = "L'authentificateur 2 Facteur à été désactivé pour l'utilisateur <strong>".$username."</strong>.";
+        $addNotif = $DB->execute("INSERT INTO notif(idnotif, iduser, type, notification, date_notification, vu) VALUES (NULL , :iduser, :type, :notification, :date_notification, :vu)", array(
+            "iduser"                => $iduser,
+            "type"                  => 3,
+            "notification"          => $user->prenom_user." à désactivé l'authentification à 2 facteur.",
+            "date_notification"     => $date_format->format_strt(date("d-m-Y H:i:s")),
+            "vu"                    => 0
+        ));
+        $fonction->redirect("profil", "", "", "success", "desactive_totp", $text);
+    }else{
+        $fonction->redirect("error", "", "", "code", "USR5", "");
+    }
+}
