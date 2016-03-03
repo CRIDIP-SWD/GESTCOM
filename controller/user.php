@@ -207,7 +207,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
 
     
 }
-if(isset($_GET['action']) && $_GET['action'] == 'active_totp')
+if(isset($_POST['action']) && $_POST['action'] == 'active_totp')
 {
     session_start();
     require "../application/classe.php";
