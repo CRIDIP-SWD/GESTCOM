@@ -161,7 +161,7 @@
                                                     <td>Authentification double facteur (TOTP)</td>
                                                     <?php if($user->totp == 0): ?>
                                                     <td><span class="label label-danger">Désactiver</span></td>
-                                                    <td><a data-toggle="modal" data-targer="#active-totp" class="btn btn-primary modal-container">Activer</a></td>
+                                                    <td><a data-toggle="modal" data-target="#active-totp" class="btn btn-primary modal-container">Activer</a></td>
                                                     <?php else: ?>
                                                     <td><span class="label label-success">Activer</span></td>
                                                     <td><a href="" class="btn btn-primary">Désactiver</a></td>
