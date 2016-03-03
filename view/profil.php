@@ -227,11 +227,32 @@
                                 <img src="<?= $user_cls->totp(); ?>" alt="TOTP" class="img-responsive"/>
                             </div>
                         </div>
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6" style="border-left: solid 1px #6E6E6E">
+                            <p>Veuillez suivre la procédure afin d'accéder à l'autentification à double facteur.</p>
+                            <div class="well">
+                                <p>
+                                    1. Télécharger l'application <strong>Google Authentificator</strong> sur Play store (Android), App Store (Apple) ou Windows Store (Windows Phone).<br>
+                                    2. Scanner le <strong>QRcode</strong> à gauche.<br>
+                                    3. Saisisser le code reçu dans le champ suivant:
+                                </p>
+                            </div>
+                            <div class="form-group">
+                                <label for="totp" class="col-md-3 control-label">Code:</label>
+                                <div class="col-md-9">
+                                    <input type="text" id="totp" class="form-control" name="code">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-
+                    <div class="row">
+                        <div class="col-sm-9 col-sm-offset-3">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-success" name="action" value="active_totp">Activer l'authentificateur</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>
