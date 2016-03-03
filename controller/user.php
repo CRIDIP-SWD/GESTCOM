@@ -165,6 +165,20 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
     //Import des informations utilisateurs
     $iduser = $user->iduser;
     $username = $user->username;
-    
+    $password = $user->password;
+    //Vérification que le mot de passe actuel soit différent que le nouveau
+
+    if($new_password == $actual_password)
+    {
+        $fonction->redirect("profil", "", "", "warning", "edit-password", "L'ancien mot de passe et le nouveau correspondent, Veuillez en saisir un nouveau !");
+    }
+
+    //Vérification de la confirmation
+    if($new_password != $confirm_new_password)
+    {
+        $fonction->redirect("profil", "", "", "warning", "edit-password", "Veuillez saisir le même mot de passe dans le champs de confirmation de mot de passe !");
+    }
+
+
     
 }
