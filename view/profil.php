@@ -117,7 +117,7 @@
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="password">
-                                <form action="controller/user.php" method="post" role="form">
+                                <form class="form-horizontal" action="controller/user.php" method="post" role="form">
                                     <div class="form-group">
                                         <label class="col-md-3 control-label" for="user">Mot de passe Actuel</label>
                                         <div class="col-md-9">
