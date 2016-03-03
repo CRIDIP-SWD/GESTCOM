@@ -1,0 +1,6 @@
+/**
+ * Created by Maxime on 03/03/2016.
+ */
+(function($){
+    $('.page-content').addClass('page-calendar');
+})(jQuery);
