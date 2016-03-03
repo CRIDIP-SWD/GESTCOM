@@ -98,11 +98,11 @@
       <file leaf-file-name="profil.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5399284">
-              <caret line="221" column="37" selection-start-line="221" selection-start-column="37" selection-end-line="221" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.6555423">
+              <caret line="221" column="38" selection-start-line="221" selection-start-column="38" selection-end-line="221" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <marker date="1457026088724" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
+                <marker date="1457026158316" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
               </folding>
             </state>
           </provider>
@@ -111,8 +111,8 @@
       <file leaf-file-name="classe.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -342,12 +342,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00356" summary="GESTCOM V1.0.0">
-      <created>1456764764508</created>
-      <option name="number" value="00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1456764764508</updated>
     </task>
     <task id="LOCAL-00357" summary="GESTCOM V1.0.0">
       <created>1456764777226</created>
@@ -637,7 +631,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457025994403</updated>
     </task>
-    <option name="localTasksCounter" value="405" />
+    <task id="LOCAL-00405" summary="GESTCOM V1.0.0">
+      <created>1457026091466</created>
+      <option name="number" value="00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1457026091466</updated>
+    </task>
+    <option name="localTasksCounter" value="406" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1022,16 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <marker date="1457025565700" expanded="true" signature="366:412" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.461538">
@@ -1062,19 +1052,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/classe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <marker date="1457025565700" expanded="true" signature="366:412" placeholder="SELECT * FRO... users" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5399284">
-          <caret line="221" column="37" selection-start-line="221" selection-start-column="37" selection-end-line="221" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.6555423">
+          <caret line="221" column="38" selection-start-line="221" selection-start-column="38" selection-end-line="221" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <marker date="1457026088724" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
+            <marker date="1457026158316" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
           </folding>
         </state>
       </provider>

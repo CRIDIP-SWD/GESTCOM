@@ -219,7 +219,7 @@
                 <h4 class="modal-title">Activation du TOTP</h4>
             </div>
             <div class="modal-body">
-                <?= $user->totp(); ?>
+                <?= $user_cls->totp(); ?>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
