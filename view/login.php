@@ -61,6 +61,7 @@ use App\general\constante;
         <div class="account-form">
             <form class="form-signin" role="form" action="controller/user.php" method="post">
                 <h3>Connexion <strong>TOTP</strong></h3>
+                <p>Ce compte est dépositaire d'un TOKEN TOTP (Authentificateur 2 Facteur), <br>Veuillez saisir le code obtenue grace à l'authentificateur</p>
                 <div class="append-icon">
                     <input type="text" name="code" id="name" class="form-control form-white username" placeholder="Code de l'authentificateur" required>
                     <i class="icon-key"></i>
