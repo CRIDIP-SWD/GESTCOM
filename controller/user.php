@@ -251,7 +251,7 @@ if(isset($_GET['action']) && $_GET['action'] == 'desactive_totp')
     $iduser = $user->iduser;
     $username = $user->username;
 
-    $user_u = $DB->execute("UPDATE users SET totp = 0 WHERE iduser = :iduser", array("iduser" => $iduser));
+    $user_u = $DB->execute("UPDATE users SET totp = 0, totp_token = NULL WHERE iduser = :iduser", array("iduser" => $iduser));
 
     if($user_u == 1){
         $text = "L'authentificateur 2 Facteur à été désactivé pour l'utilisateur <strong>".$username."</strong>.";
