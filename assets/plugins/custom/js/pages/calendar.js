@@ -6,7 +6,7 @@
     $('#calendar').fullCalendar({
         defaultView: 'agendaDay',
         header: {
-            left: 'Title',
+            left: 'title',
             center: '',
             right: 'today prev,next'
         }
