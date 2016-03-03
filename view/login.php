@@ -16,33 +16,61 @@ use App\general\constante;
 </head>
 <body class="account2" data-page="login">
 <!-- BEGIN LOGIN BOX -->
-<div class="container" id="login-block">
-    <i class="user-img icons-faces-users-03"></i>
-    <div class="account-info">
-        <a href="" class="logo"></a>
-        <h3>Système d'administration de la SAS CRIDIP</h3>
-        <ul>
-            <li><i class="icon-circle"></i> Gestion Commercial</li>
-            <li><i class="icon-circle"></i> Gestion Comptable</li>
-            <li><i class="icon-circle"></i> Panel OVH</li>
-            <li><i class="icon-circle"></i> Gestionnaire de projet</li>
-        </ul>
+<?php if(!isset($_GET['sub'])): ?>
+    <div class="container" id="login-block">
+        <i class="user-img icons-faces-users-03"></i>
+        <div class="account-info">
+            <a href="" class="logo"></a>
+            <h3>Système d'administration de la SAS CRIDIP</h3>
+            <ul>
+                <li><i class="icon-circle"></i> Gestion Commercial</li>
+                <li><i class="icon-circle"></i> Gestion Comptable</li>
+                <li><i class="icon-circle"></i> Panel OVH</li>
+                <li><i class="icon-circle"></i> Gestionnaire de projet</li>
+            </ul>
+        </div>
+        <div class="account-form">
+            <form class="form-signin" role="form" action="controller/user.php" method="post">
+                <h3><strong>Connectez-vous</strong> à votre compte</h3>
+                <div class="append-icon">
+                    <input type="text" name="username" id="name" class="form-control form-white username" placeholder="Nom d'utilisateur" required>
+                    <i class="icon-user"></i>
+                </div>
+                <div class="append-icon m-b-20">
+                    <input type="password" name="password" class="form-control form-white password" placeholder="Mot de Passe" required>
+                    <i class="icon-lock"></i>
+                </div>
+                <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left" name="action" value="login">Connexion</button>
+            </form>
+        </div>
     </div>
-    <div class="account-form">
-        <form class="form-signin" role="form" action="controller/user.php" method="post">
-            <h3><strong>Connectez-vous</strong> à votre compte</h3>
-            <div class="append-icon">
-                <input type="text" name="username" id="name" class="form-control form-white username" placeholder="Nom d'utilisateur" required>
-                <i class="icon-user"></i>
-            </div>
-            <div class="append-icon m-b-20">
-                <input type="password" name="password" class="form-control form-white password" placeholder="Mot de Passe" required>
-                <i class="icon-lock"></i>
-            </div>
-            <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left" name="action" value="login">Connexion</button>
-        </form>
+<?php endif; ?>
+<?php if(isset($_GET['sub']) && $_GET['sub'] == 'totp'): ?>
+    <div class="container" id="login-block">
+        <i class="user-img icons-faces-users-03"></i>
+        <div class="account-info">
+            <a href="" class="logo"></a>
+            <h3>Système d'administration de la SAS CRIDIP</h3>
+            <ul>
+                <li><i class="icon-circle"></i> Gestion Commercial</li>
+                <li><i class="icon-circle"></i> Gestion Comptable</li>
+                <li><i class="icon-circle"></i> Panel OVH</li>
+                <li><i class="icon-circle"></i> Gestionnaire de projet</li>
+            </ul>
+        </div>
+        <div class="account-form">
+            <form class="form-signin" role="form" action="controller/user.php" method="post">
+                <h3>Connexion <strong>TOTP</strong></h3>
+                <div class="append-icon">
+                    <input type="text" name="code" id="name" class="form-control form-white username" placeholder="Code de l'authentificateur" required>
+                    <i class="icon-key"></i>
+                </div>
+                <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left" name="action" value="login">Connexion</button>
+            </form>
+        </div>
     </div>
-</div>
+<?php endif; ?>
+
 <!-- END LOCKSCREEN BOX -->
 <p class="account-copyright">
     <span>Copyright © 2015 </span><span>SAS CRIDIP</span>.<span>Tous droit réserver.</span>
