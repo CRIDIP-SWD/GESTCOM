@@ -146,7 +146,32 @@
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="plugins">
+                                <div class="row">
+                                    <div class="col-md-12 table-responsive">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Module</th>
+                                                    <th>Etat</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Authentification double facteur (TOTP)</td>
+                                                    <?php if($user->totp == 0): ?>
+                                                    <td><span class="label label-danger">Désactiver</span></td>
+                                                    <td><a href="" class="btn btn-primary">Activer</a></td>
+                                                    <?php else: ?>
+                                                    <td><span class="label label-success">Activer</span></td>
+                                                    <td><a href="" class="btn btn-primary">Désactiver</a></td>
+                                                    <?php endif; ?>
 
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
