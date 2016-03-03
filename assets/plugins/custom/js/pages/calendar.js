@@ -20,6 +20,7 @@
         slotDuration: '00:15:00',
         editable: true,
         droppable: true,
-        eventLimit: true
+        eventLimit: true,
+        events: '../../../controller/calendar.ajax.php'
     })
 })(jQuery);
