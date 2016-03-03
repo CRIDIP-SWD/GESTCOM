@@ -14,6 +14,7 @@
             start: '09:00',
             end: '19:00'
         },
-        lang: 'fr'
+        lang: 'fr',
+        timeFormat: 'h:mm'
     })
 })(jQuery);
