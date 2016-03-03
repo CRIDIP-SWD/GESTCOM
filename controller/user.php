@@ -1,5 +1,7 @@
 <?php
 use App\noctus\encrypt;
+use Base32\Base32;
+use Otp\Otp;
 
 if(isset($_POST['action']) && $_POST['action'] == 'login')
 {
@@ -205,11 +207,16 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password')
 
     
 }
-if(isset($_GET['action']) && $_GET['action'] == 'active-totp')
+if(isset($_GET['action']) && $_GET['action'] == 'active_totp')
 {
     session_start();
     require "../application/classe.php";
     $iduser = $user->iduser;
+    $otp = new Otp();
+    if($otp->checkTotp(Base32::decode($_SESSION['user']['totp_secret']), $_POST['code'])){
 
+    }else{
+        $fonction->redirect("profil", "", "", "error", "active_totp", "Ce code ne correspond pas !!!");
+    }
 
 }
