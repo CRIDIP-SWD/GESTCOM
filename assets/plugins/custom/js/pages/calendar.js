@@ -4,6 +4,11 @@
 (function($){
     $('.page-content').addClass('page-calendar');
     $('#calendar').fullCalendar({
-        defaultView: 'agendaDay'
+        defaultView: 'agendaDay',
+        header: {
+            left: 'Title',
+            center: '',
+            right: 'today prev,next'
+        }
     })
 })(jQuery);
