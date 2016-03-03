@@ -3,4 +3,7 @@
  */
 (function($){
     $('.page-content').addClass('page-calendar');
+    $('#calendar').fullCalendar({
+        defaultView: 'agendaDay'
+    })
 })(jQuery);
