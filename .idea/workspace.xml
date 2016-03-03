@@ -99,10 +99,10 @@
         <entry file="file://$PROJECT_DIR$/view/profil.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6555423">
-              <caret line="221" column="38" selection-start-line="221" selection-start-column="38" selection-end-line="221" selection-end-column="38" />
+              <caret line="221" column="51" selection-start-line="221" selection-start-column="51" selection-end-line="221" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <marker date="1457026158316" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
+                <marker date="1457026215701" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
               </folding>
             </state>
           </provider>
@@ -342,12 +342,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00357" summary="GESTCOM V1.0.0">
-      <created>1456764777226</created>
-      <option name="number" value="00357" />
-      <option name="project" value="LOCAL" />
-      <updated>1456764777226</updated>
     </task>
     <task id="LOCAL-00358" summary="GESTCOM V1.0.0">
       <created>1456764842489</created>
@@ -637,7 +631,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457026091466</updated>
     </task>
-    <option name="localTasksCounter" value="406" />
+    <task id="LOCAL-00406" summary="GESTCOM V1.0.0">
+      <created>1457026161248</created>
+      <option name="number" value="00406" />
+      <option name="project" value="LOCAL" />
+      <updated>1457026161248</updated>
+    </task>
+    <option name="localTasksCounter" value="407" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1071,10 +1071,10 @@
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6555423">
-          <caret line="221" column="38" selection-start-line="221" selection-start-column="38" selection-end-line="221" selection-end-column="38" />
+          <caret line="221" column="51" selection-start-line="221" selection-start-column="51" selection-end-line="221" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <marker date="1457026158316" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
+            <marker date="1457026215701" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
           </folding>
         </state>
       </provider>
