@@ -30,7 +30,6 @@ class users
 
     public function totp()
     {
-        session_start();
         $secret = GoogleAuthenticator::generateRandom();
         $_SESSION['user']['totp_secret'] = $secret;
         $username = $this->username;

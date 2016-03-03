@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
+    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/general/users.php" afterPath="$PROJECT_DIR$/application/general/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/user.php" afterPath="$PROJECT_DIR$/controller/user.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2431466">
-              <caret line="209" column="60" selection-start-line="209" selection-start-column="60" selection-end-line="209" selection-end-column="60" />
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="209" column="10" selection-start-line="209" selection-start-column="10" selection-end-line="209" selection-end-column="10" />
               <folding>
                 <element signature="e#6#29#0#PHP" expanded="true" />
                 <element signature="e#63#1767#0#PHP" expanded="false" />
@@ -75,13 +74,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/general/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538">
-              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.5268176">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
-                <marker date="1457027476236" expanded="true" signature="366:412" placeholder="SELECT * FRO... users" />
+                <marker date="1457027804337" expanded="true" signature="366:412" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -189,8 +188,8 @@
         <option value="$PROJECT_DIR$/view/login.php" />
         <option value="$PROJECT_DIR$/application/classe.php" />
         <option value="$PROJECT_DIR$/view/profil.php" />
-        <option value="$PROJECT_DIR$/application/general/users.php" />
         <option value="$PROJECT_DIR$/controller/user.php" />
+        <option value="$PROJECT_DIR$/application/general/users.php" />
       </list>
     </option>
   </component>
@@ -345,12 +344,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00364" summary="GESTCOM V1.0.0">
-      <created>1456766540038</created>
-      <option name="number" value="00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1456766540038</updated>
     </task>
     <task id="LOCAL-00365" summary="GESTCOM V1.0.0">
       <created>1456766815242</created>
@@ -640,7 +633,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457027360483</updated>
     </task>
-    <option name="localTasksCounter" value="413" />
+    <task id="LOCAL-00413" summary="GESTCOM V1.0.0">
+      <created>1457027767923</created>
+      <option name="number" value="00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1457027767923</updated>
+    </task>
+    <option name="localTasksCounter" value="414" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1025,16 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding>
-            <marker date="1457027476236" expanded="true" signature="366:412" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
@@ -1057,8 +1046,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2431466">
-          <caret line="209" column="60" selection-start-line="209" selection-start-column="60" selection-end-line="209" selection-end-column="60" />
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="209" column="10" selection-start-line="209" selection-start-column="10" selection-end-line="209" selection-end-column="10" />
           <folding>
             <element signature="e#6#29#0#PHP" expanded="true" />
             <element signature="e#63#1767#0#PHP" expanded="false" />
@@ -1080,6 +1069,16 @@
             <marker date="1457027765312" expanded="true" signature="7040:7092" placeholder="UPDATE users... " />
             <marker date="1457027765312" expanded="true" signature="7040:7100" placeholder="UPDATE users... " />
             <marker date="1457027765312" expanded="true" signature="7350:7498" placeholder="INSERT INTO notif... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5268176">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <marker date="1457027804337" expanded="true" signature="366:412" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
