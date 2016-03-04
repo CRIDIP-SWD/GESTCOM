@@ -40,14 +40,23 @@
                                             </tr>
                                         </thead>
                                         <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                        <?php
+                                        $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event = :start_event AND end_event = :end_event", array(
+                                            "iduser"        => $user->iduser,
+                                            "start_event"   => $date_format->format_strt(date("d-m-Y 00:00:00")),
+                                            "end_event"     => $date_format->format_strt(date("d-m-Y 23:59:59"))
+                                        ));
+                                        foreach($sql_event as $event):
+                                        ?>
                                             <tr class="gradeA odd">
                                                 <td class="center "></td>
-                                                <td class=" sorting_1">Gecko</td>
-                                                <td class=" ">Firefox 1.0</td>
-                                                <td class=" ">Win 98+ / OSX.2+</td>
-                                                <td style="visibility: hidden">Bureau</td>
-                                                <td style="visibility: hidden">Dexription de l'évènement</td>
+                                                <td class=" sorting_1"><?= $date_format->formatage("H:i", $event['start_event']); ?> / <?= $date_format->formatage("H:i", $event['end_event']); ?></td>
+                                                <td class=" "><?= html_entity_decode($event['titre_event']); ?></td>
+                                                <td class=" "></td>
+                                                <td style="visibility: hidden"><?= html_entity_decode($event['lieu_event']); ?></td>
+                                                <td style="visibility: hidden"><?= html_entity_decode($event['desc_event']); ?></td>
                                             </tr>
+                                        <?php endforeach; ?>
                                         </tbody>
                                     </table>
                                 </div>
