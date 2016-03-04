@@ -11,7 +11,9 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
     if(isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
         $username = $_POST['username'];
         $password = $_POST['password'];
-        $remember = $_POST['remember'];
+        if(isset($_POST['remember'])){
+            $remember = $_POST['remember'];
+        }
         $encrypt = new encrypt($username, $password);
         $pass_en = $encrypt->encrypt();
         $decrypt = new \App\noctus\decrypt($pass_en, $username, $password);
