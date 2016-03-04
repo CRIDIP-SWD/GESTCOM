@@ -11,6 +11,7 @@ use App\general\constante;
     <meta content="themes-lab" name="author" />
     <link rel="shortcut icon" href="<?= $constante->getUrl(array('img/')); ?>favicon.png">
     <link href="<?= $constante->getUrl(array('css/')); ?>style.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('css/')); ?>theme.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('css/')); ?>ui.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-loading/lada.min.css" rel="stylesheet">
 </head>
