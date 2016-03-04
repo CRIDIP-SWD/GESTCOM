@@ -53,8 +53,8 @@
       <file leaf-file-name="calendar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7878427">
-              <caret line="56" column="127" selection-start-line="56" selection-start-column="127" selection-end-line="56" selection-end-column="127" />
+            <state vertical-scroll-proportion="0.5852205">
+              <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
               <folding>
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -63,8 +63,8 @@
                 <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <marker date="1457102755069" expanded="true" signature="2650:2757" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457102755069" expanded="true" signature="4974:5339" placeholder="..." />
+                <marker date="1457103034061" expanded="true" signature="2650:2759" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457103034061" expanded="true" signature="4976:5341" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -325,12 +325,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00416" summary="GESTCOM V1.0.0">
-      <created>1457028095257</created>
-      <option name="number" value="00416" />
-      <option name="project" value="LOCAL" />
-      <updated>1457028095257</updated>
     </task>
     <task id="LOCAL-00417" summary="GESTCOM V1.0.0">
       <created>1457028496391</created>
@@ -620,7 +614,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457102418301</updated>
     </task>
-    <option name="localTasksCounter" value="465" />
+    <task id="LOCAL-00465" summary="GESTCOM V1.0.0">
+      <created>1457102757641</created>
+      <option name="number" value="00465" />
+      <option name="project" value="LOCAL" />
+      <updated>1457102757641</updated>
+    </task>
+    <option name="localTasksCounter" value="466" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1091,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7878427">
-          <caret line="56" column="127" selection-start-line="56" selection-start-column="127" selection-end-line="56" selection-end-column="127" />
+        <state vertical-scroll-proportion="0.5852205">
+          <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
           <folding>
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -1101,8 +1101,8 @@
             <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <marker date="1457102755069" expanded="true" signature="2650:2757" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457102755069" expanded="true" signature="4974:5339" placeholder="..." />
+            <marker date="1457103034061" expanded="true" signature="2650:2759" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457103034061" expanded="true" signature="4976:5341" placeholder="..." />
           </folding>
         </state>
       </provider>
