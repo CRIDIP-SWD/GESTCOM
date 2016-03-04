@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/noctus/encrypt.php" afterPath="$PROJECT_DIR$/application/noctus/encrypt.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/application/noctus/encrypt.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7973778">
-              <caret line="58" column="55" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+              <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -376,12 +377,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00405" summary="GESTCOM V1.0.0">
-      <created>1457026091466</created>
-      <option name="number" value="00405" />
-      <option name="project" value="LOCAL" />
-      <updated>1457026091466</updated>
     </task>
     <task id="LOCAL-00406" summary="GESTCOM V1.0.0">
       <created>1457026161248</created>
@@ -671,7 +666,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457101321118</updated>
     </task>
-    <option name="localTasksCounter" value="454" />
+    <task id="LOCAL-00454" summary="GESTCOM V1.0.0">
+      <created>1457101403381</created>
+      <option name="number" value="00454" />
+      <option name="project" value="LOCAL" />
+      <updated>1457101403381</updated>
+    </task>
+    <option name="localTasksCounter" value="455" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1135,7 +1136,7 @@
     <entry file="file://$PROJECT_DIR$/application/noctus/encrypt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7973778">
-          <caret line="58" column="55" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+          <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
           <folding />
         </state>
       </provider>

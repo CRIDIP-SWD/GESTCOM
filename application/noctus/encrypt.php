@@ -56,7 +56,7 @@ class encrypt
 
         $key = substr($shuff, 0, 15);
 
-        $token = $username."_".$key."_".$password."_".$date;
+        $token = $username."_".$key."_".$password."_".time();
         return $token;
     }
 }
