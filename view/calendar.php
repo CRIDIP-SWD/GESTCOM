@@ -10,19 +10,43 @@
             </div>
             <div class="panel-content">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#tab1_1" data-toggle="tab">Home</a></li>
-                    <li class=""><a href="#tab1_2" data-toggle="tab">Profile</a></li>
-                    <li><a href="#tab1_3" data-toggle="tab">Other Tab</a></li>
+                    <li class="active"><a href="#today" data-toggle="tab">Aujoud'hui</a></li>
+                    <li class=""><a href="#week" data-toggle="tab">Semaine</a></li>
+                    <li><a href="#month" data-toggle="tab">Mois</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane fade active in" id="tab1_1">
-                        <div class="row column-seperation">
-                            <div class="col-md-6 line-separator">
-                                <h3><strong>Big</strong> Title for your tab</h3>
-                                <h4>Customize your tab as you want easily</h4>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="light">default, the textarea element comes with a vertical scrollbar (and maybe even a horizontal scrollbar). This vertical scrollbar enables the user to continue entering and reviewing their text (by scrolling up and down).</p>
+                    <div class="tab-pane fade active in" id="today">
+                        <div class="table-responsive">
+                            <div class="panel">
+                                <div class="panel-header panel-controls">
+                                    <h3><i class="fa fa-table"></i> <strong>Hiding </strong> columns</h3>
+                                </div>
+                                <div class="panel-content">
+                                    <table class="table dataTable" id="calendar">
+                                        <thead>
+                                            <tr>
+                                                <th class="no_sort" tabindex="0" rowspan="1" colspan="1" style="width: 42px;"></th>
+                                                <th class="sorting_asc" tabindex="0" rowspan="1" colspan="1" style="width: 279px;">
+                                                    Heure
+                                                </th>
+                                                <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 350px;">
+                                                    Evénement
+                                                </th>
+                                                <th tabindex="0" rowspan="1" colspan="1">
+                                                    Action
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                            <tr class="gradeA odd">
+                                                <td class="center "></td>
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 1.0</td>
+                                                <td class=" ">Win 98+ / OSX.2+</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -37,3 +61,6 @@
         </div>
     </div>
 </div>
+
+<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="assets/plugins/custom/js/pages/calendar.js"></script>
