@@ -39,6 +39,11 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
                 if(isset($remember)){
                     setcookie('user_id', $encrypt->new_token(), time() + 3600 * 24 *3, '/', '', false, true);
                     var_dump($_COOKIE);
+                    if($decrypt->decrypt_token($_COOKIE['user_id'])){
+                        echo "OK";
+                    }else{
+                        echo "ERROR";
+                    }
                     die();
                 }
                 if($user_u == 1){
