@@ -64,16 +64,16 @@
                                     <table class="table dataTable" id="week">
                                         <thead>
                                         <tr>
-                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 279px;">
+                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 10%">
                                                 Jours
                                             </th>
-                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 350px;">
+                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 10%">
                                                 Heure
                                             </th>
-                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 350px;">
+                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 70%">
                                                 Evenement
                                             </th>
-                                            <th tabindex="0" rowspan="1" colspan="1">
+                                            <th tabindex="0" rowspan="1" colspan="1" style="width: 10%;">
                                                 Action
                                             </th>
                                         </tr>
