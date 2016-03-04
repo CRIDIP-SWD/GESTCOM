@@ -58,7 +58,7 @@
                         <div class="table-responsive">
                             <div class="panel">
                                 <div class="panel-header">
-                                    <h3>Semaine <?= date("W"); ?> | Du 29 Février au 6 Mars 2016</h3>
+                                    <h3>Semaine <?= date("W"); ?> | <?= $date_format->semaine(date("Y"), date("W")); ?></h3>
                                 </div>
                                 <div class="panel-content">
                                     <table class="table dataTable" id="week">
@@ -81,12 +81,10 @@
                                         <tbody role="alert" aria-live="polite" aria-relevant="all">
                                         <?php
                                         $strt = $date_format->semaine_strt(date("Y"), date("W"));
-                                        var_dump($strt);
-                                        die();
                                         $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event >= :start_event AND end_event <= :end_event", array(
                                             "iduser"        => $user->iduser,
-                                            "start_event"   => $strt_lundi,
-                                            "end_event"     => $strt_vendredi
+                                            "start_event"   => $strt['strt_lundi'],
+                                            "end_event"     => $strt['strt_vendredi']
                                         ));
                                         foreach($sql_event as $event):
                                             ?>

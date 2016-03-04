@@ -222,6 +222,8 @@ class date
 
     public function semaine($annee, $semaine)
     {
+        $date_format = new date();
+
         $lundi = new DateTime();
         $lundi->setISODate($annee, $semaine);
 
@@ -229,7 +231,13 @@ class date
         $dimanche->setISODate($annee, $semaine);
         date_modify($dimanche, '+6 days');
 
-        return $lundi->format("d-m")." au ".$dimanche->format("d-m");
+        $format_lundi = $lundi->format("d");
+        $format_dimanche = $dimanche->format("d");
+
+        $mois = $date_format->formatage_sequenciel_no_str("m");
+
+        $format = "Du ".$format_lundi." ".$mois." au ".$format_dimanche." ".$mois." ".date("Y");
+        return $format;
 
     }
 
