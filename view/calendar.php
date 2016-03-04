@@ -41,7 +41,7 @@
                                         </thead>
                                         <tbody role="alert" aria-live="polite" aria-relevant="all">
                                         <?php
-                                        $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event <= :start_event AND end_event <= :end_event", array(
+                                        $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event >= :start_event AND end_event <= :end_event", array(
                                             "iduser"        => $user->iduser,
                                             "start_event"   => $date_format->format_strt(date("d-m-Y 00:00:00")),
                                             "end_event"     => $date_format->format_strt(date("d-m-Y 23:59:59"))
