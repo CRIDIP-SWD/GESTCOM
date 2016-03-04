@@ -40,6 +40,7 @@ use App\general\constante;
                     <input type="password" name="password" class="form-control form-white password" placeholder="Mot de Passe" required>
                     <i class="icon-lock"></i>
                 </div>
+
                 <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left" name="action" value="login">Connexion</button>
             </form>
         </div>
@@ -85,6 +86,7 @@ use App\general\constante;
 <script src="<?= $constante->getUrl(array('js/')); ?>pages/login-v2.js"></script>
 <!-- BEGIN PAGE SCRIPT -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>toastr/toastr.js"></script>
+<script src="<?= $constante->getUrl(array('js/')); ?>pages/form_icheck.js"></script>
 <!-- END PAGE SCRIPT -->
 <?php if(isset($_GET['warning']) && $_GET['warning'] == $_GET['warning']){ ?>
     <script type="text/javascript">
