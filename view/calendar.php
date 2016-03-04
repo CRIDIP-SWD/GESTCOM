@@ -50,11 +50,11 @@
                                         ?>
                                             <tr class="gradeA odd">
                                                 <td class="center "></td>
-                                                <td class=" sorting_1"><?= $date_format->formatage("H:i", $event['start_event']); ?> / <?= $date_format->formatage("H:i", $event['end_event']); ?></td>
-                                                <td class=" "><?= html_entity_decode($event['titre_event']); ?></td>
+                                                <td class=" sorting_1"><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
+                                                <td class=" "><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td class=" "></td>
-                                                <td style="visibility: hidden"><?= html_entity_decode($event['lieu_event']); ?></td>
-                                                <td style="visibility: hidden"><?= html_entity_decode($event['desc_event']); ?></td>
+                                                <td style="visibility: hidden"><?= html_entity_decode($event->lieu_event); ?></td>
+                                                <td style="visibility: hidden"><?= html_entity_decode($event->desc_event); ?></td>
                                             </tr>
                                         <?php endforeach; ?>
                                         </tbody>
