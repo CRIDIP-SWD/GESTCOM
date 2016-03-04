@@ -81,11 +81,17 @@
       <file leaf-file-name="calendar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13757226">
-              <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.11791907">
+              <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
-                <marker date="1457102343550" expanded="true" signature="243:261" placeholder="..." />
+                <marker date="1457102415861" expanded="true" signature="243:261" placeholder="..." />
+                <marker date="1457102415861" expanded="true" signature="298:309" placeholder="..." />
+                <marker date="1457102415861" expanded="true" signature="332:343" placeholder="..." />
+                <marker date="1457102415861" expanded="true" signature="360:371" placeholder="..." />
+                <marker date="1457102415861" expanded="true" signature="406:417" placeholder="..." />
+                <marker date="1457102415861" expanded="true" signature="447:458" placeholder="..." />
+                <marker date="1457102415861" expanded="true" signature="471:482" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -315,12 +321,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00414" summary="GESTCOM V1.0.0">
-      <created>1457027806917</created>
-      <option name="number" value="00414" />
-      <option name="project" value="LOCAL" />
-      <updated>1457027806917</updated>
     </task>
     <task id="LOCAL-00415" summary="GESTCOM V1.0.0">
       <created>1457027852324</created>
@@ -610,7 +610,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457102293983</updated>
     </task>
-    <option name="localTasksCounter" value="463" />
+    <task id="LOCAL-00463" summary="GESTCOM V1.0.0">
+      <created>1457102346193</created>
+      <option name="number" value="00463" />
+      <option name="project" value="LOCAL" />
+      <updated>1457102346193</updated>
+    </task>
+    <option name="localTasksCounter" value="464" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1077,11 +1083,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13757226">
-          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.11791907">
+          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
-            <marker date="1457102343550" expanded="true" signature="243:261" placeholder="..." />
+            <marker date="1457102415861" expanded="true" signature="243:261" placeholder="..." />
+            <marker date="1457102415861" expanded="true" signature="298:309" placeholder="..." />
+            <marker date="1457102415861" expanded="true" signature="332:343" placeholder="..." />
+            <marker date="1457102415861" expanded="true" signature="360:371" placeholder="..." />
+            <marker date="1457102415861" expanded="true" signature="406:417" placeholder="..." />
+            <marker date="1457102415861" expanded="true" signature="447:458" placeholder="..." />
+            <marker date="1457102415861" expanded="true" signature="471:482" placeholder="..." />
           </folding>
         </state>
       </provider>
