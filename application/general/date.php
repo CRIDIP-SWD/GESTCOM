@@ -231,13 +231,20 @@ class date
         $dimanche->setISODate($annee, $semaine);
         date_modify($dimanche, '+6 days');
 
-        $format_lundi = $lundi->format("d");
-        $format_dimanche = $dimanche->format("d");
+        $format_lundi = $lundi->format("d-m-y");
+        $format_dimanche = $dimanche->format("d-m-y");
 
-        $mois = $date_format->formatage_sequenciel_no_str("m");
+        $strt_lundi = $date_format->format_strt($format_lundi);
+        $strt_dimanche = $date_format->format_strt($format_dimanche);
 
-        $format = "Du ".$format_lundi." ".$mois." au ".$format_dimanche." ".$mois." ".date("Y");
+        $day_lundi = $lundi->format("d");
+        $day_dimanche = $dimanche->format("d");
+        $mois_lundi = $date_format->formatage_sequenciel("m", $strt_lundi);
+        $mois_dimanche = $date_format->formatage_sequenciel("m", $strt_dimanche);
+
+        $format = "Du ".$day_lundi." ".$mois_lundi." au ".$day_dimanche." ".$mois_dimanche." ".date("Y");
         return $format;
+
 
     }
 

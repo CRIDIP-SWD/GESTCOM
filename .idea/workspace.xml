@@ -7,7 +7,6 @@
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/general/date.php" afterPath="$PROJECT_DIR$/application/general/date.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/calendar.php" afterPath="$PROJECT_DIR$/view/calendar.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +50,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="calendar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calendar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40753424">
+            <state vertical-scroll-proportion="-13.730769">
               <caret line="60" column="119" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="119" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
@@ -68,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="date.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="date.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/general/date.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.538462">
-              <caret line="239" column="23" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.86415523">
+              <caret line="245" column="23" selection-start-line="245" selection-start-column="23" selection-end-line="245" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -158,8 +157,8 @@
         <option value="$PROJECT_DIR$/application/noctus/encrypt.php" />
         <option value="$PROJECT_DIR$/controller/user.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" />
-        <option value="$PROJECT_DIR$/application/general/date.php" />
         <option value="$PROJECT_DIR$/view/calendar.php" />
+        <option value="$PROJECT_DIR$/application/general/date.php" />
       </list>
     </option>
   </component>
@@ -469,12 +468,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00436" summary="GESTCOM V1.0.0">
-      <created>1457046364835</created>
-      <option name="number" value="00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1457046364835</updated>
-    </task>
     <task id="LOCAL-00437" summary="GESTCOM V1.0.0">
       <created>1457046482493</created>
       <option name="number" value="00437" />
@@ -763,7 +756,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457124901743</updated>
     </task>
-    <option name="localTasksCounter" value="485" />
+    <task id="LOCAL-00485" summary="GESTCOM V1.0.0">
+      <created>1457125156827</created>
+      <option name="number" value="00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1457125156827</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1189,17 +1188,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.538462">
-          <caret line="239" column="23" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40753424">
+        <state vertical-scroll-proportion="-13.730769">
           <caret line="60" column="119" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="119" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
@@ -1209,6 +1200,14 @@
             <marker date="1457125152141" expanded="true" signature="2199:2308" placeholder="SELECT * FRO... collab_event" />
             <marker date="1457125152141" expanded="true" signature="5590:5699" placeholder="SELECT * FRO... collab_event" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86415523">
+          <caret line="245" column="23" selection-start-line="245" selection-start-column="23" selection-end-line="245" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
