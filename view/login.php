@@ -40,7 +40,8 @@ use App\general\constante;
                     <input type="password" name="password" class="form-control form-white password" placeholder="Mot de Passe" required>
                     <i class="icon-lock"></i>
                 </div>
-
+                <label>
+                    <input type="checkbox" data-checkbox="icheckbox_square-blue"> Se souvenir de moi</label>
                 <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left" name="action" value="login">Connexion</button>
             </form>
         </div>
