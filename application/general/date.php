@@ -184,6 +184,12 @@ class date
         return strtotime(date("d-m-Y"));
     }
 
+    public function semaine($annee, $semaine)
+    {
+        $date = new DateTime();
+        return $date->setISODate($annee, $semaine);
+    }
+
     /**
      * @param $strtotime //Date au format strtotime
      * @return float // Retourne la valeur différentielle de jour restant en format strtotime
