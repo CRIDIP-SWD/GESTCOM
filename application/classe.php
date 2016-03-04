@@ -4,6 +4,7 @@ use App\general\date;
 use App\general\db;
 use App\general\ErrorContext;
 use App\general\fonction;
+use App\general\insert;
 use App\general\ssh;
 use App\general\users;
 
@@ -22,6 +23,7 @@ $fonction = new fonction();
 $DB = new db();
 $ssh2 = new ssh();
 $errorContext = new ErrorContext();
+$insert = new insert();
 
 /*
  * APP\GENERAL
