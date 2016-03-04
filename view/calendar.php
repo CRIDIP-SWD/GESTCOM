@@ -5,9 +5,6 @@
 <div class="row">
     <div class="col-md-12">
         <div class="panel">
-            <div class="panel-header panel-controls">
-                <h3><strong>Light</strong> style</h3>
-            </div>
             <div class="panel-content">
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#today" data-toggle="tab">Aujoud'hui</a></li>
@@ -18,7 +15,7 @@
                     <div class="tab-pane fade active in" id="today">
                         <div class="table-responsive">
                             <div class="panel">
-                                <div class="panel-header panel-controls">
+                                <div class="panel-header">
                                     <h3><?= $date_format->formatage_long(time()); ?></h3>
                                 </div>
                                 <div class="panel-content">
