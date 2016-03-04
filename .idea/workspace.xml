@@ -53,8 +53,8 @@
       <file leaf-file-name="calendar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="60" column="119" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="119" />
+            <state vertical-scroll-proportion="-28.76923">
+              <caret line="86" column="83" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="83" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -70,8 +70,8 @@
       <file leaf-file-name="date.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/general/date.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86415523">
-              <caret line="245" column="23" selection-start-line="245" selection-start-column="23" selection-end-line="245" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.24315068">
+              <caret line="231" column="34" selection-start-line="231" selection-start-column="34" selection-end-line="231" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -468,12 +468,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00437" summary="GESTCOM V1.0.0">
-      <created>1457046482493</created>
-      <option name="number" value="00437" />
-      <option name="project" value="LOCAL" />
-      <updated>1457046482493</updated>
-    </task>
     <task id="LOCAL-00438" summary="GESTCOM V1.0.0">
       <created>1457046648235</created>
       <option name="number" value="00438" />
@@ -762,7 +756,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457125156827</updated>
     </task>
-    <option name="localTasksCounter" value="486" />
+    <task id="LOCAL-00486" summary="GESTCOM V1.0.0">
+      <created>1457125466731</created>
+      <option name="number" value="00486" />
+      <option name="project" value="LOCAL" />
+      <updated>1457125466731</updated>
+    </task>
+    <option name="localTasksCounter" value="487" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1190,8 +1190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="60" column="119" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="119" />
+        <state vertical-scroll-proportion="-28.76923">
+          <caret line="86" column="83" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="83" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -1205,8 +1205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/general/date.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86415523">
-          <caret line="245" column="23" selection-start-line="245" selection-start-column="23" selection-end-line="245" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.24315068">
+          <caret line="231" column="34" selection-start-line="231" selection-start-column="34" selection-end-line="231" selection-end-column="34" />
           <folding />
         </state>
       </provider>

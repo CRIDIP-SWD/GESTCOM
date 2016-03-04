@@ -229,7 +229,7 @@ class date
 
         $dimanche = new DateTime();
         $dimanche->setISODate($annee, $semaine);
-        date_modify($dimanche, '+6 days');
+        date_modify($dimanche, '+4 days');
 
         $format_lundi = $lundi->format("d-m-y");
         $format_dimanche = $dimanche->format("d-m-y");
