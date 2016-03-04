@@ -19,7 +19,7 @@
                                     <h3><?= $date_format->formatage_long(time()); ?></h3>
                                 </div>
                                 <div class="panel-content">
-                                    <table class="table dataTable" id="today">
+                                    <table class="table dataTable" id="today2">
                                         <thead>
                                             <tr>
                                                 <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 279px;">

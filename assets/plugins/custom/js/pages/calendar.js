@@ -2,7 +2,7 @@
  * Created by Maxime on 03/03/2016.
  */
 (function($){
-    $('#today').dataTable({
+    $('#today2').dataTable({
         "aoColumnDefs": [{
             "bSortable": false,
             "aTargets": [0]
