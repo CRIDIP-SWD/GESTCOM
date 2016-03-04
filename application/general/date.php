@@ -233,6 +233,28 @@ class date
 
     }
 
+    public function semaine_strt($annee, $semaine)
+    {
+        $date_format = new date();
+        $lundi = new DateTime();
+        $lundi->setISODate($annee, $semaine);
+
+        $vendredi = new DateTime();
+        $vendredi->setISODate($annee, $semaine);
+        date_modify($vendredi, '+4 days');
+
+        $format_lundi = $lundi->format("d-m-Y");
+        $format_vendredi = $vendredi->format("d-m-Y");
+
+        $strt_lundi = $date_format->format_strt($format_lundi);
+        $strt_vendredi = $date_format->format_strt($format_vendredi);
+
+        return array(
+            "strt_lundi" => $strt_lundi,
+            "strt_vendredi" => $strt_vendredi
+        );
+    }
+
     /**
      * @param $strtotime //Date au format strtotime
      * @return float // Retourne la valeur différentielle de jour restant en format strtotime

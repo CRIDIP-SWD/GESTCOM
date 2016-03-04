@@ -80,32 +80,18 @@
                                         </thead>
                                         <tbody role="alert" aria-live="polite" aria-relevant="all">
                                         <?php
-                                        $lundi = new DateTime();
-                                        $lundi->setISODate(date("Y"), date("W"));
-
-                                        $vendredi = new DateTime();
-                                        $vendredi->setISODate(date("Y"), date("W"));
-                                        date_modify($vendredi, '+4 days');
-
-                                        $format_lundi = $lundi->format("d-m-Y");
-                                        $format_vendredi = $vendredi->format("d-m-Y");
-
-                                        $strt_lundi = $date_format->format_strt($format_lundi);
-                                        $strt_vendredi = $date_format->format_strt($format_vendredi);
-
-                                        var_dump($strt_lundi, $strt_vendredi);
+                                        $strt = $date_format->semaine_strt(date("Y"), date("W"));
+                                        var_dump($strt);
                                         die();
                                         $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event >= :start_event AND end_event <= :end_event", array(
                                             "iduser"        => $user->iduser,
-                                            "start_event"   => $date_format->format_strt(date("d-m-Y 00:00:00")),
-                                            "end_event"     => $date_format->format_strt(date("d-m-Y 23:59:59"))
+                                            "start_event"   => $strt_lundi,
+                                            "end_event"     => $strt_vendredi
                                         ));
                                         foreach($sql_event as $event):
                                             ?>
                                             <tr class="<?php if($event->start_event < time() AND $event->end_event < time()){echo 'danger';} ?> <?php if($event->start_event <= time()-900){echo 'info';} ?>">
-                                                <td class=""><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
-                                                <td class=""><?= html_entity_decode($event->titre_event); ?></td>
-                                                <td class=""></td>
+
                                             </tr>
                                         <?php endforeach; ?>
                                         </tbody>
