@@ -11,7 +11,7 @@
             url: "//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json"
         }
     });
-    $('#week').dataTable({
+    $('#week2').dataTable({
         "aoColumnDefs": [{
             "bSortable": false,
             "aTargets": [0]

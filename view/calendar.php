@@ -61,7 +61,7 @@
                                     <h3>Semaine <?= date("W"); ?> | <?= $date_format->semaine(date("Y"), date("W")); ?></h3>
                                 </div>
                                 <div class="panel-content">
-                                    <table class="table dataTable" id="week">
+                                    <table class="table dataTable" id="week2">
                                         <thead>
                                         <tr>
                                             <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 10%">
