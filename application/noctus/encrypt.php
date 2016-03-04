@@ -8,8 +8,7 @@
 
 namespace App\noctus;
 
-
-use App\date_format;
+use App\general\date;
 
 class encrypt
 {
@@ -46,7 +45,7 @@ class encrypt
 
     public function new_token()
     {
-        $date_format = new date_format();
+        $date_format = new date();
 
         $date = $date_format->format_strt("d-m-Y H:i:s");
         $username = $this->username;

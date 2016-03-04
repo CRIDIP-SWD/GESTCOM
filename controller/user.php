@@ -11,6 +11,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
     if(isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
         $username = $_POST['username'];
         $password = $_POST['password'];
+        $remember = $_POST['remember'];
         $encrypt = new encrypt($username, $password);
         $pass_en = $encrypt->encrypt();
         $decrypt = new \App\noctus\decrypt($pass_en, $username, $password);
@@ -20,7 +21,6 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
             "username" => $username,
             "password" => $pass_en
         ));
-
 
         if($user_co == 1){
             $user_q = $DB->query("SELECT * FROM users WHERE username = :username", array("username" => $username));
@@ -36,6 +36,11 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
                     "username"      => $username,
                     "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
                 ));
+                if(isset($remember)){
+                    setcookie('user_id', $encrypt->new_token(), time() + 3600 * 24 *3, '/', '', true, true);
+                    var_dump($_COOKIE);
+                    die();
+                }
                 if($user_u == 1){
                     $fonction->redirect("dashboard");
                 }
