@@ -37,7 +37,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
                     "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
                 ));
                 if(isset($remember)){
-                    setcookie('user_id', $encrypt->new_token(), time() + 3600 * 24 *3, '/', '', true, true);
+                    setcookie('user_id', $encrypt->new_token(), time() + 3600 * 24 *3, '/', '', false, true);
                     var_dump($_COOKIE);
                     die();
                 }
