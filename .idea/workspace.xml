@@ -62,27 +62,27 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7699642">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.28367105">
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="42" />
               <folding>
-                <marker date="1457101760181" expanded="true" signature="653:736" placeholder="SELECT COUNT... users" />
-                <marker date="1457101760181" expanded="true" signature="892:938" placeholder="SELECT * FRO... users" />
-                <marker date="1457101760181" expanded="true" signature="1458:1543" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="2065:2150" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="3297:3339" placeholder="SELECT * FRO... users" />
-                <marker date="1457101760181" expanded="true" signature="3616:3701" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="4240:4291" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="5078:5161" placeholder="SELECT COUNT... users" />
-                <marker date="1457101760181" expanded="true" signature="5417:5502" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="6179:6230" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="6928:7108" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="7532:7680" placeholder="INSERT INTO notif... " />
-                <marker date="1457101760181" expanded="true" signature="9334:9394" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="9644:9792" placeholder="INSERT INTO notif... " />
-                <marker date="1457101760181" expanded="true" signature="10647:10721" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="11069:11217" placeholder="INSERT INTO notif... " />
-                <marker date="1457101760181" expanded="true" signature="12108:12175" placeholder="UPDATE users... " />
-                <marker date="1457101760181" expanded="true" signature="12379:12527" placeholder="INSERT INTO notif... " />
+                <marker date="1457101843500" expanded="true" signature="653:736" placeholder="SELECT COUNT... users" />
+                <marker date="1457101843500" expanded="true" signature="892:938" placeholder="SELECT * FRO... users" />
+                <marker date="1457101843500" expanded="true" signature="1476:1561" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="2083:2168" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="3315:3357" placeholder="SELECT * FRO... users" />
+                <marker date="1457101843500" expanded="true" signature="3634:3719" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="4258:4309" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="5096:5179" placeholder="SELECT COUNT... users" />
+                <marker date="1457101843500" expanded="true" signature="5435:5520" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="6197:6248" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="6946:7126" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="7550:7698" placeholder="INSERT INTO notif... " />
+                <marker date="1457101843500" expanded="true" signature="9352:9412" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="9662:9810" placeholder="INSERT INTO notif... " />
+                <marker date="1457101843500" expanded="true" signature="10665:10739" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="11087:11235" placeholder="INSERT INTO notif... " />
+                <marker date="1457101843500" expanded="true" signature="12126:12193" placeholder="UPDATE users... " />
+                <marker date="1457101843500" expanded="true" signature="12397:12545" placeholder="INSERT INTO notif... " />
               </folding>
             </state>
           </provider>
@@ -379,12 +379,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00409" summary="GESTCOM V1.0.0">
-      <created>1457026649838</created>
-      <option name="number" value="00409" />
-      <option name="project" value="LOCAL" />
-      <updated>1457026649838</updated>
-    </task>
     <task id="LOCAL-00410" summary="GESTCOM V1.0.0">
       <created>1457026993381</created>
       <option name="number" value="00410" />
@@ -673,7 +667,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457101647812</updated>
     </task>
-    <option name="localTasksCounter" value="458" />
+    <task id="LOCAL-00458" summary="GESTCOM V1.0.0">
+      <created>1457101762654</created>
+      <option name="number" value="00458" />
+      <option name="project" value="LOCAL" />
+      <updated>1457101762654</updated>
+    </task>
+    <option name="localTasksCounter" value="459" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1118,27 +1118,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7699642">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.28367105">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="42" />
           <folding>
-            <marker date="1457101760181" expanded="true" signature="653:736" placeholder="SELECT COUNT... users" />
-            <marker date="1457101760181" expanded="true" signature="892:938" placeholder="SELECT * FRO... users" />
-            <marker date="1457101760181" expanded="true" signature="1458:1543" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="2065:2150" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="3297:3339" placeholder="SELECT * FRO... users" />
-            <marker date="1457101760181" expanded="true" signature="3616:3701" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="4240:4291" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="5078:5161" placeholder="SELECT COUNT... users" />
-            <marker date="1457101760181" expanded="true" signature="5417:5502" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="6179:6230" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="6928:7108" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="7532:7680" placeholder="INSERT INTO notif... " />
-            <marker date="1457101760181" expanded="true" signature="9334:9394" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="9644:9792" placeholder="INSERT INTO notif... " />
-            <marker date="1457101760181" expanded="true" signature="10647:10721" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="11069:11217" placeholder="INSERT INTO notif... " />
-            <marker date="1457101760181" expanded="true" signature="12108:12175" placeholder="UPDATE users... " />
-            <marker date="1457101760181" expanded="true" signature="12379:12527" placeholder="INSERT INTO notif... " />
+            <marker date="1457101843500" expanded="true" signature="653:736" placeholder="SELECT COUNT... users" />
+            <marker date="1457101843500" expanded="true" signature="892:938" placeholder="SELECT * FRO... users" />
+            <marker date="1457101843500" expanded="true" signature="1476:1561" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="2083:2168" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="3315:3357" placeholder="SELECT * FRO... users" />
+            <marker date="1457101843500" expanded="true" signature="3634:3719" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="4258:4309" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="5096:5179" placeholder="SELECT COUNT... users" />
+            <marker date="1457101843500" expanded="true" signature="5435:5520" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="6197:6248" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="6946:7126" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="7550:7698" placeholder="INSERT INTO notif... " />
+            <marker date="1457101843500" expanded="true" signature="9352:9412" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="9662:9810" placeholder="INSERT INTO notif... " />
+            <marker date="1457101843500" expanded="true" signature="10665:10739" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="11087:11235" placeholder="INSERT INTO notif... " />
+            <marker date="1457101843500" expanded="true" signature="12126:12193" placeholder="UPDATE users... " />
+            <marker date="1457101843500" expanded="true" signature="12397:12545" placeholder="INSERT INTO notif... " />
           </folding>
         </state>
       </provider>

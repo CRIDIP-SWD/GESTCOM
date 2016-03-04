@@ -29,7 +29,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
                 $_SESSION['user']['user_id'] = $user_q[0]->iduser;
                 $fonction->redirect("login", "totp", "", "","","");
             }else{
-                if(isset($_COOKIE['user_id'])){
+                if($decrypt->decrypt_token($_COOKIE['user_id'])){
                     session_start();
                     $_SESSION['account']['active'] = 1;
                     $_SESSION['account']['username'] = $username;
