@@ -19,7 +19,7 @@
                                     <h3><?= $date_format->formatage_long(time()); ?></h3>
                                 </div>
                                 <div class="panel-content">
-                                    <table class="table dataTable" id="calendar">
+                                    <table class="table dataTable" id="today">
                                         <thead>
                                             <tr>
                                                 <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 279px;">
@@ -58,24 +58,24 @@
                         <div class="table-responsive">
                             <div class="panel">
                                 <div class="panel-header">
-                                    <h3>Du <?= $date_format->semaine(date('Y'), date('W')); ?></h3>
+                                    <h3>Semaine <?= date("W"); ?> | Du 29 Février au 6 Mars 2016</h3>
                                 </div>
                                 <div class="panel-content">
-                                    <table class="table dataTable" id="calendar">
+                                    <table class="table dataTable" id="week">
                                         <thead>
                                         <tr>
-                                            <th class="no_sort" tabindex="0" rowspan="1" colspan="1" style="width: 42px;"></th>
-                                            <th class="sorting_asc" tabindex="0" rowspan="1" colspan="1" style="width: 279px;">
+                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 279px;">
+                                                Jours
+                                            </th>
+                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 350px;">
                                                 Heure
                                             </th>
                                             <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 350px;">
-                                                Evénement
+                                                Evenement
                                             </th>
                                             <th tabindex="0" rowspan="1" colspan="1">
                                                 Action
                                             </th>
-                                            <th style="visibility: hidden"></th>
-                                            <th style="visibility: hidden"></th>
                                         </tr>
                                         </thead>
                                         <tbody role="alert" aria-live="polite" aria-relevant="all">
@@ -87,13 +87,10 @@
                                         ));
                                         foreach($sql_event as $event):
                                             ?>
-                                            <tr class="gradeA odd <?php if($event->start_event < time() AND $event->end_event < time()){echo 'danger';} ?> <?php if($event->start_event <= time()-900){echo 'info';} ?>">
-                                                <td class="center "></td>
-                                                <td class=" sorting_1"><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
-                                                <td class=" "><?= html_entity_decode($event->titre_event); ?></td>
-                                                <td class=" "></td>
-                                                <td style="visibility: hidden"><?= html_entity_decode($event->lieu_event); ?></td>
-                                                <td style="visibility: hidden"><?= html_entity_decode($event->desc_event); ?></td>
+                                            <tr class="<?php if($event->start_event < time() AND $event->end_event < time()){echo 'danger';} ?> <?php if($event->start_event <= time()-900){echo 'info';} ?>">
+                                                <td class=""><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
+                                                <td class=""><?= html_entity_decode($event->titre_event); ?></td>
+                                                <td class=""></td>
                                             </tr>
                                         <?php endforeach; ?>
                                         </tbody>
