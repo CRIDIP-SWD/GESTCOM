@@ -42,7 +42,7 @@
                                         ));
                                         foreach($sql_event as $event):
                                         ?>
-                                            <tr class="gradeA odd <?php if($event->start_event < time() AND $event->end_event < time()){echo 'danger';} ?> <?php if($event->start_event <= time()-900){echo 'info';} ?>">
+                                            <tr class="<?php if($event->start_event < time() AND $event->end_event < time()){echo 'danger';} ?> <?php if($event->start_event <= time()-900){echo 'info';} ?>">
                                                 <td class=""><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td class=""><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td class=""></td>
