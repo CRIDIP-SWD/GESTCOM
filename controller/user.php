@@ -29,26 +29,31 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
                 $_SESSION['user']['user_id'] = $user_q[0]->iduser;
                 $fonction->redirect("login", "totp", "", "","","");
             }else{
-                session_start();
-                $_SESSION['account']['active'] = 1;
-                $_SESSION['account']['username'] = $username;
-                $user_u = $DB->execute("UPDATE users SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
-                    "username"      => $username,
-                    "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
-                ));
-                if(isset($remember)){
-                    setcookie('user_id', $encrypt->new_token(), time() + 3600 * 24 *3, '/', '', false, true);
-                    var_dump($_COOKIE);
-                    if($decrypt->decrypt_token($_COOKIE['user_id'])){
-                        echo "OK";
-                    }else{
-                        echo "ERROR";
-                        var_dump($decrypt->decrypt_token($_COOKIE['user_id']));
+                if(isset($_COOKIE['user_id'])){
+                    session_start();
+                    $_SESSION['account']['active'] = 1;
+                    $_SESSION['account']['username'] = $username;
+                    $user_u = $DB->execute("UPDATE users SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
+                        "username"      => $username,
+                        "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
+                    ));
+                    if($user_u == 1){
+                        $fonction->redirect("dashboard");
                     }
-                    die();
-                }
-                if($user_u == 1){
-                    $fonction->redirect("dashboard");
+                }else{
+                    session_start();
+                    $_SESSION['account']['active'] = 1;
+                    $_SESSION['account']['username'] = $username;
+                    $user_u = $DB->execute("UPDATE users SET connect = 2, last_connect = :last_connect WHERE username = :username", array(
+                        "username"      => $username,
+                        "last_connect"  => $date_format->format_strt(date("d-m-Y H:i:s"))
+                    ));
+                    if(isset($remember)){
+                        setcookie('user_id', $encrypt->new_token(), time() + 3600 * 24 *3, '/', '', false, true);
+                    }
+                    if($user_u == 1){
+                        $fonction->redirect("dashboard");
+                    }
                 }
             }
         }elseif($user_co == 0){
