@@ -35,6 +35,8 @@
                                                 <th tabindex="0" rowspan="1" colspan="1">
                                                     Action
                                                 </th>
+                                                <th style="visibility: hidden"></th>
+                                                <th style="visibility: hidden"></th>
                                             </tr>
                                         </thead>
                                         <tbody role="alert" aria-live="polite" aria-relevant="all">
@@ -43,6 +45,8 @@
                                                 <td class=" sorting_1">Gecko</td>
                                                 <td class=" ">Firefox 1.0</td>
                                                 <td class=" ">Win 98+ / OSX.2+</td>
+                                                <td style="visibility: hidden">Bureau</td>
+                                                <td style="visibility: hidden">Dexription de l'évènement</td>
                                             </tr>
                                         </tbody>
                                     </table>
