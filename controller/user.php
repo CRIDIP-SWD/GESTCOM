@@ -43,6 +43,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
                         echo "OK";
                     }else{
                         echo "ERROR";
+                        var_dump($decrypt->decrypt_token($_COOKIE['user_id']));
                     }
                     die();
                 }
