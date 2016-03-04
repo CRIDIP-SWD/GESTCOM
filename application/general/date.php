@@ -230,7 +230,7 @@ class date
         $dimanche->setISODate($annee, $semaine);
         date_modify($dimanche, '+6 days');
 
-        return "Du".$lundi->format("'".$date_format->formatage_sequenciel_no_str('d')." d ".$date_format->formatage_sequenciel_no_str('m'));
+        return $lundi->format("d-m")." au ".$dimanche->format("d-m");
 
     }
 
