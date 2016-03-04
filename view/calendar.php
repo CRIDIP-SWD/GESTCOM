@@ -80,6 +80,21 @@
                                         </thead>
                                         <tbody role="alert" aria-live="polite" aria-relevant="all">
                                         <?php
+                                        $lundi = new DateTime();
+                                        $lundi->setISODate(date("Y"), date("W"));
+
+                                        $vendredi = new DateTime();
+                                        $vendredi->setISODate(date("Y"), date("W"));
+                                        date_modify($vendredi, '+4 days');
+
+                                        $format_lundi = $lundi->format("d-m-Y");
+                                        $format_vendredi = $vendredi->format("d-m-Y");
+
+                                        $strt_lundi = $date_format->format_strt($format_lundi);
+                                        $strt_vendredi = $date_format->format_strt($format_vendredi);
+
+                                        var_dump($strt_lundi, $strt_vendredi);
+                                        die();
                                         $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event >= :start_event AND end_event <= :end_event", array(
                                             "iduser"        => $user->iduser,
                                             "start_event"   => $date_format->format_strt(date("d-m-Y 00:00:00")),

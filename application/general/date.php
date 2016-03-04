@@ -222,7 +222,6 @@ class date
 
     public function semaine($annee, $semaine)
     {
-        $date_format = new date();
         $lundi = new DateTime();
         $lundi->setISODate($annee, $semaine);
 
