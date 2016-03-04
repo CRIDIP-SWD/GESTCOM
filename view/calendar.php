@@ -22,7 +22,7 @@
                                     <table class="table dataTable" id="calendar">
                                         <thead>
                                             <tr>
-                                                <th class="sorting_asc" tabindex="0" rowspan="1" colspan="1" style="width: 279px;">
+                                                <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 279px;">
                                                     Heure
                                                 </th>
                                                 <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 350px;">
@@ -43,9 +43,9 @@
                                         foreach($sql_event as $event):
                                         ?>
                                             <tr class="gradeA odd <?php if($event->start_event < time() AND $event->end_event < time()){echo 'danger';} ?> <?php if($event->start_event <= time()-900){echo 'info';} ?>">
-                                                <td class=" sorting_1"><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
-                                                <td class=" "><?= html_entity_decode($event->titre_event); ?></td>
-                                                <td class=" "></td>
+                                                <td class=""><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
+                                                <td class=""><?= html_entity_decode($event->titre_event); ?></td>
+                                                <td class=""></td>
                                             </tr>
                                         <?php endforeach; ?>
                                         </tbody>
