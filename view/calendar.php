@@ -19,7 +19,7 @@
                         <div class="table-responsive">
                             <div class="panel">
                                 <div class="panel-header panel-controls">
-                                    <h3><i class="fa fa-table"></i> <strong>Hiding </strong> columns</h3>
+                                    <h3><?= $date_format->formatage_long(time()); ?></h3>
                                 </div>
                                 <div class="panel-content">
                                     <table class="table dataTable" id="calendar">
