@@ -13,6 +13,7 @@ use App\general\constante;
     <link href="<?= $constante->getUrl(array('css/')); ?>style.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('css/')); ?>theme.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('css/')); ?>ui.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('plugins/')); ?>input-text/style.min.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-loading/lada.min.css" rel="stylesheet">
 </head>
 <body class="account2" data-page="login">
@@ -95,6 +96,7 @@ use App\general\constante;
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap/js/bootstrap.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>backstretch/backstretch.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-loading/lada.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>icheck/icheck.min.js"></script>
 <script src="<?= $constante->getUrl(array('js/')); ?>pages/login-v2.js"></script>
 <!-- BEGIN PAGE SCRIPT -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>toastr/toastr.js"></script>
