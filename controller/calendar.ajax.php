@@ -41,18 +41,8 @@ if(is_ajax()){
                 "start_event"   => $start_event,
                 "end_event"     => $end_event
             ));
-            if($user_i == 1){
+            if($user_i == 1) {
                 echo json_encode(200);
-                $event = $DB->query("SELECT * FROM collab_event ORDER BY idevent DESC LIMIT 1");
-            ?>
-                <tr class="<?php if($event[0]->start_event < time() AND $event[0]->end_event < time()){echo 'danger';} ?> <?php if($event[0]->start_event <= time()-900){echo 'info';} ?>">
-                    <td class=""><?= $date_format->formatage("H:i", $event[0]->start_event); ?> / <?= $date_format->formatage("H:i", $event[0]->end_event); ?></td>
-                    <td class=""><?= html_entity_decode($event[0]->titre_event); ?></td>
-                    <td class="">
-                        <a class="btn btn-sm btn-rounded btn-danger" href="controller/calendar.ajax.php?action=supp-event&idevent=<?= $event[0]->idevent; ?>"><i class="fa fa-trash-o"></i></a>
-                    </td>
-                </tr>
-            <?php
             }else{
                 echo json_encode(500);
                 var_dump($user_i);
