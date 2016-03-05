@@ -10,7 +10,7 @@ if(is_ajax()){
         $iduser = $user->iduser;
         $idevent = $_GET['idevent'];
 
-        $event_u = $DB->execute("DELETE * FROM collab_event WHERE idevent = :idevent", array("idevent" => $idevent));
+        $event_u = $DB->execute("DELETE FROM collab_event WHERE idevent = :idevent", array("idevent" => $idevent));
 
         if($event_u == 1)
         {
