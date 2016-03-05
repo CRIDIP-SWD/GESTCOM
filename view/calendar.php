@@ -46,7 +46,7 @@
                                                 <td class=""><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td class=""><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td class="">
-                                                    <a href="controller/calendar.php?action=supp-event&idevent=<?= $event->idevent; ?>" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                                    <a href="controller/calendar.php?action=supp-event&idevent=<?= $event->idevent; ?>" class="btn btn-sm btn-icon btn-rounded btn-danger"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
@@ -95,7 +95,7 @@
                                                 <td><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td>
-                                                    <a href="controller/calendar.php?action=supp-event&idevent=<?= $event->idevent; ?>" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                                    <a href="controller/calendar.php?action=supp-event&idevent=<?= $event->idevent; ?>" class="btn btn-sm btn-icon btn-rounded btn-danger"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
@@ -144,7 +144,7 @@
                                                 <td><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td>
-                                                    <a href="controller/calendar.php?action=supp-event&idevent=<?= $event->idevent; ?>" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                                    <a href="controller/calendar.php?action=supp-event&idevent=<?= $event->idevent; ?>" class="btn btn-sm btn-icon btn-rounded btn-danger"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
