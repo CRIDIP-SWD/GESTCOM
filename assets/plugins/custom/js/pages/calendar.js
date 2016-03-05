@@ -58,7 +58,11 @@
                     $('table tbody').prepend(jqxhr.responseText);
                     toastr.success("L'évènement à bien été ajouter", "CAELNDRIER");
                 }else{
-                    toastr.warning("Une erreur de script à été détecter dans le serveur !", "CALENDRIER")
+                    toastr.warning("Une erreur de script à été détecter dans le serveur !", "CALENDRIER");
+                    $('#debug').html('' +
+                        '<div class="well">' +
+                        '' +jqxhr.responseText+
+                        '</div>');
                 }
             })
             .fail(function(jqxhr){

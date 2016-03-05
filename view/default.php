@@ -418,6 +418,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
         <!-- END TOPBAR -->
         <!-- BEGIN PAGE CONTENT -->
         <div class="page-content">
+            <div id="debug"></div>
             <?= $content; ?>
         </div>
         <!-- END PAGE CONTENT -->
