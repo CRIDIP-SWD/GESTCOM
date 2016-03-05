@@ -94,12 +94,19 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
             </div>
             <?php if(isset($_GET['view']) && $_GET['view'] == 'mailbox'): ?>
                     <ul class="nav nav-sidebar">
-                        <li class="tm nav-active active"><a href="mailbox.html"><span class="pull-right badge badge-primary">8</span> <i class="icons-office-28"></i><span data-translate="inbpx">Inbox</span></a></li>
-                        <li class="tm"><a href="mailbox.html"><i class="icons-chat-messages-14"></i><span data-translate="portlets">Sent Mail </span></a></li>
-                        <li class="tm"><a href="mailbox.html"><i class="icons-badges-votes-14"></i><span data-translate="portlets">Important </span></a></li>
-                        <li class="tm"><a href="mailbox.html"><span class="badge-rounded pull-right">4</span><i class="icons-office-13"></i><span data-translate="portlets">Draft </span></a></li>
-                        <li class="tm"><a href="mailbox.html"><i class="icons-alerts-05"></i><span data-translate="portlets">Spam </span></a></li>
-                        <li class="tm"><a href="mailbox.html"><i class="icons-office-57"></i><span data-translate="portlets">Trash </span></a></li>
+                        <li class="tm nav-active active">
+                            <a href="index.php?view=mailbox">
+                                <span class="pull-right badge badge-primary">8</span>
+                                <i class="icons-office-28"></i>
+                                <span data-translate="inbpx">Boite de réception</span>
+                            </a>
+                        </li>
+                        <li class="tm">
+                            <a href="index.php?view=mailbox&sub=sentbox">
+                                <i class="icons-chat-messages-14"></i>
+                                <span data-translate="portlets">Boite d'envoie </span>
+                            </a>
+                        </li>
                     </ul>
                     <div class="sidebar-widgets m-b-30">
                         <p class="menu-title widget-title">Labels <span class="pull-right"><a href="#" class="new-label"> <i class="icon-plus"></i></a></span></p>

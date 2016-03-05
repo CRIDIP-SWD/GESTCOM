@@ -477,6 +477,7 @@
         </div>
     </section>
 <?php endif; ?>
-
+<script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/raphael.min.js"></script> <!-- Morris Charts -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/morris.min.js"></script> <!-- Morris Charts -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>summernote/summernote.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>custom/js/pages/mailbox.js"></script>
