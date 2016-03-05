@@ -18,6 +18,13 @@
                                 <div class="panel-header">
                                     <h3><?= $date_format->formatage_long(time()); ?></h3>
                                 </div>
+                                <div class="row">
+                                    <div class="col-sm-3 col-sm-offset-9">
+                                        <div class="pull-right">
+                                            <a class="btn btn-success">TEST</a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="panel-content">
                                     <table class="table dataTable" id="today2">
                                         <thead>
