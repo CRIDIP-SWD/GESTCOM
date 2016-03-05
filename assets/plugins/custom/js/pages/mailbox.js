@@ -22,7 +22,7 @@
         })
     }
 
-    count_new_mail()
+    setInterval(count_new_mail(), 1000);
 
 
 
