@@ -173,7 +173,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
                 <h4 class="modal-title"><i class="fa fa-plus"></i> Ajouter un évènement</h4>
             </div>
-            <form class="form-horizontal" action="controller/calendar.ajax.php" method="post">
+            <form class="form-horizontal" id="add-user-form" action="controller/calendar.ajax.php" method="post">
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-12">
@@ -233,7 +233,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary btn-embossed" data-dismiss="modal">Save changes</button>
+                    <button type="submit" class="btn btn-primary btn-embossed" name="action" value="add-event">Save changes</button>
                 </div>
             </form>
         </div>
@@ -245,7 +245,7 @@
 <script src="<?= $constante->getUrl(array('plugins/')); ?>cke-editor/ckeditor.js"></script> <!-- Advanced HTML Editor -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>cke-editor/adapters/adapters.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>typed/typed.min.js"></script> <!-- Animated Typing -->
-<script src="<?= $constante->getUrl(array('plugins/')); ?>timepicker/jquery-ui-timepicker-addon.min.js"></script> <!-- Time Picker -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>timepicker/jquery-ui-timepicker-addon.js"></script> <!-- Time Picker -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>multidatepicker/multidatespicker.min.js"></script> <!-- Multi dates Picker -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-datepicker/js/bootstrap-datepicker.js"></script> <!-- >Bootstrap Date Picker -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>custom/js/pages/calendar.js"></script>

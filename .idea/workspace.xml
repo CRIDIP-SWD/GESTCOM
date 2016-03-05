@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/calendar.ajax.php" afterPath="$PROJECT_DIR$/controller/calendar.ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/calendar.php" afterPath="$PROJECT_DIR$/view/calendar.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -64,13 +66,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="calendar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calendar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64">
-              <caret line="221" column="93" selection-start-line="221" selection-start-column="93" selection-end-line="221" selection-end-column="93" />
+            <state vertical-scroll-proportion="-19.615385">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="57" selection-end-column="49" />
               <folding>
-                <element signature="n#div#1;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -79,11 +80,12 @@
                 <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-                <marker date="1457141207970" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457141207970" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457141207970" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457141207970" expanded="true" signature="13813:13872" placeholder="SELECT * FRO... users" />
+                <marker date="1457143023746" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457143023746" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457143023746" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457143023746" expanded="true" signature="13832:13891" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -143,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -151,13 +153,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.ajax.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="calendar.ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.74">
+              <caret line="50" column="152" selection-start-line="50" selection-start-column="152" selection-end-line="50" selection-end-column="152" />
               <folding>
-                <marker date="1457138823261" expanded="true" signature="411:460" placeholder="DELETE FROM " />
+                <marker date="1457143546091" expanded="true" signature="411:460" placeholder="DELETE FROM " />
+                <marker date="1457143546091" expanded="true" signature="1217:1408" placeholder="INSERT INTO collab_event... " />
+                <marker date="1457143546091" expanded="true" signature="1785:1841" placeholder="SELECT * FRO... collab_event" />
               </folding>
             </state>
           </provider>
@@ -238,11 +242,11 @@
         <option value="$PROJECT_DIR$/application/noctus/encrypt.php" />
         <option value="$PROJECT_DIR$/controller/user.php" />
         <option value="$PROJECT_DIR$/application/general/date.php" />
-        <option value="$PROJECT_DIR$/controller/calendar.ajax.php" />
-        <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" />
         <option value="$PROJECT_DIR$/application/general/users.php" />
         <option value="$PROJECT_DIR$/view/default.php" />
+        <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" />
         <option value="$PROJECT_DIR$/view/calendar.php" />
+        <option value="$PROJECT_DIR$/controller/calendar.ajax.php" />
       </list>
     </option>
   </component>
@@ -357,22 +361,8 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,11 +380,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="timepicker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GESTCOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,12 +467,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00478" summary="GESTCOM V1.0.0">
-      <created>1457123793050</created>
-      <option name="number" value="00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1457123793050</updated>
     </task>
     <task id="LOCAL-00479" summary="GESTCOM V1.0.0">
       <created>1457123828740</created>
@@ -758,14 +756,20 @@
       <option name="project" value="LOCAL" />
       <updated>1457141162115</updated>
     </task>
-    <option name="localTasksCounter" value="527" />
+    <task id="LOCAL-00527" summary="GESTCOM V1.0.0">
+      <created>1457141211553</created>
+      <option name="number" value="00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1457141211553</updated>
+    </task>
+    <option name="localTasksCounter" value="528" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1900" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15339702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18418258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -810,11 +814,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/images/profil_page/marker.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/user/user_charge.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -861,13 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1505" column="21" selection-start-line="1505" selection-start-column="21" selection-end-line="1505" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1120,26 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <marker date="1457138823261" expanded="true" signature="411:460" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28">
@@ -1213,12 +1185,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1505" column="21" selection-start-line="1505" selection-start-column="21" selection-end-line="1505" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/timepicker/jquery-ui-timepicker-addon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040141676">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <marker date="1457121174250" expanded="true" signature="13159:13176" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64">
-          <caret line="221" column="93" selection-start-line="221" selection-start-column="93" selection-end-line="221" selection-end-column="93" />
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="57" selection-end-column="49" />
           <folding>
-            <element signature="n#div#1;n#!!top" expanded="false" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -1227,11 +1226,24 @@
             <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <marker date="1457141207970" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457141207970" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457141207970" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457141207970" expanded="true" signature="13813:13872" placeholder="SELECT * FRO... users" />
+            <marker date="1457143023746" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457143023746" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457143023746" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457143023746" expanded="true" signature="13832:13891" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74">
+          <caret line="50" column="152" selection-start-line="50" selection-start-column="152" selection-end-line="50" selection-end-column="152" />
+          <folding>
+            <marker date="1457143546091" expanded="true" signature="411:460" placeholder="DELETE FROM " />
+            <marker date="1457143546091" expanded="true" signature="1217:1408" placeholder="INSERT INTO collab_event... " />
+            <marker date="1457143546091" expanded="true" signature="1785:1841" placeholder="SELECT * FRO... collab_event" />
           </folding>
         </state>
       </provider>

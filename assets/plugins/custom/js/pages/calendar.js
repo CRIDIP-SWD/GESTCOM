@@ -46,5 +46,22 @@
             .fail(function(jqxhr){
                 toastr.error("Une erreur à eu lieu lors de la suppression de l'évènement:<strong>"+jqxhr.responseText+"</strong>", "CALENDRIER");
             })
+    });
+    $('#add-user-form').on('submit', function(e){
+        e.preventDefault();
+        var form = $(this);
+        form.find('.btn-primary').addClass('disabled');
+        form.find('.btn-primary').html('<i class="fa fa-spinner fa-spin"></i> Envoie des Données en cours...');
+        $.post(form.attr('action'), form.serializeArray())
+            .done(function(data, jqxhr){
+                $('table tbody').prepend(jqxhr.responseText);
+                toastr.success("L'évènement à bien été ajouter", "CAELNDRIER");
+            })
+            .fail(function(jqxhr){
+                toastr.error("Une erreur à eu lieu lors de l'ajour de l'évènement:<strong>"+jqxhr.responseText+"</strong>", "CALENDRIER");
+            })
+            .always(function(){
+                form.find('.btn-primary').text("Valider");
+            });
     })
 })(jQuery);
