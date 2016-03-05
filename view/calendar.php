@@ -46,7 +46,7 @@
                                                 <td class=""><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td class=""><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td class="">
-                                                    <a class="btn btn-sm btn-rounded btn-danger" href="controller/calendar.ajax.php?action=supp-event&iduser=<?= $event->iduser; ?>"><i class="fa fa-trash-o"></i></a>
+                                                    <a class="btn btn-sm btn-rounded btn-danger" href="controller/calendar.ajax.php?action=supp-event&idevent=<?= $event->idevent; ?>"><i class="fa fa-trash-o"></i></a>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
@@ -95,7 +95,7 @@
                                                 <td><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td>
-                                                    <a class="btn btn-sm btn-rounded btn-danger" href="controller/calendar.ajax.php?action=supp-event&iduser=<?= $event->iduser; ?>"><i class="fa fa-trash-o"></i></a>
+                                                    <a class="btn btn-sm btn-rounded btn-danger" href="controller/calendar.ajax.php?action=supp-event&idevent=<?= $event->idevent; ?>"><i class="fa fa-trash-o"></i></a>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
@@ -144,7 +144,7 @@
                                                 <td><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td>
-                                                    <a class="btn btn-sm btn-rounded btn-danger" href="controller/calendar.ajax.php?action=supp-event&iduser=<?= $event->iduser; ?>"><i class="fa fa-trash-o"></i></a>
+                                                    <a class="btn btn-sm btn-rounded btn-danger" href="controller/calendar.ajax.php?action=supp-event&idevent=<?= $event->idevent; ?>"><i class="fa fa-trash-o"></i></a>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
