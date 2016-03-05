@@ -55,6 +55,7 @@ if(is_ajax()){
             <?php
             }else{
                 echo json_encode(500);
+                var_dump($user_i);
             }
         }
     }

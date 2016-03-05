@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/calendar.ajax.php" afterPath="$PROJECT_DIR$/controller/calendar.ajax.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -140,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calendar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78652966">
+            <state vertical-scroll-proportion="0.0">
               <caret line="60" column="103" selection-start-line="60" selection-start-column="103" selection-end-line="60" selection-end-column="103" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
@@ -152,15 +151,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.ajax.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="calendar.ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.82">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
               <folding>
-                <marker date="1457144123404" expanded="true" signature="411:460" placeholder="DELETE FROM " />
-                <marker date="1457144123404" expanded="true" signature="1247:1438" placeholder="INSERT INTO collab_event... " />
-                <marker date="1457144123404" expanded="true" signature="1815:1871" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457144440348" expanded="true" signature="411:460" placeholder="DELETE FROM " />
+                <marker date="1457144440348" expanded="true" signature="1247:1438" placeholder="INSERT INTO collab_event... " />
+                <marker date="1457144440348" expanded="true" signature="1815:1871" placeholder="SELECT * FRO... collab_event" />
               </folding>
             </state>
           </provider>
@@ -244,8 +243,8 @@
         <option value="$PROJECT_DIR$/application/general/users.php" />
         <option value="$PROJECT_DIR$/view/default.php" />
         <option value="$PROJECT_DIR$/view/calendar.php" />
-        <option value="$PROJECT_DIR$/controller/calendar.ajax.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" />
+        <option value="$PROJECT_DIR$/controller/calendar.ajax.php" />
       </list>
     </option>
   </component>
@@ -466,12 +465,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00480" summary="GESTCOM V1.0.0">
-      <created>1457123867959</created>
-      <option name="number" value="00480" />
-      <option name="project" value="LOCAL" />
-      <updated>1457123867959</updated>
     </task>
     <task id="LOCAL-00481" summary="GESTCOM V1.0.0">
       <created>1457123934602</created>
@@ -761,7 +754,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457143550391</updated>
     </task>
-    <option name="localTasksCounter" value="529" />
+    <task id="LOCAL-00529" summary="GESTCOM V1.0.0">
+      <created>1457144127729</created>
+      <option name="number" value="00529" />
+      <option name="project" value="LOCAL" />
+      <updated>1457144127729</updated>
+    </task>
+    <option name="localTasksCounter" value="530" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1225,24 +1224,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="103" selection-start-line="60" selection-start-column="103" selection-end-line="60" selection-end-column="103" />
           <folding>
-            <marker date="1457144123404" expanded="true" signature="411:460" placeholder="DELETE FROM " />
-            <marker date="1457144123404" expanded="true" signature="1247:1438" placeholder="INSERT INTO collab_event... " />
-            <marker date="1457144123404" expanded="true" signature="1815:1871" placeholder="SELECT * FRO... collab_event" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
+    <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78652966">
-          <caret line="60" column="103" selection-start-line="60" selection-start-column="103" selection-end-line="60" selection-end-column="103" />
+        <state vertical-scroll-proportion="0.82">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
-            <element signature="e#0#43#0" expanded="false" />
+            <marker date="1457144440348" expanded="true" signature="411:460" placeholder="DELETE FROM " />
+            <marker date="1457144440348" expanded="true" signature="1247:1438" placeholder="INSERT INTO collab_event... " />
+            <marker date="1457144440348" expanded="true" signature="1815:1871" placeholder="SELECT * FRO... collab_event" />
           </folding>
         </state>
       </provider>
