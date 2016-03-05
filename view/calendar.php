@@ -183,7 +183,7 @@
                                     <option value=""></option>
                                     <option value="all">Tous</option>
                                     <?php
-                                    $sql_user = $DB->query("SELECT * FROM users ORDER BY nom_user ASC");
+                                    $sql_user = $DB->query("SELECT * FROM users WHERE groupe != 4 ORDER BY nom_user ASC");
                                     foreach($sql_user as $userq):
                                     ?>
                                     <option value="<?= $userq->iduser; ?>"><?= $userq->nom_user; ?> <?= $userq->prenom_user; ?></option>
