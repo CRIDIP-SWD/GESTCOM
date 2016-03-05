@@ -166,6 +166,33 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="add-event" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-full">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
+                <h4 class="modal-title"><i class="fa fa-plus"></i> Ajouter un évènement</h4>
+            </div>
+            <form class="form-horizontal" action="controller/calendar.ajax.php" method="post">
+                <div class="modal-body">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Agenda</label>
+                            <div class="col-md-9">
+                                <select class="form-control" data-content="<i class='fa fa-google-plus'></i> TEST">TEST</select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-embossed" data-dismiss="modal">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 <script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="assets/plugins/custom/js/pages/calendar.js"></script>
