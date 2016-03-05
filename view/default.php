@@ -108,26 +108,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                             </a>
                         </li>
                     </ul>
-                    <div class="sidebar-widgets m-b-30">
-                        <p class="menu-title widget-title">Labels <span class="pull-right"><a href="#" class="new-label"> <i class="icon-plus"></i></a></span></p>
-                        <ul class="labels">
-                            <li>
-                                <a href="#"><i class="fa fa-circle-o c-red"></i> Business</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-circle-o c-blue"></i> Family</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-circle-o c-green"></i> Friends</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-circle-o c-yellow"></i> Personal</a>
-                            </li>
-                            <li class="add-label">
-                                <input type="text" placeholder="Label's name..." class="form-control input-sm">
-                            </li>
-                        </ul>
-                    </div>
+
                     <div class="sidebar-charts">
                         <div id="chart-legend"></div>
                         <div id="morris-chart-network" class="morris-full-content"></div>
