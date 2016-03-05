@@ -42,7 +42,7 @@ if(is_ajax()){
                 "end_event"     => $end_event
             ));
             if($user_i == 1){
-                json_encode(200);
+                echo json_encode(200);
                 $event = $DB->query("SELECT * FROM collab_event ORDER BY idevent DESC LIMIT 1");
             ?>
                 <tr class="<?php if($event[0]->start_event < time() AND $event[0]->end_event < time()){echo 'danger';} ?> <?php if($event[0]->start_event <= time()-900){echo 'info';} ?>">
