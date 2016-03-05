@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/calendar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/calendar.ajax.php" afterPath="$PROJECT_DIR$/controller/calendar.ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/calendar.php" afterPath="$PROJECT_DIR$/view/calendar.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,13 +52,55 @@
       <file leaf-file-name="calendar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="57" selection-end-column="49" />
+            <state vertical-scroll-proportion="13.730769">
+              <caret line="179" column="52" selection-start-line="179" selection-start-column="52" selection-end-line="179" selection-end-column="52" />
               <folding>
-                <marker date="1457143023746" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457143023746" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457143023746" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457143023746" expanded="true" signature="13832:13891" placeholder="SELECT * FRO... users" />
+                <marker date="1457198876980" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457198876980" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457198876980" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457198876980" expanded="true" signature="13827:13886" placeholder="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/calendar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.52">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+              <folding>
+                <marker date="1457198876955" expanded="true" signature="539:730" placeholder="INSERT INTO collab_event... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="163.46153">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="e#6#29#0#PHP" expanded="true" />
+                <marker date="1457123454832" expanded="true" signature="706:789" placeholder="SELECT COUNT... users" />
+                <marker date="1457123454832" expanded="true" signature="945:991" placeholder="SELECT * FRO... users" />
+                <marker date="1457123454832" expanded="true" signature="1529:1614" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="2136:2221" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="3368:3410" placeholder="SELECT * FRO... users" />
+                <marker date="1457123454832" expanded="true" signature="3687:3772" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="4311:4362" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="5149:5232" placeholder="SELECT COUNT... users" />
+                <marker date="1457123454832" expanded="true" signature="5488:5573" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="6250:6301" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="6999:7179" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="7603:7751" placeholder="INSERT INTO notif... " />
+                <marker date="1457123454832" expanded="true" signature="9405:9465" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="9715:9863" placeholder="INSERT INTO notif... " />
+                <marker date="1457123454832" expanded="true" signature="10718:10792" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="11140:11288" placeholder="INSERT INTO notif... " />
+                <marker date="1457123454832" expanded="true" signature="12179:12246" placeholder="UPDATE users... " />
+                <marker date="1457123454832" expanded="true" signature="12450:12598" placeholder="INSERT INTO notif... " />
               </folding>
             </state>
           </provider>
@@ -104,7 +149,7 @@
       <file leaf-file-name="date.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/general/date.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-16.346153">
               <caret line="272" column="30" selection-start-line="272" selection-start-column="30" selection-end-line="272" selection-end-column="30" />
               <folding />
             </state>
@@ -115,22 +160,9 @@
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar.ajax.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="36" />
-              <folding>
-                <marker date="1457146028922" expanded="true" signature="411:460" placeholder="DELETE FROM " />
-                <marker date="1457146028922" expanded="true" signature="1217:1408" placeholder="INSERT INTO collab_event... " />
               </folding>
             </state>
           </provider>
@@ -165,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/buttons.css" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/chech_login.js" />
         <option value="$PROJECT_DIR$/assets/plugins/translate/application-fr.json" />
@@ -212,10 +243,11 @@
         <option value="$PROJECT_DIR$/controller/user.php" />
         <option value="$PROJECT_DIR$/application/general/date.php" />
         <option value="$PROJECT_DIR$/application/general/users.php" />
-        <option value="$PROJECT_DIR$/view/calendar.php" />
         <option value="$PROJECT_DIR$/view/default.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js" />
+        <option value="$PROJECT_DIR$/view/calendar.php" />
         <option value="$PROJECT_DIR$/controller/calendar.ajax.php" />
+        <option value="$PROJECT_DIR$/controller/calendar.php" />
       </list>
     </option>
   </component>
@@ -317,60 +349,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepicker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -436,12 +414,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00486" summary="GESTCOM V1.0.0">
-      <created>1457125466731</created>
-      <option name="number" value="00486" />
-      <option name="project" value="LOCAL" />
-      <updated>1457125466731</updated>
     </task>
     <task id="LOCAL-00487" summary="GESTCOM V1.0.0">
       <created>1457125532381</created>
@@ -731,7 +703,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457145904081</updated>
     </task>
-    <option name="localTasksCounter" value="535" />
+    <task id="LOCAL-00535" summary="GESTCOM V1.0.0">
+      <created>1457198591406</created>
+      <option name="number" value="00535" />
+      <option name="project" value="LOCAL" />
+      <updated>1457198591406</updated>
+    </task>
+    <option name="localTasksCounter" value="536" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -740,6 +718,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18418258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12738854" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="829" y="55" width="241" height="930" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -747,7 +726,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32760474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="832" height="840" />
@@ -783,13 +761,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/user/user_charge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/profil.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075">
@@ -857,6 +828,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7863555">
           <caret line="51" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -997,6 +969,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0333731">
           <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,6 +992,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7973778">
           <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,6 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.81764007">
           <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,26 +1032,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/general/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="272" column="30" selection-start-line="272" selection-start-column="30" selection-end-line="272" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/notif.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1125,19 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/calendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="57" selection-end-column="49" />
-          <folding>
-            <marker date="1457143023746" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457143023746" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457143023746" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457143023746" expanded="true" signature="13832:13891" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1149,23 +1096,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
+    <entry file="file://$PROJECT_DIR$/view/calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state vertical-scroll-proportion="13.730769">
+          <caret line="179" column="52" selection-start-line="179" selection-start-column="52" selection-end-line="179" selection-end-column="52" />
           <folding>
-            <element signature="e#0#43#0" expanded="false" />
+            <marker date="1457198876980" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457198876980" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457198876980" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457198876980" expanded="true" signature="13827:13886" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.4">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <marker date="1457146028922" expanded="true" signature="411:460" placeholder="DELETE FROM " />
-            <marker date="1457146028922" expanded="true" signature="1217:1408" placeholder="INSERT INTO collab_event... " />
+            <marker date="1457198876932" expanded="true" signature="411:460" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/general/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="272" column="30" selection-start-line="272" selection-start-column="30" selection-end-line="272" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="163.46153">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#29#0#PHP" expanded="true" />
+            <marker date="1457123454832" expanded="true" signature="706:789" placeholder="SELECT COUNT... users" />
+            <marker date="1457123454832" expanded="true" signature="945:991" placeholder="SELECT * FRO... users" />
+            <marker date="1457123454832" expanded="true" signature="1529:1614" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="2136:2221" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="3368:3410" placeholder="SELECT * FRO... users" />
+            <marker date="1457123454832" expanded="true" signature="3687:3772" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="4311:4362" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="5149:5232" placeholder="SELECT COUNT... users" />
+            <marker date="1457123454832" expanded="true" signature="5488:5573" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="6250:6301" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="6999:7179" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="7603:7751" placeholder="INSERT INTO notif... " />
+            <marker date="1457123454832" expanded="true" signature="9405:9465" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="9715:9863" placeholder="INSERT INTO notif... " />
+            <marker date="1457123454832" expanded="true" signature="10718:10792" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="11140:11288" placeholder="INSERT INTO notif... " />
+            <marker date="1457123454832" expanded="true" signature="12179:12246" placeholder="UPDATE users... " />
+            <marker date="1457123454832" expanded="true" signature="12450:12598" placeholder="INSERT INTO notif... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/calendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+          <folding>
+            <marker date="1457198876955" expanded="true" signature="539:730" placeholder="INSERT INTO collab_event... " />
           </folding>
         </state>
       </provider>

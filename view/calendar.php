@@ -173,7 +173,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
                 <h4 class="modal-title"><i class="fa fa-plus"></i> Ajouter un évènement</h4>
             </div>
-            <form class="form-horizontal" id="add-user-form" action="controller/calendar.ajax.php" method="post">
+            <form class="form-horizontal" id="add-user-form" action="controller/calendar.php" method="post">
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-12">
