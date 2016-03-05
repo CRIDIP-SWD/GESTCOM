@@ -177,7 +177,9 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-12">
-                            <input type="text" class="form-control input-lg bg-aero" placeholder="Titre de l'évènement..." name="titre_event" />
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg bg-aero" placeholder="Titre de l'évènement..." name="titre_event" />
+                            </div>
                         </div>
                     </div>
                     <div class="row">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/view/calendar.php" line="220" />
+    <bookmark url="file://$PROJECT_DIR$/view/calendar.php" line="222" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
@@ -67,8 +67,8 @@
       <file leaf-file-name="calendar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52">
-              <caret line="203" column="64" selection-start-line="203" selection-start-column="64" selection-end-line="203" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.34">
+              <caret line="180" column="148" selection-start-line="180" selection-start-column="148" selection-end-line="180" selection-end-column="148" />
               <folding>
                 <element signature="n#div#1;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -80,10 +80,10 @@
                 <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-                <marker date="1457140459524" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457140459524" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457140459524" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457140459524" expanded="true" signature="13622:13681" placeholder="SELECT * FRO... users" />
+                <marker date="1457140499330" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457140499330" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457140499330" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457140499330" expanded="true" signature="13714:13773" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -447,12 +447,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00473" summary="GESTCOM V1.0.0">
-      <created>1457104606823</created>
-      <option name="number" value="00473" />
-      <option name="project" value="LOCAL" />
-      <updated>1457104606823</updated>
-    </task>
     <task id="LOCAL-00474" summary="GESTCOM V1.0.0">
       <created>1457104624425</created>
       <option name="number" value="00474" />
@@ -741,7 +735,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457140324630</updated>
     </task>
-    <option name="localTasksCounter" value="522" />
+    <task id="LOCAL-00522" summary="GESTCOM V1.0.0">
+      <created>1457140463032</created>
+      <option name="number" value="00522" />
+      <option name="project" value="LOCAL" />
+      <updated>1457140463032</updated>
+    </task>
+    <option name="localTasksCounter" value="523" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1197,8 +1197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52">
-          <caret line="203" column="64" selection-start-line="203" selection-start-column="64" selection-end-line="203" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.34">
+          <caret line="180" column="148" selection-start-line="180" selection-start-column="148" selection-end-line="180" selection-end-column="148" />
           <folding>
             <element signature="n#div#1;n#!!top" expanded="false" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -1210,10 +1210,10 @@
             <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <marker date="1457140459524" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457140459524" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457140459524" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457140459524" expanded="true" signature="13622:13681" placeholder="SELECT * FRO... users" />
+            <marker date="1457140499330" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457140499330" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457140499330" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457140499330" expanded="true" signature="13714:13773" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
