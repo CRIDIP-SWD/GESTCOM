@@ -21,7 +21,7 @@
                                 <div class="row">
                                     <div class="col-sm-3 col-sm-offset-9">
                                         <div class="pull-right">
-                                            <a class="btn btn-success">TEST</a>
+                                            <a class="btn btn-success" data-toggle="modal" data-target="#add-event"><i class="fa fa-plus"></i> Ajouter un évènement</a>
                                         </div>
                                     </div>
                                 </div>
