@@ -14,13 +14,15 @@
             type: "GET",
             success: function(data){
                 console.log(data);
+                $('.badge-primary').text(data);
             },
             error: function (jqxhr) {
                 console.log(jqxhr.responseText);
             }
         })
     }
-    $('.badge-primary').text(count_new_mail());
+
+    count_new_mail()
 
 
 
