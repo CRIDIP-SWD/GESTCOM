@@ -92,15 +92,55 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     </div>
                 </div>
             </div>
-            <div class="menu-title">
-                MailBox
-            </div>
-            <div class="sidebar-top">
-                <a href="mailbox-send.html" class="btn btn-primary btn-compose">Compose</a>
-            </div>
-            <ul class="nav nav-sidebar">
-                <li class="tm nav-active active"><a href="mailbox.html"><span class="pull-right badge badge-primary">8</span> <i class="icons-office-28"></i><span data-translate="inbpx">Inbox</span></a></li>
-            </ul>
+            <?php if(isset($_GET['view']) && $_GET['view'] == 'mailbox'): ?>
+                <div class="sidebar-inner">
+                    <div class="sidebar-top">
+                        <a href="mailbox-send.html" class="btn btn-primary btn-compose">Compose</a>
+                    </div>
+                    <ul class="nav nav-sidebar">
+                        <li class="tm nav-active active"><a href="mailbox.html"><span class="pull-right badge badge-primary">8</span> <i class="icons-office-28"></i><span data-translate="inbpx">Inbox</span></a></li>
+                        <li class="tm"><a href="mailbox.html"><i class="icons-chat-messages-14"></i><span data-translate="portlets">Sent Mail </span></a></li>
+                        <li class="tm"><a href="mailbox.html"><i class="icons-badges-votes-14"></i><span data-translate="portlets">Important </span></a></li>
+                        <li class="tm"><a href="mailbox.html"><span class="badge-rounded pull-right">4</span><i class="icons-office-13"></i><span data-translate="portlets">Draft </span></a></li>
+                        <li class="tm"><a href="mailbox.html"><i class="icons-alerts-05"></i><span data-translate="portlets">Spam </span></a></li>
+                        <li class="tm"><a href="mailbox.html"><i class="icons-office-57"></i><span data-translate="portlets">Trash </span></a></li>
+                    </ul>
+                    <div class="sidebar-widgets m-b-30">
+                        <p class="menu-title widget-title">Labels <span class="pull-right"><a href="#" class="new-label"> <i class="icon-plus"></i></a></span></p>
+                        <ul class="labels">
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o c-red"></i> Business</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o c-blue"></i> Family</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o c-green"></i> Friends</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o c-yellow"></i> Personal</a>
+                            </li>
+                            <li class="add-label">
+                                <input type="text" placeholder="Label's name..." class="form-control input-sm">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-charts">
+                        <div id="chart-legend"></div>
+                        <div id="morris-chart-network" class="morris-full-content"></div>
+                    </div>
+                    <div class="sidebar-footer clearfix">
+                        <a class="pull-left footer-settings" href="#" data-rel="tooltip" data-original-title="Settings">
+                            <i class="icon-settings"></i></a>
+                        <a class="pull-left toggle_fullscreen" href="#" data-rel="tooltip" data-original-title="Fullscreen">
+                            <i class="icon-size-fullscreen"></i></a>
+                        <a class="pull-left" href="#" data-rel="tooltip" data-original-title="Lockscreen">
+                            <i class="icon-lock"></i></a>
+                        <a class="pull-left btn-effect" href="#" data-modal="modal-1" data-rel="tooltip" data-original-title="Logout">
+                            <i class="icon-power"></i></a>
+                    </div>
+                </div>
+            <?php endif; ?>
             <!--<div class="menu-title">
                 Navigation
                 <div class="pull-right menu-settings">
