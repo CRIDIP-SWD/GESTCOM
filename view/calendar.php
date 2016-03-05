@@ -17,14 +17,15 @@
                             <div class="panel">
                                 <div class="panel-header">
                                     <h3><?= $date_format->formatage_long(time()); ?></h3>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-sm-offset-9">
-                                        <div class="pull-right">
-                                            <a class="btn btn-success" data-toggle="modal" data-target="#add-event"><i class="fa fa-plus"></i> Ajouter un évènement</a>
+                                    <div class="row">
+                                        <div class="col-sm-3 col-sm-offset-9">
+                                            <div class="pull-right">
+                                                <a class="btn btn-success" data-toggle="modal" data-target="#add-event"><i class="fa fa-plus"></i> Ajouter un évènement</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="panel-content">
                                     <table class="table dataTable" id="today2">
                                         <thead>
@@ -68,6 +69,13 @@
                             <div class="panel">
                                 <div class="panel-header">
                                     <h3>Semaine <?= date("W"); ?> | <?= $date_format->semaine(date("Y"), date("W")); ?></h3>
+                                    <div class="row">
+                                        <div class="col-sm-3 col-sm-offset-9">
+                                            <div class="pull-right">
+                                                <a class="btn btn-success" data-toggle="modal" data-target="#add-event"><i class="fa fa-plus"></i> Ajouter un évènement</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="panel-content">
                                     <table class="table dataTable" id="month2">
@@ -117,6 +125,13 @@
                             <div class="panel">
                                 <div class="panel-header">
                                     <h3>Mois de <?= $date_format->formatage_sequenciel_no_str("m")." ".date("Y"); ?> </h3>
+                                    <div class="row">
+                                        <div class="col-sm-3 col-sm-offset-9">
+                                            <div class="pull-right">
+                                                <a class="btn btn-success" data-toggle="modal" data-target="#add-event"><i class="fa fa-plus"></i> Ajouter un évènement</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="panel-content">
                                     <table class="table dataTable" id="week2">

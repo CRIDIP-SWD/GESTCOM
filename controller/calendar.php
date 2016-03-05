@@ -11,7 +11,12 @@ if(isset($_POST['action']) && $_POST['action'] == 'add-event')
     $end_event = strtotime($_POST['end_event']);
 
     if($iduser === 'all'){
-
+        $user_q = $DB->query("SELECT * FROM users WHERE groupe != 4");
+        $i=0;
+        foreach($user_q as $users)
+        {
+            
+        }
     }else{
         $user_i = $DB->execute("INSERT INTO collab_event(idevent, iduser, titre_event, lieu_event, desc_event, start_event, end_event) VALUES (NULL, :iduser, :titre_event, :lieu_event, :desc_event, :start_event, :end_event)", array(
             "iduser"        => $iduser,
