@@ -177,10 +177,17 @@
                 <div class="modal-body">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label class="col-md-3 control-label">Agenda</label>
+                            <label class="col-md-3 control-label" for="agenda">Agenda</label>
                             <div class="col-md-9">
-                                <select class="form-control" data-search="true" name="iduser">
-                                    <option value="1" data-content="TEST"></option>
+                                <select id="agenda" class="form-control" data-search="true" name="iduser">
+                                    <option value=""></option>
+                                    <option value="all">Tous</option>
+                                    <?php
+                                    $sql_user = $DB->query("SELECT * FROM users ORDER BY nom_user ASC");
+                                    foreach($sql_user as $userq):
+                                    ?>
+                                    <option value="<?= $userq->iduser; ?>"><?= $userq->nom_user; ?> <?= $userq->prenom_user; ?></option>
+                                    <?php endforeach; ?>
                                 </select>
                             </div>
                         </div>
