@@ -177,7 +177,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-12">
-                            <input type="text" class="form-control input-lg bg-aero" placeholder="Titre de l'évènement" name="titre_event" />
+                            <input type="text" class="form-control input-lg bg-aero" placeholder="Titre de l'évènement..." name="titre_event" />
                         </div>
                     </div>
                     <div class="row">
@@ -195,6 +195,13 @@
                                             <option value="<?= $userq->iduser; ?>"><?= $userq->nom_user; ?> <?= $userq->prenom_user; ?></option>
                                         <?php endforeach; ?>
                                     </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="agenda">Lieu</label>
+                                <div class="col-md-9 prepend-icon">
+                                    <input type="text" class="form-control" name="lieu_event" placeholder="Lieu ou va se dérouler l'évènement...">
+                                    <i class="fa fa-map-marker"></i>
                                 </div>
                             </div>
                         </div>
