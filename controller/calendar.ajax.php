@@ -33,6 +33,7 @@ if(is_ajax()){
         if($iduser === 'all'){
 
         }else{
+            json_encode(200);
             $user_i = $DB->execute("INSERT INTO collab_event(idevent, iduser, titre_event, lieu_event, desc_event, start_event, end_event) VALUES (NULL, :iduser, :titre_event, :lieu_event, :desc_event, :start_event, :end_event)", array(
                 "iduser"        => $iduser,
                 "titre_event"   => $titre_event,
@@ -52,6 +53,8 @@ if(is_ajax()){
                     </td>
                 </tr>
             <?php
+            }else{
+                echo json_encode(500);
             }
         }
     }
