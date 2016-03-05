@@ -179,7 +179,7 @@
                         <div class="form-group">
                             <label class="col-md-3 control-label" for="agenda">Agenda</label>
                             <div class="col-md-9">
-                                <select id="agenda" class="form-control" data-search="true" name="iduser">
+                                <select id="agenda" class="form-control" data-search="true" name="iduser" data-placeholder="Selectionner l'agenda de l'utilisateur">
                                     <option value=""></option>
                                     <option value="all">Tous</option>
                                     <?php
