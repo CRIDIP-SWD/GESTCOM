@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/view/calendar.php" line="244" />
+    <bookmark url="file://$PROJECT_DIR$/view/calendar.php" line="250" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
@@ -67,8 +67,8 @@
       <file leaf-file-name="calendar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7">
-              <caret line="235" column="82" selection-start-line="235" selection-start-column="82" selection-end-line="235" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.64">
+              <caret line="221" column="70" selection-start-line="221" selection-start-column="70" selection-end-line="221" selection-end-column="70" />
               <folding>
                 <element signature="n#div#1;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -80,10 +80,23 @@
                 <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-                <marker date="1457140832468" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457140832468" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457140832468" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457140832468" expanded="true" signature="13813:13872" placeholder="SELECT * FRO... users" />
+                <marker date="1457141158311" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457141158311" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457141158311" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457141158311" expanded="true" signature="13813:13872" placeholder="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.9615383">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="62" />
+              <folding>
+                <marker date="1457140597811" expanded="true" signature="22135:22188" placeholder="SELECT * FRO... notif" />
+                <marker date="1457140597811" expanded="true" signature="24857:24979" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -327,24 +340,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -468,12 +463,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00476" summary="GESTCOM V1.0.0">
-      <created>1457123461483</created>
-      <option name="number" value="00476" />
-      <option name="project" value="LOCAL" />
-      <updated>1457123461484</updated>
     </task>
     <task id="LOCAL-00477" summary="GESTCOM V1.0.0">
       <created>1457123674908</created>
@@ -763,7 +752,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457140720098</updated>
     </task>
-    <option name="localTasksCounter" value="525" />
+    <task id="LOCAL-00525" summary="GESTCOM V1.0.0">
+      <created>1457140835791</created>
+      <option name="number" value="00525" />
+      <option name="project" value="LOCAL" />
+      <updated>1457140835791</updated>
+    </task>
+    <option name="localTasksCounter" value="526" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -844,13 +839,6 @@
     <entry file="file://$PROJECT_DIR$/assets/plugins/jquery-validation/additional-methods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.152601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/pages/form_plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -1190,17 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-          <folding>
-            <marker date="1457140597811" expanded="true" signature="22135:22188" placeholder="SELECT * FRO... notif" />
-            <marker date="1457140597811" expanded="true" signature="24857:24979" placeholder="SELECT * FRO... collab_inbox" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/pages/editor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1217,10 +1194,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/pages/form_plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9615383">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <marker date="1457140597811" expanded="true" signature="22135:22188" placeholder="SELECT * FRO... notif" />
+            <marker date="1457140597811" expanded="true" signature="24857:24979" placeholder="SELECT * FRO... collab_inbox" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7">
-          <caret line="235" column="82" selection-start-line="235" selection-start-column="82" selection-end-line="235" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.64">
+          <caret line="221" column="70" selection-start-line="221" selection-start-column="70" selection-end-line="221" selection-end-column="70" />
           <folding>
             <element signature="n#div#1;n#!!top" expanded="false" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -1232,10 +1228,10 @@
             <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <marker date="1457140832468" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457140832468" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457140832468" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457140832468" expanded="true" signature="13813:13872" placeholder="SELECT * FRO... users" />
+            <marker date="1457141158311" expanded="true" signature="2687:2796" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457141158311" expanded="true" signature="6357:6466" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457141158311" expanded="true" signature="10088:10222" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457141158311" expanded="true" signature="13813:13872" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

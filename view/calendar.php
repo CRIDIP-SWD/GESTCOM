@@ -210,7 +210,18 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Début de l'évènement</label>
+                                <div class="col-md-9">
+                                    <input type="text" name="start_event" class="date-picker form-control" placeholder="Selectionner la date et l'heure de l'évènement...">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Fin de l'évènement</label>
+                                <div class="col-md-9">
+                                    <input type="text" name="end_event" class="date-picker form-control" placeholder="Selectionner la date et l'heure de l'évènement...">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -229,17 +240,12 @@
     </div>
 </div>
 
-<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="assets/plugins/summernote/summernote.min.js"></script> <!-- Simple HTML Editor -->
-<script src="assets/plugins/cke-editor/ckeditor.js"></script> <!-- Advanced HTML Editor -->
-<script src="assets/plugins/cke-editor/adapters/adapters.min.js"></script>
-<script src="assets/plugins/typed/typed.min.js"></script> <!-- Animated Typing -->
-<script src="assets/plugins/touchspin/jquery.bootstrap-touchspin.min.js"></script> <!-- A mobile and touch friendly input spinner component for Bootstrap -->
-<script src="assets/plugins/timepicker/jquery-ui-timepicker-addon.min.js"></script> <!-- Time Picker -->
-<script src="assets/plugins/multidatepicker/multidatespicker.min.js"></script> <!-- Multi dates Picker -->
-<script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script> <!-- >Bootstrap Date Picker -->
-<script src="assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js"></script> <!-- >Bootstrap Date Picker in Spanish (can be removed if not use) -->
-<script src="assets/plugins/colorpicker/spectrum.min.js"></script> <!-- Color Picker -->
-<script src="assets/plugins/rateit/jquery.rateit.min.js"></script> <!-- Rating star plugin -->
-<script src="assets/js/pages/form_plugins.js"></script>
-<script src="assets/plugins/custom/js/pages/calendar.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>datatables/jquery.dataTables.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>summernote/summernote.min.js"></script> <!-- Simple HTML Editor -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>cke-editor/ckeditor.js"></script> <!-- Advanced HTML Editor -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>cke-editor/adapters/adapters.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>typed/typed.min.js"></script> <!-- Animated Typing -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>timepicker/jquery-ui-timepicker-addon.min.js"></script> <!-- Time Picker -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>multidatepicker/multidatespicker.min.js"></script> <!-- Multi dates Picker -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-datepicker/js/bootstrap-datepicker.js"></script> <!-- >Bootstrap Date Picker -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>custom/js/pages/calendar.js"></script>
