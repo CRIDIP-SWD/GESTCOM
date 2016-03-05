@@ -23,7 +23,7 @@
     $('.btn-danger').on('click', function(e){
         e.preventDefault();
         var a = $(this);
-        var url = "../../../../controller/calendar.php?action=supp-event&idevent=<?= $event->idevent; ?>";
+        var url = "../../../../controller/calendar.ajax.php?action=supp-event";
         a.html("<i class='fa fa-spinner fa-spin'></i>");
         $.ajax(url)
             .done(function(data, jqxhr){
