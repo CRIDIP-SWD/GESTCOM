@@ -99,7 +99,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     <ul class="nav nav-sidebar">
                         <li class="tm nav-active active">
                             <a href="index.php?view=mailbox">
-                                <span class="pull-right badge badge-primary">8</span>
+                                <span class="pull-right badge badge-primary"></span>
                                 <i class="icons-office-28"></i>
                                 <span data-translate="inbpx">Boite de réception</span>
                             </a>

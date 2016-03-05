@@ -20,7 +20,8 @@
             }
         })
     }
+    $('.badge-primary').text(count_new_mail());
 
-    count_new_mail();
+
 
 })(jQuery);
