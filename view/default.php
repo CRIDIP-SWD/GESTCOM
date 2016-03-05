@@ -93,10 +93,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                 </div>
             </div>
             <?php if(isset($_GET['view']) && $_GET['view'] == 'mailbox'): ?>
-                <div class="sidebar-inner">
-                    <div class="sidebar-top">
-                        <a href="mailbox-send.html" class="btn btn-primary btn-compose">Compose</a>
-                    </div>
                     <ul class="nav nav-sidebar">
                         <li class="tm nav-active active"><a href="mailbox.html"><span class="pull-right badge badge-primary">8</span> <i class="icons-office-28"></i><span data-translate="inbpx">Inbox</span></a></li>
                         <li class="tm"><a href="mailbox.html"><i class="icons-chat-messages-14"></i><span data-translate="portlets">Sent Mail </span></a></li>
@@ -129,7 +125,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         <div id="chart-legend"></div>
                         <div id="morris-chart-network" class="morris-full-content"></div>
                     </div>
-                </div>
             <?php endif; ?>
             <!--<div class="menu-title">
                 Navigation
