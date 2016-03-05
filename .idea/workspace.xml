@@ -154,12 +154,12 @@
       <file leaf-file-name="calendar.ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82">
-              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.56">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
               <folding>
-                <marker date="1457144440348" expanded="true" signature="411:460" placeholder="DELETE FROM " />
-                <marker date="1457144440348" expanded="true" signature="1247:1438" placeholder="INSERT INTO collab_event... " />
-                <marker date="1457144440348" expanded="true" signature="1815:1871" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457144455051" expanded="true" signature="411:460" placeholder="DELETE FROM " />
+                <marker date="1457144455051" expanded="true" signature="1217:1408" placeholder="INSERT INTO collab_event... " />
+                <marker date="1457144455051" expanded="true" signature="1819:1875" placeholder="SELECT * FRO... collab_event" />
               </folding>
             </state>
           </provider>
@@ -466,12 +466,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00481" summary="GESTCOM V1.0.0">
-      <created>1457123934602</created>
-      <option name="number" value="00481" />
-      <option name="project" value="LOCAL" />
-      <updated>1457123934603</updated>
-    </task>
     <task id="LOCAL-00482" summary="GESTCOM V1.0.0">
       <created>1457124206784</created>
       <option name="number" value="00482" />
@@ -760,7 +754,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457144127729</updated>
     </task>
-    <option name="localTasksCounter" value="530" />
+    <task id="LOCAL-00530" summary="GESTCOM V1.0.0">
+      <created>1457144444672</created>
+      <option name="number" value="00530" />
+      <option name="project" value="LOCAL" />
+      <updated>1457144444672</updated>
+    </task>
+    <option name="localTasksCounter" value="531" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1236,12 +1236,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.56">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding>
-            <marker date="1457144440348" expanded="true" signature="411:460" placeholder="DELETE FROM " />
-            <marker date="1457144440348" expanded="true" signature="1247:1438" placeholder="INSERT INTO collab_event... " />
-            <marker date="1457144440348" expanded="true" signature="1815:1871" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457144455051" expanded="true" signature="411:460" placeholder="DELETE FROM " />
+            <marker date="1457144455051" expanded="true" signature="1217:1408" placeholder="INSERT INTO collab_event... " />
+            <marker date="1457144455051" expanded="true" signature="1819:1875" placeholder="SELECT * FRO... collab_event" />
           </folding>
         </state>
       </provider>
