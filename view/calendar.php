@@ -213,13 +213,13 @@
                             <div class="form-group">
                                 <label class="col-md-3 control-label">Début de l'évènement</label>
                                 <div class="col-md-9">
-                                    <input type="text" name="start_event" class="date-picker form-control" placeholder="Selectionner la date et l'heure de l'évènement...">
+                                    <input type="text" name="start_event" class="datetimepicker form-control" placeholder="Selectionner la date et l'heure de l'évènement...">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-3 control-label">Fin de l'évènement</label>
                                 <div class="col-md-9">
-                                    <input type="text" name="end_event" class="date-picker form-control" placeholder="Selectionner la date et l'heure de l'évènement...">
+                                    <input type="text" name="end_event" class="datetimepicker form-control" placeholder="Selectionner la date et l'heure de l'évènement...">
                                 </div>
                             </div>
                         </div>
