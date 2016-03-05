@@ -3,4 +3,7 @@
  */
 (function($){
     $('.page-content').addClass('page-app mailbox');
+
+    //chart
+
 })(jQuery);
