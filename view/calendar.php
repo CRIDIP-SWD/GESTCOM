@@ -46,7 +46,7 @@
                                                 <td class=""><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td class=""><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td class="">
-                                                    <a class="btn btn-sm btn-icon btn-rounded btn-danger" type="button"><i class="fa fa-trash-o"></i></a>
+                                                    <button class="btn btn-sm btn-icon btn-rounded btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
@@ -95,7 +95,7 @@
                                                 <td><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td>
-                                                    <a class="btn btn-sm btn-icon btn-rounded btn-danger" type="button"><i class="fa fa-trash-o"></i></a>
+                                                    <button class="btn btn-sm btn-icon btn-rounded btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
@@ -144,7 +144,7 @@
                                                 <td><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td>
-                                                    <a class="btn btn-sm btn-icon btn-rounded btn-danger" type="button"><i class="fa fa-trash-o"></i></a>
+                                                    <button class="btn btn-sm btn-icon btn-rounded btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
