@@ -20,4 +20,9 @@
             url: "//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json"
         }
     });
+    $('.btn-danger').on('click', function(e){
+        e.preventDefault();
+        var a = $(this);
+        var url
+    })
 })(jQuery);
