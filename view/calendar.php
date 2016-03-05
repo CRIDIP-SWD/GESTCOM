@@ -128,7 +128,7 @@
                                         <tbody role="alert" aria-live="polite" aria-relevant="all">
                                         <?php
                                         $strt = $date_format->month_strt();
-                                        $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event >= :start_event AND end_event <= :end_event", array(
+                                        $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event >= :start_event AND end_event <= :end_event ORDER BY start_event ASC", array(
                                             "iduser"        => $user->iduser,
                                             "start_event"   => $strt['debut_mois'],
                                             "end_event"     => $strt['fin_mois']

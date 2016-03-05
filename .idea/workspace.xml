@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/general/date.php" afterPath="$PROJECT_DIR$/application/general/date.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/calendar.php" afterPath="$PROJECT_DIR$/view/calendar.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="calendar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52">
-              <caret line="133" column="78" selection-start-line="133" selection-start-column="78" selection-end-line="133" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.46">
+              <caret line="130" column="199" selection-start-line="130" selection-start-column="199" selection-end-line="130" selection-end-column="199" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -67,9 +65,9 @@
                 <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <marker date="1457136217098" expanded="true" signature="2200:2309" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457136217098" expanded="true" signature="5603:5712" placeholder="SELECT * FRO... collab_event" />
-                <marker date="1457136217098" expanded="true" signature="9068:9177" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457136257396" expanded="true" signature="2200:2309" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457136257396" expanded="true" signature="5603:5712" placeholder="SELECT * FRO... collab_event" />
+                <marker date="1457136257396" expanded="true" signature="9068:9202" placeholder="SELECT * FRO... collab_event" />
               </folding>
             </state>
           </provider>
@@ -491,12 +489,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00444" summary="GESTCOM V1.0.0">
-      <created>1457098993911</created>
-      <option name="number" value="00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1457098993912</updated>
-    </task>
     <task id="LOCAL-00445" summary="GESTCOM V1.0.0">
       <created>1457099057042</created>
       <option name="number" value="00445" />
@@ -785,7 +777,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457135653868</updated>
     </task>
-    <option name="localTasksCounter" value="493" />
+    <task id="LOCAL-00493" summary="GESTCOM V1.0.0">
+      <created>1457136225350</created>
+      <option name="number" value="00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1457136225350</updated>
+    </task>
+    <option name="localTasksCounter" value="494" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1224,8 +1222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52">
-          <caret line="133" column="78" selection-start-line="133" selection-start-column="78" selection-end-line="133" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.46">
+          <caret line="130" column="199" selection-start-line="130" selection-start-column="199" selection-end-line="130" selection-end-column="199" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -1236,9 +1234,9 @@
             <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <marker date="1457136217098" expanded="true" signature="2200:2309" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457136217098" expanded="true" signature="5603:5712" placeholder="SELECT * FRO... collab_event" />
-            <marker date="1457136217098" expanded="true" signature="9068:9177" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457136257396" expanded="true" signature="2200:2309" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457136257396" expanded="true" signature="5603:5712" placeholder="SELECT * FRO... collab_event" />
+            <marker date="1457136257396" expanded="true" signature="9068:9202" placeholder="SELECT * FRO... collab_event" />
           </folding>
         </state>
       </provider>
