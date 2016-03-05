@@ -95,7 +95,7 @@
                                                 <td><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
                                                 <td><?= html_entity_decode($event->titre_event); ?></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-sm btn-icon btn-rounded btn-danger"><i class="fa fa-trash"></i></button>
+                                                    <button class="btn btn-sm btn-icon btn-rounded btn-danger" type="button"><i class="fa fa-google-plus"></i></button>
                                                 </td>
                                             </tr>
                                         <?php endforeach; ?>
