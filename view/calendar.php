@@ -175,24 +175,31 @@
             </div>
             <form class="form-horizontal" action="controller/calendar.ajax.php" method="post">
                 <div class="modal-body">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="col-md-3 control-label" for="agenda">Agenda</label>
-                            <div class="col-md-9">
-                                <select id="agenda" class="form-control" data-search="true" name="iduser" data-placeholder="Selectionner l'agenda de l'utilisateur concerner">
-                                    <option value=""></option>
-                                    <option value="all">Tous</option>
-                                    <?php
-                                    $sql_user = $DB->query("SELECT * FROM users WHERE groupe != 4 ORDER BY nom_user ASC");
-                                    foreach($sql_user as $userq):
-                                    ?>
-                                    <option value="<?= $userq->iduser; ?>"><?= $userq->nom_user; ?> <?= $userq->prenom_user; ?></option>
-                                    <?php endforeach; ?>
-                                </select>
-                            </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control input-lg bg-aero" placeholder="Titre de l'évènement" name="titre_event" />
                         </div>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="agenda">Agenda</label>
+                                <div class="col-md-9">
+                                    <select id="agenda" class="form-control" data-search="true" name="iduser" data-placeholder="Selectionner l'agenda de l'utilisateur concerner">
+                                        <option value=""></option>
+                                        <option value="all">Tous</option>
+                                        <?php
+                                        $sql_user = $DB->query("SELECT * FROM users WHERE groupe != 4 ORDER BY nom_user ASC");
+                                        foreach($sql_user as $userq):
+                                            ?>
+                                            <option value="<?= $userq->iduser; ?>"><?= $userq->nom_user; ?> <?= $userq->prenom_user; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
