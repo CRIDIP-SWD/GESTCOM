@@ -270,6 +270,16 @@ class date
         );
     }
 
+    public function month_strt()
+    {
+        $date_format = new date();
+        $debut_mois = $date_format->format_strt(date("01-m-Y"));
+        $fin_mois = $date_format->format_strt(date("31-m-Y"));
+
+        return array("debut_mois" => $debut_mois, "fin_mois" => $fin_mois);
+
+    }
+
     /**
      * @param $strtotime //Date au format strtotime
      * @return float // Retourne la valeur différentielle de jour restant en format strtotime

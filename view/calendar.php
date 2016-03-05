@@ -101,8 +101,52 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="tab1_3">
-                        <p>Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                    <div class="tab-pane fade" id="month">
+                        <div class="table-responsive">
+                            <div class="panel">
+                                <div class="panel-header">
+                                    <h3>Mois de <?= $date_format->formatage_sequenciel_no_str("m")." ".date("Y"); ?> </h3>
+                                </div>
+                                <div class="panel-content">
+                                    <table class="table dataTable" id="week2">
+                                        <thead>
+                                        <tr>
+                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 10%">
+                                                Jours
+                                            </th>
+                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 10%">
+                                                Heure
+                                            </th>
+                                            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 70%">
+                                                Evenement
+                                            </th>
+                                            <th tabindex="0" rowspan="1" colspan="1" style="width: 10%;">
+                                                Action
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                        <?php
+                                        $strt = $date_format->month_strt();
+                                        $sql_event = $DB->query("SELECT * FROM collab_event WHERE iduser = :iduser AND start_event >= :start_event AND end_event <= :end_event", array(
+                                            "iduser"        => $user->iduser,
+                                            "start_event"   => $strt['debut_mois'],
+                                            "end_event"     => $strt['fin_mois']
+                                        ));
+                                        foreach($sql_event as $event):
+                                            ?>
+                                            <tr class="<?php if($event->start_event < time() AND $event->end_event < time()){echo 'danger';} ?> <?php if($event->start_event <= time()-900){echo 'info';} ?>">
+                                                <td><?= $date_format->formatage_sequenciel("d", $event->start_event); ?> <?= date("d", $event->start_event); ?></td>
+                                                <td><?= $date_format->formatage("H:i", $event->start_event); ?> / <?= $date_format->formatage("H:i", $event->end_event); ?></td>
+                                                <td><?= html_entity_decode($event->titre_event); ?></td>
+                                                <td></td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
