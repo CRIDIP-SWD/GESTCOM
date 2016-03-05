@@ -31,6 +31,8 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
     <link href="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('plugins/')); ?>fullcalendar/fullcalendar.min.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('plugins/')); ?>datatables/dataTables.min.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('plugins/')); ?>dropzone/dropzone.min.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('plugins/')); ?>input-text/style.min.css" rel="stylesheet">
 </head>
 <!-- LAYOUT: Apply "submenu-hover" class to body element to have sidebar submenu show on mouse hover -->
 <!-- LAYOUT: Apply "sidebar-collapsed" class to body element to have collapsed sidebar -->

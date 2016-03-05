@@ -179,7 +179,9 @@
                         <div class="form-group">
                             <label class="col-md-3 control-label">Agenda</label>
                             <div class="col-md-9">
-                                <select class="form-control" data-content="<i class='fa fa-google-plus'></i> TEST" data-search="true">TEST</select>
+                                <select class="form-control" data-search="true" name="iduser">
+                                    <option value="1" data-content="TEST"></option>
+                                </select>
                             </div>
                         </div>
                     </div>
