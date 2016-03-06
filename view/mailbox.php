@@ -31,7 +31,7 @@
                     <div class="tab-pane fade" id="alphabetically">
                         <div class="messages-list withScroll show-scroll" data-padding="180" data-height="window">
                             <?php
-                            $sql_mail_recent = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :iduser", array("iduser" => $user->iduser));
+                            $sql_mail_recent = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :iduser ORDER BY users.nom_user ASC", array("iduser" => $user->iduser));
                             foreach($sql_mail_recent as $mail):
                             ?>
                             <div class="message-item media">
