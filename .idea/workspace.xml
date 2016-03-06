@@ -80,10 +80,10 @@
       <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5411765">
-              <caret line="48" column="75" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.44117647">
+              <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
               <folding>
-                <marker date="1457222971583" expanded="true" signature="2046:2151" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457223020720" expanded="true" signature="2046:2151" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -426,12 +426,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00507" summary="GESTCOM V1.0.0">
-      <created>1457138377737</created>
-      <option name="number" value="00507" />
-      <option name="project" value="LOCAL" />
-      <updated>1457138377737</updated>
-    </task>
     <task id="LOCAL-00508" summary="GESTCOM V1.0.0">
       <created>1457138694938</created>
       <option name="number" value="00508" />
@@ -720,7 +714,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457222688395</updated>
     </task>
-    <option name="localTasksCounter" value="556" />
+    <task id="LOCAL-00556" summary="GESTCOM V1.0.0">
+      <created>1457222984657</created>
+      <option name="number" value="00556" />
+      <option name="project" value="LOCAL" />
+      <updated>1457222984657</updated>
+    </task>
+    <option name="localTasksCounter" value="557" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1210,10 +1210,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5411765">
-          <caret line="48" column="75" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.44117647">
+          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
           <folding>
-            <marker date="1457222971583" expanded="true" signature="2046:2151" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457223020720" expanded="true" signature="2046:2151" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>

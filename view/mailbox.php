@@ -41,7 +41,7 @@
                                         <div class="sender"><?= $mail->nom_user; ?> <?= $mail->prenom_user; ?></div>
                                         <div class="subject">
                                             <?php if($mail->importance == 1): ?>
-                                            <i class="fa fa-flag bg-red"></i>
+                                            <i class="fa fa-flag text-danger"></i>
                                             <?php endif; ?>
                                             <span class="subject-text"><?= html_entity_decode($mail->sujet); ?></span>
                                         </div>
