@@ -3,14 +3,14 @@
         <aside class="aside-md emails-list">
             <section>
                 <div class="mailbox-page clearfix">
-                    <h1 class="pull-left">Inbox</h1>
-                    <div class="append-icon">
+                    <h1 class="pull-left">Boite de réception</h1>
+                    <!--<div class="append-icon">
                         <input type="text" class="form-control form-white pull-right" id="email-search" placeholder="Search...">
                         <i class="icon-magnifier"></i>
-                    </div>
+                    </div>-->
                 </div>
                 <ul class="nav nav-tabs text-right">
-                    <li class="emails-action">
+                    <!--<li class="emails-action">
                         <i class="icon-rounded-arrow-curve-left"></i>
                         <i class=" icon-rounded-heart"></i>
                         <div class="pos-rel dis-inline">
@@ -23,13 +23,32 @@
                                 <li><a href="#" class="hide-top-sidebar">Read</a></li>
                             </ul>
                         </div>
-                    </li>
-                    <li class="active f-right"><a href="#recent" data-toggle="tab">Recent</a></li>
-                    <li class="f-right"><a href="#alphabetically" data-toggle="tab">Alphabetically</a></li>
-                </ul>
+                    </li>-->
+                    <li class="active f-right"><a href="#recent" data-toggle="tab">Récent</a></li>
+                    <li class="f-right"><a href="#alphabetically" data-toggle="tab">Alphabetique</a></li>
+                </ul>-->
                 <div class="tab-content">
                     <div class="tab-pane fade" id="alphabetically">
                         <div class="messages-list withScroll show-scroll" data-padding="180" data-height="window">
+                            <?php
+                            $sql_mail_recent = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :iduser", array("iduser" => $user->iduser));
+                            foreach($sql_mail_recent as $mail):
+                            ?>
+                            <div class="message-item media">
+                                <div class="media">
+                                    <img src="assets/images/avatars/avatar11_big.png" alt="avatar 3" width="40" class="sender-img">
+                                    <div class="media-body">
+                                        <div class="sender"><?= $mail->nom_user; ?> <?= $mail->prenom_user; ?></div>
+                                        <div class="subject">
+                                            <?php if($mail->importance == 1): ?>
+                                            <i class="fa fa-flag bg-red"></i>
+                                            <?php endif; ?>
+                                            <span class="subject-text">New contract</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php endforeach; ?>
                             <div class="message-item media">
                                 <div class="media">
                                     <img src="assets/images/avatars/avatar11_big.png" alt="avatar 3" width="40" class="sender-img">

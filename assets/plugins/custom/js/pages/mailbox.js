@@ -22,10 +22,4 @@
         })
     }
 
-    $(document).ready(function(){
-        setInterval(count_new_mail(), 1000);
-    })
-
-
-
 })(jQuery);
