@@ -1,7 +1,7 @@
 <?php
-$encrypt = new \App\noctus\encrypt("mmockelyn", "1992maxime");
+$encrypt = new \App\noctus\encrypt("esetbon", "mosheB55");
 $en_user = $encrypt->encrypt();
-$decrypt = new \App\noctus\decrypt($en_user, "mmockelyn", "1992maxime");
+$decrypt = new \App\noctus\decrypt($en_user, "esetbon", "mosheB55");
 $de_user = $decrypt->decrypt();
 ?>
 <h2>Encrypt User</h2>

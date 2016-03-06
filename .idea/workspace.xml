@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/mailbox.php" afterPath="$PROJECT_DIR$/view/mailbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/test.php" afterPath="$PROJECT_DIR$/view/test.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,14 +77,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24117647">
+            <state vertical-scroll-proportion="-7.8846154">
               <caret line="33" column="192" selection-start-line="33" selection-start-column="192" selection-end-line="33" selection-end-column="192" />
               <folding>
                 <marker date="1457223075744" expanded="true" signature="2046:2179" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.06">
+              <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,7 +203,6 @@
         <option value="$PROJECT_DIR$/view/notification.php" />
         <option value="$PROJECT_DIR$/assets/js/pages/lockscreen.js" />
         <option value="$PROJECT_DIR$/application/noctus/decrypt.php" />
-        <option value="$PROJECT_DIR$/view/test.php" />
         <option value="$PROJECT_DIR$/view/lockscreen.php" />
         <option value="$PROJECT_DIR$/controller/user.ajax.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_count.js" />
@@ -239,6 +248,7 @@
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" />
         <option value="dbtable:/46629d73/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.collab_inbox" />
         <option value="$PROJECT_DIR$/view/mailbox.php" />
+        <option value="$PROJECT_DIR$/view/test.php" />
       </list>
     </option>
   </component>
@@ -425,12 +435,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00509" summary="GESTCOM V1.0.0">
-      <created>1457138788631</created>
-      <option name="number" value="00509" />
-      <option name="project" value="LOCAL" />
-      <updated>1457138788631</updated>
     </task>
     <task id="LOCAL-00510" summary="GESTCOM V1.0.0">
       <created>1457138827320</created>
@@ -720,7 +724,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457223024530</updated>
     </task>
-    <option name="localTasksCounter" value="558" />
+    <task id="LOCAL-00558" summary="GESTCOM V1.0.0">
+      <created>1457223082914</created>
+      <option name="number" value="00558" />
+      <option name="project" value="LOCAL" />
+      <updated>1457223082914</updated>
+    </task>
+    <option name="localTasksCounter" value="559" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -772,13 +782,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17465754">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/jquery-validation/jquery.validate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05654102">
@@ -1210,11 +1213,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24117647">
+        <state vertical-scroll-proportion="-7.8846154">
           <caret line="33" column="192" selection-start-line="33" selection-start-column="192" selection-end-line="33" selection-end-column="192" />
           <folding>
             <marker date="1457223075744" expanded="true" signature="2046:2179" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
