@@ -43,9 +43,10 @@
                                             <?php if($mail->importance == 1): ?>
                                             <i class="fa fa-flag bg-red"></i>
                                             <?php endif; ?>
-                                            <span class="subject-text">New contract</span>
+                                            <span class="subject-text"><?= html_entity_decode($mail->sujet); ?></span>
                                         </div>
                                     </div>
+                                    <div class="date"><?= $date_format->format($mail->date_message); ?></div>
                                 </div>
                             </div>
                             <?php endforeach; ?>
