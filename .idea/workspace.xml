@@ -67,13 +67,13 @@
       <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7973778">
-              <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.6555423">
+              <caret line="61" column="146" selection-start-line="61" selection-start-column="146" selection-end-line="61" selection-end-column="146" />
               <folding>
-                <marker date="1457373264526" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
-                <marker date="1457373264526" expanded="true" signature="1675:1696" placeholder="..." />
-                <marker date="1457373264526" expanded="true" signature="2129:2463" placeholder="..." />
-                <marker date="1457373264526" expanded="true" signature="2508:2775" placeholder="..." />
+                <marker date="1457373341623" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457373341623" expanded="true" signature="1675:1696" placeholder="..." />
+                <marker date="1457373341623" expanded="true" signature="2129:2463" placeholder="..." />
+                <marker date="1457373341623" expanded="true" signature="2508:2775" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -389,12 +389,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00546" summary="GESTCOM V1.0.0">
-      <created>1457220376597</created>
-      <option name="number" value="00546" />
-      <option name="project" value="LOCAL" />
-      <updated>1457220376597</updated>
-    </task>
     <task id="LOCAL-00547" summary="GESTCOM V1.0.0">
       <created>1457220391203</created>
       <option name="number" value="00547" />
@@ -683,7 +677,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457373221339</updated>
     </task>
-    <option name="localTasksCounter" value="595" />
+    <task id="LOCAL-00595" summary="GESTCOM V1.0.0">
+      <created>1457373267990</created>
+      <option name="number" value="00595" />
+      <option name="project" value="LOCAL" />
+      <updated>1457373267990</updated>
+    </task>
+    <option name="localTasksCounter" value="596" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1147,13 +1147,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7973778">
-          <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.6555423">
+          <caret line="61" column="146" selection-start-line="61" selection-start-column="146" selection-end-line="61" selection-end-column="146" />
           <folding>
-            <marker date="1457373264526" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1457373264526" expanded="true" signature="1675:1696" placeholder="..." />
-            <marker date="1457373264526" expanded="true" signature="2129:2463" placeholder="..." />
-            <marker date="1457373264526" expanded="true" signature="2508:2775" placeholder="..." />
+            <marker date="1457373341623" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457373341623" expanded="true" signature="1675:1696" placeholder="..." />
+            <marker date="1457373341623" expanded="true" signature="2129:2463" placeholder="..." />
+            <marker date="1457373341623" expanded="true" signature="2508:2775" placeholder="..." />
           </folding>
         </state>
       </provider>
