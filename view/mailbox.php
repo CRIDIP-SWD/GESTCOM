@@ -22,11 +22,18 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                <?php
+                                $sql_mail = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :iduser", array("iduser" => $user->iduser));
+                                foreach($sql_mail as $mail):
+                                ?>
                                     <tr>
-                                        <td style="display: inline-flex;"><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" class="img-responsive img-circle" width="25"/>  &nbsp;MOCKELYN Maxime</td>
-                                        <td>Nouveau Contrat ICEGEST</td>
-                                        <td>15:03</td>
+                                        <td style="display: inline-flex;"><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $mail->username; ?>.png" class="img-responsive img-circle" width="25"/>  &nbsp;<?= $mail->nom_user; ?> <?= $mail->prenom_user; ?></td>
+                                        <td><?= html_entity_decode($mail->sujet); ?></td>
+                                        <td>
+                                            <?= $date_format->format($mail->date_message); ?>
+                                        </td>
                                     </tr>
+                                <?php endforeach; ?>
                                 </tbody>
                             </table>
                         </div>
