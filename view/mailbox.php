@@ -11,7 +11,7 @@
             <div class="col-md-12">
                 <div class="panel">
                     <div class="panel-content">
-                        <h1>BOITE DE RECEPTION (1)</h1>
+                        <h1><strong>BOITE DE RECEPTION (1)</strong></h1>
                         <div class="table-responsive">
                             <table class="table dataTable" id="mailbox">
                                 <thead>
