@@ -7,6 +7,21 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table dataTable" id="mailbox">
+                        <tbody>
+                            <tr>
+                                <td><img src="assets/images/avatar/avatar11.png" /> Maxime Mockelyn</td>
+                                <td>Nouveau Contrat SLTS</td>
+                                <td>15:22</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </section>
 <?php endif; ?>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/raphael.min.js"></script> <!-- Morris Charts -->
