@@ -50,6 +50,15 @@
         </div>
     </section>
 <?php endif; ?>
+<?php if(isset($_GET['sub']) && $_GET['sub'] == 'compose'): ?>
+<div class="row">
+    <div class="col-md-12">
+        <div class="well">
+            <h1>Nouveau Mail</h1>
+        </div>
+    </div>
+</div>
+<?php endif; ?>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/raphael.min.js"></script> <!-- Morris Charts -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/morris.min.js"></script> <!-- Morris Charts -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>summernote/summernote.min.js"></script>
