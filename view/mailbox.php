@@ -59,7 +59,7 @@
                     <h1>NOUVEAU MESSAGE</h1>
                 </div>
                 <div class="col-md-6">
-                    <a class="btn btn-rounded btn-primary pull-right" href="index.php?view=mailbox"><i class="fa fa-arrow-circle-left"></i> Retour</a>
+                    <a class="btn btn-rounded btn-lg btn-primary pull-right" href="index.php?view=mailbox"><i class="fa fa-arrow-circle-left fa-2x"></i> Retour</a>
                 </div>
             </div>
         </div>

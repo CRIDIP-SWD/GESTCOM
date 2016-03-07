@@ -70,10 +70,10 @@
             <state vertical-scroll-proportion="0.6555423">
               <caret line="61" column="146" selection-start-line="61" selection-start-column="146" selection-end-line="61" selection-end-column="146" />
               <folding>
-                <marker date="1457373341623" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
-                <marker date="1457373341623" expanded="true" signature="1675:1696" placeholder="..." />
-                <marker date="1457373341623" expanded="true" signature="2129:2463" placeholder="..." />
-                <marker date="1457373341623" expanded="true" signature="2508:2775" placeholder="..." />
+                <marker date="1457373391100" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457373391100" expanded="true" signature="1675:1696" placeholder="..." />
+                <marker date="1457373391100" expanded="true" signature="2129:2463" placeholder="..." />
+                <marker date="1457373391100" expanded="true" signature="2508:2775" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -389,12 +389,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00547" summary="GESTCOM V1.0.0">
-      <created>1457220391203</created>
-      <option name="number" value="00547" />
-      <option name="project" value="LOCAL" />
-      <updated>1457220391203</updated>
-    </task>
     <task id="LOCAL-00548" summary="GESTCOM V1.0.0">
       <created>1457220699345</created>
       <option name="number" value="00548" />
@@ -683,7 +677,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457373267990</updated>
     </task>
-    <option name="localTasksCounter" value="596" />
+    <task id="LOCAL-00596" summary="GESTCOM V1.0.0">
+      <created>1457373345105</created>
+      <option name="number" value="00596" />
+      <option name="project" value="LOCAL" />
+      <updated>1457373345105</updated>
+    </task>
+    <option name="localTasksCounter" value="597" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1150,10 +1150,10 @@
         <state vertical-scroll-proportion="0.6555423">
           <caret line="61" column="146" selection-start-line="61" selection-start-column="146" selection-end-line="61" selection-end-column="146" />
           <folding>
-            <marker date="1457373341623" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1457373341623" expanded="true" signature="1675:1696" placeholder="..." />
-            <marker date="1457373341623" expanded="true" signature="2129:2463" placeholder="..." />
-            <marker date="1457373341623" expanded="true" signature="2508:2775" placeholder="..." />
+            <marker date="1457373391100" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457373391100" expanded="true" signature="1675:1696" placeholder="..." />
+            <marker date="1457373391100" expanded="true" signature="2129:2463" placeholder="..." />
+            <marker date="1457373391100" expanded="true" signature="2508:2775" placeholder="..." />
           </folding>
         </state>
       </provider>
