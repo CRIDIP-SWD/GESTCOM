@@ -26,7 +26,7 @@
                     </li>-->
                     <li class="active f-right"><a href="#recent" data-toggle="tab">Récent</a></li>
                     <li class="f-right"><a href="#alphabetically" data-toggle="tab">Alphabetique</a></li>
-                </ul>-->
+                </ul>
                 <div class="tab-content">
                     <div class="tab-pane fade" id="alphabetically">
                         <div class="messages-list withScroll show-scroll" data-padding="180" data-height="window">
