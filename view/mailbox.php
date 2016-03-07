@@ -65,6 +65,20 @@
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel">
+            <form class="form-horizontal" action="controller/mailbox.ajax.php" method="post">
+                <div class="panel-content">
+
+                </div>
+                <div class="panel-footer pull-right">
+                    <button type="submit" class="btn btn-success" name="action" value="sent-mail">Envoyer <i class="fa fa-arrow-circle-right"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 <?php endif; ?>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/raphael.min.js"></script> <!-- Morris Charts -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/morris.min.js"></script> <!-- Morris Charts -->
