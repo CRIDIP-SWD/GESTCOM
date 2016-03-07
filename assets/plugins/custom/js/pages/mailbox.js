@@ -39,12 +39,5 @@
         }
     })
 
-    $('#message').on('click', function(){
-        var message = $(this);
-        var url = message.find('href').val();
-        $.ajax({
-            url: url
-        })
-    })
 
 })(jQuery);

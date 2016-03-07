@@ -13,7 +13,7 @@
                     <div class="panel-content">
                         <h1 id="titre_mailbox"><strong>BOITE DE RECEPTION (1)</strong></h1>
                         <div class="table-responsive">
-                            <table class="table dataTable" id="mailbox">
+                            <table class="table dataTable table-hover" id="mailbox">
                                 <thead>
                                     <tr>
                                         <th>Expéditeur</th>
