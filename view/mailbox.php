@@ -53,8 +53,9 @@
 <?php if(isset($_GET['sub']) && $_GET['sub'] == 'compose'): ?>
 <div class="row">
     <div class="col-md-12">
-        <div class="well">
-            <h1>Nouveau Mail</h1>
+        <div class="well pull-right">
+            <h1 class="text-left">Nouveau Mail</h1>
+            <a class="btn btn-rounded btn-primary" href="index.php?view=mailbox&sub=compose"><i class="fa fa-plus"></i> Nouveau Mail</a>
         </div>
     </div>
 </div>
