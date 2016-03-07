@@ -93,9 +93,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                 </div>
             </div>
             <?php if(isset($_GET['view']) && $_GET['view'] == 'mailbox'): ?>
-                <div class="sidebar-top">
-                    <a href="mailbox-send.html" class="btn btn-primary btn-compose">Compose</a>
-                </div>
                     <ul class="nav nav-sidebar">
                         <li class="tm nav-active active">
                             <a href="index.php?view=mailbox">
