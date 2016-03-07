@@ -85,6 +85,16 @@
                             </select>
                         </div>
                     </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3" for="message">Sujet:</label>
+                        <div class="col-md-9">
+                            <input id="message" type="text" class="form-control input-lg" name="sujet" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="message">Message:</label>
+                        <textarea id="message" cols="80" rows="10" class="cke-editor" name="message"></textarea>
+                    </div>
                 </div>
                 <div class="panel-footer">
                     <div class="row">
@@ -104,4 +114,6 @@
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/morris.min.js"></script> <!-- Morris Charts -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>summernote/summernote.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>datatables/jquery.dataTables.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>cke-editor/ckeditor.js"></script> <!-- Advanced HTML Editor -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>cke-editor/adapters/adapters.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>custom/js/pages/mailbox.js"></script>
