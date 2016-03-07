@@ -13,4 +13,12 @@ if(is_ajax()){
 
         echo json_encode($user_q);
     }
+    if(isset($_GET['action']) && $_GET['action'] == 'view_message')
+    {
+        session_start();
+        require "../application/classe.php";
+        $idinbox = $_GET['idinbox'];
+
+        $fonction->redirect("mailbox", "message&idinbox=$idinbox", "", "", "", "");
+    }
 }
