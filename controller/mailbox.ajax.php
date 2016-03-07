@@ -21,4 +21,18 @@ if(is_ajax()){
 
         $fonction->redirect("mailbox", "message&idinbox=$idinbox", "", "", "", "");
     }
+    if(isset($_GET['action']) && $_GET['action'] == 'supp-mail')
+    {
+        session_start();
+        require "../application/classe.php";
+        $idinbox = $_GET['idinbox'];
+
+        $mail_d = $DB->execute("DELETE FROM collab_inbox WHERE idinbox = :idinbox", array("idinbox" => $idinbox));
+
+        if($mail_d == 1){
+            echo json_encode(200);
+        }else{
+            echo json_encode(500);
+        }
+    }
 }

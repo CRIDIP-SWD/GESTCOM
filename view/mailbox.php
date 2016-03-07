@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="well text-right">
-                    <a class="btn btn-rounded btn-primary"><i class="fa fa-plus"></i> Nouveau Mail</a>
+                    <a class="btn btn-rounded btn-primary" href="index.php?view=mailbox&sub=compose"><i class="fa fa-plus"></i> Nouveau Mail</a>
                 </div>
             </div>
         </div>
@@ -19,6 +19,7 @@
                                         <th>Expéditeur</th>
                                         <th>Sujet</th>
                                         <th>Date</th>
+                                        <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -34,6 +35,9 @@
                                             $date = $date_format->formatage("d-m-Y H:i:s", $mail->date_message);
                                             echo $date_format->format($date);
                                             ?>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-sm btn-rounded btn-danger" id="supp-mail" href="controller/mailbox.ajax.php?action=supp-mail&idinbox=<?= $mail->idinbox; ?>"><i class="fa fa-trash-o"></i></a>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
