@@ -9,16 +9,26 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div class="table-responsive">
-                    <table class="table dataTable" id="mailbox">
-                        <tbody>
-                            <tr>
-                                <td><img src="assets/images/avatar/avatar11.png" /> Maxime Mockelyn</td>
-                                <td>Nouveau Contrat SLTS</td>
-                                <td>15:22</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="panel">
+                    <div class="panel-content">
+                        <h1>BOITE DE RECEPTION (1)</h1>
+                        <div class="table-responsive">
+                            <table class="table dataTable" id="mailbox">
+                                <thead>
+                                    <tr>
+                                        <th>Expéditeur</th>
+                                        <th>Sujet</th>
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/"</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
