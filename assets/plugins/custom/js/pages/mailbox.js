@@ -14,7 +14,13 @@
             type: "GET",
             success: function(data){
                 console.log(data);
-                $('.badge-primary').text(data);
+                if(data >= 1){
+                    $('.badge-primary').text(data);
+                    $('#titre_mailbox').html('<strong> BOITE DE RECEPTION ('+data+')</strong>');
+                }else{
+                    $('.badge-primary').text();
+                    $('#titre_mailbox').html('<strong> BOITE DE RECEPTION (0)</strong>');
+                }
             },
             error: function (jqxhr) {
                 console.log(jqxhr.responseText);
