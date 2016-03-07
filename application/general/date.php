@@ -159,7 +159,7 @@ class date
      * @param $date // Date au format standard de date (d-m-Y) ou autre
      * @return string // Il retourne le moment décompter par différence (il y a...)
      */
-    public function ilya($date)
+    public function format($date)
     {
         $date_a_comparer = new DateTime($date);
         $date_actuelle = new DateTime("now");
