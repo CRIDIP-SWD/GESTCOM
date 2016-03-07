@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/mailbox.ajax.php" afterPath="$PROJECT_DIR$/controller/mailbox.ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/mailbox.php" afterPath="$PROJECT_DIR$/view/mailbox.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,16 +64,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.5">
-              <caret line="39" column="134" selection-start-line="39" selection-start-column="134" selection-end-line="39" selection-end-column="134" />
+            <state vertical-scroll-proportion="0.40524435">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
               <folding>
-                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <marker date="1457367593510" expanded="true" signature="1235:1340" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457368099627" expanded="true" signature="1162:1267" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457368099627" expanded="true" signature="1665:1686" placeholder="..." />
+                <marker date="1457368099627" expanded="true" signature="2025:2359" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -104,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailbox.ajax.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mailbox.ajax.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/mailbox.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42550656">
+            <state vertical-scroll-proportion="-13.730769">
               <caret line="21" column="83" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
               <folding>
                 <marker date="1457367902303" expanded="true" signature="375:454" placeholder="SELECT COUNT... collab_inbox" />
@@ -183,9 +181,9 @@
         <option value="$PROJECT_DIR$/view/profil.php" />
         <option value="$PROJECT_DIR$/view/include/right_bar.php" />
         <option value="$PROJECT_DIR$/application/general/date.php" />
-        <option value="$PROJECT_DIR$/view/mailbox.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" />
         <option value="$PROJECT_DIR$/controller/mailbox.ajax.php" />
+        <option value="$PROJECT_DIR$/view/mailbox.php" />
       </list>
     </option>
   </component>
@@ -374,12 +372,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00536" summary="GESTCOM V1.0.0">
-      <created>1457198880714</created>
-      <option name="number" value="00536" />
-      <option name="project" value="LOCAL" />
-      <updated>1457198880714</updated>
     </task>
     <task id="LOCAL-00537" summary="GESTCOM V1.0.0">
       <created>1457200244439</created>
@@ -669,7 +661,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457367624544</updated>
     </task>
-    <option name="localTasksCounter" value="585" />
+    <task id="LOCAL-00585" summary="GESTCOM V1.0.0">
+      <created>1457367905797</created>
+      <option name="number" value="00585" />
+      <option name="project" value="LOCAL" />
+      <updated>1457367905798</updated>
+    </task>
+    <option name="localTasksCounter" value="586" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1088,24 +1086,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/mailbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.5">
-          <caret line="39" column="134" selection-start-line="39" selection-start-column="134" selection-end-line="39" selection-end-column="134" />
-          <folding>
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <marker date="1457367593510" expanded="true" signature="1235:1340" placeholder="SELECT * FRO... collab_inbox" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020262217">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/mailbox.ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="83" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+          <folding>
+            <marker date="1457367902303" expanded="true" signature="375:454" placeholder="SELECT COUNT... collab_inbox" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,12 +1116,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/mailbox.ajax.php">
+    <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42550656">
-          <caret line="21" column="83" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.40524435">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding>
-            <marker date="1457367902303" expanded="true" signature="375:454" placeholder="SELECT COUNT... collab_inbox" />
+            <marker date="1457368099627" expanded="true" signature="1162:1267" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457368099627" expanded="true" signature="1665:1686" placeholder="..." />
+            <marker date="1457368099627" expanded="true" signature="2025:2359" placeholder="..." />
           </folding>
         </state>
       </provider>

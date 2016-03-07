@@ -19,7 +19,6 @@
                                         <th>Expéditeur</th>
                                         <th>Sujet</th>
                                         <th>Date</th>
-                                        <th style="display: none;"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -27,7 +26,7 @@
                                 $sql_mail = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :iduser", array("iduser" => $user->iduser));
                                 foreach($sql_mail as $mail):
                                 ?>
-                                    <tr <?php if($mail->lu == 0){echo 'style="font-weight: bolder;"';}?> id="message" >
+                                    <tr <?php if($mail->lu == 0){echo 'style="font-weight: bolder;"';}?> id="message" onclick="window.location='index.php?view=mailbox&sub=message&idinbox=<?= $mail->idinbox; ?>'">
                                         <td style="display: inline-flex;"><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $mail->username; ?>.png" class="img-responsive img-circle" width="25"/>  &nbsp;<?= $mail->nom_user; ?> <?= $mail->prenom_user; ?></td>
                                         <td><?= html_entity_decode($mail->sujet); ?></td>
                                         <td>
@@ -35,9 +34,6 @@
                                             $date = $date_format->formatage("d-m-Y H:i:s", $mail->date_message);
                                             echo $date_format->format($date);
                                             ?>
-                                        </td>
-                                        <td style="display: none;">
-                                            <a href="controller/mailbox.ajax.php?action=view_mail&idinbox=<?= $mail->idinbox; ?>"></a>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
