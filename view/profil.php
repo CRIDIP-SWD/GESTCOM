@@ -3,7 +3,7 @@
         <div class="col-lg-12 col-md-12">
             <div class="row">
                 <div class="col-xs-4 profil-img">
-                    <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.jpg" alt="profil">
+                    <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" alt="profil">
                 </div>
                 <div class="col-xs-8 p-l-0 col-map">
                     <div class="map" id="profil-map"></div>
