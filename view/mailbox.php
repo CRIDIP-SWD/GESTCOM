@@ -72,8 +72,14 @@
                 <div class="panel-content">
 
                 </div>
-                <div class="panel-footer pull-right">
-                    <button type="submit" class="btn btn-success" name="action" value="sent-mail">Envoyer <i class="fa fa-arrow-circle-right"></i></button>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-9">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-success" name="action" value="sent-mail">Envoyer <i class="fa fa-arrow-circle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>
