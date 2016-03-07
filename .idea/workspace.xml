@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/mailbox.php" afterPath="$PROJECT_DIR$/view/mailbox.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.79022646">
-              <caret line="39" column="130" selection-start-line="39" selection-start-column="130" selection-end-line="39" selection-end-column="130" />
+              <caret line="39" column="134" selection-start-line="39" selection-start-column="134" selection-end-line="39" selection-end-column="134" />
               <folding>
                 <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
@@ -360,12 +359,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00534" summary="GESTCOM V1.0.0">
-      <created>1457145904081</created>
-      <option name="number" value="00534" />
-      <option name="project" value="LOCAL" />
-      <updated>1457145904081</updated>
-    </task>
     <task id="LOCAL-00535" summary="GESTCOM V1.0.0">
       <created>1457198591406</created>
       <option name="number" value="00535" />
@@ -654,7 +647,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457367370624</updated>
     </task>
-    <option name="localTasksCounter" value="583" />
+    <task id="LOCAL-00583" summary="GESTCOM V1.0.0">
+      <created>1457367597363</created>
+      <option name="number" value="00583" />
+      <option name="project" value="LOCAL" />
+      <updated>1457367597363</updated>
+    </task>
+    <option name="localTasksCounter" value="584" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1102,7 +1101,7 @@
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79022646">
-          <caret line="39" column="130" selection-start-line="39" selection-start-column="130" selection-end-line="39" selection-end-column="130" />
+          <caret line="39" column="134" selection-start-line="39" selection-start-column="134" selection-end-line="39" selection-end-column="134" />
           <folding>
             <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
