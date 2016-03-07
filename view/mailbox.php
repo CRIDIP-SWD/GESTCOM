@@ -23,7 +23,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td style="display: inline-flex"><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" class="img-responsive img-circle" width="25"/> MOCKELYN Maxime</td>
+                                        <td style="display: inline"><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" class="img-responsive img-circle" width="25"/> MOCKELYN Maxime</td>
                                         <td>Nouveau Contrat ICEGEST</td>
                                         <td>15:03</td>
                                     </tr>

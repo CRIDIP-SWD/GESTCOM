@@ -68,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3849821">
-              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
@@ -509,12 +509,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00518" summary="GESTCOM V1.0.0">
-      <created>1457139991466</created>
-      <option name="number" value="00518" />
-      <option name="project" value="LOCAL" />
-      <updated>1457139991466</updated>
-    </task>
     <task id="LOCAL-00519" summary="GESTCOM V1.0.0">
       <created>1457140015253</created>
       <option name="number" value="00519" />
@@ -803,7 +797,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457361531300</updated>
     </task>
-    <option name="localTasksCounter" value="567" />
+    <task id="LOCAL-00567" summary="GESTCOM V1.0.0">
+      <created>1457361647129</created>
+      <option name="number" value="00567" />
+      <option name="project" value="LOCAL" />
+      <updated>1457361647130</updated>
+    </task>
+    <option name="localTasksCounter" value="568" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1241,7 +1241,7 @@
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3849821">
-          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
           <folding>
             <element signature="n#div#0;n#section#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
