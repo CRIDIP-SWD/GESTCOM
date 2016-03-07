@@ -22,4 +22,6 @@
         })
     }
 
+    $('.message-item .media').on('click', f)
+
 })(jQuery);
