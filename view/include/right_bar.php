@@ -59,7 +59,7 @@
                             ?>
                                 <li class="clearfix">
                                     <div class="user-img">
-                                        <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user_c->username; ?>.jpg" class="img-responsive img-circle" width="35" alt="avatar" />
+                                        <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user_c->username; ?>.png" class="img-responsive img-circle" width="35" alt="avatar" />
                                     </div>
                                     <div class="user-details">
                                         <div class="user-name"><?= $user_c->nom_user; ?> <?= $user_c->prenom_user; ?></div>
