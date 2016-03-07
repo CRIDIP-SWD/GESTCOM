@@ -23,7 +23,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png"</td>
+                                        <td><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" class="img-responsive img-circle" width="25"/></td>
                                     </tr>
                                 </tbody>
                             </table>
