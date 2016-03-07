@@ -30,7 +30,10 @@
                                         <td style="display: inline-flex;"><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $mail->username; ?>.png" class="img-responsive img-circle" width="25"/>  &nbsp;<?= $mail->nom_user; ?> <?= $mail->prenom_user; ?></td>
                                         <td><?= html_entity_decode($mail->sujet); ?></td>
                                         <td>
-                                            <?= $date_format->format($mail->date_message); ?>
+                                            <?php
+                                            $date = $date_format->formatage("d-m-Y H:i:s", $mail->date_message);
+                                            echo $date_format->format($date);
+                                            ?>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>

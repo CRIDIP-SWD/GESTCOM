@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/general/date.php" afterPath="$PROJECT_DIR$/application/general/date.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/mailbox.php" afterPath="$PROJECT_DIR$/view/mailbox.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -68,11 +67,11 @@
       <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64839095">
-              <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.6889154">
+              <caret line="34" column="77" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <marker date="1457367273753" expanded="true" signature="1162:1267" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457367368026" expanded="true" signature="1162:1267" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -365,12 +364,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00532" summary="GESTCOM V1.0.0">
-      <created>1457144470604</created>
-      <option name="number" value="00532" />
-      <option name="project" value="LOCAL" />
-      <updated>1457144470604</updated>
-    </task>
     <task id="LOCAL-00533" summary="GESTCOM V1.0.0">
       <created>1457144737628</created>
       <option name="number" value="00533" />
@@ -659,7 +652,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457367176737</updated>
     </task>
-    <option name="localTasksCounter" value="581" />
+    <task id="LOCAL-00581" summary="GESTCOM V1.0.0">
+      <created>1457367276812</created>
+      <option name="number" value="00581" />
+      <option name="project" value="LOCAL" />
+      <updated>1457367276812</updated>
+    </task>
+    <option name="localTasksCounter" value="582" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1106,11 +1105,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64839095">
-          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.6889154">
+          <caret line="34" column="77" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <marker date="1457367273753" expanded="true" signature="1162:1267" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457367368026" expanded="true" signature="1162:1267" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>
