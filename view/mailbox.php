@@ -58,8 +58,8 @@
                 <div class="col-md-6">
                     <h1>NOUVEAU MESSAGE</h1>
                 </div>
-                <div class="col-md-6 pull-right">
-                    <a class="btn btn-rounded btn-primary" href="index.php?view=mailbox&sub=compose"><i class="fa fa-plus"></i> Nouveau Mail</a>
+                <div class="col-md-6">
+                    <a class="btn btn-rounded btn-primary pull-right" href="index.php?view=mailbox&sub=compose"><i class="fa fa-plus"></i> Nouveau Mail</a>
                 </div>
             </div>
         </div>
