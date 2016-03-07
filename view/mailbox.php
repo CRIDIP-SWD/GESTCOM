@@ -27,9 +27,9 @@
                                 $sql_mail = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :iduser", array("iduser" => $user->iduser));
                                 foreach($sql_mail as $mail):
                                 ?>
-                                    <tr <?php if($mail->lu == 0){echo 'style="font-weight: bolder;"';}?> id="message" onclick="window.location='index.php?view=mailbox&sub=message&idinbox=<?= $mail->idinbox; ?>'">
+                                    <tr <?php if($mail->lu == 0){echo 'style="font-weight: bolder;"';}?> id="message">
                                         <td style="display: inline-flex;"><img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $mail->username; ?>.png" class="img-responsive img-circle" width="25"/>  &nbsp;<?= $mail->nom_user; ?> <?= $mail->prenom_user; ?></td>
-                                        <td><?= html_entity_decode($mail->sujet); ?></td>
+                                        <td onclick="window.location='index.php?view=mailbox&sub=message&idinbox=<?= $mail->idinbox; ?>'"><?= html_entity_decode($mail->sujet); ?></td>
                                         <td>
                                             <?php
                                             $date = $date_format->formatage("d-m-Y H:i:s", $mail->date_message);
