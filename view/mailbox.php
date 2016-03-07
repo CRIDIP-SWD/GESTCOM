@@ -77,7 +77,7 @@
                             <select id="agenda" class="form-control" data-search="true" name="destinataire">
                                 <option value=""></option>
                                 <?php
-                                $sql_user = $DB->query("SELECT * FROM users WHERE groupe != 4 ORDER BY nom_user ASC");
+                                $sql_user = $DB->query("SELECT * FROM users WHERE groupe != 4 AND iduser != :expediteur ORDER BY nom_user ASC", array("expediteur" => $user->iduser));
                                 foreach($sql_user as $userq):
                                     ?>
                                     <option value="<?= $userq->iduser; ?>"><?= $userq->nom_user; ?> <?= $userq->prenom_user; ?></option>
