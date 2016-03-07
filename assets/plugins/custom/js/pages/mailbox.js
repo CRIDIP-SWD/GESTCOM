@@ -27,6 +27,7 @@
             }
         })
     }
+    count_new_mail();
 
     $('#mailbox').dataTable({
         "aoColumnDefs": [{
