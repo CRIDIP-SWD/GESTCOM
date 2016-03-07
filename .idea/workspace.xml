@@ -67,8 +67,8 @@
       <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3849821">
-              <caret line="25" column="181" selection-start-line="25" selection-start-column="181" selection-end-line="25" selection-end-column="181" />
+            <state vertical-scroll-proportion="0.42550656">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#!!top" expanded="false" />
               </folding>
@@ -508,12 +508,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00516" summary="GESTCOM V1.0.0">
-      <created>1457139602376</created>
-      <option name="number" value="00516" />
-      <option name="project" value="LOCAL" />
-      <updated>1457139602376</updated>
-    </task>
     <task id="LOCAL-00517" summary="GESTCOM V1.0.0">
       <created>1457139904601</created>
       <option name="number" value="00517" />
@@ -802,7 +796,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457361455362</updated>
     </task>
-    <option name="localTasksCounter" value="565" />
+    <task id="LOCAL-00565" summary="GESTCOM V1.0.0">
+      <created>1457361492077</created>
+      <option name="number" value="00565" />
+      <option name="project" value="LOCAL" />
+      <updated>1457361492078</updated>
+    </task>
+    <option name="localTasksCounter" value="566" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1239,8 +1239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3849821">
-          <caret line="25" column="181" selection-start-line="25" selection-start-column="181" selection-end-line="25" selection-end-column="181" />
+        <state vertical-scroll-proportion="0.42550656">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
           <folding>
             <element signature="n#div#0;n#section#0;n#!!top" expanded="false" />
           </folding>
