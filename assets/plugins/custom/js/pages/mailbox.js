@@ -46,7 +46,8 @@
         a.html('<i class="fa fa-spinner fa-spin"></i> Supression en cours...');
         $.ajax(url)
             .done(function(data){
-                console.log(data);
+                a.parents('tr').fadeOut();
+                toastr.success("Message Supprimer");
             })
             .fail(function(jqxhr){
                 console.log(jqxhr.responseText);

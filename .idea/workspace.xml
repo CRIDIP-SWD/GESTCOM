@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/mailbox.php" afterPath="$PROJECT_DIR$/view/mailbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45292014">
+            <state vertical-scroll-proportion="-14.615385">
               <caret line="31" column="135" selection-start-line="31" selection-start-column="135" selection-end-line="31" selection-end-column="135" />
               <folding>
                 <marker date="1457372226422" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailbox.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mailbox.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.39306358">
+              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
                 <element signature="e#141#932#0" expanded="false" />
@@ -183,9 +183,9 @@
         <option value="$PROJECT_DIR$/view/profil.php" />
         <option value="$PROJECT_DIR$/view/include/right_bar.php" />
         <option value="$PROJECT_DIR$/application/general/date.php" />
-        <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" />
         <option value="$PROJECT_DIR$/controller/mailbox.ajax.php" />
         <option value="$PROJECT_DIR$/view/mailbox.php" />
+        <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" />
       </list>
     </option>
   </component>
@@ -388,12 +388,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00540" summary="GESTCOM V1.0.0">
-      <created>1457219617514</created>
-      <option name="number" value="00540" />
-      <option name="project" value="LOCAL" />
-      <updated>1457219617514</updated>
     </task>
     <task id="LOCAL-00541" summary="GESTCOM V1.0.0">
       <created>1457219891708</created>
@@ -683,7 +677,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457372069044</updated>
     </task>
-    <option name="localTasksCounter" value="589" />
+    <task id="LOCAL-00589" summary="GESTCOM V1.0.0">
+      <created>1457372232992</created>
+      <option name="number" value="00589" />
+      <option name="project" value="LOCAL" />
+      <updated>1457372232992</updated>
+    </task>
+    <option name="localTasksCounter" value="590" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -988,7 +988,7 @@
         <state vertical-scroll-proportion="-5.0">
           <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
-            <element signature="e#6#29#0#PHP" expanded="true" />
+            <element signature="e#6#29#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1122,18 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-            <element signature="e#141#932#0" expanded="false" />
-            <element signature="e#984#1193#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/mailbox.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.23077">
@@ -1147,13 +1135,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45292014">
+        <state vertical-scroll-proportion="-14.615385">
           <caret line="31" column="135" selection-start-line="31" selection-start-column="135" selection-end-line="31" selection-end-column="135" />
           <folding>
             <marker date="1457372226422" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
             <marker date="1457372226422" expanded="true" signature="1675:1696" placeholder="..." />
             <marker date="1457372226422" expanded="true" signature="2129:2463" placeholder="..." />
             <marker date="1457372226422" expanded="true" signature="2508:2775" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39306358">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+            <element signature="e#141#932#0" expanded="false" />
+            <element signature="e#984#1193#0" expanded="false" />
           </folding>
         </state>
       </provider>
