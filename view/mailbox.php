@@ -72,7 +72,7 @@
                 <input type="hidden" name="expediteur" value="<?= $user->iduser; ?>">
                 <div class="panel-content">
                     <div class="form-group">
-                        <label class="col-md-3 control-label" for="agenda">A:</label>
+                        <label class="col-md-3 control-label text-right" for="agenda">A:</label>
                         <div class="col-md-9">
                             <select id="agenda" class="form-control" data-search="true" name="destinataire">
                                 <option value=""></option>
