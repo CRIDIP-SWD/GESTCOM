@@ -77,10 +77,10 @@
                             <select id="agenda" class="form-control" data-search="true" name="destinataire">
                                 <option value=""></option>
                                 <?php
-                                $sql_user = $DB->query("SELECT * FROM users WHERE iduser != :expediteur ORDER BY nom_user ASC", array("expediteur" => $user->iduser));
+                                $sql_user = $DB->query("SELECT * FROM users, conf_annuaire_groupe WHERE users.groupe = conf_annuaire_groupe.idgroupe AND iduser != :expediteur ORDER BY nom_user ASC", array("expediteur" => $user->iduser));
                                 foreach($sql_user as $userq):
                                     ?>
-                                    <option value="<?= $userq->iduser; ?>"><?= $userq->nom_user; ?> <?= $userq->prenom_user; ?></option>
+                                    <option value="<?= $userq->nom_groupe; ?> - <?= $userq->iduser; ?>"><?= $userq->nom_user; ?> <?= $userq->prenom_user; ?></option>
                                 <?php endforeach; ?>
                             </select>
                         </div>
