@@ -50,7 +50,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     }elseif($client_i == 0 AND $user_client_insert == 1){
         $fonction->redirect("client", "", "", "warning", "add_user", "Le client <strong>$nom_client $prenom_client</strong> n'à pas été créer mais sont groupement login/password à été définie !");
     }else{
-        $fonction->redirect("client", "", "", "error", "add_user", "Une erreur à eu lieu lors de la création du client ! Consulter les logs serveur pour en savoir plus...");
+        var_dump($client_i, $user_client_insert);
     }
 
 }
