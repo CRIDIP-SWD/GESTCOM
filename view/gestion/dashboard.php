@@ -23,6 +23,17 @@
                     <div class="txt">Articles & Services</div>
                 </div>
             </div>
+            <div class="infobox">
+                <div class="left">
+                    <i class="fa fa-file bg-yellow"></i>
+                </div>
+                <div class="right">
+                    <div>
+                        <span class="c-primary pull-left" id="info_devis">0</span>
+                    </div>
+                    <div class="txt">Devis</div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="col-md-3">

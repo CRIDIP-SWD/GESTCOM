@@ -74,6 +74,19 @@
             }
         })
     }
+    function count_devis()
+    {
+        $.ajax('../../../../../controller/gestion/dashboard.ajax.php?action=count_devis', {
+            dataType: "json",
+            type: "GET",
+            success: function(data){
+                $('#info_devis').text(data);
+            },
+            error: function(jqxhr){
+                console.log(jqxhr.responseText);
+            }
+        })
+    }
 
     count_client();
 })(jQuery);
