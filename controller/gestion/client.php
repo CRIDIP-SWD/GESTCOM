@@ -49,13 +49,13 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
 
     if($client_i == 1 AND $user_client_insert == 1){
         $text = "Le client à été créer avec succès !";
-        header("Location: ../../view/index.php?view=client&sub=view&num_client=$num_client&success=add_client&text=$text");
+        header("Location: ../../view/gestion/index.php?view=client&sub=view&num_client=$num_client&success=add_client&text=$text");
     }elseif($client_i == 1 AND $user_client_insert == 0){
         $text = "Le client <strong>$nom_client $prenom_client</strong> à bien été créer mais son groupement de login/password n'à pas été définie !";
-        header("Location: ../../view/index.php?view=client&sub=view&num_client=$num_client&warning=add_client&text=$text");
+        header("Location: ../../view/gestion/index.php?view=client&sub=view&num_client=$num_client&warning=add_client&text=$text");
     }elseif($client_i == 0 AND $user_client_insert == 1){
         $text = "Le client <strong>$nom_client $prenom_client</strong> n'à pas été créer mais sont groupement login/password à été définie !";
-        header("Location: ../../view/index.php?view=client&sub=view&num_client=$num_client&warning=add_client&text=$text");
+        header("Location: ../../view/gestion/index.php?view=client&sub=view&num_client=$num_client&warning=add_client&text=$text");
     }else{
         var_dump($client_i, $user_client_insert);
     }

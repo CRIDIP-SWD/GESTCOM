@@ -81,12 +81,14 @@
       <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77711564">
-              <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.69606674">
+              <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+              <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+              <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
               <folding>
-                <marker date="1457461218015" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
-                <marker date="1457461218015" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
-                <marker date="1457461218015" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
+                <marker date="1457461233124" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
+                <marker date="1457461233124" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
+                <marker date="1457461233124" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
@@ -401,12 +403,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00627" summary="GESTCOM V1.0.0">
-      <created>1457445989494</created>
-      <option name="number" value="00627" />
-      <option name="project" value="LOCAL" />
-      <updated>1457445989494</updated>
-    </task>
     <task id="LOCAL-00628" summary="GESTCOM V1.0.0">
       <created>1457446093643</created>
       <option name="number" value="00628" />
@@ -695,7 +691,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457461015580</updated>
     </task>
-    <option name="localTasksCounter" value="676" />
+    <task id="LOCAL-00676" summary="GESTCOM V1.0.0">
+      <created>1457461222817</created>
+      <option name="number" value="00676" />
+      <option name="project" value="LOCAL" />
+      <updated>1457461222817</updated>
+    </task>
+    <option name="localTasksCounter" value="677" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1214,12 +1216,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77711564">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.69606674">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
           <folding>
-            <marker date="1457461218015" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
-            <marker date="1457461218015" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
-            <marker date="1457461218015" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
+            <marker date="1457461233124" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
+            <marker date="1457461233124" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
+            <marker date="1457461233124" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
