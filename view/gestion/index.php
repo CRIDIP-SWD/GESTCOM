@@ -13,6 +13,12 @@ if(isset($_GET['view']))
 ob_start();
 
 if($view === 'dashboard'){require "dashboard.php";}
+if($view === 'client'){require "client.php";}
+if($view === 'article'){require "article.php";}
+if($view === 'devis'){require "devis.php";}
+if($view === 'commande'){require "commande.php";}
+if($view === 'facture'){require "facture.php";}
+if($view === 'avoir'){require "avoir.php";}
 
 $content = ob_get_contents();
 if($view === 'login')
