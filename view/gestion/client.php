@@ -59,6 +59,23 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="add-client" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-blue">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
+                    <h4 class="modal-title"><i class="fa fa-plus-circle"></i> Nouveau Client</h4>
+                </div>
+                <div class="modal-body">
+                    My content...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-embossed" data-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 <?php endif; ?>
 
 
