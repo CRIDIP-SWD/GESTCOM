@@ -46,7 +46,7 @@
                                         <strong><i class="fa fa-envelope"></i></strong>: <?= $client->mail_client; ?>
                                     </td>
                                     <td>
-                                        <a class="btn btn-icon btn-primary" data-toggle="tooltip" data-original-title="Voir la fiche du client" href="index.php?view=client&sub=view&num_client=<?= $client->num_client; ?>"><i class="fa fa-phone"></i></a>
+                                        <button data-rel="tooltip" type="button" class="btn btn-primary m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><i class="fa fa-phone"></i> </button>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
