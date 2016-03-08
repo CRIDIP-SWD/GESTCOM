@@ -38,7 +38,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
 
 
     $user_client_insert = $DB->execute("INSERT INTO users(iduser, groupe, username, password, nom_user, prenom_user, connect, last_connect, poste_user, date_naissance, num_tel_poste, commentaire, totp, totp_token, idclient) VALUES
-        (NULL, :groupe, :username, :password, :nom_user, :prenom_user, '0', '', 'Client', '', '', '', '0', '0', :idclient)", array(
+        (NULL, :groupe, :username, :password, :nom_user, :prenom_user, '0', '', 'Client', '', '', '', '0', NULL, :idclient)", array(
         "groupe"        => 4,
         "username"      => $username,
         "password"      => $pass_crypt,
