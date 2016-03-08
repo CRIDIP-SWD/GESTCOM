@@ -73,6 +73,9 @@
                 a.html('<i class="fa fa-trash-o"></i>');
             })
     });
+    $('#print_mail').on('click', function(){
+        window.print();
+    })
 
 
 })(jQuery);

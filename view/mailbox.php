@@ -162,6 +162,34 @@
         </div>
     </section>
 <?php endif; ?>
+<?php if(isset($_GET['sub']) && $_GET['sub'] == 'message_inbox'): ?>
+    <?php
+    $idinbox = $_GET['idinbox'];
+    $mail = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND idinbox = :idinbox", array("idinbox" => $idinbox));
+    ?>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>MESSAGE</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="btn btn-rounded btn-lg btn-primary pull-right" href="index.php?view=mailbox"><i class="fa fa-arrow-circle-left fa-2x"></i> Retour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10" style="">
+            <?= html_entity_decode($mail[0]->sujet); ?>
+        </div>
+        <div class="col-md-2">
+            <button type="button" id="print_mail" class="btn btn-icon btn-default"><i class="fa fa-print"></i></button>
+        </div>
+    </div>
+<?php endif; ?>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/raphael.min.js"></script> <!-- Morris Charts -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>charts-morris/morris.min.js"></script> <!-- Morris Charts -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>summernote/summernote.min.js"></script>
