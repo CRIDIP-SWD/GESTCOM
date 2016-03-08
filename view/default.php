@@ -364,7 +364,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                                     ?>
                                     <li class="clearfix">
                                         <span class="pull-left p-r-5">
-                                        <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" alt="avatar 3">
+                                        <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $mail->username; ?>.png" alt="avatar 3">
                                         </span>
                                         <div class="clearfix">
                                             <div>
@@ -388,7 +388,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     <!-- BEGIN USER DROPDOWN -->
                     <li class="dropdown" id="user-header">
                         <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <img src="assets/images/avatars/user1.png" alt="user image">
+                            <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" alt="user image">
                             <span class="username"><?= $user->nom_user; ?> <?= $user->prenom_user; ?></span>
                         </a>
                         <ul class="dropdown-menu">
