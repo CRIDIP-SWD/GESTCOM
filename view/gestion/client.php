@@ -49,7 +49,7 @@
                                         <button data-rel="tooltip" type="button" class="btn btn-sm btn-primary m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" onclick="window.location='index.php?view=client&sub=view&num_client=<?= $client->num_client; ?>'" title="Voir la fiche"><i class="fa fa-eye"></i> </button>
                                         <button data-rel="tooltip" type="button" class="btn btn-sm btn-default m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" title="Téléphoner au client"><i class="fa fa-phone"></i> </button>
                                         <button data-rel="tooltip" type="button" class="btn btn-sm btn-default m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" title="Envoyer un mail"><i class="fa fa-envelope"></i> </button>
-                                        <a data-rel="tooltip" id="supp-client" class="btn btn-sm btn-danger m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" title="Supprimer le client" href="<?= $constante->getUrl(array(), false, false); ?>controller/gestion/client.ajax.php&action=supp-client&idclient<?= $client->idclient; ?>"><i class="fa fa-trash"></i> </a>
+                                        <a data-rel="tooltip" id="supp-client" class="btn btn-sm btn-danger m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" title="Supprimer le client" href="<?= $constante->getUrl(array(), false, false); ?>controller/gestion/client.ajax.php?action=supp-client&idclient<?= $client->idclient; ?>"><i class="fa fa-trash"></i> </a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
