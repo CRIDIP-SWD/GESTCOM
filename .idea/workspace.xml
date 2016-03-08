@@ -92,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7271676">
-              <caret line="69" column="128" selection-start-line="69" selection-start-column="128" selection-end-line="69" selection-end-column="128" />
+              <caret line="69" column="168" selection-start-line="69" selection-start-column="168" selection-end-line="69" selection-end-column="168" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
                 <element signature="e#141#932#0" expanded="false" />
@@ -346,12 +346,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00554" summary="GESTCOM V1.0.0">
-      <created>1457222182932</created>
-      <option name="number" value="00554" />
-      <option name="project" value="LOCAL" />
-      <updated>1457222182932</updated>
     </task>
     <task id="LOCAL-00555" summary="GESTCOM V1.0.0">
       <created>1457222688395</created>
@@ -641,7 +635,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457434400852</updated>
     </task>
-    <option name="localTasksCounter" value="603" />
+    <task id="LOCAL-00603" summary="GESTCOM V1.0.0">
+      <created>1457434658900</created>
+      <option name="number" value="00603" />
+      <option name="project" value="LOCAL" />
+      <updated>1457434658900</updated>
+    </task>
+    <option name="localTasksCounter" value="604" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1066,7 +1066,7 @@
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7271676">
-          <caret line="69" column="128" selection-start-line="69" selection-start-column="128" selection-end-line="69" selection-end-column="128" />
+          <caret line="69" column="168" selection-start-line="69" selection-start-column="168" selection-end-line="69" selection-end-column="168" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
             <element signature="e#141#932#0" expanded="false" />
