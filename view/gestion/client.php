@@ -66,13 +66,29 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
                     <h4 class="modal-title"><i class="fa fa-plus-circle"></i> Nouveau Client</h4>
                 </div>
-                <div class="modal-body">
-                    My content...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary btn-embossed" data-dismiss="modal">Save changes</button>
-                </div>
+                <form class="form-horizontal" action="../../controller/gestion/client.php" method="post">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Nom</label>
+                            <div class="col-md-3">
+                                <input type="text" id="client" class="form-control" name="nom_client">
+                            </div>
+                            <label class="control-label col-md-3" for="client">Prénom</label>
+                            <div class="col-md-3">
+                                <input type="text" id="client" class="form-control" name="prenom_client">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-sm-9 col-sm-offset-3">
+                                <div class="pull-right">
+                                    <button type="submit" class="btn btn-success" name="action" value="add_client">Création du nouveau client</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
