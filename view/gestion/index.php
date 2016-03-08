@@ -1,6 +1,6 @@
 <?php
 session_start();
-require dirname(__DIR__)."../application/classe.php";
+require "../../application/classe.php";
 
 if(isset($_GET['view']))
 {
