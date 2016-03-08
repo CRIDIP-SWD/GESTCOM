@@ -29,6 +29,15 @@ class fonction
     }
 
     /**
+     * @param $nom_client // Nom du client
+     * @param $prenom_client // Prénom du client
+     * @return string // Retour au format exemple: jdoe (John Doe)
+     */
+    public function gen_username($nom_client, $prenom_client){
+        return $prenom_client[0].$nom_client;
+    }
+
+    /**
      * @return string // Génère un mot de passe aléatoire sur 6 caractères alphanumérique
      */
     public function gen_password()
@@ -82,6 +91,7 @@ class fonction
         header("Location: ".$constante->getUrl(array(), false).$redirect);
 
     }
+
 
     public function is_ajax(){
         return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
