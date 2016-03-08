@@ -56,6 +56,23 @@
                 a.html('<i class="fa fa-trash-o"></i>');
             })
     });
+    $('#supp-mail-sent').on('click', function(e){
+        e.preventDefault();
+        var a = $(this);
+        var url = a.attr('href');
+        a.html('<i class="fa fa-spinner fa-spin"></i> Supression en cours...');
+        $.ajax(url)
+            .done(function(data){
+                a.parents('tr').fadeOut();
+                toastr.success("Message Supprimer");
+            })
+            .fail(function(jqxhr){
+                console.log(jqxhr.responseText);
+            })
+            .always(function(){
+                a.html('<i class="fa fa-trash-o"></i>');
+            })
+    });
 
 
 })(jQuery);

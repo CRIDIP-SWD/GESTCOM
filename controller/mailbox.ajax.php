@@ -35,6 +35,20 @@ if(is_ajax()){
             echo json_encode(500);
         }
     }
+    if(isset($_GET['action']) && $_GET['action'] == 'supp-mail-sent')
+    {
+        session_start();
+        require "../application/classe.php";
+        $idsentbox = $_GET['idsentbox'];
+
+        $mail_d = $DB->execute("DELETE FROM collab_sentbox WHERE idsentbox = :idsentbox", array("idsentbox" => $idsentbox));
+
+        if($mail_d == 1){
+            echo json_encode(200);
+        }else{
+            echo json_encode(500);
+        }
+    }
     if(isset($_POST['action']) && $_POST['action'] == 'sent-mail')
     {
         session_start();
