@@ -35,4 +35,11 @@ if(is_ajax()){
             echo json_encode(500);
         }
     }
+    if(isset($_POST['action']) && $_POST['action'] == 'sent-mail')
+    {
+        session_start();
+        require "../application/classe.php";
+        var_dump($_POST);
+
+    }
 }
