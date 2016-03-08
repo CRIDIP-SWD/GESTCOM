@@ -68,7 +68,7 @@
 <div class="row">
     <div class="col-md-12">
         <div class="panel">
-            <form id="form-sent-mail" class="form-horizontal" action="controller/mailbox.ajax.php" method="post">
+            <form id="form-sent-mail" class="form-horizontal" action="controller/mailbox.php" method="post">
                 <input type="hidden" name="expediteur" value="<?= $user->iduser; ?>">
                 <div class="panel-content">
                     <div class="form-group">
