@@ -106,13 +106,13 @@
         <entry file="file://$PROJECT_DIR$/controller/mailbox.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2431466">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding>
                 <element signature="e#169#527#0#PHP" expanded="false" />
                 <element signature="e#532#799#0#PHP" expanded="false" />
                 <element signature="e#804#1221#0#PHP" expanded="false" />
-                <marker date="1457429966819" expanded="true" signature="375:454" placeholder="SELECT COUNT... collab_inbox" />
-                <marker date="1457429966819" expanded="true" signature="1011:1060" placeholder="DELETE FROM " />
+                <marker date="1457430165644" expanded="true" signature="375:454" placeholder="SELECT COUNT... collab_inbox" />
+                <marker date="1457430165644" expanded="true" signature="1011:1060" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -344,12 +344,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00550" summary="GESTCOM V1.0.0">
-      <created>1457221745621</created>
-      <option name="number" value="00550" />
-      <option name="project" value="LOCAL" />
-      <updated>1457221745621</updated>
     </task>
     <task id="LOCAL-00551" summary="GESTCOM V1.0.0">
       <created>1457221907158</created>
@@ -639,7 +633,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457429785023</updated>
     </task>
-    <option name="localTasksCounter" value="599" />
+    <task id="LOCAL-00599" summary="GESTCOM V1.0.0">
+      <created>1457429969514</created>
+      <option name="number" value="00599" />
+      <option name="project" value="LOCAL" />
+      <updated>1457429969514</updated>
+    </task>
+    <option name="localTasksCounter" value="600" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -650,6 +650,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="832" height="840" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12713936" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="829" y="55" width="241" height="930" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -658,7 +659,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="832" height="840" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1060,13 +1060,13 @@
     <entry file="file://$PROJECT_DIR$/controller/mailbox.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2431466">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding>
             <element signature="e#169#527#0#PHP" expanded="false" />
             <element signature="e#532#799#0#PHP" expanded="false" />
             <element signature="e#804#1221#0#PHP" expanded="false" />
-            <marker date="1457429966819" expanded="true" signature="375:454" placeholder="SELECT COUNT... collab_inbox" />
-            <marker date="1457429966819" expanded="true" signature="1011:1060" placeholder="DELETE FROM " />
+            <marker date="1457430165644" expanded="true" signature="375:454" placeholder="SELECT COUNT... collab_inbox" />
+            <marker date="1457430165644" expanded="true" signature="1011:1060" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
