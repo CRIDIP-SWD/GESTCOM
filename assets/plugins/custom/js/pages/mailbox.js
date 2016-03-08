@@ -37,7 +37,7 @@
         language:{
             url: "//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json"
         }
-    })
+    });
 
     $('#supp-mail').on('click', function(e){
         e.preventDefault();
@@ -55,6 +55,22 @@
             .always(function(){
                 a.html('<i class="fa fa-trash-o"></i>');
             })
-    })
+    });
+
+    $('#form-sent-mail').on('submit', function(e){
+        e.preventDefault();
+        var form = $(this);
+        form.find('button').html("<i class='fa fa-spinner fa-spin'></i> Chargement...");
+        $.post(form.attr('action'), form.serializeArray())
+            .done(function(data){
+                toastr.success("Le mail est bien envoyer");
+            })
+            .fail(function(jqxhr){
+                console.log(jqxhr.responseText);
+            })
+            .always(function(){
+                form.find('button').html('Envoyer <i class="fa fa-arrow-circle-right"></i>');
+            })
+    });
 
 })(jQuery);
