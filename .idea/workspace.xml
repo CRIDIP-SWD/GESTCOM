@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/gestion/client.php" afterPath="$PROJECT_DIR$/view/gestion/client.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,8 +68,8 @@
       <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="66" selection-end-column="6" />
+            <state vertical-scroll-proportion="-24.423077">
+              <caret line="217" column="13" selection-start-line="217" selection-start-column="13" selection-end-line="217" selection-end-column="58" />
               <folding>
                 <element signature="e#6#3092#0#PHP" expanded="false" />
                 <element signature="e#6204#9249#0#PHP" expanded="false" />
@@ -82,22 +83,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.307693">
-              <caret line="21" column="77" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.91895115">
+              <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
               <folding>
-                <marker date="1457454897868" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+                <marker date="1457455016083" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.039306358">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
@@ -186,8 +187,8 @@
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" />
         <option value="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" />
         <option value="$PROJECT_DIR$/view/gestion/dashboard.php" />
-        <option value="$PROJECT_DIR$/view/gestion/client.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" />
+        <option value="$PROJECT_DIR$/view/gestion/client.php" />
       </list>
     </option>
   </component>
@@ -507,12 +508,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00603" summary="GESTCOM V1.0.0">
-      <created>1457434658900</created>
-      <option name="number" value="00603" />
-      <option name="project" value="LOCAL" />
-      <updated>1457434658900</updated>
-    </task>
     <task id="LOCAL-00604" summary="GESTCOM V1.0.0">
       <created>1457434714119</created>
       <option name="number" value="00604" />
@@ -801,7 +796,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457454898657</updated>
     </task>
-    <option name="localTasksCounter" value="652" />
+    <task id="LOCAL-00652" summary="GESTCOM V1.0.0">
+      <created>1457454966829</created>
+      <option name="number" value="00652" />
+      <option name="project" value="LOCAL" />
+      <updated>1457454966829</updated>
+    </task>
+    <option name="localTasksCounter" value="653" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1275,10 +1276,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="9" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="66" selection-end-column="6" />
+        <state vertical-scroll-proportion="-24.423077">
+          <caret line="217" column="13" selection-start-line="217" selection-start-column="13" selection-end-line="217" selection-end-column="58" />
           <folding>
             <element signature="e#6#3092#0#PHP" expanded="false" />
             <element signature="e#6204#9249#0#PHP" expanded="false" />
@@ -1291,32 +1312,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="9" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.307693">
-          <caret line="21" column="77" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.91895115">
+          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
           <folding>
-            <marker date="1457454897868" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039306358">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <marker date="1457455016083" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
           </folding>
         </state>
       </provider>

@@ -450,114 +450,117 @@
       <column id="131" parent="16" name="mail_client">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="132" parent="16" name="PRIMARY">
+      <column id="132" parent="16" name="num_client">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="133" parent="16" name="PRIMARY">
         <columns>idclient</columns>
         <primary>1</primary>
       </key>
-      <column id="133" parent="17" name="idfamille">
+      <column id="134" parent="17" name="idfamille">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="134" parent="17" name="designation_famille">
+      <column id="135" parent="17" name="designation_famille">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="135" parent="17" name="PRIMARY">
+      <key id="136" parent="17" name="PRIMARY">
         <columns>idfamille</columns>
         <primary>1</primary>
       </key>
-      <column id="136" parent="18" name="idarticle">
+      <column id="137" parent="18" name="idarticle">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="137" parent="18" name="num_article">
+      <column id="138" parent="18" name="num_article">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="138" parent="18" name="idfamille">
+      <column id="139" parent="18" name="idfamille">
         <data-type>int(11)</data-type>
       </column>
-      <column id="139" parent="18" name="designation_article">
+      <column id="140" parent="18" name="designation_article">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="140" parent="18" name="prix_ht">
+      <column id="141" parent="18" name="prix_ht">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="141" parent="18" name="stock">
+      <column id="142" parent="18" name="stock">
         <data-type>int(11)</data-type>
       </column>
-      <column id="142" parent="18" name="nb_stock">
+      <column id="143" parent="18" name="nb_stock">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="143" parent="18" name="PRIMARY">
+      <key id="144" parent="18" name="PRIMARY">
         <columns>idarticle</columns>
         <primary>1</primary>
       </key>
-      <column id="144" parent="19" name="iddevis">
+      <column id="145" parent="19" name="iddevis">
         <data-type>int(11)</data-type>
       </column>
-      <column id="145" parent="19" name="idclient">
+      <column id="146" parent="19" name="idclient">
         <data-type>int(11)</data-type>
       </column>
-      <column id="146" parent="19" name="num_devis">
+      <column id="147" parent="19" name="num_devis">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="147" parent="19" name="date_devis">
+      <column id="148" parent="19" name="date_devis">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="148" parent="19" name="total_devis">
+      <column id="149" parent="19" name="total_devis">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="149" parent="19" name="etat_devis">
+      <column id="150" parent="19" name="etat_devis">
         <data-type>int(11)</data-type>
       </column>
-      <column id="150" parent="20" name="idcommande">
+      <column id="151" parent="20" name="idcommande">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="151" parent="20" name="num_devis">
+      <column id="152" parent="20" name="num_devis">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="152" parent="20" name="idclient">
+      <column id="153" parent="20" name="idclient">
         <data-type>int(11)</data-type>
       </column>
-      <column id="153" parent="20" name="num_commande">
+      <column id="154" parent="20" name="num_commande">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="154" parent="20" name="date_commande">
+      <column id="155" parent="20" name="date_commande">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="155" parent="20" name="total_commande">
+      <column id="156" parent="20" name="total_commande">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="156" parent="20" name="etat_commande">
+      <column id="157" parent="20" name="etat_commande">
         <data-type>int(11)</data-type>
       </column>
-      <key id="157" parent="20" name="PRIMARY">
+      <key id="158" parent="20" name="PRIMARY">
         <columns>idcommande</columns>
         <primary>1</primary>
       </key>
-      <column id="158" parent="21" name="idfacture">
+      <column id="159" parent="21" name="idfacture">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="159" parent="21" name="num_commande">
+      <column id="160" parent="21" name="num_commande">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="160" parent="21" name="num_facture">
+      <column id="161" parent="21" name="num_facture">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="161" parent="21" name="idclient">
+      <column id="162" parent="21" name="idclient">
         <data-type>int(11)</data-type>
       </column>
-      <column id="162" parent="21" name="date_facture">
+      <column id="163" parent="21" name="date_facture">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="163" parent="21" name="total_facture">
+      <column id="164" parent="21" name="total_facture">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="164" parent="21" name="etat_facture">
+      <column id="165" parent="21" name="etat_facture">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="165" parent="21" name="PRIMARY">
+      <key id="166" parent="21" name="PRIMARY">
         <columns>idfacture</columns>
         <primary>1</primary>
       </key>

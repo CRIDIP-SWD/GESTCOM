@@ -58,3 +58,6 @@
         </div>
     </div>
 <?php endif; ?>
+
+
+<script src="<?= $constante->getUrl(array('plugins/')); ?>datatables/jquery.dataTables.min.js"></script>
