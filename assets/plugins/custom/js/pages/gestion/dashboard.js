@@ -100,6 +100,19 @@
             }
         })
     }
+    function count_facture()
+    {
+        $.ajax('../../../../../controller/gestion/dashboard.ajax.php?action=count_facture', {
+            dataType: "json",
+            type: "GET",
+            success: function(data){
+                $('#info_facture').text(data);
+            },
+            error: function(jqxhr){
+                console.log(jqxhr.responseText);
+            }
+        })
+    }
 
     count_client();
     count_article();

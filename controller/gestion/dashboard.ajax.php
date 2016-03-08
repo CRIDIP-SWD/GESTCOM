@@ -39,4 +39,13 @@ if(is_ajax()){
 
         echo json_encode($count_c);
     }
+    if(isset($_GET['action']) && $_GET['action'] == 'count_facture')
+    {
+        session_start();
+        require "../../application/classe.php";
+
+        $count_c = $DB->count("SELECT COUNT(idfacture) FROM facture");
+
+        echo json_encode($count_c);
+    }
 }
