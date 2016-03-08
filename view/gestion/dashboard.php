@@ -29,3 +29,4 @@
 <script src="<?= $constante->getUrl(array('plugins/')); ?>skycons/skycons.min.js"></script> <!-- Animated Weather Icons -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>simple-weather/jquery.simpleWeather.js"></script> <!-- Weather Plugin -->
 <script src="<?= $constante->getUrl(array('js/')); ?>widgets/widget_weather.js"></script>
+<script src="<?= $constante->getUrl(array('js/')); ?>pages/dashboard.js"></script>
