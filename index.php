@@ -1,6 +1,7 @@
 <?php
 session_start();
 require "application/classe.php";
+$_SESSION['lieu'] = "collab";
 
 if(isset($_GET['view']))
 {

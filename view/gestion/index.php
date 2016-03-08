@@ -1,6 +1,7 @@
 <?php
 session_start();
 require "../../application/classe.php";
+$_SESSION['lieu'] = "gestion";
 
 if(isset($_GET['view']))
 {

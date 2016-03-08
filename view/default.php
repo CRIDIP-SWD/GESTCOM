@@ -114,6 +114,14 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         <div id="morris-chart-network" class="morris-full-content"></div>
                     </div>-->
             <?php endif; ?>
+            <?php if($_SESSION['lieu'] == 'gestion'): ?>
+                <div class="menu-title">
+                    Gestion
+                </div>
+                <ul class="nav nav-sidebar">
+                    <li><a href="index.php?view=dashboard"><i class="fa fa-home"></i> Accueil</a></li>
+                </ul>
+            <?php endif; ?>
             <!--<div class="menu-title">
                 Navigation
                 <div class="pull-right menu-settings">
