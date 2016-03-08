@@ -47,4 +47,20 @@
             $(".jquery-clock-sec, .jquery-clock-hour, .jquery-clock-min").removeClass('jquery-clock-transitions');
         });
     });
+
+    function count_client()
+    {
+        $.ajax('../../../../../controller/gestion/dashboard.ajax.php?action=count_client', {
+            dataType: "json",
+            type: "GET",
+            success: function(data){
+                $('#info_client').text(data);
+            },
+            error: function(jqxhr){
+                console.log(jqxhr.responseText);
+            }
+        })
+    }
+
+    count_client();
 })(jQuery);

@@ -7,10 +7,9 @@
                 </div>
                 <div class="right">
                     <div>
-                        <span class="c-primary pull-left">24</span>
-                        <span class="c-primary pull-right">8%</span>
+                        <span class="c-primary pull-left" id="info_client">0</span>
                     </div>
-                    <div class="txt">new orders</div>
+                    <div class="txt">Clients</div>
                 </div>
             </div>
         </div>
