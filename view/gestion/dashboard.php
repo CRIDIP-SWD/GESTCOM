@@ -3,13 +3,24 @@
         <div class="widget-infobox">
             <div class="infobox">
                 <div class="left">
-                    <i class="fa fa-shopping-cart bg-blue"></i>
+                    <i class="fa fa-users bg-blue"></i>
                 </div>
                 <div class="right">
                     <div>
                         <span class="c-primary pull-left" id="info_client">0</span>
                     </div>
                     <div class="txt">Clients</div>
+                </div>
+            </div>
+            <div class="infobox">
+                <div class="left">
+                    <i class="fa fa-cubes bg-red"></i>
+                </div>
+                <div class="right">
+                    <div>
+                        <span class="c-primary pull-left" id="info_article">0</span>
+                    </div>
+                    <div class="txt">Articles & Services</div>
                 </div>
             </div>
         </div>

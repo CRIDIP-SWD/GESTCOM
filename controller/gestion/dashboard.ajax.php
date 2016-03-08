@@ -12,4 +12,13 @@ if(is_ajax()){
 
         echo json_encode($count_c);
     }
+    if(isset($_GET['action']) && $_GET['action'] == 'count_article')
+    {
+        session_start();
+        require "../../application/classe.php";
+
+        $count_c = $DB->count("SELECT COUNT(idarticle) FROM article");
+
+        echo json_encode($count_c);
+    }
 }

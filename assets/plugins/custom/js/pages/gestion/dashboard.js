@@ -61,6 +61,19 @@
             }
         })
     }
+    function count_article()
+    {
+        $.ajax('../../../../../controller/gestion/dashboard.ajax.php?action=count_article', {
+            dataType: "json",
+            type: "GET",
+            success: function(data){
+                $('#info_article').text(data);
+            },
+            error: function(jqxhr){
+                console.log(jqxhr.responseText);
+            }
+        })
+    }
 
     count_client();
 })(jQuery);
