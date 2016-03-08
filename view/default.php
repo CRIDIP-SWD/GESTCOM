@@ -447,7 +447,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
     <!-- END MAIN CONTENT -->
 </section>
 <!-- BEGIN QUICKVIEW SIDEBAR -->
-<?php require "include/right_bar.php" ?>
+<?php require dirname(__DIR__)."/view/include/right_bar.php" ?>
 <!-- END QUICKVIEW SIDEBAR -->
 <!-- BEGIN PRELOADER -->
 <div class="loader-overlay">
@@ -459,7 +459,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
 </div>
 <!-- END PRELOADER -->
 <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
-<?php include ("include/footer.php"); ?>
+<?php include (dirname(__DIR__)."/view/include/footer.php"); ?>
 <script src="<?= $constante->getUrl(array('js/')); ?>pages/timeline.js"></script>
 <?php if(isset($_GET['success']) && $_GET['success'] == $_GET['success']){ ?>
     <script type="text/javascript">
