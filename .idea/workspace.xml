@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/gestion/client.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/gestion/client.php" afterPath="$PROJECT_DIR$/view/gestion/client.php" />
     </list>
@@ -86,10 +85,24 @@
       <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8986889">
-              <caret line="77" column="103" selection-start-line="77" selection-start-column="103" selection-end-line="77" selection-end-column="103" />
+            <state vertical-scroll-proportion="0.7568534">
+              <caret line="99" column="63" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
               <folding>
-                <marker date="1457456116331" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+                <marker date="1457456685813" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-83.69231">
+              <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
+              <folding>
+                <marker date="1457446756761" expanded="true" signature="23238:23291" placeholder="SELECT * FRO... notif" />
+                <marker date="1457446756761" expanded="true" signature="25960:26082" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457446756761" expanded="true" signature="26668:26846" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -400,12 +413,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00613" summary="GESTCOM V1.0.0">
-      <created>1457444365991</created>
-      <option name="number" value="00613" />
-      <option name="project" value="LOCAL" />
-      <updated>1457444365992</updated>
-    </task>
     <task id="LOCAL-00614" summary="GESTCOM V1.0.0">
       <created>1457444414221</created>
       <option name="number" value="00614" />
@@ -694,7 +701,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457455829845</updated>
     </task>
-    <option name="localTasksCounter" value="662" />
+    <task id="LOCAL-00662" summary="GESTCOM V1.0.0">
+      <created>1457456120587</created>
+      <option name="number" value="00662" />
+      <option name="project" value="LOCAL" />
+      <updated>1457456120587</updated>
+    </task>
+    <option name="localTasksCounter" value="663" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1000,18 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.769231">
-          <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
-          <folding>
-            <marker date="1457446756761" expanded="true" signature="23238:23291" placeholder="SELECT * FRO... notif" />
-            <marker date="1457446756761" expanded="true" signature="25960:26082" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1457446756761" expanded="true" signature="26668:26846" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/include/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.461538">
@@ -1206,12 +1207,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-83.69231">
+          <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
+          <folding>
+            <marker date="1457446756761" expanded="true" signature="23238:23291" placeholder="SELECT * FRO... notif" />
+            <marker date="1457446756761" expanded="true" signature="25960:26082" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457446756761" expanded="true" signature="26668:26846" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8986889">
-          <caret line="77" column="103" selection-start-line="77" selection-start-column="103" selection-end-line="77" selection-end-column="103" />
+        <state vertical-scroll-proportion="0.7568534">
+          <caret line="99" column="63" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
           <folding>
-            <marker date="1457456116331" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+            <marker date="1457456685813" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
           </folding>
         </state>
       </provider>

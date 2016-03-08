@@ -78,7 +78,38 @@
                                 <input type="text" id="client" class="form-control" name="prenom_client">
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Adresse</label>
+                            <div class="col-md-9">
+                                <input type="text" id="client" class="form-control" name="adresse_client">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Code Postal</label>
+                            <div class="col-md-2">
+                                <input type="text" id="client" class="form-control" name="code_postal">
+                            </div>
+                            <label class="control-label col-md-3" for="client">Ville</label>
+                            <div class="col-md-4">
+                                <input type="text" id="client" class="form-control" name="ville_client">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Numéro de Téléphone</label>
+                            <div class="col-md-9 prepend-icon">
+                                <input type="text" data-mask="+3300999999999" id="client" class="form-control" name="tel_client">
+                                <i class="fa fa-phone-square"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Adresse Mail</label>
+                            <div class="col-md-9 prepend-icon">
+                                <input type="text" id="client" class="form-control" name="mail_client">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="modal-footer">
                         <div class="row">
                             <div class="col-sm-9 col-sm-offset-3">
