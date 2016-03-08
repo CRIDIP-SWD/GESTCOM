@@ -47,6 +47,98 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
         "idclient"      => $idclient
     ));
 
+    // ENVOIE MAIL
+    $to = $mail_client;
+    $sujet = "Création de votre Espace - CRIDIP";
+
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= 'From: CRIDIP <contact@cridip.com>' . "\r\n";
+
+    ob_start();
+    ?>
+    <table cellspacing="0" cellpadding="0" width="600" class="w320" style="border-radius: 4px;overflow: hidden;">
+        <tr>
+            <td align="center" valign="top">
+                <table cellspacing="0" cellpadding="0" class="force-full-width">
+                    <tr>
+                        <td class="bg bg1" style="background-color:#fff;">
+                            <table cellspacing="0" cellpadding="0" class="force-full-width">
+                                <tr>
+                                    <td style="font-size:26px; font-weight: 600; color: #121212; text-align:center;" class="mobile-spacing">
+                                        <div class="mobile-br">&nbsp;</div>
+                                        <span319db5>Bienvenue chez SAS CRIDIP</span>
+                                            <br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:18px; text-align:center; padding: 10px 75px 0; color:#6E6E6E;" class="w320 mobile-spacing mobile-padding">
+                                        <span319db5>Votre compte à été créer avec succès !!!</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table cellspacing="0" cellpadding="0" width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="images/screen-settings.png" style="max-width:100%; display:block;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table cellspacing="0" cellpadding="0" class="force-full-width" bgcolor="#ffffff" >
+                    <tr>
+                        <td style="background-color:#ffffff;">
+                            <center>
+                                <center>
+                                    <table style="margin: 0 auto;" cellspacing="0" cellpadding="0" class="force-width-80">
+                                        <tr>
+                                            <td style="text-align:left; color: #6f6f6f;">
+                                                <br>
+                                                Bonjour,<br>
+                                                Voici vos identifiant de connexion à l'espace GESTCOM - CRIDIP:<br>
+                                                <br>
+                                                <strong>Nom d'utilisateur:</strong> <?= $username; ?><br>
+                                                <strong>Mot de Passe:</strong> <?= $pass; ?><br>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </center>
+                            </center>
+                            <table style="margin:0 auto;" cellspacing="0" cellpadding="10" width="100%">
+                                <tr>
+                                    <td style="text-align:center; margin:0 auto;">
+                                        <br>
+                                        <div>
+                                            <!--[if mso]>
+                                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:45px;v-text-anchor:middle;width:240px;" stroke="f" fillcolor="#f5774e">
+                                                <w:anchorlock/>
+                                                <center>
+                                            <![endif]-->
+                                            <a class="btn" href="https://gestcom.cridip.com/"
+                                               style="background-color:#46596c;color:#ffffff;display:inline-block;font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;font-size:18px;font-weight:400;line-height:45px;text-align:center;text-decoration:none;width:240px;-webkit-text-size-adjust:none;
+                                    -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;">VOTRE COMPTE</a>
+                                            <!--[if mso]>
+                                            </center>
+                                            </v:rect>
+                                            <![endif]-->
+                                        </div>
+                                        <br>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <?php
+    require "../../view/include/template/mail_general.php";
+    $mail_content = ob_get_clean();
+    $mail = mail($to, $sujet, $mail_content, $headers);
+
     if($client_i == 1 AND $user_client_insert == 1){
         $text = "Le client à été créer avec succès !";
         header("Location: ../../view/gestion/index.php?view=client&sub=view&num_client=$num_client&success=add_client&text=$text");
