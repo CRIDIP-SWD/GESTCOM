@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 require "../../application/classe.php";
 
 if(isset($_GET['view']))
