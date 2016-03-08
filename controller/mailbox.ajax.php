@@ -39,7 +39,41 @@ if(is_ajax()){
     {
         session_start();
         require "../application/classe.php";
-        var_dump(extract($_POST));
+
+        $expediteur = $_POST['expediteur'];
+        $destinataire = $_POST['destinataire'];
+        $sujet = $_POST['sujet'];
+        $message = $_POST['message'];
+        $date_message = $date_format->date_jour_strt();
+
+        $mailbox = $DB->execute("INSERT INTO collab_inbox(idinbox, destinataire, expediteur, sujet, message, date_message, importance, lu) VALUES (NULL, :destinataire, :expediteur, :sujet, :message, :date_message, :importance, :lu)", array(
+            "destinataire"  => $destinataire,
+            "expediteur"    => $expediteur,
+            "sujet"         => $sujet,
+            "message"       => $message,
+            "date_message"  => $date_message,
+            "importance"    => 0,
+            "lu"            => 0
+        ));
+
+        $sentbox = $DB->execute("INSERT INTO collab_sentbox(idsentbox, destinataire, expediteur, sujet, message, date_message, importance) VALUES (NULL, :destinataire, :expediteur, :sujet, :message, :date_message, :importance)", array(
+            "destinataire"  => $destinataire,
+            "expediteur"    => $expediteur,
+            "sujet"         => $sujet,
+            "message"       => $message,
+            "date_message"  => $date_message,
+            "importance"    => 0
+        ));
+
+        if($mailbox == 1 AND $sentbox == 1){
+            echo json_encode(200);
+        }elseif($mailbox == 1 AND $sentbox == 0){
+            echo json_encode(201);
+        }elseif($mailbox == 0 AND $sentbox == 1){
+            echo json_encode(202);
+        }else{
+            echo json_encode(500);
+        }
 
 
 
