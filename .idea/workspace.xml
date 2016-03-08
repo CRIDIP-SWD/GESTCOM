@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/gestion/client.php" afterPath="$PROJECT_DIR$/view/gestion/client.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,11 +92,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/gestion/dashboard.php">
+      <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.020262217">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="66" selection-end-column="6" />
+              <folding>
+                <element signature="e#6#3092#0#PHP" expanded="false" />
+                <element signature="e#6204#9249#0#PHP" expanded="false" />
+                <marker date="1457446090222" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457446090222" expanded="true" signature="4411:4551" placeholder="SELECT * FRO... users" />
+                <marker date="1457446090222" expanded="true" signature="7462:7571" placeholder="SELECT * FRO... collab_sentbox" />
+                <marker date="1457446090222" expanded="true" signature="9393:9448" placeholder="UPDATE colla... " />
+                <marker date="1457446090222" expanded="true" signature="9506:9607" placeholder="SELECT * FRO... collab_inbox" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1215733">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -120,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/view/lockscreen.php" />
         <option value="$PROJECT_DIR$/controller/user.ajax.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_count.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_time.js" />
@@ -171,6 +189,7 @@
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" />
         <option value="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" />
         <option value="$PROJECT_DIR$/view/gestion/dashboard.php" />
+        <option value="$PROJECT_DIR$/view/gestion/client.php" />
       </list>
     </option>
   </component>
@@ -345,12 +364,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00598" summary="GESTCOM V1.0.0">
-      <created>1457429785023</created>
-      <option name="number" value="00598" />
-      <option name="project" value="LOCAL" />
-      <updated>1457429785023</updated>
     </task>
     <task id="LOCAL-00599" summary="GESTCOM V1.0.0">
       <created>1457429969514</created>
@@ -640,7 +653,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457451642740</updated>
     </task>
-    <option name="localTasksCounter" value="647" />
+    <task id="LOCAL-00647" summary="GESTCOM V1.0.0">
+      <created>1457453668442</created>
+      <option name="number" value="00647" />
+      <option name="project" value="LOCAL" />
+      <updated>1457453668442</updated>
+    </task>
+    <option name="localTasksCounter" value="648" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -919,30 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/mailbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2669845">
-          <caret line="167" column="116" selection-start-line="167" selection-start-column="116" selection-end-line="167" selection-end-column="116" />
-          <folding>
-            <element signature="e#6#3092#0#PHP" expanded="false" />
-            <element signature="e#6204#9249#0#PHP" expanded="false" />
-            <marker date="1457446090222" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1457446090222" expanded="true" signature="4411:4551" placeholder="SELECT * FRO... users" />
-            <marker date="1457446090222" expanded="true" signature="7462:7571" placeholder="SELECT * FRO... collab_sentbox" />
-            <marker date="1457446090222" expanded="true" signature="9393:9448" placeholder="UPDATE colla... " />
-            <marker date="1457446090222" expanded="true" signature="9506:9607" placeholder="SELECT * FRO... collab_inbox" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/gestion/article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1149,8 +1144,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/gestion/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020262217">
+        <state vertical-scroll-proportion="-0.49940404">
           <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/mailbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="66" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#3092#0#PHP" expanded="false" />
+            <element signature="e#6204#9249#0#PHP" expanded="false" />
+            <marker date="1457446090222" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457446090222" expanded="true" signature="4411:4551" placeholder="SELECT * FRO... users" />
+            <marker date="1457446090222" expanded="true" signature="7462:7571" placeholder="SELECT * FRO... collab_sentbox" />
+            <marker date="1457446090222" expanded="true" signature="9393:9448" placeholder="UPDATE colla... " />
+            <marker date="1457446090222" expanded="true" signature="9506:9607" placeholder="SELECT * FRO... collab_inbox" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1215733">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding />
         </state>
       </provider>
