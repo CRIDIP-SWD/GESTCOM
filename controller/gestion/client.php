@@ -67,13 +67,13 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                 <tr>
                                     <td style="font-size:26px; font-weight: 600; color: #121212; text-align:center;" class="mobile-spacing">
                                         <div class="mobile-br">&nbsp;</div>
-                                        <span319db5>Bienvenue chez SAS CRIDIP</span>
+                                        <span>Bienvenue chez SAS CRIDIP</span>
                                             <br>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="font-size:18px; text-align:center; padding: 10px 75px 0; color:#6E6E6E;" class="w320 mobile-spacing mobile-padding">
-                                        <span319db5>Votre compte à été créer avec succès !!!</span>
+                                        <span>Votre compte à été créer avec succès !!!</span>
                                     </td>
                                 </tr>
                             </table>

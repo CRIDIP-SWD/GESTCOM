@@ -7,7 +7,6 @@
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/gestion/client.php" afterPath="$PROJECT_DIR$/controller/gestion/client.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/include/template/mail_general.php" afterPath="$PROJECT_DIR$/view/include/template/mail_general.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,38 +78,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.538462">
-              <caret line="138" column="59" selection-start-line="138" selection-start-column="59" selection-end-line="138" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.59475565">
+              <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
               <folding>
                 <element signature="e#2646#2690#0#HTML" expanded="true" />
                 <element signature="e#2899#2929#0#HTML" expanded="true" />
                 <element signature="e#3101#3177#0#HTML" expanded="true" />
-                <element signature="e#3569#3648#0#HTML" expanded="true" />
-                <element signature="e#4147#4185#0#HTML" expanded="true" />
-                <element signature="e#4538#4571#0#HTML" expanded="true" />
-                <element signature="e#4694#4717#0#HTML" expanded="true" />
-                <element signature="e#4867#4907#0#HTML" expanded="true" />
-                <element signature="e#5651#5673#0#HTML" expanded="true" />
-                <element signature="e#5798#5839#0#HTML" expanded="true" />
-                <element signature="e#6550#6911#0#HTML" expanded="true" />
-                <marker date="1457462272827" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
-                <marker date="1457462272827" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
-                <marker date="1457462272827" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
-                <marker date="1457462272827" expanded="true" signature="6152:6197" placeholder="..." />
-                <marker date="1457462272827" expanded="true" signature="6229:6395" placeholder="..." />
-                <marker date="1457462272827" expanded="true" signature="6350:6395" placeholder="..." />
+                <element signature="e#3563#3642#0#HTML" expanded="true" />
+                <element signature="e#4135#4173#0#HTML" expanded="true" />
+                <element signature="e#4526#4559#0#HTML" expanded="true" />
+                <element signature="e#4682#4705#0#HTML" expanded="true" />
+                <element signature="e#4855#4895#0#HTML" expanded="true" />
+                <element signature="e#5639#5661#0#HTML" expanded="true" />
+                <element signature="e#5786#5827#0#HTML" expanded="true" />
+                <element signature="e#6538#6899#0#HTML" expanded="true" />
+                <marker date="1457462303437" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
+                <marker date="1457462303437" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
+                <marker date="1457462303437" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
+                <marker date="1457462303437" expanded="true" signature="6140:6185" placeholder="..." />
+                <marker date="1457462303437" expanded="true" signature="6217:6383" placeholder="..." />
+                <marker date="1457462303437" expanded="true" signature="6338:6383" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mail_general.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mail_general.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/include/template/mail_general.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32657927">
+            <state vertical-scroll-proportion="-10.538462">
               <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#table#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -202,8 +201,8 @@
         <option value="$PROJECT_DIR$/controller/gestion/client.ajax.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" />
         <option value="$PROJECT_DIR$/view/gestion/client.php" />
-        <option value="$PROJECT_DIR$/controller/gestion/client.php" />
         <option value="$PROJECT_DIR$/view/include/template/mail_general.php" />
+        <option value="$PROJECT_DIR$/controller/gestion/client.php" />
       </list>
     </option>
   </component>
@@ -432,12 +431,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00630" summary="GESTCOM V1.0.0">
-      <created>1457446761096</created>
-      <option name="number" value="00630" />
-      <option name="project" value="LOCAL" />
-      <updated>1457446761096</updated>
     </task>
     <task id="LOCAL-00631" summary="GESTCOM V1.0.0">
       <created>1457446927300</created>
@@ -727,7 +720,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457462248476</updated>
     </task>
-    <option name="localTasksCounter" value="679" />
+    <task id="LOCAL-00679" summary="GESTCOM V1.0.0">
+      <created>1457462280485</created>
+      <option name="number" value="00679" />
+      <option name="project" value="LOCAL" />
+      <updated>1457462280485</updated>
+    </task>
+    <option name="localTasksCounter" value="680" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1236,35 +1235,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.538462">
-          <caret line="138" column="59" selection-start-line="138" selection-start-column="59" selection-end-line="138" selection-end-column="59" />
-          <folding>
-            <element signature="e#2646#2690#0#HTML" expanded="true" />
-            <element signature="e#2899#2929#0#HTML" expanded="true" />
-            <element signature="e#3101#3177#0#HTML" expanded="true" />
-            <element signature="e#3569#3648#0#HTML" expanded="true" />
-            <element signature="e#4147#4185#0#HTML" expanded="true" />
-            <element signature="e#4538#4571#0#HTML" expanded="true" />
-            <element signature="e#4694#4717#0#HTML" expanded="true" />
-            <element signature="e#4867#4907#0#HTML" expanded="true" />
-            <element signature="e#5651#5673#0#HTML" expanded="true" />
-            <element signature="e#5798#5839#0#HTML" expanded="true" />
-            <element signature="e#6550#6911#0#HTML" expanded="true" />
-            <marker date="1457462272827" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
-            <marker date="1457462272827" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
-            <marker date="1457462272827" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
-            <marker date="1457462272827" expanded="true" signature="6152:6197" placeholder="..." />
-            <marker date="1457462272827" expanded="true" signature="6229:6395" placeholder="..." />
-            <marker date="1457462272827" expanded="true" signature="6350:6395" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/include/template/mail_general.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32657927">
+        <state vertical-scroll-proportion="-10.538462">
           <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#table#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1283,6 +1256,32 @@
             <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#1;n#td#0;n#tr#0;n#table#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#2;n#table#1;n#td#0;n#tr#0;n#table#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#2;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59475565">
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+          <folding>
+            <element signature="e#2646#2690#0#HTML" expanded="true" />
+            <element signature="e#2899#2929#0#HTML" expanded="true" />
+            <element signature="e#3101#3177#0#HTML" expanded="true" />
+            <element signature="e#3563#3642#0#HTML" expanded="true" />
+            <element signature="e#4135#4173#0#HTML" expanded="true" />
+            <element signature="e#4526#4559#0#HTML" expanded="true" />
+            <element signature="e#4682#4705#0#HTML" expanded="true" />
+            <element signature="e#4855#4895#0#HTML" expanded="true" />
+            <element signature="e#5639#5661#0#HTML" expanded="true" />
+            <element signature="e#5786#5827#0#HTML" expanded="true" />
+            <element signature="e#6538#6899#0#HTML" expanded="true" />
+            <marker date="1457462303437" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
+            <marker date="1457462303437" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
+            <marker date="1457462303437" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
+            <marker date="1457462303437" expanded="true" signature="6140:6185" placeholder="..." />
+            <marker date="1457462303437" expanded="true" signature="6217:6383" placeholder="..." />
+            <marker date="1457462303437" expanded="true" signature="6338:6383" placeholder="..." />
           </folding>
         </state>
       </provider>
