@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/gestion/client.php" afterPath="$PROJECT_DIR$/view/gestion/client.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,26 +77,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="client.ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/gestion/client.ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding>
-                <marker date="1457460140441" expanded="true" signature="385:430" placeholder="DELETE FROM " />
-                <marker date="1457460140441" expanded="true" signature="498:542" placeholder="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
+        <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6889154">
-              <caret line="51" column="321" selection-start-line="51" selection-start-column="321" selection-end-line="51" selection-end-column="321" />
+            <state vertical-scroll-proportion="0.40286055">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
-                <marker date="1457460544948" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+                <marker date="1457460063164" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
+                <marker date="1457460063164" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
+                <marker date="1457460063164" expanded="true" signature="1740:2053" placeholder="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
@@ -412,12 +400,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00623" summary="GESTCOM V1.0.0">
-      <created>1457445384310</created>
-      <option name="number" value="00623" />
-      <option name="project" value="LOCAL" />
-      <updated>1457445384310</updated>
-    </task>
     <task id="LOCAL-00624" summary="GESTCOM V1.0.0">
       <created>1457445474996</created>
       <option name="number" value="00624" />
@@ -706,7 +688,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457460502158</updated>
     </task>
-    <option name="localTasksCounter" value="672" />
+    <task id="LOCAL-00672" summary="GESTCOM V1.0.0">
+      <created>1457460547552</created>
+      <option name="number" value="00672" />
+      <option name="project" value="LOCAL" />
+      <updated>1457460547552</updated>
+    </task>
+    <option name="localTasksCounter" value="673" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1187,18 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6150179">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <marker date="1457460063164" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
-            <marker date="1457460063164" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
-            <marker date="1457460063164" expanded="true" signature="1740:2053" placeholder="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/gestion/dashboard.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08104887">
@@ -1214,9 +1190,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6889154">
+          <caret line="51" column="321" selection-start-line="51" selection-start-column="321" selection-end-line="51" selection-end-column="321" />
+          <folding>
+            <marker date="1457460544948" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controller/gestion/client.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
+        <state vertical-scroll-proportion="0.42550656">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <marker date="1457460140441" expanded="true" signature="385:430" placeholder="DELETE FROM " />
@@ -1225,12 +1211,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
+    <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6889154">
-          <caret line="51" column="321" selection-start-line="51" selection-start-column="321" selection-end-line="51" selection-end-column="321" />
+        <state vertical-scroll-proportion="0.40286055">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding>
-            <marker date="1457460544948" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+            <marker date="1457460063164" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
+            <marker date="1457460063164" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
+            <marker date="1457460063164" expanded="true" signature="1740:2053" placeholder="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
