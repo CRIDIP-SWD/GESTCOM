@@ -94,14 +94,14 @@
                                         <table border="0" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="force-width-50 w100p">
                                             <tr>
                                                 <td style="text-decoration:underline;height:30px;text-align:left" class="mobile-center">
-                                                    <span319db5>Update subscription preferences</span>
+                                                    <span>Update subscription preferences</span>
                                                 </td>
                                             </tr>
                                         </table>
                                         <table border="0" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="force-width-50 w100p">
                                             <tr>
                                                 <td style="text-decoration:underline;height:30px;text-align:right" class="mobile-center">
-                                                    <span319db5>Unsubscribe from this list</span>
+                                                    <span>Unsubscribe from this list</span>
                                                 </td>
                                             </tr>
                                         </table>
@@ -118,12 +118,12 @@
                                         <table border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="force-width-50">
                                             <tr>
                                                 <td style="height:21px;text-align:center;font-size:12px;" class="mobile-center">
-                                                    <span319db5>Copyright © 2015 Your Company, All Right Reserved.</span>
+                                                    <span>Copyright © 2015 Your Company, All Right Reserved.</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style="height:21px;text-align:center;font-size:12px;" class="mobile-center">
-                                                    <span319db5>795 Folsom Avenue, Suite 600. San Francisco, CA 94107, United State</span>
+                                                    <span>795 Folsom Avenue, Suite 600. San Francisco, CA 94107, United State</span>
                                                 </td>
                                             </tr>
                                         </table>

@@ -80,7 +80,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                             <table cellspacing="0" cellpadding="0" width="100%">
                                 <tr>
                                     <td>
-                                        <img src="images/screen-settings.png" style="max-width:100%; display:block;">
+                                        <img src="<?= $constante->getUrl(array(), false, true); ?>mail/screen-settings.png" style="max-width:100%; display:block;">
                                     </td>
                                 </tr>
                             </table>
