@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" afterPath="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/gestion/dashboard.php" afterPath="$PROJECT_DIR$/view/gestion/dashboard.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.137932">
-              <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.8983254">
+              <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -85,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.ajax.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard.ajax.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/gestion/dashboard.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6078665">
+            <state vertical-scroll-proportion="-19.615385">
               <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <marker date="1457450812461" expanded="true" signature="344:378" placeholder="SELECT COUNT... client" />
@@ -177,8 +175,8 @@
         <option value="$PROJECT_DIR$/view/default.php" />
         <option value="$PROJECT_DIR$/view/gestion/index.php" />
         <option value="$PROJECT_DIR$/view/gestion/dashboard.php" />
-        <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" />
         <option value="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" />
+        <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" />
       </list>
     </option>
   </component>
@@ -463,12 +461,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00593" summary="GESTCOM V1.0.0">
-      <created>1457373155596</created>
-      <option name="number" value="00593" />
-      <option name="project" value="LOCAL" />
-      <updated>1457373155596</updated>
     </task>
     <task id="LOCAL-00594" summary="GESTCOM V1.0.0">
       <created>1457373221339</created>
@@ -758,7 +750,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457450595372</updated>
     </task>
-    <option name="localTasksCounter" value="642" />
+    <task id="LOCAL-00642" summary="GESTCOM V1.0.0">
+      <created>1457450816774</created>
+      <option name="number" value="00642" />
+      <option name="project" value="LOCAL" />
+      <updated>1457450816774</updated>
+    </task>
+    <option name="localTasksCounter" value="643" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1242,24 +1240,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.137932">
-          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/gestion/dashboard.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6078665">
+        <state vertical-scroll-proportion="-19.615385">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <marker date="1457450812461" expanded="true" signature="344:378" placeholder="SELECT COUNT... client" />
             <marker date="1457450812461" expanded="true" signature="605:641" placeholder="SELECT COUNT... article" />
             <marker date="1457450812461" expanded="true" signature="866:898" placeholder="SELECT COUNT... devis" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8983254">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>

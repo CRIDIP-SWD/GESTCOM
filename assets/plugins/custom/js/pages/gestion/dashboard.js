@@ -89,4 +89,6 @@
     }
 
     count_client();
+    count_article();
+    count_devis();
 })(jQuery);
