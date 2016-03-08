@@ -24,5 +24,12 @@
                 if(data == 3){toastr.warning("L'utilisateur à été supprimer mais la fiche du salarié est toujours active !");}
                 if(data == 4){toastr.error("Une erreur à eu lieu lors de la suppression du client ! Veuillez consulter les logs serveurs...");}
             })
+            .fail(function(jqxhr){
+                toastr.error("Une erreur à eu lieu lors de l'envoie des paramètres de la requète !");
+                console.log(jqxhr.responseText);
+            })
+            .always(function(){
+                a.html('<i class="fa fa-trash"></i>');
+            })
     })
 })(jQuery);

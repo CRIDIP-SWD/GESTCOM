@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/gestion/client.ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/gestion/client.php" afterPath="$PROJECT_DIR$/controller/gestion/client.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/gestion/client.php" afterPath="$PROJECT_DIR$/view/gestion/client.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,8 +93,8 @@
       <file leaf-file-name="client.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43236995">
-              <caret line="24" column="139" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
+            <state vertical-scroll-proportion="0.5699422">
+              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -442,12 +437,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00620" summary="GESTCOM V1.0.0">
-      <created>1457444970995</created>
-      <option name="number" value="00620" />
-      <option name="project" value="LOCAL" />
-      <updated>1457444970995</updated>
-    </task>
     <task id="LOCAL-00621" summary="GESTCOM V1.0.0">
       <created>1457445030809</created>
       <option name="number" value="00621" />
@@ -736,7 +725,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457458883993</updated>
     </task>
-    <option name="localTasksCounter" value="669" />
+    <task id="LOCAL-00669" summary="GESTCOM V1.0.0">
+      <created>1457460249369</created>
+      <option name="number" value="00669" />
+      <option name="project" value="LOCAL" />
+      <updated>1457460249370</updated>
+    </task>
+    <option name="localTasksCounter" value="670" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1257,8 +1252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43236995">
-          <caret line="24" column="139" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
+        <state vertical-scroll-proportion="0.5699422">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
