@@ -303,23 +303,6 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
             <div class="header-right">
                 <ul class="header-menu nav navbar-nav">
                     <!-- BEGIN USER DROPDOWN -->
-                    <li class="dropdown" id="language-header">
-                        <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <i class="icon-globe"></i>
-                            <span data-translate="language">Language</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#" data-lang="en"><img src="assets/images/flags/usa.png" alt="flag-english"> <span>English</span></a>
-                            </li>
-                            <li>
-                                <a href="#" data-lang="es"><img src="assets/images/flags/spanish.png" alt="flag-english"> <span>Español</span></a>
-                            </li>
-                            <li>
-                                <a href="#" data-lang="fr"><img src="assets/images/flags/french.png" alt="flag-english"> <span>Français</span></a>
-                            </li>
-                        </ul>
-                    </li>
                     <!-- END USER DROPDOWN -->
                     <!-- BEGIN NOTIFICATION DROPDOWN -->
                     <li class="dropdown" id="notifications-header">
