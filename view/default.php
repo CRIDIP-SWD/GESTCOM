@@ -120,6 +120,17 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                 </div>
                 <ul class="nav nav-sidebar">
                     <li><a href="index.php?view=dashboard"><i class="fa fa-home"></i> Accueil</a></li>
+                    <li><a href="index.php?view=client"><i class="fa fa-users"></i> Client</a></li>
+                    <li><a href="index.php?view=article"><i class="fa fa-cubes"></i> Articles & Services</a></li>
+                    <li class="nav-parent">
+                        <a href="#"><i class="fa fa-file-pdf-o"></i> Ventes <span class="fa arrow"></span></a>
+                        <ul class="children collapse">
+                            <li><a href="index.php?view=devis">Devis</a></li>
+                            <li><a href="index.php?view=commande">Commande</a></li>
+                            <li><a href="index.php?view=facture">Facture</a></li>
+                            <li><a href="index.php?view=avoir">Avoir</a></li>
+                        </ul>
+                    </li>
                 </ul>
             <?php endif; ?>
             <!--<div class="menu-title">
