@@ -165,6 +165,7 @@
 <?php if(isset($_GET['sub']) && $_GET['sub'] == 'message_inbox'): ?>
     <?php
     $idinbox = $_GET['idinbox'];
+    $mail_u = $DB->execute("UPDATE collab_inbox SET lu = 1 WHERE idinbox = :idinbox", array("idinbox" => $idinbox));
     $mail = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND idinbox = :idinbox", array("idinbox" => $idinbox));
     ?>
     <div class="row">
