@@ -86,9 +86,9 @@
         <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6352801">
-              <caret line="48" column="217" selection-start-line="48" selection-start-column="217" selection-end-line="48" selection-end-column="217" />
+              <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
               <folding>
-                <marker date="1457455438093" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+                <marker date="1457455501704" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
               </folding>
             </state>
           </provider>
@@ -507,12 +507,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00608" summary="GESTCOM V1.0.0">
-      <created>1457441092652</created>
-      <option name="number" value="00608" />
-      <option name="project" value="LOCAL" />
-      <updated>1457441092652</updated>
-    </task>
     <task id="LOCAL-00609" summary="GESTCOM V1.0.0">
       <created>1457441472369</created>
       <option name="number" value="00609" />
@@ -801,7 +795,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457455335697</updated>
     </task>
-    <option name="localTasksCounter" value="657" />
+    <task id="LOCAL-00657" summary="GESTCOM V1.0.0">
+      <created>1457455441677</created>
+      <option name="number" value="00657" />
+      <option name="project" value="LOCAL" />
+      <updated>1457455441678</updated>
+    </task>
+    <option name="localTasksCounter" value="658" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1315,9 +1315,9 @@
     <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6352801">
-          <caret line="48" column="217" selection-start-line="48" selection-start-column="217" selection-end-line="48" selection-end-column="217" />
+          <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
           <folding>
-            <marker date="1457455438093" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+            <marker date="1457455501704" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
           </folding>
         </state>
       </provider>
