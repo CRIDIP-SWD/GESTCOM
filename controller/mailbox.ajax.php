@@ -39,7 +39,7 @@ if(is_ajax()){
     {
         session_start();
         require "../application/classe.php";
-        var_dump($_POST);
+        echo json_encode($_POST);
 
     }
 }
