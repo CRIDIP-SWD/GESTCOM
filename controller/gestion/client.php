@@ -7,12 +7,12 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     require "../../application/classe.php";
     $iduser = $user->iduser;
 
-    $nom_client = $_POST['nom_client'];
-    $prenom_client = $_POST['prenom_client'];
-    $adresse_client = $_POST['adresse_client'];
+    $nom_client = htmlentities(addslashes($_POST['nom_client']));
+    $prenom_client = htmlentities(addslashes($_POST['prenom_client']));
+    $adresse_client = htmlentities(addslashes($_POST['adresse_client']));
     $code_postal = $_POST['code_postal'];
-    $ville_client = $_POST['ville_client'];
-    $tel_client = $_POST['tel_client'];
+    $ville_client = htmlentities(addslashes($_POST['ville_client']));
+    $tel_client = substr($_POST['tel_client'], 5);
     $mail_client = $_POST['mail_client'];
     $num_client = "CLS".rand(1000000,9999999);
 
