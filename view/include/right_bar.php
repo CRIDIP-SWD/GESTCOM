@@ -11,46 +11,6 @@
             <div class="tab-pane fade active in" id="chat">
                 <div class="chat-body current">
                     <div class="chat-list">
-                        <div class="title">FAVORITES</div>
-                        <ul>
-                            <li class="clearfix">
-                                <div class="user-img">
-                                    <img src="assets/images/avatars/avatar13.png" alt="avatar" />
-                                </div>
-                                <div class="user-details">
-                                    <div class="user-name">Bobby Brown</div>
-                                    <div class="user-txt">On the road again...</div>
-                                </div>
-                                <div class="user-status">
-                                    <i class="online"></i>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="user-img">
-                                    <img src="assets/images/avatars/avatar5.png" alt="avatar" />
-                                    <div class="pull-right badge badge-danger">3</div>
-                                </div>
-                                <div class="user-details">
-                                    <div class="user-name">Alexa Johnson</div>
-                                    <div class="user-txt">Still at the beach</div>
-                                </div>
-                                <div class="user-status">
-                                    <i class="away"></i>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="user-img">
-                                    <img src="assets/images/avatars/avatar10.png" alt="avatar" />
-                                </div>
-                                <div class="user-details">
-                                    <div class="user-name">Bobby Brown</div>
-                                    <div class="user-txt">On stage...</div>
-                                </div>
-                                <div class="user-status">
-                                    <i class="busy"></i>
-                                </div>
-                            </li>
-                        </ul>
                         <div class="title">Collaborateur</div>
                         <ul>
                             <?php
