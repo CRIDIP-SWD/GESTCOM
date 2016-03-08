@@ -7,7 +7,7 @@
                         <h1><i class="fa fa-users"></i> CLIENT</h1>
                     </div>
                     <div class="col-md-6">
-                        <a class="btn btn-rounded btn-lg btn-primary pull-right" href="index.php?view=mailbox"><i class="fa fa-arrow-circle-left fa-2x"></i> Retour</a>
+                        <a class="btn btn-rounded btn-lg btn-primary pull-right" data-toggle="modal" data-target="#add-client"><i class="fa fa-plus-circle fa-2x"></i> Nouveau Client</a>
                     </div>
                 </div>
             </div>
