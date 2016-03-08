@@ -85,10 +85,10 @@
       <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6352801">
-              <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.67580456">
+              <caret line="50" column="110" selection-start-line="50" selection-start-column="110" selection-end-line="50" selection-end-column="110" />
               <folding>
-                <marker date="1457455501704" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+                <marker date="1457455563544" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
               </folding>
             </state>
           </provider>
@@ -507,12 +507,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00609" summary="GESTCOM V1.0.0">
-      <created>1457441472369</created>
-      <option name="number" value="00609" />
-      <option name="project" value="LOCAL" />
-      <updated>1457441472369</updated>
-    </task>
     <task id="LOCAL-00610" summary="GESTCOM V1.0.0">
       <created>1457441535962</created>
       <option name="number" value="00610" />
@@ -801,7 +795,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457455441678</updated>
     </task>
-    <option name="localTasksCounter" value="658" />
+    <task id="LOCAL-00658" summary="GESTCOM V1.0.0">
+      <created>1457455506075</created>
+      <option name="number" value="00658" />
+      <option name="project" value="LOCAL" />
+      <updated>1457455506075</updated>
+    </task>
+    <option name="localTasksCounter" value="659" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1314,10 +1314,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6352801">
-          <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.67580456">
+          <caret line="50" column="110" selection-start-line="50" selection-start-column="110" selection-end-line="50" selection-end-column="110" />
           <folding>
-            <marker date="1457455501704" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+            <marker date="1457455563544" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
           </folding>
         </state>
       </provider>

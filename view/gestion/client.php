@@ -47,6 +47,8 @@
                                     </td>
                                     <td>
                                         <button data-rel="tooltip" type="button" class="btn btn-sm btn-primary m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" title="Voir la fiche"><i class="fa fa-eye"></i> </button>
+                                        <button data-rel="tooltip" type="button" class="btn btn-sm btn-default m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" title="Téléphoner au client"><i class="fa fa-phone"></i> </button>
+                                        <button data-rel="tooltip" type="button" class="btn btn-sm btn-default m-b-10 f-left btn-icon" data-toggle="tooltip" data-placement="top" title="Envoyer un mail"><i class="fa fa-envelope"></i> </button>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
