@@ -42,7 +42,7 @@
                                         <?= $client->code_postal; ?> <?= html_entity_decode($client->ville_client); ?>
                                     </td>
                                     <td>
-                                        <strong><i class="fa fa-phone-square"></i></strong>: 0<?= $client->num_client; ?><br>
+                                        <strong><i class="fa fa-phone-square"></i></strong>: 0<?= $client->tel_client; ?><br>
                                         <strong><i class="fa fa-envelope"></i></strong>: <?= $client->mail_client; ?>
                                     </td>
                                     <td>
