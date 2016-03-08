@@ -182,11 +182,19 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-10" style="">
-            <?= html_entity_decode($mail[0]->sujet); ?>
-        </div>
-        <div class="col-md-2">
-            <button type="button" id="print_mail" class="btn btn-icon btn-default"><i class="fa fa-print"></i></button>
+        <div class="col-md-12">
+            <div class="panel" id="mail">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>TEST</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" id="print_mail" class="btn btn-icon btn-default pull-right"><i class="fa fa-print"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 <?php endif; ?>
