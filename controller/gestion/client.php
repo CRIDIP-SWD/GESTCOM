@@ -135,8 +135,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
         </tr>
     </table>
     <?php
-    require "../../view/include/template/mail_general.php";
     $mail_content = ob_get_clean();
+    require "../../view/include/template/mail_general.php";
     $mail = mail($to, $sujet, $mail_content, $headers);
 
     if($client_i == 1 AND $user_client_insert == 1){
