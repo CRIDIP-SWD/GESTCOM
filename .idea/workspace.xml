@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" afterPath="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/gestion/dashboard.php" afterPath="$PROJECT_DIR$/view/gestion/dashboard.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -96,11 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/gestion/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.653847">
-              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.7973778">
+              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -118,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.ajax.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard.ajax.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/gestion/dashboard.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83790225">
+            <state vertical-scroll-proportion="-27.038462">
               <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
               <folding>
                 <marker date="1457451598012" expanded="true" signature="344:378" placeholder="SELECT COUNT... client" />
@@ -211,9 +207,9 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/default.php" />
         <option value="$PROJECT_DIR$/view/gestion/index.php" />
-        <option value="$PROJECT_DIR$/view/gestion/dashboard.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" />
         <option value="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" />
+        <option value="$PROJECT_DIR$/view/gestion/dashboard.php" />
       </list>
     </option>
   </component>
@@ -498,12 +494,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00596" summary="GESTCOM V1.0.0">
-      <created>1457373345105</created>
-      <option name="number" value="00596" />
-      <option name="project" value="LOCAL" />
-      <updated>1457373345105</updated>
     </task>
     <task id="LOCAL-00597" summary="GESTCOM V1.0.0">
       <created>1457428899583</created>
@@ -793,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457451307939</updated>
     </task>
-    <option name="localTasksCounter" value="645" />
+    <task id="LOCAL-00645" summary="GESTCOM V1.0.0">
+      <created>1457451603151</created>
+      <option name="number" value="00645" />
+      <option name="project" value="LOCAL" />
+      <updated>1457451603151</updated>
+    </task>
+    <option name="localTasksCounter" value="646" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1269,14 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/gestion/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.653847">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.862068">
@@ -1289,7 +1277,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/gestion/dashboard.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83790225">
+        <state vertical-scroll-proportion="-27.038462">
           <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
           <folding>
             <marker date="1457451598012" expanded="true" signature="344:378" placeholder="SELECT COUNT... client" />
@@ -1298,6 +1286,14 @@
             <marker date="1457451598012" expanded="true" signature="1126:1164" placeholder="SELECT COUNT... commande" />
             <marker date="1457451598012" expanded="true" signature="1391:1427" placeholder="SELECT COUNT... facture" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/gestion/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7973778">
+          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

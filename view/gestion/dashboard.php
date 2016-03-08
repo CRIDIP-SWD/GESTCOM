@@ -47,7 +47,7 @@
             </div>
             <div class="infobox">
                 <div class="left">
-                    <i class="fa fa-file bg-blue"></i>
+                    <i class="fa fa-file bg-purple"></i>
                 </div>
                 <div class="right">
                     <div>
