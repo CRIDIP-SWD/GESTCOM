@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js" />
     </list>
@@ -92,7 +93,11 @@
         <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7271676">
-              <caret line="69" column="168" selection-start-line="69" selection-start-column="168" selection-end-line="69" selection-end-column="168" />
+              <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+              <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+              <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
                 <element signature="e#141#932#0" expanded="false" />
@@ -102,11 +107,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="gc.collab_inbox" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/de119122/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.collab_inbox">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mailbox.ajax.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/mailbox.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.807692">
-              <caret line="70" column="32" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="32" />
+            <state vertical-scroll-proportion="-26.807692">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
               <folding>
                 <element signature="e#169#527#0#PHP" expanded="false" />
                 <element signature="e#532#799#0#PHP" expanded="false" />
@@ -346,12 +366,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00555" summary="GESTCOM V1.0.0">
-      <created>1457222688395</created>
-      <option name="number" value="00555" />
-      <option name="project" value="LOCAL" />
-      <updated>1457222688395</updated>
     </task>
     <task id="LOCAL-00556" summary="GESTCOM V1.0.0">
       <created>1457222984657</created>
@@ -641,7 +655,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457434658900</updated>
     </task>
-    <option name="localTasksCounter" value="604" />
+    <task id="LOCAL-00604" summary="GESTCOM V1.0.0">
+      <created>1457434714119</created>
+      <option name="number" value="00604" />
+      <option name="project" value="LOCAL" />
+      <updated>1457434714119</updated>
+    </task>
+    <option name="localTasksCounter" value="605" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -694,13 +714,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/pages/mailbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1047,10 +1060,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/de119122/7c4ebd2c-3fb6-4db2-9c15-1c150e38012e/gc.collab_inbox">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controller/mailbox.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.807692">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="32" />
+        <state vertical-scroll-proportion="-26.807692">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
           <folding>
             <element signature="e#169#527#0#PHP" expanded="false" />
             <element signature="e#532#799#0#PHP" expanded="false" />
@@ -1066,7 +1092,11 @@
     <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/mailbox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7271676">
-          <caret line="69" column="168" selection-start-line="69" selection-start-column="168" selection-end-line="69" selection-end-column="168" />
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
             <element signature="e#141#932#0" expanded="false" />

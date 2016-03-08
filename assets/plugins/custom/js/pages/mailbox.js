@@ -62,12 +62,12 @@
         var form = $(this);
         form.find('button').html("<i class='fa fa-spinner fa-spin'></i> Chargement...");
         $.post(form.attr('action'), form.serializeArray())
-            .done(function(data){
-                console.log(data);
-                if(data == 200){toastr.success("Le mail est bien envoyer"); window.location='index.php?view=mailbox';}
-                if(data == 201){toastr.warning("Le mail à bien été envoyer mais le support de sentbox à rencontrer une erreur");window.location='index.php?view=mailbox';}
-                if(data == 202){toastr.warning("Le mail à bien été enregistrer dans le support sentbox mais sont envoie à rencontrer une erreur");window.location='index.php?view=mailbox';}
-                if(data == 500){toastr.error("Le mail n'à pas été envoyer veuillez vérifier les logs d'envoie de la console.");window.location='index.php?view=mailbox';}
+            .done(function(jqxhr){
+                console.log(jqxhr.responseText);
+                if(jqxhr.responseText == 200){toastr.success("Le mail est bien envoyer"); window.location='index.php?view=mailbox';}
+                if(jqxhr.responseText == 201){toastr.warning("Le mail à bien été envoyer mais le support de sentbox à rencontrer une erreur");window.location='index.php?view=mailbox';}
+                if(jqxhr.responseText == 202){toastr.warning("Le mail à bien été enregistrer dans le support sentbox mais sont envoie à rencontrer une erreur");window.location='index.php?view=mailbox';}
+                if(jqxhr.responseText == 500){toastr.error("Le mail n'à pas été envoyer veuillez vérifier les logs d'envoie de la console.");window.location='index.php?view=mailbox';}
             })
             .fail(function(jqxhr){
                 console.log(jqxhr.responseText);
