@@ -364,7 +364,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                                     ?>
                                     <li class="clearfix">
                                         <span class="pull-left p-r-5">
-                                        <img src="assets/images/avatars/avatar3.png" alt="avatar 3">
+                                        <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" alt="avatar 3">
                                         </span>
                                         <div class="clearfix">
                                             <div>
