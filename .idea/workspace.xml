@@ -82,10 +82,13 @@
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.53754467">
-              <caret line="298" column="76" selection-start-line="298" selection-start-column="76" selection-end-line="298" selection-end-column="76" />
+              <caret line="295" column="64" selection-start-line="295" selection-start-column="64" selection-end-line="295" selection-end-column="64" />
+              <caret line="296" column="63" selection-start-line="296" selection-start-column="63" selection-end-line="296" selection-end-column="63" />
+              <caret line="297" column="60" selection-start-line="297" selection-start-column="60" selection-end-line="297" selection-end-column="60" />
+              <caret line="298" column="63" selection-start-line="298" selection-start-column="63" selection-end-line="298" selection-end-column="63" />
               <folding>
-                <marker date="1457444920592" expanded="true" signature="23160:23213" placeholder="SELECT * FRO... notif" />
-                <marker date="1457444920592" expanded="true" signature="25882:26004" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457444966647" expanded="true" signature="23164:23217" placeholder="SELECT * FRO... notif" />
+                <marker date="1457444966647" expanded="true" signature="25886:26008" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -373,12 +376,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00570" summary="GESTCOM V1.0.0">
-      <created>1457361758690</created>
-      <option name="number" value="00570" />
-      <option name="project" value="LOCAL" />
-      <updated>1457361758690</updated>
     </task>
     <task id="LOCAL-00571" summary="GESTCOM V1.0.0">
       <created>1457361823187</created>
@@ -668,7 +665,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457444660385</updated>
     </task>
-    <option name="localTasksCounter" value="619" />
+    <task id="LOCAL-00619" summary="GESTCOM V1.0.0">
+      <created>1457444924512</created>
+      <option name="number" value="00619" />
+      <option name="project" value="LOCAL" />
+      <updated>1457444924512</updated>
+    </task>
+    <option name="localTasksCounter" value="620" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1120,10 +1123,13 @@
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53754467">
-          <caret line="298" column="76" selection-start-line="298" selection-start-column="76" selection-end-line="298" selection-end-column="76" />
+          <caret line="295" column="64" selection-start-line="295" selection-start-column="64" selection-end-line="295" selection-end-column="64" />
+          <caret line="296" column="63" selection-start-line="296" selection-start-column="63" selection-end-line="296" selection-end-column="63" />
+          <caret line="297" column="60" selection-start-line="297" selection-start-column="60" selection-end-line="297" selection-end-column="60" />
+          <caret line="298" column="63" selection-start-line="298" selection-start-column="63" selection-end-line="298" selection-end-column="63" />
           <folding>
-            <marker date="1457444920592" expanded="true" signature="23160:23213" placeholder="SELECT * FRO... notif" />
-            <marker date="1457444920592" expanded="true" signature="25882:26004" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457444966647" expanded="true" signature="23164:23217" placeholder="SELECT * FRO... notif" />
+            <marker date="1457444966647" expanded="true" signature="25886:26008" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>
