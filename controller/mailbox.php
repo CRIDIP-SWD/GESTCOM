@@ -6,9 +6,9 @@ if(isset($_POST['action']) && $_POST['action'] == 'sent-mail')
 
     $expediteur = $_POST['expediteur'];
     $destinataire = $_POST['destinataire'];
-    $sujet = $_POST['sujet'];
-    $message = $_POST['message'];
-    $date_message = $date_format->date_jour_strt();
+    $sujet = htmlentities(addslashes($_POST['sujet']));
+    $message = htmlentities(addslashes($_POST['message']));
+    $date_message = $date_format->format_strt(date("d-m-Y H:i:s"));
 
     $mailbox = $DB->execute("INSERT INTO collab_inbox(idinbox, destinataire, expediteur, sujet, message, date_message, importance, lu) VALUES (NULL, :destinataire, :expediteur, :sujet, :message, :date_message, :importance, :lu)", array(
         "destinataire"  => $destinataire,

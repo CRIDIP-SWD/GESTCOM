@@ -195,7 +195,20 @@
                     </div>
                 </div>
                 <div class="panel-content">
-                    <p>Ceci est un test</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $mail[0]->username; ?>.png" class="img-responsive img-circle" width="50" />
+                            <?= $mail[0]->nom_user; ?> <?= $mail[0]->prenom_user; ?>, le <?= $date_format->formatage("d/m/Y à H:i", $mail[0]->date_message); ?>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="index.php?view=mailbox&sub=compose_reply&destinataire=<?= $mail[0]->expediteur; ?>&expediteur=<?= $mail[0]->destinataire; ?>&sujet=<?= $mail[0]->sujet; ?>&message=<?= $mail[0]->message; ?>" class="btn btn-success pull-right"><i class="fa fa-forward"></i> Répondre</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <?= html_entity_decode($mail[0]->message); ?>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
