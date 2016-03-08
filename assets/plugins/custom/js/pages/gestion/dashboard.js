@@ -87,8 +87,22 @@
             }
         })
     }
+    function count_commande()
+    {
+        $.ajax('../../../../../controller/gestion/dashboard.ajax.php?action=count_commande', {
+            dataType: "json",
+            type: "GET",
+            success: function(data){
+                $('#info_commande').text(data);
+            },
+            error: function(jqxhr){
+                console.log(jqxhr.responseText);
+            }
+        })
+    }
 
     count_client();
     count_article();
     count_devis();
+    count_commande();
 })(jQuery);

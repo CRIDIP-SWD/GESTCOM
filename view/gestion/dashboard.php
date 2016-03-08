@@ -34,6 +34,17 @@
                     <div class="txt">Devis</div>
                 </div>
             </div>
+            <div class="infobox">
+                <div class="left">
+                    <i class="fa fa-file bg-blue"></i>
+                </div>
+                <div class="right">
+                    <div>
+                        <span class="c-primary pull-left" id="info_commande">0</span>
+                    </div>
+                    <div class="txt">Commande</div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="col-md-3">
