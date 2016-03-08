@@ -187,7 +187,7 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-md-6">
-                            <h3>TEST</h3>
+                            <h3><?= html_entity_decode($mail[0]->sujet); ?></h3>
                         </div>
                         <div class="col-md-6">
                             <button type="button" id="print_mail" class="btn btn-icon btn-default pull-right"><i class="fa fa-print"></i></button>
@@ -196,7 +196,7 @@
                 </div>
                 <div class="panel-content">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="display: inline-flex;">
                             <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $mail[0]->username; ?>.png" class="img-responsive img-circle" width="50" />
                             <?= $mail[0]->nom_user; ?> <?= $mail[0]->prenom_user; ?>, le <?= $date_format->formatage("d/m/Y à H:i", $mail[0]->date_message); ?>
                         </div>
