@@ -64,7 +64,10 @@
         $.post(form.attr('action'), form.serializeArray())
             .done(function(data){
                 console.log(data);
-                toastr.success("Le mail est bien envoyer");
+                if(data == 200){toastr.success("Le mail est bien envoyer");}
+                if(data == 201){toastr.warning("Le mail à bien été envoyer mais le support de sentbox à rencontrer une erreur");}
+                if(data == 202){toastr.warning("Le mail à bien été enregistrer dans le support sentbox mais sont envoie à rencontrer une erreur");}
+                if(data == 500){toastr.error("Le mail n'à pas été envoyer veuillez vérifier les logs d'envoie de la console.");}
             })
             .fail(function(jqxhr){
                 console.log(jqxhr.responseText);
