@@ -30,13 +30,11 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
 
     $user_q = $DB->query("SELECT * FROM client WHERE num_client = :num_client", array("num_client" => $num_client));
 
-    $users = $user_q[0];
-
     $username = $fonction->gen_username($nom_client, $prenom_client);
     $pass = $fonction->gen_password();
     $encrypt = new encrypt($username, $pass);
     $pass_crypt = $encrypt->encrypt();
-    $idclient = $users->idclient;
+    $idclient = $user_q[0]->idclient;
 
 
     $user_client_insert = $DB->execute("INSERT INTO users(iduser, groupe, username, password, nom_user, prenom_user, connect, last_connect, poste_user, date_naissance, num_tel_poste, commentaire, totp, totp_token, idclient) VALUES

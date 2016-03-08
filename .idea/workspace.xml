@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/gestion/client.php" afterPath="$PROJECT_DIR$/controller/gestion/client.php" />
     </list>
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,12 +81,12 @@
       <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40286055">
+            <state vertical-scroll-proportion="0.23003575">
               <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
-                <marker date="1457460063164" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
-                <marker date="1457460063164" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
-                <marker date="1457460063164" expanded="true" signature="1740:2053" placeholder="INSERT INTO users... " />
+                <marker date="1457460949701" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
+                <marker date="1457460949701" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
+                <marker date="1457460949701" expanded="true" signature="1718:2031" placeholder="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
@@ -157,10 +158,10 @@
         <option value="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" />
         <option value="$PROJECT_DIR$/view/gestion/dashboard.php" />
         <option value="$PROJECT_DIR$/application/general/fonction.php" />
-        <option value="$PROJECT_DIR$/controller/gestion/client.php" />
         <option value="$PROJECT_DIR$/controller/gestion/client.ajax.php" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" />
         <option value="$PROJECT_DIR$/view/gestion/client.php" />
+        <option value="$PROJECT_DIR$/controller/gestion/client.php" />
       </list>
     </option>
   </component>
@@ -399,12 +400,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00624" summary="GESTCOM V1.0.0">
-      <created>1457445474996</created>
-      <option name="number" value="00624" />
-      <option name="project" value="LOCAL" />
-      <updated>1457445474996</updated>
     </task>
     <task id="LOCAL-00625" summary="GESTCOM V1.0.0">
       <created>1457445563564</created>
@@ -694,7 +689,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457460547552</updated>
     </task>
-    <option name="localTasksCounter" value="673" />
+    <task id="LOCAL-00673" summary="GESTCOM V1.0.0">
+      <created>1457460873004</created>
+      <option name="number" value="00673" />
+      <option name="project" value="LOCAL" />
+      <updated>1457460873004</updated>
+    </task>
+    <option name="localTasksCounter" value="674" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1213,12 +1214,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40286055">
+        <state vertical-scroll-proportion="0.23003575">
           <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding>
-            <marker date="1457460063164" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
-            <marker date="1457460063164" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
-            <marker date="1457460063164" expanded="true" signature="1740:2053" placeholder="INSERT INTO users... " />
+            <marker date="1457460949701" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
+            <marker date="1457460949701" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
+            <marker date="1457460949701" expanded="true" signature="1718:2031" placeholder="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
