@@ -20,7 +20,7 @@ if($view === 'commande'){require "commande.php";}
 if($view === 'facture'){require "facture.php";}
 if($view === 'avoir'){require "avoir.php";}
 
-$content = ob_get_contents();
+$content = ob_get_clean();
 if($view === 'login')
 {
     require "../login.php";
