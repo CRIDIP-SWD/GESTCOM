@@ -1,14 +1,12 @@
 <?php if(!isset($_GET['sub'])): ?>
     <div class="row">
         <div class="col-md-12">
-            <div class="well">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1><i class="fa fa-users"></i> CLIENT</h1>
-                    </div>
-                    <div class="col-md-6">
-                        <a class="btn btn-rounded btn-lg btn-primary pull-right" data-toggle="modal" data-target="#add-client"><i class="fa fa-plus-circle fa-2x"></i> Nouveau Client</a>
-                    </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1><i class="fa fa-users"></i> CLIENT</h1>
+                </div>
+                <div class="col-md-6">
+                    <a class="btn btn-rounded btn-lg btn-primary pull-right" data-toggle="modal" data-target="#add-client"><i class="fa fa-plus-circle fa-2x"></i> Nouveau Client</a>
                 </div>
             </div>
         </div>
