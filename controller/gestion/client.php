@@ -16,7 +16,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     $mail_client = $_POST['mail_client'];
     $num_client = "CLS".rand(1000000,9999999);
 
-    $client_i = $DB->query("INSERT INTO client(idclient, nom_client, prenom_client, adresse_client, code_postal, ville_client, tel_client, mail_client, num_client) VALUES
+    $client_i = $DB->execute("INSERT INTO client(idclient, nom_client, prenom_client, adresse_client, code_postal, ville_client, tel_client, mail_client, num_client) VALUES
                             (NULL, :nom_client, :prenom_client, :adresse_client, :code_postal, :ville_client, :tel_client, :mail_client, :num_client)", array(
         "nom_client"    => $nom_client,
         "prenom_client" => $prenom_client,

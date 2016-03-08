@@ -81,12 +81,12 @@
       <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23003575">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.18951133">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
-                <marker date="1457460949701" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
-                <marker date="1457460949701" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
-                <marker date="1457460949701" expanded="true" signature="1718:2031" placeholder="INSERT INTO users... " />
+                <marker date="1457461012675" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
+                <marker date="1457461012675" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
+                <marker date="1457461012675" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
@@ -401,12 +401,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00625" summary="GESTCOM V1.0.0">
-      <created>1457445563564</created>
-      <option name="number" value="00625" />
-      <option name="project" value="LOCAL" />
-      <updated>1457445563565</updated>
-    </task>
     <task id="LOCAL-00626" summary="GESTCOM V1.0.0">
       <created>1457445688740</created>
       <option name="number" value="00626" />
@@ -695,7 +689,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457460873004</updated>
     </task>
-    <option name="localTasksCounter" value="674" />
+    <task id="LOCAL-00674" summary="GESTCOM V1.0.0">
+      <created>1457460956536</created>
+      <option name="number" value="00674" />
+      <option name="project" value="LOCAL" />
+      <updated>1457460956536</updated>
+    </task>
+    <option name="localTasksCounter" value="675" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1214,12 +1214,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23003575">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.18951133">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
-            <marker date="1457460949701" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
-            <marker date="1457460949701" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
-            <marker date="1457460949701" expanded="true" signature="1718:2031" placeholder="INSERT INTO users... " />
+            <marker date="1457461012675" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
+            <marker date="1457461012675" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
+            <marker date="1457461012675" expanded="true" signature="1720:2033" placeholder="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
