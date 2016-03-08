@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/gestion/client.ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" afterPath="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/gestion/client.php" afterPath="$PROJECT_DIR$/controller/gestion/client.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/gestion/client.php" afterPath="$PROJECT_DIR$/view/gestion/client.php" />
     </list>
     <ignored path="GESTCOM.iws" />
@@ -42,6 +47,20 @@
         <option name="myItemId" value="MySQL - gc@vps116895.ovh.net" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="users" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - gc@vps116895.ovh.net" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
     <PATH>
       <PATH_ELEMENT>
@@ -64,45 +83,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/mailbox.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.423077">
-              <caret line="217" column="13" selection-start-line="217" selection-start-column="13" selection-end-line="217" selection-end-column="58" />
-              <folding>
-                <element signature="e#6#3092#0#PHP" expanded="false" />
-                <element signature="e#6204#9249#0#PHP" expanded="false" />
-                <marker date="1457446090222" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
-                <marker date="1457446090222" expanded="true" signature="4411:4551" placeholder="SELECT * FRO... users" />
-                <marker date="1457446090222" expanded="true" signature="7462:7571" placeholder="SELECT * FRO... collab_sentbox" />
-                <marker date="1457446090222" expanded="true" signature="9393:9448" placeholder="UPDATE colla... " />
-                <marker date="1457446090222" expanded="true" signature="9506:9607" placeholder="SELECT * FRO... collab_inbox" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6352801">
-              <caret line="51" column="243" selection-start-line="51" selection-start-column="243" selection-end-line="51" selection-end-column="243" />
+            <state vertical-scroll-proportion="-20.5">
+              <caret line="51" column="345" selection-start-line="51" selection-start-column="345" selection-end-line="51" selection-end-column="345" />
               <folding>
-                <marker date="1457458880982" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+                <marker date="1457459353310" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/default.php">
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-83.69231">
-              <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
+            <state vertical-scroll-proportion="0.43236995">
+              <caret line="24" column="139" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
               <folding>
-                <marker date="1457446756761" expanded="true" signature="23238:23291" placeholder="SELECT * FRO... notif" />
-                <marker date="1457446756761" expanded="true" signature="25960:26082" placeholder="SELECT * FRO... collab_inbox" />
-                <marker date="1457446756761" expanded="true" signature="26668:26846" placeholder="..." />
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/gestion/client.ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <marker date="1457460140441" expanded="true" signature="385:430" placeholder="DELETE FROM " />
+                <marker date="1457460140441" expanded="true" signature="498:542" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -111,57 +123,29 @@
       <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.384615">
-              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            <state vertical-scroll-proportion="-31.384615">
+              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
               <folding>
-                <marker date="1457458776798" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
-                <marker date="1457458776798" expanded="true" signature="1562:1854" placeholder="INSERT INTO users... " />
+                <marker date="1457460063164" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
+                <marker date="1457460063164" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
+                <marker date="1457460063164" expanded="true" signature="1740:2053" placeholder="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/general/fonction.php">
+      <file leaf-file-name="dashboard.ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/gestion/dashboard.ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profil.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/profil.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.423077">
-              <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="254" selection-end-column="26" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
               <folding>
-                <marker date="1457427926491" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="9" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
+                <element signature="e#150#1475#0#PHP" expanded="false" />
+                <marker date="1457451598012" expanded="true" signature="344:378" placeholder="SELECT COUNT... client" />
+                <marker date="1457451598012" expanded="true" signature="605:641" placeholder="SELECT COUNT... article" />
+                <marker date="1457451598012" expanded="true" signature="866:898" placeholder="SELECT COUNT... devis" />
+                <marker date="1457451598012" expanded="true" signature="1126:1164" placeholder="SELECT COUNT... commande" />
+                <marker date="1457451598012" expanded="true" signature="1391:1427" placeholder="SELECT COUNT... facture" />
               </folding>
             </state>
           </provider>
@@ -186,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/plugins/custom/user_time.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user_charge.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/user.js" />
         <option value="$PROJECT_DIR$/assets/plugins/custom/pages/dashboard.js" />
@@ -233,10 +216,11 @@
         <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/dashboard.js" />
         <option value="$PROJECT_DIR$/controller/gestion/dashboard.ajax.php" />
         <option value="$PROJECT_DIR$/view/gestion/dashboard.php" />
-        <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" />
         <option value="$PROJECT_DIR$/application/general/fonction.php" />
-        <option value="$PROJECT_DIR$/controller/gestion/client.php" />
         <option value="$PROJECT_DIR$/view/gestion/client.php" />
+        <option value="$PROJECT_DIR$/controller/gestion/client.php" />
+        <option value="$PROJECT_DIR$/controller/gestion/client.ajax.php" />
+        <option value="$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js" />
       </list>
     </option>
   </component>
@@ -457,12 +441,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00619" summary="GESTCOM V1.0.0">
-      <created>1457444924512</created>
-      <option name="number" value="00619" />
-      <option name="project" value="LOCAL" />
-      <updated>1457444924512</updated>
     </task>
     <task id="LOCAL-00620" summary="GESTCOM V1.0.0">
       <created>1457444970995</created>
@@ -752,7 +730,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457458779646</updated>
     </task>
-    <option name="localTasksCounter" value="668" />
+    <task id="LOCAL-00668" summary="GESTCOM V1.0.0">
+      <created>1457458883993</created>
+      <option name="number" value="00668" />
+      <option name="project" value="LOCAL" />
+      <updated>1457458883993</updated>
+    </task>
+    <option name="localTasksCounter" value="669" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -806,16 +790,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="45" column="124" selection-start-line="45" selection-start-column="124" selection-end-line="45" selection-end-column="124" />
-          <folding>
-            <element signature="e#2718#4211#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/noctus/encrypt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7973778">
@@ -1150,20 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/gestion/dashboard.ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83790225">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding>
-            <marker date="1457451598012" expanded="true" signature="344:378" placeholder="SELECT COUNT... client" />
-            <marker date="1457451598012" expanded="true" signature="605:641" placeholder="SELECT COUNT... article" />
-            <marker date="1457451598012" expanded="true" signature="866:898" placeholder="SELECT COUNT... devis" />
-            <marker date="1457451598012" expanded="true" signature="1126:1164" placeholder="SELECT COUNT... commande" />
-            <marker date="1457451598012" expanded="true" signature="1391:1427" placeholder="SELECT COUNT... facture" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/calendar.ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08104887">
@@ -1180,44 +1140,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="9" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/profil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-27.423077">
           <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="254" selection-end-column="26" />
           <folding>
             <marker date="1457427926491" expanded="true" signature="2914:2996" placeholder="SELECT * FRO... notif" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-83.69231">
-          <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
-          <folding>
-            <marker date="1457446756761" expanded="true" signature="23238:23291" placeholder="SELECT * FRO... notif" />
-            <marker date="1457446756761" expanded="true" signature="25960:26082" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1457446756761" expanded="true" signature="26668:26846" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1241,17 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.384615">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
-          <folding>
-            <marker date="1457458776798" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
-            <marker date="1457458776798" expanded="true" signature="1562:1854" placeholder="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.423077">
@@ -1268,12 +1185,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5935638">
+          <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
+          <folding>
+            <marker date="1457446756761" expanded="true" signature="23238:23291" placeholder="SELECT * FRO... notif" />
+            <marker date="1457446756761" expanded="true" signature="25960:26082" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457446756761" expanded="true" signature="26668:26846" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35375723">
+          <caret line="20" column="9" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6352801">
-          <caret line="51" column="243" selection-start-line="51" selection-start-column="243" selection-end-line="51" selection-end-column="243" />
+        <state vertical-scroll-proportion="-20.5">
+          <caret line="51" column="345" selection-start-line="51" selection-start-column="345" selection-end-line="51" selection-end-column="345" />
           <folding>
-            <marker date="1457458880982" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+            <marker date="1457459353310" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/gestion/dashboard.ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="e#150#1475#0#PHP" expanded="false" />
+            <marker date="1457451598012" expanded="true" signature="344:378" placeholder="SELECT COUNT... client" />
+            <marker date="1457451598012" expanded="true" signature="605:641" placeholder="SELECT COUNT... article" />
+            <marker date="1457451598012" expanded="true" signature="866:898" placeholder="SELECT COUNT... devis" />
+            <marker date="1457451598012" expanded="true" signature="1126:1164" placeholder="SELECT COUNT... commande" />
+            <marker date="1457451598012" expanded="true" signature="1391:1427" placeholder="SELECT COUNT... facture" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.384615">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <marker date="1457460063164" expanded="true" signature="685:977" placeholder="INSERT INTO client... " />
+            <marker date="1457460063164" expanded="true" signature="1352:1403" placeholder="SELECT * FRO... client" />
+            <marker date="1457460063164" expanded="true" signature="1740:2053" placeholder="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/gestion/client.ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <marker date="1457460140441" expanded="true" signature="385:430" placeholder="DELETE FROM " />
+            <marker date="1457460140441" expanded="true" signature="498:542" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/custom/js/pages/gestion/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43236995">
+          <caret line="24" column="139" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>

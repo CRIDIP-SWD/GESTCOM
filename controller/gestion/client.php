@@ -28,19 +28,25 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
         "num_client"    => $num_client
     ));
 
+    $user_q = $DB->query("SELECT * FROM client WHERE num_client = :num_client", array("num_client" => $num_client));
+
+    $users = $user_q[0];
+
     $username = $fonction->gen_username($nom_client, $prenom_client);
     $pass = $fonction->gen_password();
     $encrypt = new encrypt($username, $pass);
     $pass_crypt = $encrypt->encrypt();
+    $idclient = $users->idclient;
 
 
-    $user_client_insert = $DB->execute("INSERT INTO users(iduser, groupe, username, password, nom_user, prenom_user, connect, last_connect, poste_user, date_naissance, num_tel_poste, commentaire, totp, totp_token) VALUES
-        (NULL, :groupe, :username, :password, :nom_user, :prenom_user, '0', '', 'Client', '', '', '', '0', '0')", array(
+    $user_client_insert = $DB->execute("INSERT INTO users(iduser, groupe, username, password, nom_user, prenom_user, connect, last_connect, poste_user, date_naissance, num_tel_poste, commentaire, totp, totp_token, idclient) VALUES
+        (NULL, :groupe, :username, :password, :nom_user, :prenom_user, '0', '', 'Client', '', '', '', '0', '0', :idclient)", array(
         "groupe"        => 4,
         "username"      => $username,
         "password"      => $pass_crypt,
         "nom_user"      => $nom_client,
-        "prenom_user"   => $prenom_client
+        "prenom_user"   => $prenom_client,
+        "idclient"      => $idclient
     ));
 
     if($client_i == 1 AND $user_client_insert == 1){
