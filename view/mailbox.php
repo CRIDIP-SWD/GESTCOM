@@ -194,6 +194,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="panel-content">
+                    <p>Ceci est un test</p>
+                </div>
             </div>
         </div>
     </div>

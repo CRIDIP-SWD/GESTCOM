@@ -81,17 +81,17 @@
       <file leaf-file-name="mailbox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/mailbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79022646">
-              <caret line="192" column="109" selection-start-line="192" selection-start-column="109" selection-end-line="192" selection-end-column="109" />
+            <state vertical-scroll-proportion="0.7091776">
+              <caret line="197" column="39" selection-start-line="197" selection-start-column="39" selection-end-line="197" selection-end-column="39" />
               <folding>
                 <element signature="e#6#3092#0#PHP" expanded="false" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
                 <element signature="e#6204#9249#0#PHP" expanded="false" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#!!top" expanded="true" />
-                <marker date="1457441468620" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
-                <marker date="1457441468620" expanded="true" signature="4411:4551" placeholder="SELECT * FRO... users" />
-                <marker date="1457441468620" expanded="true" signature="7462:7571" placeholder="SELECT * FRO... collab_sentbox" />
-                <marker date="1457441468620" expanded="true" signature="9389:9490" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457441531807" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457441531807" expanded="true" signature="4411:4551" placeholder="SELECT * FRO... users" />
+                <marker date="1457441531807" expanded="true" signature="7462:7571" placeholder="SELECT * FRO... collab_sentbox" />
+                <marker date="1457441531807" expanded="true" signature="9389:9490" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -381,12 +381,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00560" summary="GESTCOM V1.0.0">
-      <created>1457357897888</created>
-      <option name="number" value="00560" />
-      <option name="project" value="LOCAL" />
-      <updated>1457357897888</updated>
-    </task>
     <task id="LOCAL-00561" summary="GESTCOM V1.0.0">
       <created>1457360295298</created>
       <option name="number" value="00561" />
@@ -675,7 +669,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457441092652</updated>
     </task>
-    <option name="localTasksCounter" value="609" />
+    <task id="LOCAL-00609" summary="GESTCOM V1.0.0">
+      <created>1457441472369</created>
+      <option name="number" value="00609" />
+      <option name="project" value="LOCAL" />
+      <updated>1457441472369</updated>
+    </task>
+    <option name="localTasksCounter" value="610" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1128,17 +1128,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/mailbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79022646">
-          <caret line="192" column="109" selection-start-line="192" selection-start-column="109" selection-end-line="192" selection-end-column="109" />
+        <state vertical-scroll-proportion="0.7091776">
+          <caret line="197" column="39" selection-start-line="197" selection-start-column="39" selection-end-line="197" selection-end-column="39" />
           <folding>
             <element signature="e#6#3092#0#PHP" expanded="false" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
             <element signature="e#6204#9249#0#PHP" expanded="false" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#!!top" expanded="true" />
-            <marker date="1457441468620" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
-            <marker date="1457441468620" expanded="true" signature="4411:4551" placeholder="SELECT * FRO... users" />
-            <marker date="1457441468620" expanded="true" signature="7462:7571" placeholder="SELECT * FRO... collab_sentbox" />
-            <marker date="1457441468620" expanded="true" signature="9389:9490" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457441531807" expanded="true" signature="1266:1371" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457441531807" expanded="true" signature="4411:4551" placeholder="SELECT * FRO... users" />
+            <marker date="1457441531807" expanded="true" signature="7462:7571" placeholder="SELECT * FRO... collab_sentbox" />
+            <marker date="1457441531807" expanded="true" signature="9389:9490" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>
