@@ -95,9 +95,9 @@
         <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6889154">
-              <caret line="51" column="293" selection-start-line="51" selection-start-column="293" selection-end-line="51" selection-end-column="293" />
+              <caret line="51" column="321" selection-start-line="51" selection-start-column="321" selection-end-line="51" selection-end-column="321" />
               <folding>
-                <marker date="1457460498933" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+                <marker date="1457460544948" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
               </folding>
             </state>
           </provider>
@@ -412,12 +412,6 @@
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
     </task>
-    <task id="LOCAL-00622" summary="GESTCOM V1.0.0">
-      <created>1457445351367</created>
-      <option name="number" value="00622" />
-      <option name="project" value="LOCAL" />
-      <updated>1457445351367</updated>
-    </task>
     <task id="LOCAL-00623" summary="GESTCOM V1.0.0">
       <created>1457445384310</created>
       <option name="number" value="00623" />
@@ -706,7 +700,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457460364179</updated>
     </task>
-    <option name="localTasksCounter" value="671" />
+    <task id="LOCAL-00671" summary="GESTCOM V1.0.0">
+      <created>1457460502158</created>
+      <option name="number" value="00671" />
+      <option name="project" value="LOCAL" />
+      <updated>1457460502158</updated>
+    </task>
+    <option name="localTasksCounter" value="672" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1228,9 +1228,9 @@
     <entry file="file://$PROJECT_DIR$/view/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6889154">
-          <caret line="51" column="293" selection-start-line="51" selection-start-column="293" selection-end-line="51" selection-end-column="293" />
+          <caret line="51" column="321" selection-start-line="51" selection-start-column="321" selection-end-line="51" selection-end-column="321" />
           <folding>
-            <marker date="1457460498933" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
+            <marker date="1457460544948" expanded="true" signature="1448:1492" placeholder="SELECT * FRO... client" />
           </folding>
         </state>
       </provider>
