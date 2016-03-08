@@ -63,6 +63,7 @@
         form.find('button').html("<i class='fa fa-spinner fa-spin'></i> Chargement...");
         $.post(form.attr('action'), form.serializeArray())
             .done(function(data){
+                console.log(data);
                 toastr.success("Le mail est bien envoyer");
             })
             .fail(function(jqxhr){
