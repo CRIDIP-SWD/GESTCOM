@@ -1,5 +1,20 @@
 <div class="row">
-    <div class="col-md-9"></div>
+    <div class="col-md-9">
+        <div class="widget-infobox">
+            <div class="infobox">
+                <div class="left">
+                    <i class="fa fa-shopping-cart bg-blue"></i>
+                </div>
+                <div class="right">
+                    <div>
+                        <span class="c-primary pull-left">24</span>
+                        <span class="c-primary pull-right">8%</span>
+                    </div>
+                    <div class="txt">new orders</div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="col-md-3">
         <div class="row">
             <div class="col-md-12">
@@ -14,8 +29,6 @@
     </div>
 </div>
 
-<script src="<?= $constante->getUrl(array('plugins/')); ?>noty/jquery.noty.packaged.min.js"></script>  <!-- Notifications -->
-<script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-editable/js/bootstrap-editable.min.js"></script> <!-- Inline Edition X-editable -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-context-menu/bootstrap-contextmenu.min.js"></script> <!-- Context Menu -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>multidatepicker/multidatespicker.min.js"></script> <!-- Multi dates Picker -->
 <script src="<?= $constante->getUrl(array('js/')); ?>widgets/todo_list.js"></script>
