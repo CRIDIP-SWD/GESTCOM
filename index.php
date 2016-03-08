@@ -19,7 +19,7 @@ if($view === 'mailbox'){require "view/mailbox.php";}
 
 if($view === 'test'){require "view/test.php";}
 
-if($view === 'gestion'){require "view/gestion/dashboard.php";}
+if($view === 'gestion'){header("Location: view/gestion/index.php");}
 
 $content = ob_get_clean();
 if($view === 'login'){
