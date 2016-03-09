@@ -145,20 +145,20 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                                 <tr>
                                                     <td style="font-size:24px; font-weight: 600; color: #121212; text-align:center;" class="mobile-spacing">
                                                         <div class="mobile-br">&nbsp;</div>
-                                                        <span319db5>Welcome to Themes Lab</span>
+                                                        <span>Welcome to Themes Lab</span>
                                                             <br>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="font-size:17px; text-align:center; padding: 10px 75px 0; color:#6E6E6E;" class="w320 mobile-spacing mobile-padding">
-                                                        <span319db5>We are happy to meet you and hope you have an amazing time with us.</span><br><br>
+                                                        <span>We are happy to meet you and hope you have an amazing time with us.</span><br><br>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table cellspacing="0" cellpadding="0" width="100%" style="background-color:#F1F2F5">
                                                 <tr>
                                                     <td>
-                                                        <img src="images/phone-mockup2.png" style="max-width:100%; display:block;">
+                                                        <img src="<?= $constante->getUrl(array(), false, false); ?>view/include/template/images/phone-mockup2.png" style="max-width:100%; display:block;">
                                                     </td>
                                                 </tr>
                                             </table>
@@ -173,7 +173,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                                     <tr>
                                                         <br><br>
                                                         <td class="mobile-resize" style="color:#172838; font-size: 20px; font-weight: 600; text-align: left; vertical-align: top;">
-                                                            <span319db5>Activate your account now</span>
+                                                            <span>Activate your account now</span>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -181,7 +181,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                                     <tr>
                                                         <td style="text-align:left; color: #6f6f6f;">
                                                             <br>
-                                                            <p319db5>
+                                                            <p>
                                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Sed do eiusmod tempor ullamco laboris.
                                                                 Quis nostrud exercitation nisi ut aliquip ex ea commodo!
                                                                 </p>
@@ -229,14 +229,14 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                             <table border="0" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="force-width-50 w100p">
                                                 <tr>
                                                     <td style="text-decoration:underline;height:30px;text-align:left" class="mobile-center">
-                                                        <span319db5>Update subscription preferences</span>
+                                                        <span>Update subscription preferences</span>
                                                     </td>
                                                 </tr>
                                             </table>
                                             <table border="0" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="force-width-50 w100p">
                                                 <tr>
                                                     <td style="text-decoration:underline;height:30px;text-align:right" class="mobile-center">
-                                                        <span319db5>Unsubscribe from this list</span>
+                                                        <span>Unsubscribe from this list</span>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -253,12 +253,12 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                             <table border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="force-width-50">
                                                 <tr>
                                                     <td style="height:21px;text-align:center;font-size:12px;" class="mobile-center">
-                                                        <span319db5>Copyright © 2015 Your Company, All Right Reserved.</span>
+                                                        <span>Copyright © 2015 Your Company, All Right Reserved.</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="height:21px;text-align:center;font-size:12px;" class="mobile-center">
-                                                        <span319db5>795 Folsom Avenue, Suite 600. San Francisco, CA 94107, United State</span>
+                                                        <span>795 Folsom Avenue, Suite 600. San Francisco, CA 94107, United State</span>
                                                     </td>
                                                 </tr>
                                             </table>
