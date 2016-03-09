@@ -76,7 +76,7 @@
                 <table style="margin:0 auto;" cellspacing="0" height="60" cellpadding="0" width="100%">
                     <tr>
                         <td style="text-align: center;">
-                            <a href="#"><img width="91" height="28" src="<?= $constante->getUrl(array(), false, true); ?>logo-cridip.png" alt="company logo" /></a>
+                            <a href="#">SAS CRIDIP</a>
                         </td>
                     </tr>
                 </table>

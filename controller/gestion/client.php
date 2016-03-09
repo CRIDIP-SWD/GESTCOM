@@ -98,8 +98,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                                 Bonjour,<br>
                                                 Voici vos identifiant de connexion à l\'espace GESTCOM - CRIDIP:<br>
                                                 <br>
-                                                <strong>Nom d\'utilisateur:</strong> <?= $username; ?><br>
-                                                <strong>Mot de Passe:</strong> <?= $pass; ?><br>
+                                                <strong>Nom d\'utilisateur:</strong> '.$username.'<br>
+                                                <strong>Mot de Passe:</strong> '.$pass.'<br>
                                             </td>
                                         </tr>
                                     </table>
