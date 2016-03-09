@@ -330,87 +330,89 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                 <ul class="header-menu nav navbar-nav">
                     <!-- BEGIN USER DROPDOWN -->
                     <!-- END USER DROPDOWN -->
-                    <!-- BEGIN NOTIFICATION DROPDOWN -->
-                    <li class="dropdown" id="notifications-header">
-                        <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <i class="icon-bell"></i>
-                            <span id="count_notif" class="badge badge-danger badge-header"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-header clearfix">
-                                <p class="pull-left" id="count_notif_title">Aucune nouvelle notification</p>
-                            </li>
-                            <li>
-                                <ul class="dropdown-menu-list withScroll" data-height="220">
-                                    <?php
-                                    $sql_notif = $DB->query("SELECT * FROM notif WHERE iduser = :iduser AND vu = 0", array(
-                                        "iduser" => $user->iduser
-                                    ));
-                                    foreach($sql_notif as $notif):
-                                    ?>
-                                    <li>
-                                        <a href="#">
-                                            <?php if($notif->type == 1): ?>
-                                                <i class="fa fa-plus p-r-10 f-18 c-green"></i>
-                                            <?php elseif($notif->type == 2): ?>
-                                                <i class="fa fa-edit p-r-10 f-18 c-orange"></i>
-                                            <?php else: ?>
-                                                <i class="fa fa-remove p-r-10 f-18 c-red"></i>
-                                            <?php endif; ?>
-                                            <?= substr(html_entity_decode($notif->notification), 0, 15); ?>
-                                            <span class="dropdown-time"><?= $date_format->format(date("d-m-Y h:i", $notif->date_notification)); ?></span>
-                                        </a>
-                                    </li>
-                                    <?php endforeach; ?>
-                                </ul>
-                            </li>
-                            <li class="dropdown-footer clearfix">
-                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=notification" class="pull-left">Voir toutes les notifications</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- END NOTIFICATION DROPDOWN -->
-                    <!-- BEGIN MESSAGES DROPDOWN -->
-                    <li class="dropdown" id="messages-header">
-                        <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <i class="icon-paper-plane"></i>
-                            <span id="count_mail" class="badge badge-primary badge-header"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-header clearfix">
-                                <p class="pull-left" id="count_mail_title">
-                                    Aucun nouveau mail
-                                </p>
-                            </li>
-                            <li class="dropdown-body">
-                                <ul class="dropdown-menu-list withScroll" data-height="220">
-                                    <?php
-                                    $sql_mail = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :destinataire AND lu = 0", array("destinataire" => $user->iduser));
-                                    foreach($sql_mail as $mail):
-                                    ?>
-                                    <li class="clearfix">
+                    <?php if($user->groupe != 3): ?>
+                        <!-- BEGIN NOTIFICATION DROPDOWN -->
+                        <li class="dropdown" id="notifications-header">
+                            <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="icon-bell"></i>
+                                <span id="count_notif" class="badge badge-danger badge-header"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-header clearfix">
+                                    <p class="pull-left" id="count_notif_title">Aucune nouvelle notification</p>
+                                </li>
+                                <li>
+                                    <ul class="dropdown-menu-list withScroll" data-height="220">
+                                        <?php
+                                        $sql_notif = $DB->query("SELECT * FROM notif WHERE iduser = :iduser AND vu = 0", array(
+                                            "iduser" => $user->iduser
+                                        ));
+                                        foreach($sql_notif as $notif):
+                                            ?>
+                                            <li>
+                                                <a href="#">
+                                                    <?php if($notif->type == 1): ?>
+                                                        <i class="fa fa-plus p-r-10 f-18 c-green"></i>
+                                                    <?php elseif($notif->type == 2): ?>
+                                                        <i class="fa fa-edit p-r-10 f-18 c-orange"></i>
+                                                    <?php else: ?>
+                                                        <i class="fa fa-remove p-r-10 f-18 c-red"></i>
+                                                    <?php endif; ?>
+                                                    <?= substr(html_entity_decode($notif->notification), 0, 15); ?>
+                                                    <span class="dropdown-time"><?= $date_format->format(date("d-m-Y h:i", $notif->date_notification)); ?></span>
+                                                </a>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-footer clearfix">
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=notification" class="pull-left">Voir toutes les notifications</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END NOTIFICATION DROPDOWN -->
+                        <!-- BEGIN MESSAGES DROPDOWN -->
+                        <li class="dropdown" id="messages-header">
+                            <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="icon-paper-plane"></i>
+                                <span id="count_mail" class="badge badge-primary badge-header"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-header clearfix">
+                                    <p class="pull-left" id="count_mail_title">
+                                        Aucun nouveau mail
+                                    </p>
+                                </li>
+                                <li class="dropdown-body">
+                                    <ul class="dropdown-menu-list withScroll" data-height="220">
+                                        <?php
+                                        $sql_mail = $DB->query("SELECT * FROM collab_inbox, users WHERE collab_inbox.expediteur = users.iduser AND destinataire = :destinataire AND lu = 0", array("destinataire" => $user->iduser));
+                                        foreach($sql_mail as $mail):
+                                            ?>
+                                            <li class="clearfix">
                                         <span class="pull-left p-r-5">
                                         <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $mail->username; ?>.png" alt="avatar 3">
                                         </span>
-                                        <div class="clearfix">
-                                            <div>
-                                                <strong><?= $mail->prenom_user; ?> <?= $mail->nom_user; ?></strong>
-                                                <small class="pull-right text-muted">
-                                                    <span class="glyphicon glyphicon-time p-r-5"></span><?= $date_format->format(date("d-m-Y H:i:s", $mail->date_message)); ?>
-                                                </small>
-                                            </div>
-                                            <p><?= html_entity_decode($mail->sujet); ?></p>
-                                        </div>
-                                    </li>
-                                    <?php endforeach; ?>
-                                </ul>
-                            </li>
-                            <li class="dropdown-footer clearfix">
-                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=mailbox" class="pull-left">Voir tous vos messages</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- END MESSAGES DROPDOWN -->
+                                                <div class="clearfix">
+                                                    <div>
+                                                        <strong><?= $mail->prenom_user; ?> <?= $mail->nom_user; ?></strong>
+                                                        <small class="pull-right text-muted">
+                                                            <span class="glyphicon glyphicon-time p-r-5"></span><?= $date_format->format(date("d-m-Y H:i:s", $mail->date_message)); ?>
+                                                        </small>
+                                                    </div>
+                                                    <p><?= html_entity_decode($mail->sujet); ?></p>
+                                                </div>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-footer clearfix">
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=mailbox" class="pull-left">Voir tous vos messages</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END MESSAGES DROPDOWN -->
+                    <?php endif; ?>
                     <!-- BEGIN USER DROPDOWN -->
                     <li class="dropdown" id="user-header">
                         <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
