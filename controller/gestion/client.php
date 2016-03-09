@@ -63,16 +63,16 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
         <meta charset="UTF-8">
         <title>Document</title>
     </head>
-    <body>
-        <h1 style="text-align: center;">SAS CRIDIP</h1>
-        <div style="">Votre Espace à été créer !</div>
+    <body style="background-color: #1c94c4; color: #fff;">
+        <div style="text-align: center; font-size: 25px;">SAS CRIDIP</div>
+        <div style="text-align: center; font-size: 18px; padding-bottom: 25px;">Votre Espace à été créer !</div>
         <div style="">
             Bonjour,<br>
             Voici vos identifiant de connexion à l'espace GESTCOM - CRIDIP:<br><br>
             <strong>Login:</strong> <?= $username; ?><br>
             <strong>Mot de Passe:</strong> <?= $pass; ?>
         </div>
-        <div style="text-align: center">
+        <div style="text-align: center; padding-top: 100px;">
             <a href="" style="background-color:#172838;color:#ffffff;display:inline-block;font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;font-size:18px;font-weight:400;line-height:45px;text-align:center;text-decoration:none;width:240px;-webkit-text-size-adjust:none;
                                     -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;">Votre Compte</a>
         </div>
