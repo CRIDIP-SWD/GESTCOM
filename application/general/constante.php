@@ -16,13 +16,9 @@ class constante
     const ASSETS            = "assets/";
     const NOM_SITE          = "GESTCOM";
     const SOURCES           = "https://ns342142.ip-5-196-76.eu/gc/";
-    const MAINTENANCE       = 0;
-    const IP_MAIN           = "109.190.224.161";
-    const IP_SRC            = "ns342142.ip-5-196-76.eu";
-    /*
-     * ADRESSE BUREAU = 109.190.224.161
-     * ADRESSE MAISON = 109.190.65.252
-     */
+    public $controller      = "controller/";
+    public $view            = "view/";
+
     /**
      * @param $dos array Permet de parser sous forme string le tableau array=$dos
      * @return string retourne un format standard de link HTML
