@@ -62,6 +62,10 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-Equiv="Cache-Control" Content="cache">
+        <meta http-Equiv="Pragma" Content="cache">
+        <meta http-Equiv="Expires" Content="1000">
         <style type="text/css">
             @import url(http://fonts.googleapis.com/css?family=Open+Sans);
             body{overflow: hidden}
