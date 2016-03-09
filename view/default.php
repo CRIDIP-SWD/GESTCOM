@@ -83,9 +83,9 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                             </button>
                             <ul class="dropdown-menu">
                                 <?php if($user->connect == 0): ?>
-                                    <li><a href="controller/user.ajax.php?action=connector&connect=2" id="connector"><i class="online"></i><span>En Ligne</span></a></li>
+                                    <li><a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.ajax.php?action=connector&connect=2" id="connector"><i class="online"></i><span>En Ligne</span></a></li>
                                 <?php else: ?>
-                                    <li><a href="controller/user.ajax.php?action=connector&connect=0" id="connector"><i class="busy"></i><span>Hors Ligne</span></a></li>
+                                    <li><a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.ajax.php?action=connector&connect=0" id="connector"><i class="busy"></i><span>Hors Ligne</span></a></li>
                                 <?php endif; ?>
                             </ul>
                         </div>
@@ -95,14 +95,14 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
             <?php if(isset($_GET['view']) && $_GET['view'] == 'mailbox'): ?>
                     <ul class="nav nav-sidebar">
                         <li class="tm nav-active active">
-                            <a href="index.php?view=mailbox">
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=mailbox">
                                 <span class="pull-right badge badge-primary"></span>
                                 <i class="icons-office-28"></i>
                                 <span data-translate="inbpx">Boite de réception</span>
                             </a>
                         </li>
                         <li class="tm">
-                            <a href="index.php?view=mailbox&sub=sentbox">
+                            <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=mailbox&sub=sentbox">
                                 <i class="icons-chat-messages-14"></i>
                                 <span data-translate="portlets">Boite d'envoie </span>
                             </a>
@@ -119,16 +119,16 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                     Gestion
                 </div>
                 <ul class="nav nav-sidebar">
-                    <li><a href="index.php?view=dashboard"><i class="fa fa-home"></i> Accueil</a></li>
-                    <li><a href="index.php?view=client"><i class="fa fa-users"></i> Client</a></li>
-                    <li><a href="index.php?view=article"><i class="fa fa-cubes"></i> Articles & Services</a></li>
+                    <li><a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/index.php?view=dashboard"><i class="fa fa-home"></i> Accueil</a></li>
+                    <li><a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/index.php?view=client"><i class="fa fa-users"></i> Client</a></li>
+                    <li><a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/index.php?view=article"><i class="fa fa-cubes"></i> Articles & Services</a></li>
                     <li class="nav-parent">
                         <a href="#"><i class="fa fa-file-pdf-o"></i> Ventes <span class="fa arrow"></span></a>
                         <ul class="children collapse">
-                            <li><a href="index.php?view=devis">Devis</a></li>
-                            <li><a href="index.php?view=commande">Commande</a></li>
-                            <li><a href="index.php?view=facture">Facture</a></li>
-                            <li><a href="index.php?view=avoir">Avoir</a></li>
+                            <li><a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/index.php?view=devis">Devis</a></li>
+                            <li><a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/index.php?view=commande">Commande</a></li>
+                            <li><a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/index.php?view=facture">Facture</a></li>
+                            <li><a href="<?= $constante->getUrl(array(), false, false); ?>view/gestion/index.php?view=avoir">Avoir</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -358,7 +358,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                                 </ul>
                             </li>
                             <li class="dropdown-footer clearfix">
-                                <a href="index.php?view=notification" class="pull-left">Voir toutes les notifications</a>
+                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=notification" class="pull-left">Voir toutes les notifications</a>
                             </li>
                         </ul>
                     </li>
@@ -399,7 +399,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                                 </ul>
                             </li>
                             <li class="dropdown-footer clearfix">
-                                <a href="index.php?view=mailbox" class="pull-left">Voir tous vos messages</a>
+                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=mailbox" class="pull-left">Voir tous vos messages</a>
                             </li>
                         </ul>
                     </li>
@@ -412,22 +412,22 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="index.php?view=profil"><i class="fa fa-user"></i><span>Mon Profil</span></a>
+                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=profil"><i class="fa fa-user"></i><span>Mon Profil</span></a>
                             </li>
                             <li>
-                                <a href="index.php?view=calendar"><i class="fa fa-calendar"></i><span>Mon Calendrier</span></a>
+                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=calendar"><i class="fa fa-calendar"></i><span>Mon Calendrier</span></a>
                             </li>
                             <li>
-                                <a href="index.php?view=mailbox"><i class="fa fa-envelope"></i><span>Mes Messages</span></a>
+                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=mailbox"><i class="fa fa-envelope"></i><span>Mes Messages</span></a>
                             </li>
                             <li>
-                                <a href="index.php?view=tasks"><i class="fa fa-tasks"></i><span>Mes Taches</span></a>
+                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=tasks"><i class="fa fa-tasks"></i><span>Mes Taches</span></a>
                             </li>
                             <li>
-                                <a href="controller/user.php?action=lock"><i class="fa fa-lock"></i><span>Verrouiller l'application</span></a>
+                                <a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.php?action=lock"><i class="fa fa-lock"></i><span>Verrouiller l'application</span></a>
                             </li>
                             <li>
-                                <a href="controller/user.php?action=logout"><i class="fa fa-sign-out"></i><span>Déconnexion</span></a>
+                                <a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.php?action=logout"><i class="fa fa-sign-out"></i><span>Déconnexion</span></a>
                             </li>
                         </ul>
                     </li>
