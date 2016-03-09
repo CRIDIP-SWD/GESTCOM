@@ -88,10 +88,3 @@ class db
 
     }
 }
-
-class commande_sql extends db
-{
-
-
-
-}
