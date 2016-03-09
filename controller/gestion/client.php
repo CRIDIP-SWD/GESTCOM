@@ -126,12 +126,12 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     <body  offset="0" class="body" style="padding:0; margin:0; display:block; background:#eeebeb; -webkit-text-size-adjust:none" bgcolor="#eeebeb">
     <table align="center" cellpadding="0" cellspacing="0" width="100%" height="100%" >
         <tr>
-            <td align="center" valign="top" style="background-image: url(images/background/13.jpg);background-size: auto 100%;background-position: top center;background-repeat:no-repeat" width="100%">
+            <td align="center" valign="top" style="background-image: url(<?= $constante->getUrl(array(), false, false); ?>view/include/template/images/background/13.jpg);background-size: auto 100%;background-position: top center;background-repeat:no-repeat" width="100%">
                 <center>
                     <table style="margin:0 auto;" cellspacing="0" height="60" cellpadding="0" width="100%">
                         <tr>
                             <td style="text-align: center;">
-                                <a href="#"><img width="91" height="28" src="images/logo-white.png" alt="company logo" /></a>
+                                <a href="#"><img width="91" height="28" src="<?= $constante->getUrl(array(), false, false); ?>view/include/template/images/logo-white.png" alt="company logo" /></a>
                             </td>
                         </tr>
                     </table>
