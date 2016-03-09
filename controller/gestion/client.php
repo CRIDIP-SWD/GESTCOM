@@ -52,11 +52,10 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     $sujet = "Création de votre Espace - CRIDIP";
 
     $headers  = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
     $headers .= 'From: CRIDIP <contact@cridip.com>' . "\r\n";
 
-    ob_start();
-    ?>
+    $message = '
     <table cellspacing="0" cellpadding="0" width="600" class="w320" style="border-radius: 4px;overflow: hidden;">
         <tr>
             <td align="center" valign="top">
@@ -97,9 +96,9 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                             <td style="text-align:left; color: #6f6f6f;">
                                                 <br>
                                                 Bonjour,<br>
-                                                Voici vos identifiant de connexion à l'espace GESTCOM - CRIDIP:<br>
+                                                Voici vos identifiant de connexion à l\'espace GESTCOM - CRIDIP:<br>
                                                 <br>
-                                                <strong>Nom d'utilisateur:</strong> <?= $username; ?><br>
+                                                <strong>Nom d\'utilisateur:</strong> <?= $username; ?><br>
                                                 <strong>Mot de Passe:</strong> <?= $pass; ?><br>
                                             </td>
                                         </tr>
@@ -117,7 +116,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
                                                 <center>
                                             <![endif]-->
                                             <a class="btn" href="https://gestcom.cridip.com/"
-                                               style="background-color:#46596c;color:#ffffff;display:inline-block;font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;font-size:18px;font-weight:400;line-height:45px;text-align:center;text-decoration:none;width:240px;-webkit-text-size-adjust:none;
+                                               style="background-color:#46596c;color:#ffffff;display:inline-block;font-family:\'Source Sans Pro\', Helvetica, Arial, sans-serif;font-size:18px;font-weight:400;line-height:45px;text-align:center;text-decoration:none;width:240px;-webkit-text-size-adjust:none;
                                     -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;">VOTRE COMPTE</a>
                                             <!--[if mso]>
                                             </center>
@@ -134,10 +133,9 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
             </td>
         </tr>
     </table>
-    <?php
-    $mail_content = ob_get_clean();
-    $mail_content .= require "../../view/include/template/mail_general.php";
-    $mail = mail($to, $sujet, $mail_content, $headers);
+    ';
+    $message .= require "../../view/include/template/mail_general.php";
+    $mail = mail($to, $sujet, $message, $headers);
 
     if($client_i == 1 AND $user_client_insert == 1){
         $text = "Le client à été créer avec succès !";
