@@ -80,7 +80,7 @@
                         </td>
                     </tr>
                 </table>
-                <?= $mail_content; ?>
+                <?= $message; ?>
                 <table cellspacing="0" cellpadding="0" width="600" class="w320" style="border-radius: 4px;overflow: hidden;">
                     <tr>
                         <td align="center" valign="top">
