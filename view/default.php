@@ -330,7 +330,7 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                 <ul class="header-menu nav navbar-nav">
                     <!-- BEGIN USER DROPDOWN -->
                     <!-- END USER DROPDOWN -->
-                    <?php if($user->groupe != 3): ?>
+                    <?php if($user->groupe != 4): ?>
                         <!-- BEGIN NOTIFICATION DROPDOWN -->
                         <li class="dropdown" id="notifications-header">
                             <a href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
