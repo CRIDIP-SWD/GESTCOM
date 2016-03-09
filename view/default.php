@@ -311,12 +311,19 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
             <div class="header-left">
                 <div class="topnav">
                     <a class="menutoggle" href="#" data-toggle="sidebar-collapsed"><span class="menu__handle"><span>Menu</span></span></a>
-                    <ul class="nav nav-horizontal">
-                        <li<?php if($view === 'gestion'){echo ' class="active"';} ?>><a href="index.php?view=gestion"><i class="fa fa-cube"></i><span>Gestion</span></a></li>
-                        <li<?php if($view === 'compta'){echo ' class="active"';} ?>><a href="index.php?view=compta"><i class="fa fa-euro"></i><span>Comptabilité</span></a></li>
-                        <li<?php if($view === 'ovh'){echo ' class="active"';} ?>><a href="index.php?view=ovh"><i class="fa fa-globe"></i><span>OVH</span></a></li>
-                        <li<?php if($view === 'projet'){echo ' class="active"';} ?>><a href="index.php?view=projet"><i class="fa fa-code-fork"></i><span>Projet</span></a></li>
-                    </ul>
+                    <?php if($user->groupe == 4): ?>
+                        <ul class="nav nav-horizontal">
+                            <li<?php if($view === 'service'){echo ' class="active"';} ?>><a href="index.php?view=client&sub=service"><i class="fa fa-code-fork"></i><span>Mes Services</span></a></li>
+                            <li<?php if($view === 'facture'){echo ' class="active"';} ?>><a href="index.php?view=client&sub=facture"><i class="fa fa-euro"></i><span>Mes Factures</span></a></li>
+                        </ul>
+                    <?php else: ?>
+                        <ul class="nav nav-horizontal">
+                            <li<?php if($view === 'gestion'){echo ' class="active"';} ?>><a href="index.php?view=gestion"><i class="fa fa-cube"></i><span>Gestion</span></a></li>
+                            <li<?php if($view === 'compta'){echo ' class="active"';} ?>><a href="index.php?view=compta"><i class="fa fa-euro"></i><span>Comptabilité</span></a></li>
+                            <li<?php if($view === 'ovh'){echo ' class="active"';} ?>><a href="index.php?view=ovh"><i class="fa fa-globe"></i><span>OVH</span></a></li>
+                            <li<?php if($view === 'projet'){echo ' class="active"';} ?>><a href="index.php?view=projet"><i class="fa fa-code-fork"></i><span>Projet</span></a></li>
+                        </ul>
+                    <?php endif; ?>
                 </div>
             </div>
             <div class="header-right">

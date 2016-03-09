@@ -49,11 +49,11 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.24285714">
-              <caret line="429" column="90" selection-start-line="429" selection-start-column="90" selection-end-line="429" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.37306318">
+              <caret line="316" column="131" selection-start-line="316" selection-start-column="131" selection-end-line="316" selection-end-column="131" />
               <folding>
-                <marker date="1457544055961" expanded="true" signature="23868:23921" placeholder="SELECT * FRO... notif" />
-                <marker date="1457544055961" expanded="true" signature="26639:26761" placeholder="SELECT * FRO... collab_inbox" />
+                <marker date="1457544964976" expanded="true" signature="24495:24548" placeholder="SELECT * FRO... notif" />
+                <marker date="1457544964976" expanded="true" signature="27266:27388" placeholder="SELECT * FRO... collab_inbox" />
               </folding>
             </state>
           </provider>
@@ -285,12 +285,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00635" summary="GESTCOM V1.0.0">
-      <created>1457447883577</created>
-      <option name="number" value="00635" />
-      <option name="project" value="LOCAL" />
-      <updated>1457447883577</updated>
     </task>
     <task id="LOCAL-00636" summary="GESTCOM V1.0.0">
       <created>1457447992715</created>
@@ -580,7 +574,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457462772220</updated>
     </task>
-    <option name="localTasksCounter" value="684" />
+    <task id="LOCAL-00684" summary="GESTCOM V1.0.0">
+      <created>1457544059416</created>
+      <option name="number" value="00684" />
+      <option name="project" value="LOCAL" />
+      <updated>1457544059457</updated>
+    </task>
+    <option name="localTasksCounter" value="685" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -589,6 +589,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19376528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12713936" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="829" y="55" width="241" height="930" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -596,7 +597,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32760474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="832" height="840" />
@@ -1022,11 +1022,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.24285714">
-          <caret line="429" column="90" selection-start-line="429" selection-start-column="90" selection-end-line="429" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.37306318">
+          <caret line="316" column="131" selection-start-line="316" selection-start-column="131" selection-end-line="316" selection-end-column="131" />
           <folding>
-            <marker date="1457544055961" expanded="true" signature="23868:23921" placeholder="SELECT * FRO... notif" />
-            <marker date="1457544055961" expanded="true" signature="26639:26761" placeholder="SELECT * FRO... collab_inbox" />
+            <marker date="1457544964976" expanded="true" signature="24495:24548" placeholder="SELECT * FRO... notif" />
+            <marker date="1457544964976" expanded="true" signature="27266:27388" placeholder="SELECT * FRO... collab_inbox" />
           </folding>
         </state>
       </provider>
