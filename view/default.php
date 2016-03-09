@@ -419,26 +419,37 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
                             <img src="<?= $constante->getUrl(array(), false, true); ?>avatar/<?= $user->username; ?>.png" alt="user image">
                             <span class="username"><?= $user->nom_user; ?> <?= $user->prenom_user; ?></span>
                         </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=profil"><i class="fa fa-user"></i><span>Mon Profil</span></a>
-                            </li>
-                            <li>
-                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=calendar"><i class="fa fa-calendar"></i><span>Mon Calendrier</span></a>
-                            </li>
-                            <li>
-                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=mailbox"><i class="fa fa-envelope"></i><span>Mes Messages</span></a>
-                            </li>
-                            <li>
-                                <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=tasks"><i class="fa fa-tasks"></i><span>Mes Taches</span></a>
-                            </li>
-                            <li>
-                                <a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.php?action=lock"><i class="fa fa-lock"></i><span>Verrouiller l'application</span></a>
-                            </li>
-                            <li>
-                                <a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.php?action=logout"><i class="fa fa-sign-out"></i><span>Déconnexion</span></a>
-                            </li>
-                        </ul>
+                        <?php if($user->groupe != 4): ?>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=profil"><i class="fa fa-user"></i><span>Mon Profil</span></a>
+                                </li>
+                                <li>
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=calendar"><i class="fa fa-calendar"></i><span>Mon Calendrier</span></a>
+                                </li>
+                                <li>
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=mailbox"><i class="fa fa-envelope"></i><span>Mes Messages</span></a>
+                                </li>
+                                <li>
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=tasks"><i class="fa fa-tasks"></i><span>Mes Taches</span></a>
+                                </li>
+                                <li>
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.php?action=lock"><i class="fa fa-lock"></i><span>Verrouiller l'application</span></a>
+                                </li>
+                                <li>
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.php?action=logout"><i class="fa fa-sign-out"></i><span>Déconnexion</span></a>
+                                </li>
+                            </ul>
+                        <?php else: ?>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>index.php?view=profil"><i class="fa fa-user"></i><span>Mon Profil</span></a>
+                                </li>
+                                <li>
+                                    <a href="<?= $constante->getUrl(array(), false, false); ?>controller/user.php?action=logout"><i class="fa fa-sign-out"></i><span>Déconnexion</span></a>
+                                </li>
+                            </ul>
+                        <?php endif; ?>
                     </li>
                     <!-- END USER DROPDOWN -->
                     <!-- CHAT BAR ICON -->
