@@ -63,7 +63,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
         <meta charset="UTF-8">
         <title>Document</title>
     </head>
-    <body style="background-color: #1c94c4; color: #fff;">
+    <body>
     <table cellspacing="0" cellpadding="0" width="600" class="w320" style="border-radius: 4px;overflow: hidden;">
         <tr>
             <td align="center" valign="top">
