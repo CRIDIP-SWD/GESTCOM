@@ -174,7 +174,7 @@
 <?php if(isset($_GET['sub']) && $_GET['sub'] == 'view'): ?>
     <?php
     $num_client = $_GET['num_client'];
-    $sql_client = $DB->query("SELECT * FROM client WHERE num_client = :num_client", array("num_client"  => $num_client));
+    $sql_client = $DB->query("SELECT * FROM client, conf_annuaire_cat_client WHERE client.cat_client = conf_annuaire_cat_client.idcatclient AND num_client = :num_client", array("num_client"  => $num_client));
     $client = $sql_client[0];
     $sql_user_c = $DB->query("SELECT * FROM users WHERE idclient = :idclient", array("idclient" => $client->idclient));
     $user_c = $sql_user_c[0];
@@ -418,7 +418,16 @@
                         </div>
                         <div class="tab-pane fade" id="client_info">
                             <div class="row">
-                                <div class="col-md-8"></div>
+                                <div class="col-md-8">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td style="font-weight: bold;">Catégorie Client</td>
+                                                <td><?= $client->libelle_cat_client; ?></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                                 <div class="col-md-4 bg-gray-light">
                                     <h2>Comptabilité</h2>
                                     <div class="well"></div>
