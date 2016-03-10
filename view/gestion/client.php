@@ -661,7 +661,12 @@
                                         <table style="width: 100%;">
                                             <tr>
                                                 <td style="font-weight: bold;width: 50%;">Total facturation:</td>
-                                                <td><?= $client_cls->total_facture($client->idclient); ?></td>
+                                                <td>
+                                                    <?php
+                                                    $total_facture = $client_cls->total_facture($client->idclient);
+                                                    var_dump($total_facture);
+                                                    ?>
+                                                </td>
                                             </tr>
                                         </table>
                                     </div>
