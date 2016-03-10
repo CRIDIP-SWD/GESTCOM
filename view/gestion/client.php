@@ -504,16 +504,26 @@
                                     <h3>Devis en cours</h3>
                                     <div class="row">
                                         <div class="col-md-8">
-                                            <table class="table table-bordered">
+                                            <table class="table dataTable" id="devis_cours">
                                                 <thead>
-                                                <tr>
-                                                    <th>Date</th>
-                                                    <th>Document</th>
-                                                    <th>Etat</th>
-                                                    <th>Prix</th>
-                                                    <th></th>
-                                                </tr>
+                                                    <tr>
+                                                        <th>Date</th>
+                                                        <th>Document</th>
+                                                        <th>Etat</th>
+                                                        <th>Prix</th>
+                                                        <th></th>
+                                                    </tr>
                                                 </thead>
+                                                <tbody>
+                                                <?php
+                                                $sql_devis = $DB->query("SELECT * FROM devis WHERE etat_devis = 0 OR etat_devis = 1 AND idclient = :idclient", array("idclient" => $client->idclient));
+                                                foreach($sql_devis as $devis):
+                                                ?>
+                                                    <tr>
+
+                                                    </tr>
+                                                <?php endforeach; ?>
+                                                </tbody>
                                             </table>
                                         </div>
                                     </div>
