@@ -30,6 +30,24 @@
             url: "//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json"
         }
     });
+    $('#commande_cours').dataTable({
+        "aoColumnDefs": [{
+            "bSortable": false,
+            "aTargets": [0]
+        }],
+        language:{
+            url: "//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json"
+        }
+    });
+    $('#facture_cours').dataTable({
+        "aoColumnDefs": [{
+            "bSortable": false,
+            "aTargets": [0]
+        }],
+        language:{
+            url: "//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json"
+        }
+    });
 
     //AJAX
     $('.table').on('click', '#supp-client', function(e){

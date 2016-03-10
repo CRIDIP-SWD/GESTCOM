@@ -551,6 +551,106 @@
                                             </table>
                                         </div>
                                     </div>
+                                    <h3>Commande en cours</h3>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <table class="table dataTable" id="commande_cours">
+                                                <thead>
+                                                <tr>
+                                                    <th>Date</th>
+                                                    <th>Document</th>
+                                                    <th>Etat</th>
+                                                    <th>Prix</th>
+                                                    <th></th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <?php
+                                                $sql_commande = $DB->query("SELECT * FROM commande WHERE etat_commande = 0 AND idclient = :idclient", array("idclient" => $client->idclient));
+                                                foreach($sql_commande as $commande):
+                                                    ?>
+                                                    <tr>
+                                                        <td><?= $date_format->formatage("d/m/Y", $commande->date_commande); ?></td>
+                                                        <td><?= $commande->num_commande; ?></td>
+                                                        <td>
+                                                            <?php
+                                                            switch($commande->etat_commande){
+                                                                case 0:
+                                                                    echo '<span class="label label-default"><i class="fa fa-pencil"></i> Saisie en cours</span>';
+                                                                    break;
+                                                                case 1:
+                                                                    echo '<span class="label label-warning"><i class="fa fa-spinner fa-spin"></i> En attente de réponse</span>';
+                                                                    break;
+                                                                case 2:
+                                                                    echo '<span class="label label-success"><i class="fa fa-check"></i>A Valider</span>';
+                                                                    break;
+                                                                case 3:
+                                                                    echo '<span class="label label-primary"><i class="fa fa-exchange"></i> Transférer</span>';
+                                                                    break;
+                                                            }
+                                                            ?>
+                                                        </td>
+                                                        <td><?= $fonction->number_decimal($commande->total_commande); ?></td>
+                                                        <td><a href=""><i class="fa fa-file-pdf-o"></i></a></td>
+                                                    </tr>
+                                                <?php endforeach; ?>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <h3>Facture en cours</h3>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <table class="table dataTable" id="facture_cours">
+                                                <thead>
+                                                <tr>
+                                                    <th>Date</th>
+                                                    <th>Document</th>
+                                                    <th>Etat</th>
+                                                    <th>Prix</th>
+                                                    <th></th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <?php
+                                                $sql_facture = $DB->query("SELECT * FROM facture WHERE etat_facture = 0 AND idclient = :idclient", array("idclient" => $client->idclient));
+                                                foreach($sql_facture as $facture):
+                                                    ?>
+                                                    <tr>
+                                                        <td><?= $date_format->formatage("d/m/Y", $facture->date_facture); ?></td>
+                                                        <td><?= $facture->num_facture; ?></td>
+                                                        <td>
+                                                            <?php
+                                                            switch($facture->etat_facture){
+                                                                case 0:
+                                                                    echo '<span class="label label-default"><i class="fa fa-pencil"></i> Saisie en cours</span>';
+                                                                    break;
+                                                                case 1:
+                                                                    echo '<span class="label label-warning"><i class="fa fa-spinner fa-spin"></i> En attente de Réglement</span>';
+                                                                    break;
+                                                                case 2:
+                                                                    echo '<span class="label label-warning"><i class="fa fa-money"></i> Partiellement Payer</span>';
+                                                                    break;
+                                                                case 3:
+                                                                    echo '<span class="label label-success"><i class="fa fa-check"></i> Facture Payé</span>';
+                                                                    break;
+                                                                case 4:
+                                                                    echo '<span class="label label-warning"><i class="fa fa-exclamation-triangle"></i> En retard</span>';
+                                                                    break;
+                                                                case 5:
+                                                                    echo '<span class="label label-danger"><i class="fa fa-exclamation-triangle"></i> Contentieux</span>';
+                                                                    break;
+                                                            }
+                                                            ?>
+                                                        </td>
+                                                        <td><?= $fonction->number_decimal($facture->total_facture); ?></td>
+                                                        <td><a href=""><i class="fa fa-file-pdf-o"></i></a></td>
+                                                    </tr>
+                                                <?php endforeach; ?>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-md-4 bg-gray-light">
                                     <h2>Comptabilité</h2>
