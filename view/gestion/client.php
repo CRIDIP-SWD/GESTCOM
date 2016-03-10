@@ -500,6 +500,19 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <h2>Document en cours:</h2>
+                                    <h3>Devis en cours</h3>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Document</th>
+                                                <th>Etat</th>
+                                                <th>Prix</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                    </table>
                                 </div>
                                 <div class="col-md-4 bg-gray-light">
                                     <h2>Comptabilité</h2>
