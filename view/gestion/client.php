@@ -338,6 +338,8 @@
                                                 <td style="width: 50%;"><?= $client->mail_client; ?></td>
                                             </tr>
                                         </table>
+                                        <a class="btn btn-icon btn-primary"><i class="fa fa-phone"></i></a>
+                                        <a class="btn btn-icon btn-default"><i class="fa fa-enveloppe"></i></a>
                                     </div>
                                     <h2>Adresse</h2>
                                 </div>
