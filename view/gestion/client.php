@@ -206,7 +206,128 @@
                         <div class="tab-pane fade active in" id="info">
                             <div class="row">
                                 <div class="col-md-9">
-
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <strong>Nom:</strong> <?= $client->nom_client; ?> <?= $client->prenom_client; ?>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <hr />
+                                    <table class="table dataTable" id="document_client">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Document</th>
+                                                <th>Etat</th>
+                                                <th>Montant</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php
+                                        $sql_devis = $DB->query("SELECT * FROM devis WHERE idclient = :idclient ORDER BY date_devis ASC", array("idclient" => $client->idclient));
+                                        foreach($sql_devis as $devis):
+                                        ?>
+                                            <tr>
+                                                <td><?= $date_format->formatage("d-m-Y", $devis->date_devis); ?></td>
+                                                <td>Devis Client - <?= $devis->num_devis; ?></td>
+                                                <td>
+                                                    <?php
+                                                    switch($devis->etat_devis){
+                                                        case 0:
+                                                            echo '<span class="label label-default"><i class="fa fa-pencil"></i> Saisie en cours</span>';
+                                                            break;
+                                                        case 1:
+                                                            echo '<span class="label label-warning"><i class="fa fa-spinner fa-spin"></i> En attente de réponse</span>';
+                                                            break;
+                                                        case 2:
+                                                            echo '<span class="label label-success"><i class="fa fa-check"></i> Valider</span>';
+                                                            break;
+                                                        case 3:
+                                                            echo '<span class="label label-danger"><i class="fa fa-remove"></i> Refuser</span>';
+                                                            break;
+                                                        case 4:
+                                                            echo '<span class="label label-primary"><i class="fa fa-exchange"></i> Transférer</span>';
+                                                            break;
+                                                    }
+                                                    ?>
+                                                </td>
+                                                <td>
+                                                    <a href=""><i class="fa fa-file-pdf-o"></i></a>
+                                                </td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                        <?php
+                                        $sql_commande = $DB->query("SELECT * FROM commande WHERE idclient = :idclient ORDER BY date_commande ASC", array("idclient" => $client->idclient));
+                                        foreach($sql_commande as $commande):
+                                            ?>
+                                            <tr>
+                                                <td><?= $date_format->formatage("d-m-Y", $commande->date_commande); ?></td>
+                                                <td>Commande Client - <?= $commande->num_commande; ?></td>
+                                                <td>
+                                                    <?php
+                                                    switch($commande->etat_commande){
+                                                        case 0:
+                                                            echo '<span class="label label-default"><i class="fa fa-pencil"></i> Saisie en cours</span>';
+                                                            break;
+                                                        case 1:
+                                                            echo '<span class="label label-warning"><i class="fa fa-spinner fa-spin"></i> En attente de réponse</span>';
+                                                            break;
+                                                        case 2:
+                                                            echo '<span class="label label-success"><i class="fa fa-check"></i>A Valider</span>';
+                                                            break;
+                                                        case 3:
+                                                            echo '<span class="label label-primary"><i class="fa fa-exchange"></i> Transférer</span>';
+                                                            break;
+                                                    }
+                                                    ?>
+                                                </td>
+                                                <td>
+                                                    <a href=""><i class="fa fa-file-pdf-o"></i></a>
+                                                </td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                        <?php
+                                        $sql_facture = $DB->query("SELECT * FROM facture WHERE idclient = :idclient ORDER BY date_facture ASC", array("idclient" => $client->idclient));
+                                        foreach($sql_facture as $facture):
+                                            ?>
+                                            <tr>
+                                                <td><?= $date_format->formatage("d-m-Y", $facture->date_facture); ?></td>
+                                                <td>Facture Client - <?= $facture->num_facture; ?></td>
+                                                <td>
+                                                    <?php
+                                                    switch($facture->etat_facture){
+                                                        case 0:
+                                                            echo '<span class="label label-default"><i class="fa fa-pencil"></i> Saisie en cours</span>';
+                                                            break;
+                                                        case 1:
+                                                            echo '<span class="label label-warning"><i class="fa fa-spinner fa-spin"></i> En attente de Réglement</span>';
+                                                            break;
+                                                        case 2:
+                                                            echo '<span class="label label-warning"><i class="fa fa-money"></i> Partiellement Payer</span>';
+                                                            break;
+                                                        case 3:
+                                                            echo '<span class="label label-success"><i class="fa fa-check"></i> Facture Payé</span>';
+                                                            break;
+                                                        case 4:
+                                                            echo '<span class="label label-warning"><i class="fa fa-exclamation-triangle"></i> En retard</span>';
+                                                            break;
+                                                        case 5:
+                                                            echo '<span class="label label-danger"><i class="fa fa-exclamation-triangle"></i> Contentieux</span>';
+                                                            break;
+                                                    }
+                                                    ?>
+                                                </td>
+                                                <td>
+                                                    <a href=""><i class="fa fa-file-pdf-o"></i></a>
+                                                </td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div class="col-md-3 bg-gray">
 
