@@ -15,9 +15,10 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     $tel_client = substr($_POST['tel_client'], 5);
     $mail_client = $_POST['mail_client'];
     $num_client = "CLS".rand(1000000,9999999);
+    $cat_client = $_POST['cat_client'];
 
-    $client_i = $DB->execute("INSERT INTO client(idclient, nom_client, prenom_client, adresse_client, code_postal, ville_client, tel_client, mail_client, num_client) VALUES
-                            (NULL, :nom_client, :prenom_client, :adresse_client, :code_postal, :ville_client, :tel_client, :mail_client, :num_client)", array(
+    $client_i = $DB->execute("INSERT INTO client(idclient, nom_client, prenom_client, adresse_client, code_postal, ville_client, tel_client, mail_client, num_client, cat_client) VALUES
+                            (NULL, :nom_client, :prenom_client, :adresse_client, :code_postal, :ville_client, :tel_client, :mail_client, :num_client, :cat_client)", array(
         "nom_client"    => $nom_client,
         "prenom_client" => $prenom_client,
         "adresse_client"=> $adresse_client,
@@ -25,7 +26,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
         "ville_client"  => $ville_client,
         "tel_client"    => $tel_client,
         "mail_client"   => $mail_client,
-        "num_client"    => $num_client
+        "num_client"    => $num_client,
+        "cat_client"    => $cat_client
     ));
 
     $user_q = $DB->query("SELECT * FROM client WHERE num_client = :num_client", array("num_client" => $num_client));

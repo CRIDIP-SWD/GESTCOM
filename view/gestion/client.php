@@ -70,6 +70,19 @@
                 <form class="form-horizontal" action="../../controller/gestion/client.php" method="post">
                     <div class="modal-body">
                         <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Catégorie de Client</label>
+                            <div class="col-md-9">
+                                <select id="client" class="form-group" data-search="true" name="cat_client" data-placeholder="Selection la catégorie du client">
+                                    <?php
+                                    $sql_cat = $DB->query("SELECT * FROM conf_annuaire_cat_client");
+                                    foreach($sql_cat as $cat):
+                                    ?>
+                                    <option value="<?= $cat->idcatclient; ?>"><?= $cat->libelle_cat_client; ?> | Encours: <?= $fonction->number_decimal($cat->encours); ?> | Délai Réglement: <?= $cat->delai_rglt; ?> Jours </option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label class="control-label col-md-3" for="client">Nom</label>
                             <div class="col-md-3">
                                 <input type="text" id="client" class="form-control" name="nom_client">
@@ -140,6 +153,40 @@
             <div class="col-md-3 col-md-offset-9">
                 <div class="pull-right">
                     <a class="btn btn-primary btn-sm" href="index.php?view=client"><i class="fa fa-arrow-circle-left"></i> Retour à la liste des clients</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel">
+                <div class="panel-header panel-controls">
+                    <h3><strong>Light</strong> style</h3>
+                </div>
+                <div class="panel-content">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#info" data-toggle="tab">Information général</a></li>
+                        <li class=""><a href="#client" data-toggle="tab">Client</a></li>
+                        <li><a href="#communication" data-toggle="tab">Communication</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade active in" id="info">
+                            <div class="row">
+                                <div class="col-md-9">
+
+                                </div>
+                                <div class="col-md-3 bg-gray">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab1_2">
+                            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                        </div>
+                        <div class="tab-pane fade" id="tab1_3">
+                            <p>Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
