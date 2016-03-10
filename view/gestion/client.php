@@ -419,11 +419,11 @@
                         <div class="tab-pane fade" id="client_info">
                             <div class="row">
                                 <div class="col-md-8">
-                                    <table class="table">
+                                    <table style="width: 100%;">
                                         <tbody>
                                             <tr>
-                                                <td style="font-weight: bold;">Catégorie Client</td>
-                                                <td><?= $client->libelle_cat_client; ?></td>
+                                                <td style="font-weight: bold;width: 50%;">Catégorie Client</td>
+                                                <td style="width: 50%;"><?= $client->libelle_cat_client; ?></td>
                                             </tr>
                                         </tbody>
                                     </table>
