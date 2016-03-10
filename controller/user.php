@@ -5,10 +5,9 @@ use Otp\Otp;
 
 if(isset($_POST['action']) && $_POST['action'] == 'login')
 {
-    require "../application/classe.php";
-
 
     if(isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
+        require "../application/classe.php";
         $username = $_POST['username'];
         $password = $_POST['password'];
         if(isset($_POST['remember'])){
