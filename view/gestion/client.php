@@ -664,7 +664,7 @@
                                                 <td>
                                                     <?php
                                                     $total_facture = $client_cls->total_facture($client->idclient);
-                                                    var_dump($total_facture);
+                                                    echo $fonction->number_decimal($total_facture);
                                                     ?>
                                                 </td>
                                             </tr>
