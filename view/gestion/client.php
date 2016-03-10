@@ -178,6 +178,8 @@
     $client = $sql_client[0];
     $sql_user_c = $DB->query("SELECT * FROM users WHERE idclient = :idclient", array("idclient" => $client->idclient));
     $user_c = $sql_user_c[0];
+    $sql_info = $DB->query("SELECT * FROM client_info_default WHERE idclient = :idclient", array("idclient" => $client->idclient));
+    $info = $sql_info[0];
     ?>
     <div class="header">
         <h2>Client - <strong><?= $client->nom_client; ?> <?= $client->prenom_client; ?></strong></h2>
@@ -424,6 +426,77 @@
                                             <tr>
                                                 <td style="font-weight: bold;width: 50%;">Catégorie Client</td>
                                                 <td style="width: 50%;"><?= $client->libelle_cat_client; ?></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold;width: 50%;">Type de facturation</td>
+                                                <td style="width: 50%;">
+                                                    <?php
+                                                    switch($info->type_facturation){
+                                                        case 1:
+                                                            echo "Immédiate";
+                                                            break;
+                                                        case 2:
+                                                            echo "Quotidien";
+                                                            break;
+                                                        case 3:
+                                                            echo "Hebdomadaire";
+                                                            break;
+                                                        case 4:
+                                                            echo "Bimensuel";
+                                                            break;
+                                                        case 5:
+                                                            echo "Mensuel";
+                                                            break;
+                                                        case 6:
+                                                            echo "Trimestriel";
+                                                            break;
+                                                        case 7:
+                                                            echo "Semestriel";
+                                                            break;
+                                                        case 8:
+                                                            echo "Annuel";
+                                                            break;
+                                                    }
+                                                    ?>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold;width: 50%;">Délai de réglement</td>
+                                                <td style="width: 50%;"><?= $info->delai_reglement; ?> Jours</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold;width: 50%;">Réglement par défault:</td>
+                                                <td style="width: 50%;">
+                                                    <?php
+                                                    switch($info->type_reglement){
+                                                        case 1:
+                                                            echo "Espèce";
+                                                            break;
+                                                        case 2:
+                                                            echo "Chèque";
+                                                            break;
+                                                        case 3:
+                                                            echo "Carte bancaire - PAYPAL";
+                                                            break;
+                                                        case 4:
+                                                            echo "Virement bancaire";
+                                                            break;
+                                                        case 5:
+                                                            echo "Traite Non Acceptée";
+                                                            break;
+                                                        case 6:
+                                                            echo "Prélèvement Bancaire";
+                                                            break;
+                                                        case 7:
+                                                            echo "Traite Acceptée";
+                                                            break;
+                                                    }
+                                                    ?>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold;width: 50%;">Encours</td>
+                                                <td style="width: 50%;"><?= $fonction->number_decimal($info->encours); ?></td>
                                             </tr>
                                         </tbody>
                                     </table>
