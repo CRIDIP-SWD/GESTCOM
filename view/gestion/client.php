@@ -520,7 +520,31 @@
                                                 foreach($sql_devis as $devis):
                                                 ?>
                                                     <tr>
-
+                                                        <td><?= $date_format->formatage("d/m/Y", $devis->date_devis); ?></td>
+                                                        <td><?= $devis->num_devis; ?></td>
+                                                        <td>
+                                                            <?php
+                                                            switch($devis->etat_devis){
+                                                                case 0:
+                                                                    echo '<span class="label label-default"><i class="fa fa-pencil"></i> Saisie en cours</span>';
+                                                                    break;
+                                                                case 1:
+                                                                    echo '<span class="label label-warning"><i class="fa fa-spinner fa-spin"></i> En attente de réponse</span>';
+                                                                    break;
+                                                                case 2:
+                                                                    echo '<span class="label label-success"><i class="fa fa-check"></i> Valider</span>';
+                                                                    break;
+                                                                case 3:
+                                                                    echo '<span class="label label-danger"><i class="fa fa-remove"></i> Refuser</span>';
+                                                                    break;
+                                                                case 4:
+                                                                    echo '<span class="label label-primary"><i class="fa fa-exchange"></i> Transférer</span>';
+                                                                    break;
+                                                            }
+                                                            ?>
+                                                        </td>
+                                                        <td><?= $fonction->number_decimal($devis->total_devis); ?></td>
+                                                        <td><a href=""><i class="fa fa-file-pdf-o"></i></a></td>
                                                     </tr>
                                                 <?php endforeach; ?>
                                                 </tbody>
