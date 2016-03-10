@@ -70,19 +70,6 @@
                 <form class="form-horizontal" action="../../controller/gestion/client.php" method="post">
                     <div class="modal-body">
                         <div class="form-group">
-                            <label class="control-label col-md-3" for="client">Catégorie de Client</label>
-                            <div class="col-md-9">
-                                <select id="client" class="form-group" data-search="true" name="cat_client" data-placeholder="Selection la catégorie du client">
-                                    <?php
-                                    $sql_cat = $DB->query("SELECT * FROM conf_annuaire_cat_client");
-                                    foreach($sql_cat as $cat):
-                                    ?>
-                                    <option value="<?= $cat->idcatclient; ?>"><?= $cat->libelle_cat_client; ?> | Encours: <?= $fonction->number_decimal($cat->encours); ?> | Délai Réglement: <?= $cat->delai_rglt; ?> Jours </option>
-                                    <?php endforeach; ?>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
                             <label class="control-label col-md-3" for="client">Nom</label>
                             <div class="col-md-3">
                                 <input type="text" id="client" class="form-control" name="nom_client">
@@ -120,6 +107,52 @@
                             <div class="col-md-9 prepend-icon">
                                 <input type="text" id="client" class="form-control" name="mail_client">
                                 <i class="fa fa-envelope"></i>
+                            </div>
+                        </div>
+                        <hr />
+                        <h2>Information Avancé</h2>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Catégorie de Client</label>
+                            <div class="col-md-9">
+                                <select id="client" class="form-group" data-search="true" name="cat_client" data-placeholder="Selection la catégorie du client">
+                                    <?php
+                                    $sql_cat = $DB->query("SELECT * FROM conf_annuaire_cat_client");
+                                    foreach($sql_cat as $cat):
+                                        ?>
+                                        <option value="<?= $cat->idcatclient; ?>"><?= $cat->libelle_cat_client; ?> | Encours: <?= $fonction->number_decimal($cat->encours); ?> | Délai Réglement: <?= $cat->delai_rglt; ?> Jours </option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Type de facturation</label>
+                            <div class="col-md-9">
+                                <select id="client" class="form-group" data-search="true" name="type_facturation" data-placeholder="Selection la type de facturation">
+                                    <option value=""></option>
+                                    <option value="1">Immédiate</option>
+                                    <option value="2">Quotidien</option>
+                                    <option value="3">Hebdomadaire</option>
+                                    <option value="4">Bimensuel</option>
+                                    <option value="5">Mensuel</option>
+                                    <option value="6">Trimestriel</option>
+                                    <option value="7">Semestriel</option>
+                                    <option value="8">Annuel</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Type de facturation</label>
+                            <div class="col-md-9">
+                                <select id="client" class="form-group" data-search="true" name="type_reglement" data-placeholder="Selection la type de Réglement par défault">
+                                    <option value=""></option>
+                                    <option value="1">Espèce</option>
+                                    <option value="2">Chèque</option>
+                                    <option value="3">Carte Bancaire</option>
+                                    <option value="4">Virement Bancaire</option>
+                                    <option value="5">Traite Non Acceptée</option>
+                                    <option value="6">Prélèvement bancaire</option>
+                                    <option value="7">Traite Acceptée</option>
+                                </select>
                             </div>
                         </div>
                     </div>

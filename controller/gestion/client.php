@@ -16,6 +16,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     $mail_client = $_POST['mail_client'];
     $num_client = "CLS".rand(1000000,9999999);
     $cat_client = $_POST['cat_client'];
+    $type_facturation = $_POST['type_facturation'];
+    $type_reglement = $_POST['type_reglement'];
 
     $client_i = $DB->execute("INSERT INTO client(idclient, nom_client, prenom_client, adresse_client, code_postal, ville_client, tel_client, mail_client, num_client, cat_client) VALUES
                             (NULL, :nom_client, :prenom_client, :adresse_client, :code_postal, :ville_client, :tel_client, :mail_client, :num_client, :cat_client)", array(
@@ -31,12 +33,22 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     ));
 
     $user_q = $DB->query("SELECT * FROM client WHERE num_client = :num_client", array("num_client" => $num_client));
+    $conf_client = $DB->query("SELECT * FROM conf_annuaire_cat_client WHERE idcatclient = :idcatclient", array("idcatclient" => $cat_client));
 
     $username = $fonction->gen_username($nom_client, $prenom_client);
     $pass = $fonction->gen_password();
     $encrypt = new encrypt($username, $pass);
     $pass_crypt = $encrypt->encrypt();
     $idclient = $user_q[0]->idclient;
+
+    $user_info_i = $DB->execute("INSERT INTO client_info_default(idclientinfo, idclient, type_facturation, type_reglement, encours, delai_reglement) VALUES
+        (NULL, :idclient, :type_facturation, :type_reglement, :encours, :delai_reglement)", array(
+        "idclient"  => $idclient,
+        "type_facturation"  => $type_facturation,
+        "type_reglement"    => $type_reglement,
+        "encours"           => $conf_client[0]->encours,
+        "delai_reglement"   => $conf_client[0]->delai_rglt
+    ));
 
 
     $user_client_insert = $DB->execute("INSERT INTO users(iduser, groupe, username, password, nom_user, prenom_user, connect, last_connect, poste_user, date_naissance, num_tel_poste, commentaire, totp, totp_token, idclient) VALUES
