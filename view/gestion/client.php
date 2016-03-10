@@ -201,7 +201,7 @@
                     <div class="tab-content">
                         <div class="tab-pane fade active in" id="info">
                             <div class="row">
-                                <div class="col-md-9">
+                                <div class="col-md-8">
                                     <table class="table table-bordered">
                                         <tbody>
                                             <tr>
@@ -325,7 +325,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="col-md-3 bg-gray">
+                                <div class="col-md-4 bg-gray">
                                     <h2>Coordonnée</h2>
                                     <div class="well">
                                         <table style="width: 100%; margin-bottom: 25px;">
