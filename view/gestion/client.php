@@ -325,7 +325,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="col-md-4 bg-gray">
+                                <div class="col-md-4 bg-gray-light">
                                     <h2>Coordonnée</h2>
                                     <div class="well">
                                         <table style="width: 100%; margin-bottom: 25px;">
