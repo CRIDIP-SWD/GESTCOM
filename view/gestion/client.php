@@ -368,7 +368,7 @@
                                                 <td style="width: 50%;"><?= $client->ville_client; ?></td>
                                             </tr>
                                         </table>
-                                        <a class="btn btn-icon btn-primary"><i class="fa fa-map-marker"></i> Itinéraire</a>
+                                        <a class="btn btn-primary"><i class="fa fa-map-marker"></i> Itinéraire</a>
                                     </div>
                                     <h2>Espace Web</h2>
                                     <div class="well">
