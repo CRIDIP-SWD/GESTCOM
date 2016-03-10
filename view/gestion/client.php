@@ -252,6 +252,9 @@
                                                     ?>
                                                 </td>
                                                 <td>
+                                                    <?= $fonction->number_decimal($devis->total_devis); ?>
+                                                </td>
+                                                <td>
                                                     <a href=""><i class="fa fa-file-pdf-o"></i></a>
                                                 </td>
                                             </tr>
@@ -280,6 +283,9 @@
                                                             break;
                                                     }
                                                     ?>
+                                                </td>
+                                                <td>
+                                                    <?= $fonction->number_decimal($commande->total_commande); ?>
                                                 </td>
                                                 <td>
                                                     <a href=""><i class="fa fa-file-pdf-o"></i></a>
@@ -316,6 +322,9 @@
                                                             break;
                                                     }
                                                     ?>
+                                                </td>
+                                                <td>
+                                                    <?= $fonction->number_decimal($facture->total_facture); ?>
                                                 </td>
                                                 <td>
                                                     <a href=""><i class="fa fa-file-pdf-o"></i></a>
