@@ -186,6 +186,7 @@
             <div class="col-md-3 col-md-offset-9">
                 <div class="pull-right">
                     <a class="btn btn-primary btn-sm" href="index.php?view=client"><i class="fa fa-arrow-circle-left"></i> Retour à la liste des clients</a>
+                    <a class="btn btn-default btn-sm" href=""><i class="fa fa-print"></i> Imprimer la fiche client</a>
                 </div>
             </div>
         </div>
@@ -193,9 +194,6 @@
     <div class="row">
         <div class="col-md-12">
             <div class="panel">
-                <div class="panel-header panel-controls">
-                    <h3><strong>Light</strong> style</h3>
-                </div>
                 <div class="panel-content">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#info" data-toggle="tab">Information général</a></li>
