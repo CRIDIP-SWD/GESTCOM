@@ -17,6 +17,8 @@ class client
     {
         $DB = new db();
 
-        return $DB->query("SELECT SUM(total_facture) FROM facture WHERE idclient = :idclient", array("idclient" => $idclient));
+        $sm = $DB->query("SELECT SUM(total_facture) FROM facture WHERE idclient = :idclient", array("idclient" => $idclient));
+
+        return $sm[0];
     }
 }
