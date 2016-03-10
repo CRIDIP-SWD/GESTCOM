@@ -125,6 +125,17 @@
         </div>
     </div>
 <?php endif; ?>
+<?php if(isset($_GET['sub']) && $_GET['sub'] == 'view'): ?>
+    <?php
+    $num_client = $_GET['num_client'];
+    $sql_client = $DB->query("SELECT * FROM client WHERE num_client = :num_client", array("num_client"  => $num_client));
+    $client = $sql_client[0];
+    ?>
+    <div class="header">
+        <h2>Client - <strong><?= $client->nom_client; ?> <?= $client->prenom_client; ?></strong></h2>
+        <?= $insert->breadcumb("client", $client->nom_client.' '.$client->prenom_client, ""); ?>
+    </div>
+<?php endif; ?>
 
 
 <script src="<?= $constante->getUrl(array('plugins/')); ?>datatables/jquery.dataTables.min.js"></script>
