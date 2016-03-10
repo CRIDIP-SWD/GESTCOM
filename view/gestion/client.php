@@ -183,11 +183,9 @@
     </div>
     <div class="row">
         <div class="col-md-12 well">
-            <div class="col-md-3 col-md-offset-9">
-                <div class="pull-right">
-                    <a class="btn btn-primary btn-sm" href="index.php?view=client"><i class="fa fa-arrow-circle-left"></i> Retour à la liste des clients</a>
-                    <a class="btn btn-default btn-sm" href=""><i class="fa fa-print"></i> Imprimer la fiche client</a>
-                </div>
+            <div class="pull-right">
+                <a class="btn btn-primary btn-sm" href="index.php?view=client"><i class="fa fa-arrow-circle-left"></i> Retour à la liste des clients</a>
+                <a class="btn btn-default btn-sm" href=""><i class="fa fa-print"></i> Imprimer la fiche client</a>
             </div>
         </div>
     </div>
@@ -328,16 +326,17 @@
                                     </table>
                                 </div>
                                 <div class="col-md-3 bg-gray">
-                                    <ul class="nav nav-tabs">
-                                        <li class="active"><a href="#coordonnee" data-toggle="tab">Coordonnées</a> </li>
-                                        <li><a href="#adresse" data-toggle="tab">Adresse</a> </li>
-                                        <li><a href="#web" data-toggle="tab">Accès Portail</a> </li>
-                                    </ul>
-                                    <div class="tab-content">
-                                        <div class="tab-pane fade active in" id="coordonnee">
-                                            
-                                        </div>
-                                    </div>
+                                    <h2>Coordonnée</h2>
+                                    <table class="table">
+                                        <tr>
+                                            <td style="font-weight: bold;"><i class="fa fa-phone"></i> Téléphone</td>
+                                            <td>0<?= $client->tel_client; ?></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-weight: bold;"><i class="fa fa-envelope"></i> E-mail</td>
+                                            <td><?= $client->mail_client; ?></td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                         </div>

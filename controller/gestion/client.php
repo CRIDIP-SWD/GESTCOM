@@ -12,7 +12,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'add_client')
     $adresse_client = htmlentities(addslashes($_POST['adresse_client']));
     $code_postal = $_POST['code_postal'];
     $ville_client = htmlentities(addslashes($_POST['ville_client']));
-    $tel_client = substr($_POST['tel_client'], 5);
+    $tel_client = substr($_POST['tel_client'], 3);
     $mail_client = $_POST['mail_client'];
     $num_client = "CLS".rand(1000000,9999999);
     $cat_client = $_POST['cat_client'];
