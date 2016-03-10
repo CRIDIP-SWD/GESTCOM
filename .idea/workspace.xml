@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/view/calendar.php" line="265" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e5456585-594a-4b94-b7fe-f6e144b328ee" name="Default" comment="GESTCOM V1.0.0" />
     <ignored path="GESTCOM.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -37,6 +35,10 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - gc@vps116895.ovh.net" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -44,50 +46,7 @@
     <favorites_list name="GESTCOM" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9594756">
-              <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
-              <folding>
-                <element signature="e#2711#2758#0#HTML" expanded="true" />
-                <element signature="e#2828#2872#0#HTML" expanded="true" />
-                <element signature="e#3081#3114#0#HTML" expanded="true" />
-                <element signature="e#3286#3362#0#HTML" expanded="true" />
-                <element signature="e#3750#3829#0#HTML" expanded="true" />
-                <element signature="e#4206#4238#0#HTML" expanded="true" />
-                <element signature="e#4394#4432#0#HTML" expanded="true" />
-                <element signature="e#4781#4814#0#HTML" expanded="true" />
-                <element signature="e#4892#4914#0#HTML" expanded="true" />
-                <element signature="e#5127#5223#0#HTML" expanded="true" />
-                <element signature="e#5482#5505#0#HTML" expanded="true" />
-                <element signature="e#5647#5687#0#HTML" expanded="true" />
-                <element signature="e#6254#6276#0#HTML" expanded="true" />
-                <element signature="e#6401#6442#0#HTML" expanded="true" />
-                <element signature="e#7127#7488#0#HTML" expanded="true" />
-                <marker date="1457548952411" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
-                <marker date="1457548952411" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
-                <marker date="1457548952411" expanded="true" signature="1720:2034" placeholder="INSERT INTO users... " />
-                <marker date="1457548952411" expanded="true" signature="6755:6800" placeholder="..." />
-                <marker date="1457548952411" expanded="true" signature="6832:6998" placeholder="..." />
-                <marker date="1457548952411" expanded="true" signature="6953:6998" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mail_general.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/include/template/mail_general.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.269231">
-              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -198,7 +157,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -259,29 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GESTCOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="gestion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,7 +256,52 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="GESTCOM">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="GESTCOM">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="GESTCOM">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="copyright">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,12 +367,6 @@
       <created>1452559122402</created>
       <option name="number" value="Default" />
       <updated>1452559122402</updated>
-    </task>
-    <task id="LOCAL-00638" summary="GESTCOM V1.0.0">
-      <created>1457448498299</created>
-      <option name="number" value="00638" />
-      <option name="project" value="LOCAL" />
-      <updated>1457448498299</updated>
     </task>
     <task id="LOCAL-00639" summary="GESTCOM V1.0.0">
       <created>1457449265933</created>
@@ -680,14 +656,20 @@
       <option name="project" value="LOCAL" />
       <updated>1457545040600</updated>
     </task>
-    <option name="localTasksCounter" value="687" />
+    <task id="LOCAL-00687" summary="GESTCOM V1.0.0">
+      <created>1457616236557</created>
+      <option name="number" value="00687" />
+      <option name="project" value="LOCAL" />
+      <updated>1457616236558</updated>
+    </task>
+    <option name="localTasksCounter" value="688" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19376528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19621027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1008,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8581645">
           <caret line="290" column="5" selection-start-line="286" selection-start-column="4" selection-end-line="290" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,9 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457427898090" expanded="true" signature="225:263" placeholder="SELECT * FRO... error" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,20 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457427898132" expanded="true" signature="294:562" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="338:539" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="367:455" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="705:1084" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="749:1061" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="778:866" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="895:978" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="1211:1702" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="1255:1679" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="1284:1372" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="1401:1484" placeholder="..." />
-            <marker date="1457427898132" expanded="true" signature="1513:1595" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.81764007">
           <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82479143">
           <caret line="86" column="9" selection-start-line="79" selection-start-column="8" selection-end-line="86" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18214285">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85833335">
           <caret line="65" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="65" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83809525">
           <caret line="60" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,7 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3440476">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,12 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6889154">
           <caret line="446" column="37" selection-start-line="446" selection-start-column="37" selection-end-line="446" selection-end-column="37" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1457545157391" expanded="true" signature="24604:24657" placeholder="SELECT * FRO... notif" />
-            <marker date="1457545157391" expanded="true" signature="27599:27721" placeholder="SELECT * FRO... collab_inbox" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,41 +1071,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/include/template/mail_general.php">
+    <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.269231">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        <state vertical-scroll-proportion="1.2892857">
+          <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/gestion/client.php">
+    <entry file="file://$PROJECT_DIR$/view/include/template/mail_general.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9594756">
-          <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
-          <folding>
-            <element signature="e#2711#2758#0#HTML" expanded="true" />
-            <element signature="e#2828#2872#0#HTML" expanded="true" />
-            <element signature="e#3081#3114#0#HTML" expanded="true" />
-            <element signature="e#3286#3362#0#HTML" expanded="true" />
-            <element signature="e#3750#3829#0#HTML" expanded="true" />
-            <element signature="e#4206#4238#0#HTML" expanded="true" />
-            <element signature="e#4394#4432#0#HTML" expanded="true" />
-            <element signature="e#4781#4814#0#HTML" expanded="true" />
-            <element signature="e#4892#4914#0#HTML" expanded="true" />
-            <element signature="e#5127#5223#0#HTML" expanded="true" />
-            <element signature="e#5482#5505#0#HTML" expanded="true" />
-            <element signature="e#5647#5687#0#HTML" expanded="true" />
-            <element signature="e#6254#6276#0#HTML" expanded="true" />
-            <element signature="e#6401#6442#0#HTML" expanded="true" />
-            <element signature="e#7127#7488#0#HTML" expanded="true" />
-            <marker date="1457548952411" expanded="true" signature="687:979" placeholder="INSERT INTO client... " />
-            <marker date="1457548952411" expanded="true" signature="1354:1405" placeholder="SELECT * FRO... client" />
-            <marker date="1457548952411" expanded="true" signature="1720:2034" placeholder="INSERT INTO users... " />
-            <marker date="1457548952411" expanded="true" signature="6755:6800" placeholder="..." />
-            <marker date="1457548952411" expanded="true" signature="6832:6998" placeholder="..." />
-            <marker date="1457548952411" expanded="true" signature="6953:6998" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.020238096">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
