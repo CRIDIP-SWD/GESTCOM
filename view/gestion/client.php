@@ -327,14 +327,14 @@
                                 </div>
                                 <div class="col-md-3 bg-gray">
                                     <h2>Coordonnée</h2>
-                                    <table class="table">
+                                    <table style="width: 100%;">
                                         <tr>
-                                            <td style="font-weight: bold;"><i class="fa fa-phone"></i> Téléphone</td>
-                                            <td>0<?= $client->tel_client; ?></td>
+                                            <td style="font-weight: bold; width: 50%;"><i class="fa fa-phone"></i> Téléphone</td>
+                                            <td style="width: 50%;">0<?= $client->tel_client; ?></td>
                                         </tr>
                                         <tr>
-                                            <td style="font-weight: bold;"><i class="fa fa-envelope"></i> E-mail</td>
-                                            <td><?= $client->mail_client; ?></td>
+                                            <td style="font-weight: bold; width: 50%;"><i class="fa fa-envelope"></i> E-mail</td>
+                                            <td style="width: 50%;"><?= $client->mail_client; ?></td>
                                         </tr>
                                     </table>
                                 </div>
