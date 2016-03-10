@@ -7,6 +7,7 @@ use App\general\fonction;
 use App\general\insert;
 use App\general\ssh;
 use App\general\users;
+use App\gestion\client;
 
 
 require dirname(__DIR__)."/application/autoloader.php";
@@ -34,6 +35,11 @@ if(isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 1)
     $user = $user_cls->info_user();
 }
 
+/*
+ * APP GESTION
+ */
+
+$client_cls = new client();
 
 //COMPOSER
 

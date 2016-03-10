@@ -654,7 +654,14 @@
                                 </div>
                                 <div class="col-md-4 bg-gray-light">
                                     <h2>Comptabilité</h2>
-                                    <div class="well"></div>
+                                    <div class="well">
+                                        <table style="width: 100%;">
+                                            <tr>
+                                                <td style="font-weight: bold;width: 50%;">Total facturation:</td>
+                                                <td><?= $client_cls->total_facture($client->idclient); ?></td>
+                                            </tr>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
