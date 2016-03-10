@@ -10,15 +10,13 @@ namespace App\gestion;
 
 
 use App\general\db;
-use App\general\fonction;
 
 class client
 {
     public function total_facture($idclient)
     {
         $DB = new db();
-        $fonction = new fonction();
 
-        return $fonction->number_decimal($DB->query("SELECT SUM(total_facture) FROM facture WHERE idclient = :idclient", array("idclient" => $idclient)));
+        return $DB->query("SELECT SUM(total_facture) FROM facture WHERE idclient = :idclient", array("idclient" => $idclient));
     }
 }
