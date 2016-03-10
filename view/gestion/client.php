@@ -328,7 +328,16 @@
                                     </table>
                                 </div>
                                 <div class="col-md-3 bg-gray">
-
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#coordonnee" data-toggle="tab">Coordonnées</a> </li>
+                                        <li><a href="#adresse" data-toggle="tab">Adresse</a> </li>
+                                        <li><a href="#web" data-toggle="tab">Accès Portail</a> </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade active in" id="coordonnee">
+                                            
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
