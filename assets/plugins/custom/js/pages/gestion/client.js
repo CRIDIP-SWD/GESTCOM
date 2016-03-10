@@ -2,6 +2,7 @@
  * Created by SWD on 08/03/2016.
  */
 (function($){
+    //DATATABLE
     $('#client').dataTable({
         "aoColumnDefs": [{
             "bSortable": false,
@@ -11,6 +12,17 @@
             url: "//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json"
         }
     });
+    $('#document_client').dataTable({
+        "aoColumnDefs": [{
+            "bSortable": false,
+            "aTargets": [0]
+        }],
+        language:{
+            url: "//cdn.datatables.net/plug-ins/1.10.11/i18n/French.json"
+        }
+    });
+
+    //AJAX
     $('.table').on('click', '#supp-client', function(e){
         e.preventDefault();
         var a = $(this);
