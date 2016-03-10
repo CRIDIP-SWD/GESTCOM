@@ -381,11 +381,11 @@
                                                 <td style="font-weight: bold; width: 50%;">Etat</td>
                                                 <td style="width: 50%;">
                                                     <?php if($user_c->connect == 0): ?>
-                                                    <i class="fa fa-circle bg-red"></i> Hors Ligne
+                                                    <i class="fa fa-circle text-danger"></i> Hors Ligne
                                                     <?php elseif($user_c->connect == 1): ?>
-                                                    <i class="fa fa-circle bg-yellow"></i> Absent
+                                                    <i class="fa fa-circle text-warning"></i> Absent
                                                     <?php else: ?>
-                                                    <i class="fa fa-circle bg-green"></i> En ligne
+                                                    <i class="fa fa-circle text-success"></i> En ligne
                                                     <?php endif; ?>
                                                 </td>
                                             </tr>
