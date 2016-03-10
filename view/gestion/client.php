@@ -135,6 +135,15 @@
         <h2>Client - <strong><?= $client->nom_client; ?> <?= $client->prenom_client; ?></strong></h2>
         <?= $insert->breadcumb("client", $client->nom_client.' '.$client->prenom_client, ""); ?>
     </div>
+    <div class="row">
+        <div class="col-md-12 well">
+            <div class="col-md-3 col-md-offset-9">
+                <div class="pull-right">
+                    <a class="btn btn-primary btn-sm" href=""><i class="fa fa-arrow-circle-left"></i> Retour à la liste des clients</a>
+                </div>
+            </div>
+        </div>
+    </div>
 <?php endif; ?>
 
 
