@@ -197,7 +197,7 @@
                 <div class="panel-content">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#info" data-toggle="tab">Information général</a></li>
-                        <li class=""><a href="#client" data-toggle="tab">Client</a></li>
+                        <li class=""><a href="#client_info" data-toggle="tab">Client</a></li>
                         <li><a href="#communication" data-toggle="tab">Communication</a></li>
                     </ul>
                     <div class="tab-content">
@@ -416,7 +416,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="client">
+                        <div class="tab-pane fade" id="client_info">
                             <div class="row">
                                 <div class="col-md-8"></div>
                                 <div class="col-md-4 bg-gray-light">
