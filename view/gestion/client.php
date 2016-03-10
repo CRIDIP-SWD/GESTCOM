@@ -503,7 +503,7 @@
                                     <h2>Document en cours:</h2>
                                     <h3>Devis en cours</h3>
                                     <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-12">
                                             <table class="table dataTable" id="devis_cours">
                                                 <thead>
                                                     <tr>
