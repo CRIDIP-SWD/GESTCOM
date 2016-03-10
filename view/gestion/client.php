@@ -176,6 +176,8 @@
     $num_client = $_GET['num_client'];
     $sql_client = $DB->query("SELECT * FROM client WHERE num_client = :num_client", array("num_client"  => $num_client));
     $client = $sql_client[0];
+    $sql_user_c = $DB->query("SELECT * FROM users WHERE idclient = :idclient", array("idclient" => $client->idclient));
+    $user_c = $sql_user_c[0];
     ?>
     <div class="header">
         <h2>Client - <strong><?= $client->nom_client; ?> <?= $client->prenom_client; ?></strong></h2>
@@ -348,9 +350,61 @@
                                             </tr>
                                         </table>
                                         <a class="btn btn-icon btn-primary"><i class="fa fa-phone"></i></a>
-                                        <a class="btn btn-icon btn-default"><i class="fa fa-enveloppe"></i></a>
+                                        <a class="btn btn-icon btn-default"><i class="fa fa-envelope"></i></a>
                                     </div>
                                     <h2>Adresse</h2>
+                                    <div class="well">
+                                        <table style="width: 100%; margin-bottom: 25px;">
+                                            <tr>
+                                                <td style="font-weight: bold; width: 50%;">Adresse</td>
+                                                <td style="width: 50%;"><?= $client->adresse_client; ?></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold; width: 50%;">Code Postal</td>
+                                                <td style="width: 50%;"><?= $client->code_postal; ?></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold; width: 50%;">Ville</td>
+                                                <td style="width: 50%;"><?= $client->ville_client; ?></td>
+                                            </tr>
+                                        </table>
+                                        <a class="btn btn-icon btn-primary"><i class="fa fa-map-marker"></i> Itinéraire</a>
+                                    </div>
+                                    <h2>Espace Web</h2>
+                                    <div class="well">
+                                        <table style="width: 100%; margin-bottom: 25px;">
+                                            <tr>
+                                                <td style="font-weight: bold; width: 50%;">Login</td>
+                                                <td style="width: 50%;"><?= $user_c->username ?></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold; width: 50%;">Etat</td>
+                                                <td style="width: 50%;">
+                                                    <?php if($user_c->connect == 0): ?>
+                                                    <i class="fa fa-circle bg-red"></i> Hors Ligne
+                                                    <?php elseif($user_c->connect == 1): ?>
+                                                    <i class="fa fa-circle bg-yellow"></i> Absent
+                                                    <?php else: ?>
+                                                    <i class="fa fa-circle bg-green"></i> En ligne
+                                                    <?php endif; ?>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold; width: 50%;">Date dernière connexion</td>
+                                                <td style="width: 50%;"><?= $date_format->formatage("d-m-Y à H:i", $user_c->last_connect); ?></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold; width: 50%;">Totp</td>
+                                                <td style="width: 50%;">
+                                                    <?php if($user_c->totp == 0): ?>
+                                                    <span class="label label-danger"><i class="fa fa-remove"></i> Désactivé</span>
+                                                    <?php else: ?>
+                                                    <span class="label label-success"><i class="fa fa-check"></i> Activé</span>
+                                                    <?php endif; ?>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
