@@ -39,6 +39,10 @@ if(isset($_POST['action']) && $_POST['action'] == 'login')
                 ));
                 if($user_u == 1){
                     $fonction->redirect("dashboard");
+                }else{
+                    echo "error";
+                    var_dump($user_u);
+                    die();
                 }
 
             }
