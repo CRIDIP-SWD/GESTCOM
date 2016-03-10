@@ -391,7 +391,15 @@
                                             </tr>
                                             <tr>
                                                 <td style="font-weight: bold; width: 50%;">Date dernière connexion</td>
-                                                <td style="width: 50%;"><?= $date_format->formatage("d-m-Y à H:i", $user_c->last_connect); ?></td>
+                                                <td style="width: 50%;">
+                                                    <?php if(!empty($user_c->last_connect))
+                                                    {
+                                                        echo $date_format->formatage("d/m/Y à H:i", $user_c->last_connect);
+                                                    }else{
+                                                        echo "Aucune connexion avec son compte.";
+                                                    }
+                                                    ?>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td style="font-weight: bold; width: 50%;">Totp</td>
