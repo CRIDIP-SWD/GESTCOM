@@ -139,7 +139,7 @@
         <div class="col-md-12 well">
             <div class="col-md-3 col-md-offset-9">
                 <div class="pull-right">
-                    <a class="btn btn-primary btn-sm" href=""><i class="fa fa-arrow-circle-left"></i> Retour à la liste des clients</a>
+                    <a class="btn btn-primary btn-sm" href="index.php?view=client"><i class="fa fa-arrow-circle-left"></i> Retour à la liste des clients</a>
                 </div>
             </div>
         </div>
