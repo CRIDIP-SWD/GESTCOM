@@ -181,9 +181,9 @@
     $sql_info = $DB->query("SELECT * FROM client_info_default WHERE idclient = :idclient", array("idclient" => $client->idclient));
     $info = $sql_info[0];
     ?>
-    <!--<div class="well">
-        <?php var_dump($client_cls->total_facture($client->idclient)); ?>
-    </div>-->
+    <div class="well">
+        <?php var_dump($client_cls->total_reglement($client->idclient)); ?>
+    </div>
     <div class="header">
         <h2>Client - <strong><?= $client->nom_client; ?> <?= $client->prenom_client; ?></strong></h2>
         <?= $insert->breadcumb("client", $client->nom_client.' '.$client->prenom_client, ""); ?>
@@ -673,7 +673,7 @@
                                                 <td>
                                                     <?php
                                                     $total_rglt = $client_cls->total_reglement($client->idclient);
-                                                    echo $fonction->number_decimal($total_rglt->total_reglement);
+                                                    echo $fonction->number_decimal($total_rglt->montant);
                                                     ?>
                                                 </td>
                                             </tr>
