@@ -672,8 +672,8 @@
                                                 <td style="font-weight: bold;width: 50%;">Total Encaissement:</td>
                                                 <td>
                                                     <?php
-                                                    $total_facture = $client_cls->total_facture($client->idclient);
-                                                    echo $fonction->number_decimal($total_facture->total_facture);
+                                                    $total_rglt = $client_cls->total_reglement($client->idclient);
+                                                    echo $fonction->number_decimal($total_rglt->total_reglement);
                                                     ?>
                                                 </td>
                                             </tr>

@@ -21,4 +21,12 @@ class client
 
         return $sm[0];
     }
+    public function total_reglement($idclient)
+    {
+        $DB = new db();
+
+        $sm = $DB->query("SELECT SUM(montant) as total_reglement FROM reglement_facture WHERE porteur_chq = :idclient", array("porteur_chq" => $idclient));
+
+        return $sm[0];
+    }
 }
