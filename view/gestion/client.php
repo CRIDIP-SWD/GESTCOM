@@ -677,6 +677,21 @@
                                                     ?>
                                                 </td>
                                             </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <hr>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: bold;width: 50%;">Total Encaissement:</td>
+                                                <td class="text-right">
+                                                    <?php if($client_cls->total_compta($client->idclient) <= 0): ?>
+                                                        <span style="font-weight: bold; color: #FF0000;"><?= $fonction->number_decimal($client_cls->total_compta($client->idclient)); ?></span>
+                                                    <?php else: ?>
+                                                        <span style="font-weight: bold; color: #00AA00;"><?= $fonction->number_decimal($client_cls->total_compta($client->idclient)); ?></span>
+                                                    <?php endif; ?>
+                                                </td>
+                                            </tr>
                                         </table>
                                     </div>
                                 </div>

@@ -29,4 +29,10 @@ class client
 
         return $sm[0];
     }
+
+    public function total_compta($idclient)
+    {
+        $total = $this->total_facture($idclient) - $this->total_reglement($idclient);
+        return $total;
+    }
 }
