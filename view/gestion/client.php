@@ -715,7 +715,38 @@
                                 </div>
                             </div>
                             <div class="row">
-                                
+                                <div class="panel">
+                                    <div class="panel-header">
+                                        <h3>Listing des Correspondances</h3>
+                                    </div>
+                                    <div class="panel-content">
+                                        <div class="table-responsive">
+                                            <table class="table dataTable" id="correspondance">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Objet</th>
+                                                        <th>Expéditeur</th>
+                                                        <th>Date d'envoie</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                <?php
+                                                $sql_comm = $DB->query("SELECT * FROM client_communication, users WHERE client_communication.iduser = users.iduser AND client_communication.idclient = :idclient ORDER BY date_expedition ASC", array("idclient" => $client->idclient));
+                                                foreach($sql_comm as $comm):
+                                                ?>
+                                                    <tr>
+                                                        <td><?= html_entity_decode($comm->objet); ?></td>
+                                                        <td><?= $comm->nom_user; ?> <?= $comm->prenom_user; ?></td>
+                                                        <td><?= $date_format->formatage("d-m-Y à H:i:s", $comm->date_expedition); ?></td>
+                                                        <td></td>
+                                                    </tr>
+                                                <?php endforeach; ?>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
