@@ -27,6 +27,6 @@ class client
 
         $sm = $DB->query("SELECT SUM(montant) FROM reglement_facture");
 
-        return $sm;
+        return $sm[0];
     }
 }
