@@ -739,7 +739,9 @@
                                                         <td><?= html_entity_decode($comm->objet); ?></td>
                                                         <td><?= $comm->nom_user; ?> <?= $comm->prenom_user; ?></td>
                                                         <td><?= $date_format->formatage("d-m-Y à H:i:s", $comm->date_expedition); ?></td>
-                                                        <td></td>
+                                                        <td>
+                                                            <a href="" class="btn btn-icon bg-red"><i class="icon-trash"></i></a>
+                                                        </td>
                                                     </tr>
                                                 <?php endforeach; ?>
                                                 </tbody>
