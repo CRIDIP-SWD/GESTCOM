@@ -763,7 +763,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
                     <h4 class="modal-title"><i class="fa fa-plus"></i> Nouveau Courrier</h4>
                 </div>
-                <form class="form-horizontal" action="controller/gestion/client.ajax.php" method="post">
+                <form class="form-horizontal" id="add-courrier" action="controller/gestion/client.ajax.php" method="post">
                     <div class="modal-body">
                         <input type="hidden" name="iduser" value="<?= $user->iduser; ?>" />
                         <input type="hidden" name="idclient" value="<?= $client->idclient ?>" />
@@ -781,8 +781,11 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary btn-embossed" data-dismiss="modal">Save changes</button>
+                        <div class="col-md-3 col-md-offset-9">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-success" name="action" value="add_courrier">Valider</button>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>

@@ -80,5 +80,20 @@
             .always(function(){
                 a.html('<i class="fa fa-trash"></i>');
             })
+    });
+
+    $("#add-courrier").on('submit', function(e){
+        e.preventDefault();
+        var form = $(this);
+        form.find('button').html("<i class='fa fa-spinner fa-spin'></i> Chargement...");
+        $.post(form.attr('action'), form.serializeArray())
+            .done(function(data, jqxhr){
+                $('table tbody').prepend(jqxhr.responseText);
+                form.find('input').val('');
+                toastr.success("Le courrier à été créer avec succès", "Courrier");
+            })
+            .fail(function(jqxhr){
+                console.log(jqxhr.responseText);
+            })
     })
 })(jQuery);

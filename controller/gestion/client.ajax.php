@@ -22,4 +22,39 @@ if(is_ajax()){
             echo json_encode(4);
         }
     }
+    if(isset($_POST['action']) && $_POST['action'] == 'add_courrier')
+    {
+        session_start();
+        require "../../application/classe.php";
+        $idclient = $_POST['idclient'];
+        $iduser = $_POST['iduser'];
+        $sujet = $_POST['sujet'];
+        $message = $_POST['message'];
+        $date_message = strtotime(date("d-m-Y h:i:s"));
+
+        $courrier_i = $DB->execute("INSERT INTO client_communication(idclientmessage, idclient, objet, message, iduser, date_expedition) VALUES (NULL, :idclient, :objet, :message, :iduser, :date_expedition)", array(
+            "idclient"          => $idclient,
+            "objet"             => $sujet,
+            "message"           => $message,
+            "iduser"            => $iduser,
+            "date_expedition"   => $date_message
+        ));
+
+        if($courrier_i == 1){
+            $courrier = $DB->query("SELECT * FROM client_communication, users WHERE client_communication.iduser = users.iduser ORDER BY idclientmessage DESC LIMIT 1");
+            ?>
+            <tr>
+                <td><?= $sujet; ?></td>
+                <td><?= $courrier[0]->nom_user; ?> <?= $courrier[0]->prenom_user; ?></td>
+                <td><?= $date_format->formatage("d-m-Y à H:i:s", $date_message); ?></td>
+                <td>
+                    <a href="controller/gestion/client.ajax.php?action=supp-comm&idclientmessage=<?= $courrier[0]->idclientmessage; ?>" class="btn btn-icon bg-red"><i class="icon-trash"></i></a>
+                </td>
+            </tr>
+            <?php
+        }else{
+            header("500 Internal Server Error", true, "500");
+            die("Erreur SQL déclarer !!");
+        }
+    }
 }
