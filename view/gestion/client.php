@@ -740,7 +740,7 @@
                                                         <td><?= $comm->nom_user; ?> <?= $comm->prenom_user; ?></td>
                                                         <td><?= $date_format->formatage("d-m-Y à H:i:s", $comm->date_expedition); ?></td>
                                                         <td>
-                                                            <a href="" class="btn btn-icon bg-red"><i class="icon-trash"></i></a>
+                                                            <a href="controller/gestion/client.ajax.php?action=supp-comm&idclientmessage=<?= $comm->idclientmessage; ?>" class="btn btn-icon bg-red"><i class="icon-trash"></i></a>
                                                         </td>
                                                     </tr>
                                                 <?php endforeach; ?>
