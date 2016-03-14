@@ -673,7 +673,7 @@
                                                 <td>
                                                     <?php
                                                     $total_rglt = $client_cls->total_reglement($client->idclient);
-                                                    if($total_rglt == 0){echo "0,00 €";}else{echo $fonction->number_decimal($total_rglt);}
+                                                    if($total_rglt == 0){echo "0,00 €";}else{echo number_format($total_rglt, 2, ',', ' ')." €";}
                                                     ?>
                                                 </td>
                                             </tr>
