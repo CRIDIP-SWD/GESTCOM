@@ -38,7 +38,7 @@ class client
         $total_fct = $fct_init->total_facture;
         $total_rglt = $rglt_init->total_reglement;
 
-        $total = $total_fct - $total_rglt;
+        $total = $total_rglt - $total_fct;
         return $total;
     }
 }
