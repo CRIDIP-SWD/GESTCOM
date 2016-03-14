@@ -25,7 +25,7 @@ class client
     {
         $DB = new db();
 
-        $sm = $DB->query("SELECT SUM(montant) FROM reglement_facture WHERE porteur_chq = :idclient", array("idclient" => $idclient));
+        $sm = $DB->query("SELECT SUM(montant) as total_reglement FROM reglement_facture WHERE porteur_chq = :idclient", array("idclient" => $idclient));
 
         return $sm[0];
     }
