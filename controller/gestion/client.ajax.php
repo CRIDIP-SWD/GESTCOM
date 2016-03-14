@@ -41,7 +41,7 @@ if(is_ajax()){
         ));
 
         if($courrier_i == 1){
-            $courrier = $DB->query("SELECT * FROM client_communication, users WHERE client_communication.iduser = users.iduser ORDER BY idclientmessage DESC LIMIT 1");
+            $courrier = $DB->query("SELECT * FROM clientf_communication, users WHERE client_communication.iduser = users.iduser ORDER BY idclientmessage DESC LIMIT 1");
             ?>
             <tr>
                 <td><?= html_entity_decode($sujet); ?></td>
