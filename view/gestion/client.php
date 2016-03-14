@@ -703,8 +703,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="tab1_3">
-                            <p>Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                        <div class="tab-pane fade" id="communication">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h2>Communication</h2>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="pull-right">
+                                        <a class="btn btn-lg bg-success btn-rounded"><i class="fa fa-plus"></i> Nouveau Courrier</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
