@@ -661,7 +661,7 @@
                                         <table style="width: 100%;">
                                             <tr>
                                                 <td style="font-weight: bold;width: 50%;">Total facturation:</td>
-                                                <td>
+                                                <td class="text-right">
                                                     <?php
                                                     $total_facture = $client_cls->total_facture($client->idclient);
                                                     echo $fonction->number_decimal($total_facture->total_facture);
@@ -670,7 +670,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="font-weight: bold;width: 50%;">Total Encaissement:</td>
-                                                <td>
+                                                <td class="text-right">
                                                     <?php
                                                     $total_rglt = $client_cls->total_reglement($client->idclient);
                                                     if($total_rglt->total_reglement == 0){echo "0,00 €";}else{echo $fonction->number_decimal($total_rglt->total_reglement);}
