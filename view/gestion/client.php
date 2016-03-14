@@ -710,7 +710,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="pull-right">
-                                        <a class="btn btn-lg bg-success btn-rounded"><i class="fa fa-plus"></i> Nouveau Courrier</a>
+                                        <a class="btn btn-lg bg-success btn-rounded" data-toggle="modal" data-target="#add-courrier"><i class="fa fa-plus"></i> Nouveau Courrier</a>
                                     </div>
                                 </div>
                             </div>
@@ -756,10 +756,44 @@
             </div>
         </div>
     </div>
-    
+    <div class="modal fade" id="add-courrier" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icons-office-52"></i></button>
+                    <h4 class="modal-title"><i class="fa fa-plus"></i> Nouveau Courrier</h4>
+                </div>
+                <form class="form-horizontal" action="controller/gestion/client.ajax.php" method="post">
+                    <div class="modal-body">
+                        <input type="hidden" name="iduser" value="<?= $user->iduser; ?>" />
+                        <input type="hidden" name="idclient" value="<?= $client->idclient ?>" />
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Sujet:</label>
+                            <div class="col-md-9">
+                                <input type="text" id="client" class="form-control" name="sujet">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="client">Message:</label>
+                            <div class="col-md-9">
+                                <textarea id="client" name="message" cols="80" rows="10" class="cke-editor"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary btn-embossed" data-dismiss="modal">Save changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 <?php endif; ?>
 
-
+<script src="<?= $constante->getUrl(array('plugins/')); ?>summernote/summernote.min.js"></script> <!-- Simple HTML Editor -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>cke-editor/ckeditor.js"></script> <!-- Advanced HTML Editor -->
+<script src="<?= $constante->getUrl(array('plugins/')); ?>cke-editor/adapters/adapters.min.js"></script>
+<script src="<?= $constante->getUrl(array('plugins/')); ?>typed/typed.min.js"></script> <!-- Animated Typing -->
 <script src="<?= $constante->getUrl(array('plugins/')); ?>datatables/jquery.dataTables.min.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>custom/js/pages/gestion/client.js"></script>
 <script src="<?= $constante->getUrl(array('plugins/')); ?>bootstrap/js/jasny-bootstrap.min.js"></script>
