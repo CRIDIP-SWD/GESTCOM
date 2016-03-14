@@ -30,7 +30,7 @@ class client
         return $sm[0];
     }
 
-    public function total_compta($idclient)
+    public function total_compta($idclient, $encours)
     {
         $fct_init = $this->total_facture($idclient);
         $rglt_init = $this->total_reglement($idclient);
@@ -38,7 +38,7 @@ class client
         $total_fct = $fct_init->total_facture;
         $total_rglt = $rglt_init->total_reglement;
 
-        $total = $total_rglt - $total_fct;
+        $total = $total_rglt - $total_fct + $encours;
         return $total;
     }
 }

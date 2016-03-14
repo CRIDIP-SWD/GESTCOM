@@ -678,6 +678,12 @@
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td style="font-weight: bold;width: 50%;">Encours Possible:</td>
+                                                <td class="text-right">
+                                                    <?= $fonction->number_decimal($info->encours); ?>
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td colspan="2">
                                                     <hr>
                                                 </td>
@@ -685,10 +691,10 @@
                                             <tr>
                                                 <td style="font-weight: bold;width: 50%;">Total Encaissement:</td>
                                                 <td class="text-right">
-                                                    <?php if($client_cls->total_compta($client->idclient) <= 0): ?>
-                                                        <span style="font-weight: bold; color: #FF0000;"><?= $fonction->number_decimal($client_cls->total_compta($client->idclient)); ?></span>
+                                                    <?php if($client_cls->total_compta($client->idclient, $info->encours) <= 0): ?>
+                                                        <span style="font-weight: bold; color: #FF0000;"><?= $fonction->number_decimal($client_cls->total_compta($client->idclient, $info->encours)); ?></span>
                                                     <?php else: ?>
-                                                        <span style="font-weight: bold; color: #00AA00;"><?= $fonction->number_decimal($client_cls->total_compta($client->idclient)); ?></span>
+                                                        <span style="font-weight: bold; color: #00AA00;"><?= $fonction->number_decimal($client_cls->total_compta($client->idclient, $info->encours)); ?></span>
                                                     <?php endif; ?>
                                                 </td>
                                             </tr>
