@@ -28,8 +28,8 @@ if(is_ajax()){
         require "../../application/classe.php";
         $idclient = $_POST['idclient'];
         $iduser = $_POST['iduser'];
-        $sujet = $_POST['sujet'];
-        $message = $_POST['message'];
+        $sujet = htmlentities(addslashes($_POST['sujet']));
+        $message = htmlentities(addslashes($_POST['message']));
         $date_message = strtotime(date("d-m-Y h:i:s"));
 
         $courrier_i = $DB->execute("INSERT INTO client_communication(idclientmessage, idclient, objet, message, iduser, date_expedition) VALUES (NULL, :idclient, :objet, :message, :iduser, :date_expedition)", array(
@@ -44,7 +44,7 @@ if(is_ajax()){
             $courrier = $DB->query("SELECT * FROM client_communication, users WHERE client_communication.iduser = users.iduser ORDER BY idclientmessage DESC LIMIT 1");
             ?>
             <tr>
-                <td><?= $sujet; ?></td>
+                <td><?= html_entity_decode($sujet); ?></td>
                 <td><?= $courrier[0]->nom_user; ?> <?= $courrier[0]->prenom_user; ?></td>
                 <td><?= $date_format->formatage("d-m-Y à H:i:s", $date_message); ?></td>
                 <td>
