@@ -34,6 +34,26 @@ if(!isset($_SESSION['account']['active']) && $_SESSION['account']['active'] == 0
     <link href="<?= $constante->getUrl(array('plugins/')); ?>dropzone/dropzone.min.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('plugins/')); ?>input-text/style.min.css" rel="stylesheet">
     <link href="<?= $constante->getUrl(array('plugins/')); ?>summernote/summernote.min.css" rel="stylesheet">
+    <style type="text/css">
+        .cke_dialog
+        {
+            z-index: 10055 !important;
+        }
+    </style>
+    <script type="text/javascript">
+        $.fn.modal.Constructor.prototype.enforceFocus = function () {
+            var $modalElement = this.$element;
+            $(document).on('focusin.modal', function (e) {
+                var $parent = $(e.target.parentNode);
+                if ($modalElement[0] !== e.target && !$modalElement.has(e.target).length
+                        // add whatever conditions you need here:
+                    &&
+                    !$parent.hasClass('cke_dialog_ui_input_select') && !$parent.hasClass('cke_dialog_ui_input_text')) {
+                    $modalElement.focus()
+                }
+            })
+        };
+    </script>
 </head>
 <!-- LAYOUT: Apply "submenu-hover" class to body element to have sidebar submenu show on mouse hover -->
 <!-- LAYOUT: Apply "sidebar-collapsed" class to body element to have collapsed sidebar -->
