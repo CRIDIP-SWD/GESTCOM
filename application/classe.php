@@ -50,6 +50,7 @@ $client_cls = new client();
 
 $total_reglement = $client_cls->total_reglement(28);
 var_dump($total_reglement);
+echo number_format($total_reglement->total_reglement, 2, ",", " ")." €";
 die();
 
 
