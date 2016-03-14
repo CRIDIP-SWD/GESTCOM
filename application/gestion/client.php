@@ -27,6 +27,6 @@ class client
 
         $sm = $DB->query("SELECT SUM(montant) FROM reglement_facture WHERE porteur_chq = :idclient", array("porteur_chq" => $idclient));
 
-        return $sm[0];
+        return $sm;
     }
 }
